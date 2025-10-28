@@ -175,7 +175,7 @@ CurCalib_typ *curCalib , *defaultCalib;
 	
 
 
-	///////////   NEW HEAD Configuration - will be from file parser   /////////////////////	
+	/////////////   NEW HEAD Configuration - will be from file parser   /////////////////////	
 	switch(headType){	
 		/************ 0 **********/
 		case U_BEND_HP_PINS:
