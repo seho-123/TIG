@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.26 SP08?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">GlobDef.h</Object>
+    <Object Type="File">GlobDecl.h</Object>
+    <Object Type="Program" Language="ANSIC" Description="A new program">_Menu</Object>
+    <Object Type="Program" Language="ANSIC" Description="A new program">_MotorDriver</Object>
+    <Object Type="Program" Language="ANSIC" Description="A new program">_PowerSupplyDriver</Object>
+    <Object Type="Program" Language="ANSIC" Description="Master program">_Master</Object>
+  </Objects>
+</Package>

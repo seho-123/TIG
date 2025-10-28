@@ -1,0 +1,13 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	KK_ENCD : ARRAY[0..5] OF INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"33" #3"12" *)
+	stamp1 : DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"27" #3"13" *)
+	KK_ENCD_delta : ARRAY[0..5] OF INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"33" #3"59" *)
+	duration : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"30" #3"14" *)
+	_KK_ENCD : ARRAY[0..5] OF INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"33" #3"35" *)
+	stamp2 : DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"29" #3"13" *)
+	old_stamp1 : DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"28" #3"13" *)
+END_VAR

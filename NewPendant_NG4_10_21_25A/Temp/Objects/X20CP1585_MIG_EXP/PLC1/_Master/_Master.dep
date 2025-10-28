@@ -1,0 +1,9 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/UDP/paiUDPService/paiUDPService.typ
+$(AS_PROJECT_PATH)/Logical/UDP/udpApp.typ
+$(AS_PROJECT_PATH)/Logical/HotWire/_Master/Master.c
+$(AS_PROJECT_PATH)/Logical/HotWire/_MotorDriver/../GlobDecl.h
+$(AS_PROJECT_PATH)/Logical/HotWire/_MotorDriver/../GlobDef.h
+$(AS_PROJECT_PATH)/Logical/Universal/WIREprc/../../lib/Statelib.h
+$(AS_PROJECT_PATH)/Logical/Universal/WIREprc/../../Lib/WSI_types.h

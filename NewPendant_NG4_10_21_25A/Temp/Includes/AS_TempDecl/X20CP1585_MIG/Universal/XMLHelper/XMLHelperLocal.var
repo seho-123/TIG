@@ -1,0 +1,26 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	RunDBG : BOOL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"53" #3"15" *)
+	helper : REFERENCE TO XML_Helper_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"35" #3"23" *)
+	defCalib : REFERENCE TO CurCalib_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"32" #3"33" *)
+	curCfg : REFERENCE TO CurCfg_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"31" #3"19" *)
+	DTGetTime_1 : DTGetTime;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"41" #3"22" *)
+	cfg : REFERENCE TO Cfg_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"30" #3"16" *)
+	LineTxt : STRING[127];	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"38" #3"18" *)
+	KK_Index_i : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"51" #3"29" *)
+	curCalib : REFERENCE TO CurCalib_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"32" #3"21" *)
+	KK_ParamNum_i : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"51" #3"13" *)
+	ParamIndex : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"42" #3"34" *)
+	ParamNum : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"42" #3"15" *)
+	KK_ParamNum : ARRAY[0..127] OF UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"50" #3"15" *)
+	KK_par_Name : ARRAY[0..63] OF STRING[31];	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"52" #3"18" *)
+	paramIndx : INT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"39" #3"34" *)
+	Index : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"42" #3"26" *)
+	DTStruct : DTStructure;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"40" #3"20" *)
+	KK_Index : ARRAY[0..127] OF UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"50" #3"34" *)
+	parametersDump_Step : INT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"39" #3"12" *)
+	var : REFERENCE TO Scaled_Var_obj;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/XMLHelper/XMLHelper.c" #2"33" #3"23" *)
+END_VAR

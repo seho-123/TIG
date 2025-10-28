@@ -1,0 +1,27 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=TvlRotPrc 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=21 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                            TML_MTR_INST                           TML_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                         TML_MTR_INST[0]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'TVL'"    2    9   16    1    0    0         
+                                    _int                                     _int    0 "                                                               *"    2   24    1    0    0    1         
+                                    kVel                                     REAL    0 "                                                     -50.9234238"    3    8    1   10    0    0         
+                                    kPos                                     REAL    0 "                                                       -50923.42"    3    8    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               8"    2    4    1   10    0    0 e,-4,TML
+
+                                    vect                     StateVectorProxy_typ    0 "                                                               *"    0   24    1    0    2    1         
+                                    Name                               STRING[15]    0 "                                                           'TVL'"    1    9   16    1    0    0         
+                                   InVal                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                                    Mode                                      INT    0 "                                                               5"    1    3    1   10    0    0         
+                                     prc                           GenProcess_typ    0 "                                                               *"    0   24    1    0    2    1         
+                             ConfigReady                                      INT    0 "                                                               1"    1    3    1   10    0    0         
+                                    Name                               STRING[15]    0 "                                                           'TVL'"    1    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              15"    1    4    1   10    0    0 e,10,prc
+
+                                   _step                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                       TVL_ROT_Param_Set                   TVLROT_Param_typ[0..5]    0 "                                                               *"    0   24    6    0    0    1         
+                    TVL_ROT_Param_Set[0]                         TVLROT_Param_typ    0 "                                                               *"    1   24    1    0    0    1         
+                              EncPerTick                                     REAL    0 "                                                          5088.0"    2    8    1   10    0    0         
+                      TotalRescaleFactor                                     REAL    0 "                                                             1.0"    2    8    1   10    0    0         
+                             MaxSpeedJog                                     REAL    0 "                                                      20.8260651"    2    8    1   10    0    0         

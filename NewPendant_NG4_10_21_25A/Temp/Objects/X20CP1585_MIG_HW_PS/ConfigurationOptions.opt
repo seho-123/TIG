@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.7.113 SP"?>
+<ConfigurationOptions
+  Name="X20CP1585_MIG_HW_PS"
+  Target="SG4"
+  GccVersion="4.1.2"
+  SaveSourceOnTarget="false"
+  ActivateSdm="true"
+  WebServer="true"
+  ARMSimulation="False"
+  ArVersion="J4.93">
+  <ModuleMemoryData>
+    <Module
+      Name=""
+      Memory="111000" />
+  </ModuleMemoryData>
+  <Memories
+    PermanentAnalogMemory="0"
+    PermanentDigitalMemory="96000"
+    VolatileMemory="3300000" />
+</ConfigurationOptions>

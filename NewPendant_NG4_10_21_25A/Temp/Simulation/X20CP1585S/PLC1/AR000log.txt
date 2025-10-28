@@ -1,0 +1,35 @@
+
+
+Mon Sep 09 08:59:44 2024
+No ARsim registration found!
+  Bernecker & Rainer 
+
+
+
+Mon Sep 09 08:59:44 2024
+COMMAND_COLDSTART
+InstanceName : 01db0285d9ceb470
+
+WorkingPath :
+C:\projects\UnivCntrl\UniversalController\Temp\Simulation\X20CP1585S\PLC1\
+
+
+
+Mon Sep 09 08:59:44 2024
+COMMAND_COLDSTART
+Version : E4.26
+
+
+
+Mon Sep 09 09:02:12 2024
+COMMAND_TERMINATE
+
+
+Mon Sep 09 09:02:13 2024
+
+
+Mon Sep 09 09:02:13 2024
+COMMAND_TERMINATE
+
+
+Mon Sep 09 09:02:13 2024

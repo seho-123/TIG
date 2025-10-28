@@ -1,0 +1,151 @@
+/********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: SuperMstr
+ * File: SuperDeclaration.h
+ * Author: ckaczkowski
+ * Created: June 18, 2014
+ *******************************************************************/
+//#ifndef _SUPERDECLERATION_H
+//#define _SUPERDECLERATION_H
+
+
+#include <bur/plctypes.h>
+
+#include <..\..\Universal\SuperDefinition.h>
+
+typedef enum Project_Enum
+{	
+	project_None = 0,
+	project_HotWire,
+	project_FourAxisTig,
+	project_lastProject,
+	
+}Project_Enum;
+
+typedef enum Task_Enum
+{	
+	task_None = 0,
+	task__MotorDriv,
+	task__PowerSupp,
+	task__Master,
+	task__Menu,
+	task_Main1,
+
+	task_FileOper,
+	task_TML_srv,
+	task_BR_DC,
+	task_AVCprc,
+	task_TIG_PSprc,
+	task_HW_PSprc,
+	task_OSC_TMLprc,
+	task_GasCoolPrc,
+	task_WIREprc,
+	task_WireBlkPrc,
+	task_TvlRotPrc,
+	task_AVC_SYNCH,
+	
+	task_lastTask,
+	
+	
+}Task_Enum;
+
+
+typedef struct Task_typ
+{	
+	INT status;
+	plcstring Name[32];
+	Task_Enum TaskID;
+	UDINT st_ident;
+	UINT status_id;
+	UINT status_inf;
+	UINT status_st;
+	UINT status_sp;
+	USINT state;
+	USINT tcnr;
+	UINT error;
+	
+} Task_typ;
+
+typedef struct Project_typ
+{	
+	 INT status;
+	 plcstring Name[32];
+	 Task_Enum TaskID[task_lastTask];
+	
+} Project_typ;
+
+
+static const  char  PROJECTS_TXT[project_lastProject][21]=
+{ 
+	{"NONE PROJECT"},
+	{"Hotwire"},
+	{"FourAxisTIG"},
+			
+};
+
+
+
+_GLOBAL plcstring PLC_Version_TXT[32];
+_GLOBAL plcstring UserName[32];
+_GLOBAL Project_Enum NextProjectConfig _VAR_RETAIN;
+_GLOBAL Project_Enum ProjectConfig;
+
+
+_GLOBAL Cfg_typ Cfg;
+_GLOBAL CurCfg_typ CurCfg _VAR_RETAIN; //
+_GLOBAL CurCalib_typ CurCalib _VAR_RETAIN; //
+_GLOBAL CurCalib_typ DefaultCalib;
+
+_GLOBAL plcstring HMI_lines[20][64];
+
+_GLOBAL INT curScaledUnitIndx[PARAM_NUM_MAX + VAR_NUM_MAX] _VAR_RETAIN;
+//_GLOBAL Scaled_Var_obj ScaledVar[PARAM_NUM_MAX + VAR_NUM_MAX];
+_GLOBAL SegmentsTable_obj SegmentsTable;
+
+
+_GLOBAL FILE_RW_typ File_RW;
+_GLOBAL ERROR_Mgr_typ ErrorMgr;
+
+_GLOBAL MASTER_typ Master[2], *pMaster[2];
+_GLOBAL PENDANT_HARDWARE_obj Pendant[HRD_COUPLER_NUM] , *pPendant[HRD_COUPLER_NUM];
+_GLOBAL HARDWARE_typ Hardware[HRD_COUPLER_NUM];
+
+_GLOBAL SerialPortDriver_typ RS232[2] , *pRS232[2];
+_GLOBAL LCD_MGR_obj LCD_MGR[2] , *pLCD_MGR[2];
+
+/******************************/
+
+/*** ***************/
+_GLOBAL plcbit StopStateMachineEvaluation;
+
+_GLOBAL GEN_MTR_obj DC_Mtr[GEN_MTR_NUM];
+_GLOBAL GenProcess_typ Process[PROCESS_NUM];
+_GLOBAL StateVectorProxy_typ VectorStateMach[VECTORS_NUM];
+_GLOBAL TML_MGR_typ TML_mgr[TML_MGR_NUM];
+_GLOBAL TML_typ TML_MTR_INST[TML_SERVO_NUM] ;
+_GLOBAL TML_Axis_typ AxisCh[TML_SERVO_NUM];
+_GLOBAL BOOL TML_MTR_CUT_POWER;
+
+_GLOBAL PS_Param_typ PS_Param_Set[TIG_PS_NUM];
+_GLOBAL HW_PS_Param_typ HW_PS_Param_Set[HW_PS_NUM];
+_GLOBAL AVC_Param_typ AVC_Param_Set[AVC_NUM];
+_GLOBAL OSC_TML_Param_typ OSC_TML_Param_Set[OSC_NUM];
+_GLOBAL GAS_Param_typ GAS_Param_Set[GAS_NUM];
+_GLOBAL GAS_Param_typ COOL_Param_Set[COOL_NUM];
+_GLOBAL WIRE_Param_typ WIRE_Param_Set[WIRE_PULS_NUM + WIRE_FEED_NUM];
+_GLOBAL WIREBLOCK_Param_typ WR_BLK_Param_Set[WIRE_BLK_NUM];
+_GLOBAL TVLROT_Param_typ TVL_ROT_Param_Set[TVL_NUM +ROT_NUM];
+
+
+
+_GLOBAL LOGMGR_obj	LogMgr ;
+_GLOBAL UDINT LogID _VAR_RETAIN;
+
+
+
+
+
+
+//#endif
+

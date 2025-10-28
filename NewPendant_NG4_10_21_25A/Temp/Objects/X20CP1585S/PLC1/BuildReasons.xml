@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\main2\main2local.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\fouraxistigctrl\main2\main2_fouraxistigctrl.c.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\visu1\visu1.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\main2\main2_fouraxistigctrl.c.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\fouraxistigctrl\main2\main2_fouraxistigctrl.c.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\hmi_report\hmi_reports.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\fouraxistigctrl\main2\main2_fouraxistigctrl.c.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\hmi_report\_bur_pvdef.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\hmi_report\hmi_reports.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\main2\_bur_pvdef.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\main2\main2_fouraxistigctrl.c.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\hmi_report\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\hmi_report\hmi_reports.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\main2\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\main2\main2_fouraxistigctrl.c.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\hmi_report\hmi_report.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\hmi_report\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\main2\main2.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\main2\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\main2.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\main2\main2.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\hmi_report.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\hmi_report\hmi_report.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\visu1.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\x20cp1585s\plc1\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585s\plc1\main2.br" differs.
+</BuildReason>
+  </Rule>
+</BuildReasons>

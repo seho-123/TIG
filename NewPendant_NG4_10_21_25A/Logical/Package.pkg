@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package Version="1.00.0" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="Genral purpose programs">Universal</Object>
+    <Object Type="Package" Description="custom library only in C">Lib</Object>
+    <Object Type="Package" Description="Global libraries">Libraries</Object>
+    <Object Type="Package" Description="HotWire by MF">HotWire</Object>
+    <Object Type="Package" Description="Four Axis TIG by CK">FourAxisTigCtrl</Object>
+    <Object Type="Package">bglib</Object>
+    <Object Type="Package" Description="UDP Communication">UDP</Object>
+    <Object Type="Program" Language="ANSIC">ProgrEMRG</Object>
+    <Object Type="DataObject" Language="Vc" Description="1280x800 (WXGA)">Visu1</Object>
+    <Object Type="DataObject" Language="Vc" Description="480x272 (WQVGA)">Visu2</Object>
+    <Object Type="DataObject" Language="Vc" Description="800x480 (WVGA)">Visu_M</Object>
+  </Objects>
+</Package>

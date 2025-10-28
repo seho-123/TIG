@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Key mapping for PS2-Keyboard">PS2-Keyboard.dis</Object>
+    <Object Type="File" Description="Key mapping for PS2-Keyboard">PS2-Keyboard1.dis</Object>
+    <Object Type="File" Description="Key mapping for PS2-Keyboard">PS2-Keyboard2.dis</Object>
+    <Object Type="File" Description="Key mapping for PS2-Keyboard">PS2-Keyboard3.dis</Object>
+    <Object Type="File" Description="Key mapping for PS2-Keyboard">PS2-Keyboard4.dis</Object>
+    <Object Type="File" Description="Key mapping for PS2-Keyboard">PS2-Keyboard5.dis</Object>
+    <Object Type="File" Description="Key mapping for PS2-Keyboard">PS2-Keyboard6.dis</Object>
+    <Object Type="File" Description="Key mapping for PS2-Keyboard">PS2-Keyboard7.dis</Object>
+    <Object Type="File" Description="Key mapping for PS2-Keyboard">PS2-Keyboard8.dis</Object>
+    <Object Type="File" Description="Key mapping for PS2-Keyboard">PS2-Keyboard9.dis</Object>
+    <Object Type="File" Description="Key mapping for PS2-Keyboard">PS2-Keyboard10.dis</Object>
+    <Object Type="File" Description="Key mapping for PS2-Keyboard">PS2-Keyboard11.dis</Object>
+  </Objects>
+</Package>

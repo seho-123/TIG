@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Localizer">
+    <Folder Name="POBJ">
+      <Object Name="pt-BR" ClsId="0x10F" Version="1" TargetIndex="5" Type="LOC" RefString="Source[local].Localizer[pt-BR]">
+        <UInt32 Name="LanguageIndex">5</UInt32>
+        <Byte Name="BidiMode">0</Byte>
+        <Byte Name="InputMethod">0</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <UInt32 Name="LogFontTableEntries">0</UInt32>
+        <Group Name="LogFontTable" />
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="LogFonts" />
+</Intermediate>

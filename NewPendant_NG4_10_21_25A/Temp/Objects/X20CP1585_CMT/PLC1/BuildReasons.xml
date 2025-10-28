@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\lincolnps\lincolnpslocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_srv\tml_srvlocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wrst\wrstlocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\avc_synch\avc_synchlocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tig_psprc\tig_psprclocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\xmlhelper\xmlhelperlocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\br_dc\br_dclocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\avcprc\avcprclocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\osc_tmlprc\osc_tmlprclocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireprc\wireprclocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\hw_psprc\hw_psprclocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\gascoolprc\gascoolprclocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireblkprc\wireblkprclocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\indexprc\indexprclocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_motordriv\_motordrivlocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tvlrotprc\tvlrotprclocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\tvlrotprc\tvlrotprc.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\mv\mvlocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\miscoper\miscoperlocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\permsaving\permsavinglocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\main2\main2local.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\fouraxistigctrl\main2\main2_fouraxistigctrl.c.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\dc2dirmtr\dc2dirmtrlocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_powersupp\_powersupplocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_rly\tml_rlylocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_master\_masterlocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_menu\_menulocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\hmi_report\hmi_reportlocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\supermstr\supermstrlocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\fileoper\fileoperlocal.var">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\visu1\visu1.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_srv\tml_srv.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\lincolnps\lincolnps.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\avc_synch\avc_synch.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tig_psprc\tig_ps.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wrst\wrst.c.o">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\xmlhelper\xmlhelper.c.o">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\br_dc\br_dc.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\avcprc\avcprc.c.o">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\osc_tmlprc\oscprctml.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireprc\wire.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\hw_psprc\hw_ps.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\gascoolprc\gascool.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireblkprc\wireblockprc.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\indexprc\index.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tvlrotprc\tvlrotprc.c.o">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_motordriv\motordrivercyclic.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\mv\mv.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\miscoper\miscoper.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\permsaving\permsaving.c.o">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\avc_synch\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\avc_synch\avc_synch.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wrst\a.out">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\br_dc\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\br_dc\br_dc.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\xmlhelper\a.out">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tig_psprc\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tig_psprc\tig_ps.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\lincolnps\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\lincolnps\lincolnps.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\permsaving\a.out">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_srv\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_srv\tml_srv.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\hw_psprc\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\hw_psprc\hw_ps.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\gascoolprc\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\gascoolprc\gascool.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireblkprc\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireblkprc\wireblockprc.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\indexprc\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\indexprc\index.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\mv\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\mv\mv.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_motordriv\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_motordriv\motordrivercyclic.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\miscoper\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\miscoper\miscoper.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\avcprc\a.out">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireprc\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireprc\wire.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\dc2dirmtr\dc2dirmtr.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\avc_synch\avc_synch.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\avc_synch\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\main2\main2_fouraxistigctrl.c.c.o">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_powersupp\powersupplydrivercyclic.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_rly\tml_rly.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_master\master.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\universal\superdefinition.h" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tvlrotprc\a.out">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_menu\menucyclic.c.o">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\hmi_report\hmi_reports.c.o">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\supermstr\supermaster.c.o">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\fileoper\fileoper.c.o">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\osc_tmlprc\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\osc_tmlprc\oscprctml.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\lincolnps\lincolnps.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\lincolnps\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\lincolnps.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\lincolnps\lincolnps.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_srv\tml_srv.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_srv\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tig_psprc\tig_psprc.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tig_psprc\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wrst\wrst.ox">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\xmlhelper\xmlhelper.ox">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\br_dc\br_dc.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\br_dc\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\avcprc\avcprc.ox">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\osc_tmlprc\osc_tmlprc.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\osc_tmlprc\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireprc\wireprc.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireprc\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\dc2dirmtr\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\dc2dirmtr\dc2dirmtr.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\hw_psprc\hw_psprc.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\hw_psprc\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\gascoolprc\gascoolprc.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\gascoolprc\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireblkprc\wireblkprc.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireblkprc\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\indexprc\indexprc.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\indexprc\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_motordriv\_motordriv.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_motordriv\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_rly\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_rly\tml_rly.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tvlrotprc\tvlrotprc.ox">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_powersupp\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_powersupp\powersupplydrivercyclic.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\mv\mv.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\mv\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\miscoper\miscoper.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\miscoper\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_master\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_master\master.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\permsaving\permsaving.ox">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\dc2dirmtr\dc2dirmtr.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\dc2dirmtr\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_rly\tml_rly.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_rly\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_powersupp\_powersupp.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_powersupp\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\fileoper\a.out">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_master\_master.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_master\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_srv.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_srv\tml_srv.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_menu\a.out">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\avc_synch.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\avc_synch\avc_synch.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\fileoper\fileoper.ox">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\supermstr\a.out">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tig_psprc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tig_psprc\tig_psprc.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_menu\_menu.ox">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\supermstr\supermstr.ox">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wrst.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\xmlhelper.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\br_dc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\br_dc\br_dc.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\avcprc.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\osc_tmlprc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\osc_tmlprc\osc_tmlprc.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireprc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireprc\wireprc.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\hw_psprc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\hw_psprc\hw_psprc.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\gascoolprc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\gascoolprc\gascoolprc.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireblkprc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\wireblkprc\wireblkprc.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\indexprc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\indexprc\indexprc.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_motordriv.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_motordriv\_motordriv.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tvlrotprc.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\mv.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\mv\mv.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\miscoper.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\miscoper\miscoper.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\permsaving.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\hmi_report\a.out">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\hmi_report\hmi_report.ox">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\main2\a.out">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\main2\main2.ox">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\main2.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\dc2dirmtr.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\dc2dirmtr\dc2dirmtr.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_powersupp.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_powersupp\_powersupp.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_rly.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\tml_rly\tml_rly.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_master.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_master\_master.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\_menu.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\hmi_report.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\supermstr.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\visu1.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\fileoper.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\x20cp1585_cmt\plc1\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1585_cmt\plc1\lincolnps.br" differs.
+</BuildReason>
+  </Rule>
+</BuildReasons>

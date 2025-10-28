@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/\physical\x20cp1585s\plc1\motion\acp10cfg.ncc
+$(AS_PROJECT_PATH)/\physical\x20cp1585s\hardware.hw
+$(AS_PROJECT_PATH)/\physical\x20cp1585s\plc1\motion\acp10map.ncm

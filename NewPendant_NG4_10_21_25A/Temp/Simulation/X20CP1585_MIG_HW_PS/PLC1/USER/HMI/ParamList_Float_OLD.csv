@@ -1,0 +1,186 @@
+ValueUL,SetupUL,ChangeUL,Index,EnumText,Name,ShortName,LongName
+15,15,15,0,parLCD_BtnMode, Edit Button Mode ,EDIT BUTTON MODE,"Use to change LCD pendant mode (SRT / RUDOL), hold and adjust or press adjust and press. Not applicable to ORBITAL"
+0,15,15,1,parTIG_AmpSP, PRIMARY ARC AMPS ,TIG PRIMARY ARC AMPS SET POINT,"TIG primary ARC amps set point, normal operating target ARC amps during weld process "
+0,15,15,2,parTIG_AmpInSP, PRIMARY IN ARC AMPS ,TIG PRIMARY ARC AMPS SET POINT IN,"TIG primary ARC amps set point, normal operating target ARC amps during dwell IN "
+0,15,15,3,parTIG_AmpOutSP, PRIMARY OUT ARC AMPS ,TIG PRIMARY ARC AMPS SET POINT OUT,"TIG primary ARC amps set point, normal operating target ARC amps during dwell OUT"
+0,15,15,4,parTIG_BackAmp, BACKGND ARC AMPS ,TIG BACKGROUND ARC AMPS SET POINT,TIG background ARC amps set point
+0,15,15,5,parTIG_PulseFreq, ARC AMPS FREQ. ,AMP PULSE FREQUENCY, Please  Add LongName  
+0,15,15,6,parTIG_PulseWidth, ARC PULSE DUTY ,AMP BACKGROUND WIDTH, Please  Add LongName  
+0,15,15,7,parAVC_VoltSP, PRIMARY ARC VOLTS ,AVC PRIMARY ARC VOLT SET POINT,"AVC primary ARC volt set point, normal operating target ARC volts during weld process "
+0,15,15,8,parAVC_VoltInSP, PRIMARY IN ARC VOLTS ,AVC PRIMARY ARC VOLT SET POINT IN,"AVC primary ARC volt set point, normal operating target ARC volts during dwell IN"
+0,15,15,9,parAVC_VoltOutSP, PRIMARY OUT ARC VOLTS ,AVC PRIMARY ARC VOLT SET POINT OUT,"AVC primary ARC volt set point, normal operating target ARC volts during dwell OUT"
+0,15,15,10,parAVC_VoltBackSP, BACKGRD ARC VOLTS , Please  Add ShortName , Please  Add LongName  
+0,15,15,11,parTVL_VelSP, TVL PRIMARY SPEED , TVL PRIMARY SPEED ,"TVL primary speed set point, target speed at which the weld head will travel during welding operations"
+0,15,15,12,parTVL_VelInSP, TVL PRIMARY IN SPEED , TVL PRIMARY IN SPEED ,"TVL primary speed set point, target speed at which the weld head will travel during dwell IN"
+0,15,15,13,parTVL_VelOutSP, TVL PRIMARY OUT  SPEED , TVL PRIMARY OUT  SPEED ,"TVL primary speed set point, target speed at which the weld head will travel during dwell OUT"
+0,15,15,14,parTVL_VelBackSP, TVL BACKGND SPEED , TVL BACKGND SPEED ,"TVL primary speed set point, target speed at which the weld head will travel during background welding operations"
+0,15,15,15,parWF_SpeedSP, WF PRIMARY SPEED ,WF PRIMARY SPEED SET POINT,"WF primary speed set point, normal operating target speed during weld process "
+0,15,15,16,parWF_SpeedInSP, WF PRIMARY IN SPEED ,WF PRIMARY IN SPEED SET POINT,"WF primary speed set point, normal operating target speed during dwell IN"
+0,15,15,17,parWF_SpeedOutSP, WF PRIMARY OUT  SPEED ,WF PRIMARY OUT SPEED SET POINT,"WF primary speed set point, normal operating target speed during dwell OUT"
+0,15,15,18,parWF_BkgSpeedSP, WF BACKGRD SPEED ,WF PBACKGROUND  SPEED SET POINT,"WF primary speed set point, normal operating target speed during background weld process "
+0,15,15,19,parWP_SpeedSP, WP PRIMARY SPEED ,WP PRIMARY SPEED SET POINT,"WP primary speed set point, normal operating target speed during weld process "
+0,15,15,20,parWP_SpeedInSP, WP PRIMARY IN SPEED ,WP PRIMARY IN SPEED SET POINT,"WP primary speed set point, normal operating target speed during dwell IN"
+0,15,15,21,parWP_SpeedOutSP, WP PRIMARY OUT  SPEED ,WP PRIMARY OUT SPEED SET POINT,"WP primary speed set point, normal operating target speed during dwell OUT"
+0,15,15,22,parWP_BkgSpeedSP, WP BACKGRD SPEED ,WP PBACKGROUND  SPEED SET POINT,"WP primary speed set point, normal operating target speed during background weld process "
+0,15,15,23,parHW_AmpSP, HW PRIMARY AMPS ,HW PRIMARY AMPS SET POINT,"HW primary amps set point, normal operating target amps during weld process "
+0,15,15,24,parOSC_Amplit, OSC WIDTH ,OSC WIDTH SET POINT,"OSC width in length units(us/si), normal operating target oscillation width during weld process "
+0,15,15,25,parOSC_Excur, Osc Excursion ,OSC EXCURSION TIME,"OSC excursion time, is the traverse time it takes to oscillate side to side"
+0,15,15,26,parOSC_Dwell_In, Osc Dwell In ,OSC DWELL IN TIME,"Time held at OSC ""IN"" position "
+0,15,15,27,parOSC_Dwell_Out, Osc Dwell Out ,OSC DWELL OUT TIME,"Time held at OSC ""OUT"" position "
+5,15,15,28,parOSC_StartDly, OSC START DLY ,OSC START DELAY TIME,"OSC start delay time from start event trigger,  waits for this delay before applying the OSC initial width set point"
+5,15,15,29,parOSC_RampUp, OSC UPSLOPE TM ,OSC UPSLOPE TIME,"OSC upslope time, ramp time from OSC initial width set point to OSC width set point, this parameter determines how quickly the OSC width set point is reached "
+5,15,15,30,parOSC_InitAmplit, OSC INITIAL WIDTH ,OSC INITIAL WIDTH SET POINT,"Initial OSC width set point in length, on OSC ramp up"
+5,15,15,31,parOSC_FinalAmplit, OSC FINAL WIDTH ,OSC FINAL WIDTH SET POINT,"Final OSC width set point in length, on OSC ramp down"
+5,15,15,32,parOSC_StopDly, OSC DOWNSLOPE DLY ,OSC STOP DELAY TIME,"OSC stop delay time from stop event trigger, time delay before OSC ramp down starts "
+5,15,15,33,parOSC_RampDwn, OSC DOWNSLOPE TM ,OSC DOWNSLOPE TIME,"OSC downslope time, ramp time from OSC width set point to OSC final width set point, this parameter determines how quickly the OSC final width set point is reached "
+15,15,15,34,parOSC_RampUpdate, Osc Ramp Update ,OSC RAMP UPDATE TIME,"Ramp rate time for on the fly changes of OSC width set point during welding operations, this parameter determines how quickly the new OSC width set point is reached once the system is running"
+15,15,15,35,parOSC_MaxTvlVel, Max OSC Speed ,MAX OSC SPEED,Max OSC steering speed of OSC axis
+15,15,15,36,parOSC_JogSpeed, OSC Jog Speed ,OSC JOG SPEED,OSC Jog speed for on the fly  speed changes (Close loop control)
+15,15,15,37,parOSC_JogSpeedDirCntrl, OSC Jog Speed ,OSC JOG SPEED DIRECT CONTROL,Push button OSC Jog speed direct control (Open loop control)
+15,15,15,38,parAVC_DB_Window, AVC DB Window ,AVC DB WINDOW,"AVC bang ban window, (not used)"
+15,15,15,39,parAVC_TouchVolt, AVC TOUCH VOLT ,AVC TOUCH VOLT SET POINT,"AVC zero volt detection set point threshold, voltage set point to be considered as zero volts"
+15,15,15,40,parAVC_TouchTm, AVC Touch TMO ,AVC TOUCH TIMEOUT,"AVC touch timeout, timeout triggered(add to touch retry counter) if touch zero is not achieved after this delay time"
+15,15,15,41,parAVC_TRetractTm, AVC Retract Tm ,AVC TOUCH RETRACT TIMEOUT,"AVC touch start failed timeout, timeout triggered if system failed to retract torch after this delay time"
+15,15,15,42,parAVC_TouchRepeat, AVC Retry Cnt ,AVC TOUCH RETRY COUNTS,"AVC touch retry counts, number of touch start retries to be made by the system after a repeated AVC touch start failure"
+5,15,15,43,parAVC_VoltInit, AVC INITIAL VOLT ,AVC INITIAL ARC VOLT SET POINT,"AVC initial ARC volt set point, set point at which ARC start event will be triggered and will start AVC ramp"
+15,15,15,44,parAVC_KissTm, AVC Kiss TM , Please  Add ShortName , Please  Add LongName  
+15,15,15,45,parAVC_TouchVel, AVC SLOW RUN IN SP ,AVC TOUCH DIVE IN SPEED SET POINT,"AVC velocity for touch start, AVC system will dive in at this velocity rate till touch zero volt is detected"
+15,15,15,46,parAVC_ToSPVel, AVC LIFT UP SPEED ,AVC LIFT UP SPEED SET POINT,AVC velocity set point to lift up torch till AVC initial ARC volt set point is reached
+5,15,15,47,parAVC_DownSlope, VOLT DOWNSLOPE TM ,AVC VOLT DOWNSLOPE TIME,"AVC downslope time to reach AVC final ARC volt set point, ramp time from AVC primary ARC volt set point to AVC final ARC volt set point, this parameter determines how quickly the AVC final ARC volt set point is reached"
+5,15,15,48,parAVC_VoltFinal, FINAL ARC VOLTS ,AVC FINAL ARC VOLT SET POINT,"AVC final ARC volt set point, set point to be reached after AVC downslope tm"
+15,15,15,49,parAVC_HoldTm, AVC RETRACT DLY ,AVC RETRACT DELAY TIME,"AVC retract delay time after AVC downslope is completed, AVC system waits for delay time before start retracting torch"
+5,15,15,50,parAVC_GoBackTm, AVC RETRACT TM ,AVC RETRACT TIME,"AVC retract time, time to retract torch, tied to the ramp that controls the speed of the torch going up"
+15,15,15,51,parAVC_VSPTmOut, AVC Prim Volt Tmo ,AVC PRIMARY ARC VOLT  TIMEOUT,"AVC primary ARC volt set point timeout, triggered if system failed to reach AVC primary ARC volt set point "
+15,15,15,52,parAVC_StartDly, VOLT UPSLOPE DLY ,AVC UPSLOPE DELAY TIME,"AVC delay time from ARC start event to start of upslope ARC ramp, dwell time before ramping up to AVC primary ARC volt set point"
+15,15,15,53,parAVC_StopDly, VOLT DWNSLOPE DLY ,AVC DOWNSLOPE DELAY TIME,"AVC delay time from stop event to start of downslope ARC ramp, dwell time before ramping down to AVC final ARC volt set point"
+5,15,15,54,parAVC_Upslope, VOLT UPSLOPE TM ,AVC VOLT UPSLOPE TIME,"AVC upslope time to reach AVC primary ARC volt set point, ramp time from AVC initial ARC volt set point to AVC primary ARC volt set point, this parameter determines how quickly the AVC primary ARC volt set point is reached"
+15,15,15,55,parAVC_MaxVoltError, AVC Max Volt Err ,AVC MAX VOLT ERROR,"AVC max volt error, is the difference allowed between measured ARC volt feedback and primary ARC set point"
+15,15,15,56,parAVC_Limits_Mask_Tm, AVC Limits Filter Tm ,AVC LIMITS FILTER TIME,Pot + not mask time
+15,15,15,57,parAVC_JogSpeedDirCntrl, AVC Jog Speed ,AVC JOG SPEED DIRECT CONTROL,Push button AVC Jog speed direct control (Open loop control)
+15,15,15,58,parAVC_LiftSpeedDirCntrl, AVC RETRACT SP ,AVC RETRACT SPEED SET POINT,"AVC touch start retract speed set point, used as well for failure obtain zero volt and after ARC volt feedback is off"
+5,15,15,59,parAVC_FbkFilter, AVC Sign Filter ,AVC SIGN FILTER,"AVC LPF (low pass filter) response, related to the technosoft drives"
+5,15,15,60,parAVC_KPP, AVC KPP ,AVC KPP,AVC KPP (proportional) gain
+5,15,15,61,parAVC_KIP, AVC KIP ,AVC KIP,AVC KIP (integral) gain
+5,15,15,62,parWF_SpeedInit, WF INITIAL SPEED ,WF INITIAL SPEED SET POINT,"WF initial speed set point, starting speed before ramping up to normal operating speed"
+5,15,15,63,parWF_SpeedFinal, WF FINAL SPEED ,WF FINAL SPEED SET POINT,"WF final speed set point, ending WF speed for the weld process"
+5,15,15,64,parWF_RampUp, WF UPSLOPE TM ,WF UPSLOPE TIME,"WF upslope time, ramp time from WF initial speed to WF primary speed set point "
+5,15,15,65,parWF_RampDwn, WF DOWNSLOPE TIME ,WF DOWNSLOP TIME,"WF downslope time to reach WF final speed set point, ramp time from WF primary speed set point to WF final speed set point, this parameter determines how quickly the WF final speed set point is reached"
+15,15,15,66,parWF_RampUpdate, WF Ramp Update ,WF RAMP UPDATE TIME,"Ramp rate for on the fly changes of WF primary speed during welding operations, this parameter determines how quickly the new WF primary speed set point is reached once the system is running"
+5,15,15,67,parWF_StartDly, WF START DLY ,WF START DELAY TIME,"WF start delay time from ARC start event trigger, waits for this delay before setting the speed to WF initial speed set point"
+5,15,15,68,parWF_StopDly, WF DOWNSLOPE DLY ,WF DOWNSLOPE DELAY TIME,"WF stop delay time from stop event trigger, delay time before WF ramp down starts "
+15,15,15,69,parWF_RetractDly, WF RETRACT DLY ,WF RETRACT DELAY TIME,WF delay time before starting wire retract
+15,15,15,70,parWF_RetractSpeed, WF RETRACT SPEED ,WF RETRACT SPEED SET POINT,WF retract speed set point
+5,15,15,71,parWF_RetracDist, WF RETRACT LENGTH ,WF RETRACT LENGTH SET POINT,WF retract length set point
+15,15,15,72,parWF_Boost1SP, WF Boot1 %% ,,not used
+15,15,15,73,parWF_Boost2SP, WF Boot2 %% ,,not used
+5,15,15,74,parWF_CalibVel1, WF Calib Speed 1 ,WF CALIBRATION SPEED 1 SET POINT,WF calibration speed lower set point (usual 20%)
+5,15,15,75,parWF_CalibVel2, WF Calib Speed 2 ,WF CALIBRATION SPEED 2 SET POINT,WF calibration speed higher set point (usual 80%)
+15,15,15,76,parWF_JogSpeed, WF Jog ??? ,,not used
+15,15,15,77,parWF_JogSpeedDirCntrl, WF Jog Speed ,,WF Jog speed for on the fly  speed changes (Close loop control)
+15,15,15,78,parWP_SpeedInit, WP INITIAL SPEED ,WP INITIAL SPEED SET POINT,"WP initial speed set point,  starting speed before ramping up to normal operating speed"
+15,15,15,79,parWP_SpeedFinal, WP FINAL SPEED ,WP FINAL SPEED SET POINT,"WP final speed set point, ending WP speed for the weld process"
+5,15,15,80,parWP_RampUp, WP UPSLOPE TM ,WP UPSLOPE TIME,"WP upslope time, ramp time from initial WP initial speed to WP primary speed set point "
+5,15,15,81,parWP_RampDwn, WP DOWNSLOPE TM ,WP DOWNSLOPE TIME,"WP downslope time to reach WP final speed set point, ramp time from WP primary speed set point to WP final speed set point, this parameter determines how quickly the WP final speed set point is reached"
+15,15,15,82,parWP_RampUpdate, WP Ramp Update ,WP RAMP UPDATE TIME,"Ramp rate time for on the fly changes of WP primary speed during welding operations, this parameter determines how quickly the new WP primary speed set point is reached once the system is running"
+5,15,15,83,parWP_StartDly, WP START DELAY ,WP START DELAY TIME,"WP start delay time from ARC start event trigger, waits for this delay before setting the speed to WP initial speed set point"
+5,15,15,84,parWP_StopDly, WP DOWNSLOPE DLY ,WP DOWNSLOPE DELAY TIME,"WP stop delay time from stop event trigger, time delay before WP ramp down starts "
+15,15,15,85,parWP_Boost1SP, WP Boot1 %% ,,not used
+15,15,15,86,parWP_Boost2SP, WP Boot2 %% ,,Not used
+15,15,15,87,parWP_JogSpeed, WP Jog ,WP JOG SPEED DIRECT CONTROL,Push button WP Jog speed direct control (Open loop control)
+15,15,15,88,parWP_JogSpeedDirCntrl, WP Jog Cntrl ,WP JOG SPEED,WP Jog speed for on the fly  speed changes (Close loop control)
+15,15,15,89,parTIG_StartAmp, INITIAL ARC AMPS ,TIG INITIAL ARC AMPS SET POINT,"TIG initial ARC amps set point, initial ARC amps from the touch start event till TIG ARC amps upslope time "
+15,15,15,90,parTIG_EndAmp, FINAL ARC AMPS ,TIG FINAL ARC AMPS SET POINT,"TIG final ARC amps set point, ending TIG ARC amps for the weld process"
+5,15,15,91,parTIG_RampUp, ARC AMP UPSLOPE TM ,TIG ARC AMP UPSLOPE TIME,"TIG upslope time to reach TIG primary ARC amps set point, ramp time from initial ARC amps set point to primary ARC amps set point, this parameter determines how quickly the TIG primary ARC amps set point is reached"
+5,15,15,92,parTIG_RampDwn, AMPS DOWNSLOPE TM ,TIG ARC AMP DOWNSLOPE TIME,"TIG downslope time to reach TIG final ARC amps set point, ramp time from primary ARC amps set point to final ARC amps set point, this parameter determines how quickly the TIG final ARC amps set point is reached"
+15,15,15,93,parTIG_StartDly, ARC AMP START DLY ,TIG ARC AMP START DELAY TIME,"TIG ARC amp start delay time from ARC start event trigger, waits for this delay before start TIG ARC amp upslope ramp"
+15,15,15,94,parTIG_StopDly, AMPS DOWNSLOPE DLY ,TIG ARC AMP DOWNSLOPE DELAY TIME,TIG stop delay from stop event to start of TIG ARC amp downslope ramp
+5,15,15,95,parTIG_CalibAmp1, TIG Calib Amp 1 ,TIG CALIBRATION AMP1,TIG calibration amp 1 lower set point (usual 20%)
+5,15,15,96,parTIG_CalibAmp2, TIG Calib Amp 2 ,TIG CALIBRATION AMP2,TIG calibration amp 2 higher set point (usual 80%)
+15,15,15,97,parTIG_AmpSP_Boost, TIG Amp Boost ,TIG AMP BOOST,not used
+0,15,15,98,parHW_VoltSP, HW Volt SP ,HW VOLT SET POINT,"HW volt set point, normal operating target volts required during weld process "
+15,15,15,99,parHW_StartAmp, HW INITIAL AMPS ,HW INITIAL AMPS SET POINT,"HW initial amps set point, initial amps from the ARC start event till HW amps ramp up "
+15,15,15,100,parHW_EndAmp, HW FINAL AMPS ,HW FINAL AMPS SET POINT,"HW final amps set point, ending HW amps for the welding process"
+5,15,15,101,parHW_RampUp, HW UPSLOPE TM ,HW UPSLOPE TIME,"HW upslope time to reach HW primary amps set point, ramp time from initial amps set point to primary amps set point, this parameter determines how quickly the HW primary amps set point is reached"
+5,15,15,102,parHW_RampDwn, HW DOWNSLOPE TM ,HW DOWNSLOPE TIME,"HW downslope time to reach HW ARC amps set point, ramp time from primary amps set point to final amps set point, this parameter determines how quickly the HW final amps set point is reached"
+15,15,15,103,parHW_RampUpDly, HW UPSLOPE DLY  ,HW UPSLOPE DELAY TIME,HW start delay from start event to start of HW upslope ramp
+15,15,15,104,parHW_RampDwnDly, HW DOWNSLOPE DLY ,HW DOWNSLOPE DELAY TIME,HW stop delay from stop event to start of HW downslope ramp
+5,15,15,105,parHW_CalibAmp1, HW Calib Amp 1 ,HW CALIBRATION AMP1,HW calibration amp 1 low set point
+5,15,15,106,parHW_CalibAmp2, HW Calib Amp 2 ,HW CALIBRATION AMP2,HW calibration amp 2 higher set point
+15,15,15,107,parHW_AmpSP_Boost, HW Amp Boost ,HW AMP BOOST,??? Not used
+15,15,15,108,parTVL_InitVel, TVL INITIAL SPEED ,TVL INITIAL SPEED SET POINT,"TVL initial speed set point, initial speed from the start of TVL upslope ramp"
+15,15,15,109,parTVL_FinalVel, TVL FINAL SPEED ,TVL FINAL SPEED SET POINT,"TVL final speed set point, ending TVL speed for the welding process"
+5,15,15,110,parTVL_RampUp, TVL UPSLOPE TM ,TVL UPSLOPE TIME,"HW upslope time to reach TVL primary speed set point, ramp time from initial speed set point to primary speed set point, this parameter determines how quickly the TVL primary speed set point is reached"
+5,15,15,111,parTVL_RampDwn, TVL DOWNSLOPE TM ,TVL DOWNSLOPE TIME,"TVL downslope time to reach TVL final speed set point, ramp time from TVL primary speed set point to TVL final speed set point, this parameter determines how quickly the TVL final speed set point is reached"
+15,15,15,112,parTVL_RampUpdate, TVL Ramp Update ,TVL RAMP UPDATE TIME,"Ramp rate time for on the fly changes of TVL primary speed during welding operations, this parameter determines how quickly the new TVL primary speed set point is reached once the system is running"
+15,15,15,113,parTVL_StartDly, TVL START DLY ,TVL START DELAY TIME,TVL start delay time from ARC start event trigger
+15,15,15,114,parTVL_StopDly, TVL DOWNSLOPE DLY ,TVL DOWNSLOPE DELAY TIME,"TVL stop delay time from stop event trigger, delay time before TVL ramp down starts "
+15,15,15,115,parTVL_Jog2Stop, TVL Jog2Stop ,TVL JOG2 STOP,"TVL slow Jog speed to home in , on final rewrap position"
+15,15,15,116,parTVL_JogSpeedDirCntrl, TVL Jog Speed ,TVL JOG SPEED,Push button TVL Jog speed direct control (Open loop control)
+0,15,15,117,parTVL_RunDist,TVL Distance,TVL RUN DISTANCE,Distance in ticks to run travel axis during execution of a weld program
+5,15,15,118,parTVL_RewrapDly, TVL REWRAP DLY ,TVL REWRAP DELAY TIME,TVL rewrap time delay between auto weld stop and the start of rewrap travel
+0,15,15,119,parTVL_OverlapDist, TVL Overlap Distance, TVL Overlap Distance,TVL overlap distance
+5,15,15,120,parTVL_RewrapVel, TVL REWRAP SP ,TVL REWRAP SPEED SET POINT,TVL rewrap speed set point in which the weld head travels back to final rewrap position
+5,15,15,121,parTVL_CalibVel1, TVL Calib Speed 1 ,TVL CALIBRATION SPEED 1,TVL calibration speed 1 low set point (usual 20%)
+5,15,15,122,parTVL_CalibVel2, TVL Calib Speed 2 ,TVL CALIBRATION SPEED 2,TVL calibration speed 2 higher set point (usual 80%)
+5,15,15,123,parTVL_TrackDia, Weld Diameter ,TVL WELD DIAMETER,"TVL weld track diameter, used to calculate travel speed"
+15,15,15,124,parTVL_SpeedTolerane, TVL Speed Tolerance ,TVL SPEED TOLERANCE,TVL max speed error between actual speed measured and primary speed set point 
+5,15,15,125,parGAS_PrePurgeTm, GAS PREPURGE TM ,GAS PREPURGE TIME,Gas prepurge time required before starting AVC ARC touch zero
+5,15,15,126,parGAS_PostPurgeTm, GAS POSTPURGE TM ,GAS POSTPURGE TIME,"Gas postpurge time required after all processes completed their ramp downslope, turn off the gas after this time"
+15,15,15,127,parGAS_Tmo, Gas On/Off TimeOut ,GAS ON/OFF TIMEOUT,Gas on/off timeout time triggered if gas actuator doesn't actuate or gas is not detected after delay
+15,15,15,128,parCOOL_Tmo, Cool On/Off TimeOut ,COOL ON/OFF TIMEOUT,Cool ON/OFF timeout time triggered if cooling actuator doesn't actuate or a raise of undesired temperature is detected after delay time
+5,15,15,129,parGEN_CalibDist, Calib Dist ,GEN CALIBRATION DISTANCE,User input set calibration distance
+5,15,15,130,parGEN_CalibTime, Calib Time ,GEN CALIBRATION TIME,User input set calibration time
+5,15,15,131,parGEN_AmpRead, Amp Meas. ,GEN AMP MEASUREMENT,User input actual current for calibration
+5,15,15,132,parGEN_WeldProgramRepeat, Weld Program Repeat ,GEN WELD PROGRAM REPEAT,"Target number of weld programs repeat, how many cycles through current program"
+15,15,15,133,parGEN_UpSlope, UP SLOPE Tm ,GEN UPSLOPE TIME,Not used
+15,15,15,134,parGEN_DownSlope, DOWN SLOPE Tm ,GEN DOWNSLOPE TIME,Not used
+15,15,15,135,parGEN_RampUp, RAMP UP Tm ,GEN RAMP UP TIME,Not used
+15,15,15,136,parGEN_RampDown, RAMP DOWN Tm ,GEN RAMP DOWN TIME,Not used
+15,15,15,137,parGEN_T0_TVL_StartDly, T0 TVL Start Dly , T0 TVL START DELAY TIME,Not used
+15,15,15,138,parGEN_T1_WF_StartDly, T1 WF Start Dly , T1 WF START DELAY TIME,Not used
+15,15,15,139,parGEN_T3_DS_StartDly, T3 DS Start Dly , T3 DS START DELAY TIME,Not used
+15,15,15,140,parGEN_T4_TVL_StoptDly, T3 TVL Stop Dly , T3 TVL STOP DELAY TIME,Not used
+15,15,15,141,parGEN_GAS_PostPurgeTm, T6 PostPurge Tm , T6 POSTPURGE TIME,Not used
+15,15,15,142,parAVC_BB_Vel, AVC BB Speed ,AVC BB SPEED,"AVC bang ban speed, (not used)"
+15,15,15,143,parAVC_BB_Gain, AVC BB Gain ,AVC BB GAIN,"AVC bang ban gain, (not used)"
+15,15,15,144,parAVC_LU_TM, AVC LU TM , Please  Add ShortName , Please  Add LongName  
+15,15,15,145,parGEN_CalibTime1, Calib Time1 , Please  Add ShortName , Please  Add LongName  
+15,15,15,146,parGEN_CalibTime2, Calib Time2 , Please  Add ShortName , Please  Add LongName  
+15,15,15,147,parGEN_CalibTime3, Calib Time3 , Please  Add ShortName , Please  Add LongName  
+15,15,15,148,parGEN_CalibTime4, Calib Time4 , Please  Add ShortName , Please  Add LongName  
+15,15,15,149,parGEN_CalibDist1, Calib Dist1 , Please  Add ShortName , Please  Add LongName  
+15,15,15,150,parGEN_CalibDist2, Calib Dist2 , Please  Add ShortName , Please  Add LongName  
+15,15,15,151,parGEN_CalibDist3, Calib Dist3 , Please  Add ShortName , Please  Add LongName  
+15,15,15,152,parGEN_CalibDist4, Calib Dist4 , Please  Add ShortName , Please  Add LongName  
+15,15,15,153,parGEN_CalibAmp1, GEN Calib Amp 1 , Please  Add ShortName , Please  Add LongName  
+15,15,15,154,parGEN_CalibAmp2, GEN Calib Amp 2 , Please  Add ShortName , Please  Add LongName  
+0,15,15,155,parINDX_StepDist, INDX Step Distance ,Distance of one step,Distance of one step
+0,15,15,156,parINDX_StepVel, INDX Step Vel ,Indexing Velocity,Indexing Velocity
+0,15,15,157,parINDX_JogSpeedDirCntrl, INDX Jog Speed ,Jogging Velocity,Jogging Velocity
+0,15,15,158,parINDX_StepAfterBeats, Step After Beats ,Return after steps number,Return after steps number
+0,15,15,159,varCurTVL_Vel, TVL Vel 1FBK , TVL VEL 1 FEEDBACK,"TVL velocity 1 feedback, internal display"
+0,15,15,160,varCurTVL_Vel_Calc, TVL Vel FBK Calc ,Indexing velocity,"TVL velocity feedback calculated, not used"
+0,15,15,161,varTVL_Vel_Cmd, TVL Vel Cmd , TVL VEL COMMAND,"TVL velocity command, while running displays current TVL velocity command value, when stopped displays program set point value"
+0,15,15,162,varCurWF_Vel, WF Vel FBK , WF VEL FEEDBACK,"WF velocity feedback, internal display"
+0,15,15,163,varWF_Vel_Cmd, WF Vel Cmd , WF VEL COMMAND,"WF velocity command, while running displays current WF velocity command value, when stopped displays program set point value"
+0,15,15,164,varCurWFDist, act WF Len , ACT WF LEN,"WF actual wire length, Accumulated wire feed distance since last wire feed start, used only in NIDOL (Nozzle inside diameter overlay)"
+0,15,15,165,varCurWP_Vel, WP Freq FBK , WP FREQUENCY FEEDBACK,"WP frequency feedback, internal display"
+0,15,15,166,varWP_Vel_Cmd, WP Freq Cmd , WP FREQUENCY COMMAND,"WP frequency command, while running displays current WP frequency command value, when stopped displays program set point value"
+0,15,15,167,varCurArc_Volt, Arc Volt FBK ,ARC VOLT FEEDBACK,"AVC ARC volt feedback, actual ARC volt"
+0,15,15,168,varArc_Volt_Cmd, Arc Volt Cmd ,ARC VOLT COMMAND,"AVC ARC volt command, while running displays current AVC ARC volt command value, when stopped displays program set point value"
+0,15,15,169,varCurTIG_Amp, TIG Amp FBK ,TIG AMP FEEDBACK,"TIG amp feedback, internal display"
+0,15,15,170,varTIG_Amp_Cmd, TIG Amp CMD ,TIG AMP COMMAND,"TIG amp command, while running displays current AVC ARC volt command value, when stopped displays program set point value"
+0,15,15,171,varCurHW_Amp, HW Amp FBK ,HW AMP FEEDBACK,"HW amp feedback, internal display"
+0,15,15,172,varHW_Amp_Cmd, HW Amp CMD ,HW AMP COMMAND,"HW amp command, while running displays current HW amp command value, when stopped displays program set point value"
+0,15,15,173,varCurHW_Volt, HW Volt FBK ,HW VOLT FEEDBACK,"HW volt feedback, internal display"
+0,15,15,174,varHW_Volt_Cmd, HW Volt CMD ,HW VOLT COMMAND,"HW volt command, while running displays current HW volt command value, when stopped displays program set point value"
+0,15,15,175,varOSC_Centr, act OSC Centr ,ACT OSC CENTER,OSC center position relative to theoretical oscillator center (ABS((MAX - MIN)/2))
+0,15,15,176,varOSC_CurPos, act OSC Pos ,ACT OSC POSITION,"OSC actual oscillator absolute position feedback (Potentiometer, Encoder) relative to actual OSC center"
+0,15,15,177,varOSC_CurRawPos, act OSC Pos ,ACT OSC RAW POSITION,OSC actual raw oscillation position from potentiometer or encoder
+0,15,15,178,varOSC_Amplit_Cmd, OSC Amplit Cmd ,OSC WIDTH COMMAND,OSC width command
+0,15,15,179,varOSC_curExcurTm, act Excur Tm ,OSC ACTUAL EXCURSION TIME,"OSC actual excursion time, i.e. OSC traverse time, time it takes to oscillate from going side to side, time to complete one oscillator CAM profile, doesn't include end dwell times"
+0,15,15,180,varOSC_ExcurTm_Cmd, OSC Excur Tm Cmd ,OSC EXCURSION TIME COMMAND,"OSC excursion time command, current OSC CAM profile time value"
+0,15,15,181,varOSC_Dwell_In_Cmd, varOSC Dwell In Cmd ,OSC DWELL IN COMMAND,OSC dwell in command
+0,15,15,182,varOSC_Dwell_Out_Cmd, Dwell_Out_Cmd Cmd ,OSC DWELL OUT COMMAND,OSC dwell out command
+0,15,15,183,varGlobTimer, Timer ,,Global internal time
+15,15,15,184,parWLD_ANGLE_JogSpeedDirCntrl, Weld Angle Jog Speed ,WELD ANGLE JOG SPEED DIRECT CONTROL,Push button Weld Angle Jog speed direct control (Open loop control)

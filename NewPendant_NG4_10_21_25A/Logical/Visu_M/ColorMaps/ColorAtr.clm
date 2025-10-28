@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<ColorMap xmlns="http://br-automation.co.at/AS/VC/Project" Name="ColorAtr">
+  <Property Name="Description" Value=""/>
+  <ColorMapItem>
+    <Property Name="BackColor" Value="16"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="ForeColor" Value="0"/>
+    <Property Name="Index" Value="0"/>
+  </ColorMapItem>
+  <ColorMapItem>
+    <Property Name="BackColor" Value="94"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="ForeColor" Value="0"/>
+    <Property Name="Index" Value="1"/>
+  </ColorMapItem>
+  <ColorMapItem>
+    <Property Name="BackColor" Value="22"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="ForeColor" Value="0"/>
+    <Property Name="Index" Value="2"/>
+  </ColorMapItem>
+  <ColorMapItem>
+    <Property Name="BackColor" Value="29"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="ForeColor" Value="0"/>
+    <Property Name="Index" Value="3"/>
+  </ColorMapItem>
+  <ColorMapItem>
+    <Property Name="BackColor" Value="252"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="ForeColor" Value="0"/>
+    <Property Name="Index" Value="4"/>
+  </ColorMapItem>
+  <ColorMapItem>
+    <Property Name="BackColor" Value="46"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="ForeColor" Value="51"/>
+    <Property Name="Index" Value="5"/>
+  </ColorMapItem>
+</ColorMap>

@@ -1,0 +1,15 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIOTime/AsIOTime.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/sys_lib/sys_lib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsTime/astime.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsXml/AsXml.fun
+$(AS_PROJECT_PATH)/Logical/UDP/paiUDPService/paiUDPService.typ
+$(AS_PROJECT_PATH)/Logical/UDP/udpApp.typ
+$(AS_PROJECT_PATH)/Logical/Universal/XMLHelper/XMLHelper.c
+$(AS_PROJECT_PATH)/Logical/Universal/LincolnPS/../../Lib/WSI_types.h
+$(AS_PROJECT_PATH)/Logical/Universal/WRST/../../Universal/SuperDeclaration.h
+$(AS_PROJECT_PATH)/Logical/Libraries/FileIO/FileIO.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/FileIO/FileIO.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsTime/astime.typ
+$(AS_PROJECT_PATH)/Physical/X20CP1585_MIG_HW_PS/PLC1/Cpu.per

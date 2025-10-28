@@ -1,0 +1,8 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	datagramPerSec : ARRAY[0..1] OF UDINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/UDP/paiUDPService/udpserv/udpserv.c" #2"22" #3"15" *)
+	datagramCountTotal : ARRAY[0..1] OF UDINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/UDP/paiUDPService/udpserv/udpserv.c" #2"21" #3"15" *)
+END_VAR

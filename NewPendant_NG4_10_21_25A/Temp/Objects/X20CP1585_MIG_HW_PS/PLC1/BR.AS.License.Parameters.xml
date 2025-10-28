@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=8</DeviceParameters>
+    <ConnectionParameters>/COMT=2500 /RT=1000 /AM=* /DAIP=192.168.10.123 /REPO=11159 /ANSL=1</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\projects\NG4_TIG\NewPendant_NG4_10_21_25A\UnivCntrl.apj</ApjFullFileName>
+    <ProjectName>UnivCntrl</ProjectName>
+    <ActiveConfigurationName>X20CP1585_MIG_HW_PS</ActiveConfigurationName>
+    <LicenseDataFolder>C:\projects\NG4_TIG\NewPendant_NG4_10_21_25A\Temp\Objects\X20CP1585_MIG_HW_PS\PLC1</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

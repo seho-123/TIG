@@ -1,0 +1,9 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/UDP/paiUDPService/paiUDPService.typ
+$(AS_PROJECT_PATH)/Logical/UDP/udpApp.typ
+$(AS_PROJECT_PATH)/Logical/UDP/udpApp.var
+$(AS_PROJECT_PATH)/Logical/UDP/paiUDPService/paiUDPService.var
+$(AS_PROJECT_PATH)/Logical/Libraries/AsUDP/AsUDP.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/bglibas/bglibas.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/UDP/udpApp/udpApp.c

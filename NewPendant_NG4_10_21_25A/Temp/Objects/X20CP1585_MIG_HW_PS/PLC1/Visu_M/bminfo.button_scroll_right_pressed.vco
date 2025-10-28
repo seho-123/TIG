@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="button_scroll_right_pressed" ClsId="0x306" Version="1" TargetIndex="407" Type="GFX" RefString="Source[local].Bitmap[button_scroll_right_pressed]">
+        <UInt16 Name="Width">32</UInt16>
+        <UInt16 Name="Height">32</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOISURBVFhHzVdLUttAEOUIuQE7vOIKYEOwDdjG/48k27I1cmHZ8S9gsmRJjkCOQI5AqnISrsCWZadeSyMPkmxsEiCqeiVpptXvqadH6t7a3t7+tLOz8zsWi9F7Apzg3sLF7u4u7e3t0cnJCWWzWTo7O6NCocAol0pUKhZ9FAHM5fMM9Rr2z2w9H/l8nn1mMhnmiMfjBE5wb0ENyDEJw3K5TPV6nXRdJ8MwqNlsUhNnwyADYx50TfPPUWA7wyBd00lraFSv1dg3OMAFTnCzgHQ6zROVSoUfNtsmWV2LhBDUs22yASFcyHtvzLIsEhLBedsmYQnqdrrUbrdJ0zTmANfBwcFCQDaT4VBrjQaZpkm9Xo+cfp8Gg8E/AXzhReAbIsD1+fBwISCXy1GtWqN2q82GjuPQ6MuIJpMJYyoxndJMAe79uYCdej8ejWjgDDgi4MByJI+OFgIQErw9QtU/7/MDs+mMLi4u6PIvAR/wBZ/983PqdjrMlUqlngtA0mC9oHQynvCD8/mcrhR8u7oKYZ15+EIkB47DuYLETCUVAdhCSD4kFNYMYYP6ZU43AXzAF3xiaa1ul7lSyeQHCeAILBGA8Pz3An7e3dH3m5vQ+DKsJQBJyAKEeFHAw8MDPT090a/7e7q+vg7NB7FUQHAX4AOxrgB5QAgiErSJEoBdIAWAKyRgkwgEj8fHR/pxexuyfTcB8sCyBO2jBIRygJNQ19fahlEC1orAeOx/BzgCQQH4dW4agY1yQBEQjkCh4H6KPQEI1yoBr9kFvoCoXbCJgNd+B0I58FoBm0IVAN/uz0ijtCoAtRsEoMJ5cwFCMFdYgGG8qQAk9goBRTL0xS5AwuAfjodXiVg2L8cluB4Yj7nWQM0BAaEcwN7EFkH9FqyI5peXfJbXEnJsFeDj60ytiNzvQFLdhqjZUYqbbdSEPbcmHLk1IULHUGtAeR2sCSPG4APk8IklRk1Yq9XoSK0Jc9ksVcplzs5Op8OFKWpDLMdwOKShPEcANi+h/1JVfHx8zMtQrVb5k9wxTV4rW9hcojNs2+0RhHDrfw9+X+CNyznZI2Ce+4JW63lfkEgsBOzv73NLBhEwaDQanJTYGS2lM+LuyENUt+RDmccLgRhLHNkZyd4wkUjQ6ekp9wjc46EnLJX4Ie4PPaA3lP0eEOwZZT+oXsMOfvGS4AC53xt+eHesHrFYLP4eUIn/AG1Rg8XAEfnTAAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

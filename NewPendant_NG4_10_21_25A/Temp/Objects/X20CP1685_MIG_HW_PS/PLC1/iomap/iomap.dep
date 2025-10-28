@@ -1,0 +1,5 @@
+$(AS_PROJECT_PATH)/logical/hotwire/_motordriver/../globdecl.h
+$(AS_PROJECT_PATH)/logical/hotwire/_motordriver/../globdef.h
+$(AS_PROJECT_PATH)/logical/universal/lincolnps/../../universal/superdeclaration.h
+$(AS_PROJECT_PATH)/logical/universal/lincolnps/../../lib/wsi_types.h
+$(AS_PROJECT_PATH)/logical/fouraxistigctrl/main2/main2_fouraxistigctrl.c.c

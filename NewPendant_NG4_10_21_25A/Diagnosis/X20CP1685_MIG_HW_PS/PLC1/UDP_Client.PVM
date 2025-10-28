@@ -1,0 +1,5 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=UDP_Client 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=1 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                              UDP_Config                            UDP_typ[0..1]    0 "                                                               *"    0   24    2    0    1    0         
+                            Kick_TML_Cmd                                    USINT    0 "                                                               0"    0    5    1   10    0    0         

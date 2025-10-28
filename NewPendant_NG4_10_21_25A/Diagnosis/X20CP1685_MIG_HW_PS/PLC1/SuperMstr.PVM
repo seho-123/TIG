@@ -1,0 +1,14 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=SuperMstr 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=6 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                Hardware                       HARDWARE_typ[0..2]    0 "                                                               *"    0   24    3    0    0    1         
+                             Hardware[1]                             HARDWARE_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                     Inp                              BOOL[0..23]    0 "                                                               *"    2    1   24    0    0    1         
+                                  Inp[0]                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                                  Inp[1]                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                               CouplerOK                               BOOL[0..2]    0 "                                                               *"    2    1    3    0    0    1         
+                            CouplerOK[0]                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                       NextProjectConfig                                     DINT    0 "                                                               3"    0    4    1   10    0    0 e,0,proj
+
+                      ProjectConfig_Hrdw                                     DINT    0 "                                                               3"    0    4    1   10    0    0 e,0,proj
+

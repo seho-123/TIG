@@ -1,0 +1,43 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=DC2DirMtr 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=579 Type=100 Scope=60 Force=60 Index=4 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                         VectorStateMach              StateVectorProxy_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                     VectorStateMach[11]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                              ''"    2    9   16    1    0    0         
+                                    xCMD                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                   InVal                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                    Mode                                      INT    0 "                                                               0"    2    3    1   10    0    0         
+                               DC2DirMtr                      DC2DIRMTR_obj[0..1]    0 "                                                               *"    0   24    2    0    0    1         
+                            DC2DirMtr[0]                            DC2DIRMTR_obj    0 "                                                               *"    1   24    1    0    0    1         
+                                    xCmd                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                            DC2DirMtr[1]                            DC2DIRMTR_obj    0 "                                                               *"    1   24    1    0    0    1         
+                                    xCmd                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                 Process                    GenProcess_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                             Process[12]                           GenProcess_typ    0 "                                                               *"    1   24    1    0    0    1         
+                             ConfigReady                                      INT    0 "                                                               0"    2    3    1   10    0    0         
+                                    Name                               STRING[15]    0 "                                                              ''"    2    9   16    1    0    0         
+                                 Disable                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  fParam                               REAL[0..3]    0 "                                                               *"    2    8    4    0    0    1         
+                               fParam[0]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                             Process[13]                           GenProcess_typ    0 "                                                               *"    1   24    1    0    0    1         
+                             ConfigReady                                      INT    0 "                                                               0"    2    3    1   10    0    0         
+                                    Name                               STRING[15]    0 "                                                              ''"    2    9   16    1    0    0         
+                                 Disable                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  fParam                               REAL[0..3]    0 "                                                               *"    2    8    4    0    0    1         
+                               fParam[0]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              10"    2    4    1   10    0    0 e,10,prc
+
+                                      Q1                               BOOL[0..1]    0 "                                                               *"    0    1    2    0    1    1         
+                                   Q1[0]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                   Q1[1]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                      Q2                               BOOL[0..1]    0 "                                                               *"    0    1    2    0    1    1         
+                                   Q2[0]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    1    0         
+                                   Q2[1]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    1    0         
+                                      Q3                               BOOL[0..1]    0 "                                                               *"    0    1    2    0    1    1         
+                                   Q3[0]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    1    0         
+                                   Q3[1]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    1    0         
+                                      Q4                               BOOL[0..1]    0 "                                                               *"    0    1    2    0    1    1         
+                                   Q4[0]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    1    0         
+                                   Q4[1]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    1    0         

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.23 SP05?>
+<RuntimeConfiguration Version="2.33.1">
+  <Module ID="IF4" Hardware="X20CP0292 (X2x)" />
+  <Module ID="IF4.ST0" Hardware="X20PS9500">
+    <Selector ID="FunctionModel" Value="Standard">
+      <Group ID="General">
+        <Parameter ID="Supervision" Value="on" />
+        <Parameter ID="ModuleInfo" Value="off" />
+        <Parameter ID="StatusInfo" Value="on" />
+        <Parameter ID="PowerInfo" Value="off" />
+      </Group>
+    </Selector>
+  </Module>
+  <Module ID="IF4.ST2" Hardware="X20MM2436">
+    <Selector ID="FunctionModel" Value="Standard">
+      <Group ID="General">
+        <Parameter ID="Supervision" Value="off" />
+        <Parameter ID="ModuleInfo" Value="on" />
+      </Group>
+      <Group ID="ModuleConfig">
+        <Parameter ID="PWMConfig01" Value="Output01 PWM control" />
+        <Parameter ID="PWMConfig02" Value="Output02 PWM control" />
+        <Parameter ID="DecayConfig01" Value="Slow Decay" />
+        <Parameter ID="DecayConfig02" Value="Slow Decay" />
+      </Group>
+      <Group ID="DitherConfig">
+        <Parameter ID="DitherAmplitude" Value="0" />
+        <Parameter ID="DitherFrequency" Value="0" />
+      </Group>
+      <Group ID="FunctionModeCounter">
+        <Selector ID="FunctionCounter" Value="TwoCounters">
+          <Group ID="FunctionCounter01">
+            <Selector ID="CounterMode01" Value="default" />
+          </Group>
+          <Group ID="FunctionCounter02">
+            <Selector ID="CounterMode02" Value="default" />
+          </Group>
+        </Selector>
+      </Group>
+    </Selector>
+  </Module>
+  <Module ID="IF4.ST1" Hardware="X20CM8281">
+    <Selector ID="FunctionModel" Value="Standard">
+      <Group ID="General">
+        <Parameter ID="Supervision" Value="off" />
+        <Parameter ID="ModuleInfo" Value="off" />
+      </Group>
+      <Group ID="ConfigurationDI">
+        <Parameter ID="InputFilter" Value="10" />
+        <Parameter ID="InputLatch" Value="off" />
+        <Group ID="Counter01Configuration">
+          <Selector ID="Counter01Mode" Value="event counter" />
+        </Group>
+        <Group ID="Counter02Configuration">
+          <Selector ID="Counter02Mode" Value="event counter" />
+        </Group>
+      </Group>
+      <Group ID="ConfigurationDO">
+        <Parameter ID="StatusInfo" Value="on" />
+      </Group>
+      <Group ID="ConfigurationAI">
+        <Parameter ID="ChannelType01AI" Value="-10V to +10V" />
+        <Selector ID="InputFilterAI" Value="off" />
+        <Parameter ID="UpperLimitAI" Value="32767" />
+        <Parameter ID="LowerLimitAI" Value="-32767" />
+      </Group>
+      <Group ID="ConfigurationAO">
+        <Parameter ID="ChannelType01AO" Value="-10V to +10V" />
+      </Group>
+    </Selector>
+  </Module>
+  <Module ID="IF4.ST3" Hardware="X20CS1020">
+    <Selector ID="FunctionModel" Value="flat">
+      <Group ID="General">
+        <Parameter ID="Supervision" Value="on" />
+        <Parameter ID="ModuleInfo" Value="off" />
+        <Parameter ID="ExtErrStatusInfo" Value="off" />
+        <Group ID="PhyConfiguration">
+          <Parameter ID="Baudrate" Value="57600" />
+          <Parameter ID="Parity" Value="E" />
+          <Parameter ID="DataBits" Value="8" />
+          <Parameter ID="StopBits" Value="1" />
+        </Group>
+        <Group ID="Handshake">
+          <Parameter ID="LowerThreshold" Value="512" />
+          <Parameter ID="UpperThreshold" Value="1024" />
+          <Group ID="HwHandshake">
+            <Parameter ID="HwHandshakeRtsMode" Value="flowControl" />
+            <Parameter ID="InversionRts" Value="off" />
+            <Parameter ID="HwHandshakeCtsMode" Value="disabled" />
+            <Parameter ID="InversionCts" Value="off" />
+          </Group>
+          <Group ID="SwHandshake">
+            <Selector ID="SwHandshakeActivate" Value="off" />
+          </Group>
+        </Group>
+        <Group ID="RxFrame">
+          <Parameter ID="ReceiveIdleTime" Value="4" />
+          <Parameter ID="RxFrameLengthMax" Value="256" />
+          <Parameter ID="RxFrameTerminationChar1" Value="-1" />
+          <Parameter ID="RxFrameTerminationChar2" Value="-1" />
+          <Parameter ID="RxFrameTerminationChar3" Value="-1" />
+          <Parameter ID="RxFrameTerminationChar4" Value="-1" />
+        </Group>
+        <Group ID="TxFrame">
+          <Parameter ID="TransmitIdleTime" Value="5" />
+          <Parameter ID="TxFrameLengthMax" Value="256" />
+          <Parameter ID="TxFrameTerminationChar1" Value="-1" />
+          <Parameter ID="TxFrameTerminationChar2" Value="-1" />
+          <Parameter ID="TxFrameTerminationChar3" Value="-1" />
+          <Parameter ID="TxFrameTerminationChar4" Value="-1" />
+        </Group>
+        <Group ID="InterfaceConfig">
+          <Parameter ID="OutputMTU" Value="7byte" />
+          <Parameter ID="InputMTU" Value="7byte" />
+          <Parameter ID="BlockForward" Value="1" />
+          <Parameter ID="BlockForwardDelay" Value="0" />
+          <Parameter ID="MultibleSegments" Value="off" />
+          <Parameter ID="SegmentsLongerMTU" Value="off" />
+        </Group>
+      </Group>
+    </Selector>
+  </Module>
+  <Module ID="IF4.ST3.IF1" Hardware="X20CS1020 (Ser)" />
+</RuntimeConfiguration>

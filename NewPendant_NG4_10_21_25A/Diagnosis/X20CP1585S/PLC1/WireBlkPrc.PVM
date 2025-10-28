@@ -1,0 +1,38 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=WireBlkPrc 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=9 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                        WR_BLK_Param_Set                WIREBLOCK_Param_typ[0..2]    0 "                                                               *"    0   24    3    0    0    1         
+                     WR_BLK_Param_Set[0]                      WIREBLOCK_Param_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                   pVect                                    UDINT    0 "                                                        70499328"    2    7    1   10    0    0         
+                            VectStateNum                                     UINT    0 "                                                               1"    2    6    1   10    0    0         
+                                    pPrc                                    UDINT    0 "                                                        70503384"    2    7    1   10    0    0         
+                               pJogSpeed                                    UDINT    0 "                                                        76547076"    2    7    1   10    0    0         
+                             MaxSpeedJog                                     REAL    0 "                                                            24.0"    2    8    1   10    0    0         
+                                 Process                    GenProcess_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                             Process[12]                           GenProcess_typ    0 "                                                               *"    1   24    1    0    0    1         
+                             ConfigReady                                      INT    0 "                                                               1"    2    3    1   10    0    0         
+                                    Name                               STRING[15]    0 "                                                         'WB_UD'"    2    9   16    1    0    0         
+                                 Disable                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  fParam                               REAL[0..3]    0 "                                                               *"    2    8    4    0    0    1         
+                               fParam[0]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                               fParam[1]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                               fParam[2]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                               fParam[3]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              15"    2    4    1   10    0    0 e,10,prc
+
+                               subStatus                                      INT    0 "                                                               0"    2    3    1   10    0    0         
+                                     Fbk                               REAL[0..9]    0 "                                                               *"    2    8   10    0    0    1         
+                                  Fbk[0]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                  Fbk[1]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                  Fbk[2]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                  Fbk[3]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                  Fbk[4]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                  Fbk[5]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                  Fbk[6]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                  Fbk[7]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                  Fbk[8]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                  Fbk[9]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                              FbkWarning                                      INT    0 "                                                               0"    2    3    1   10    0    0         
+                                   _step                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                TestMode                                      INT    0 "                                                               0"    2    3    1   10    0    0         

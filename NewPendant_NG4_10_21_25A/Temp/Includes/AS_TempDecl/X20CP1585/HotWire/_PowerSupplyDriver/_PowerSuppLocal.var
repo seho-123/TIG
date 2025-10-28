@@ -1,0 +1,8 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	KK_test : BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_PowerSupplyDriver/PowerSupplyDriverCyclic.c" #2"29" #3"15" *)
+	AcopianVoltsCmdScale : LCRScal;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_PowerSupplyDriver/PowerSupplyDriverCyclic.c" #2"27" #3"21" *)
+END_VAR

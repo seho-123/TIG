@@ -1,0 +1,36 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	MovePara : ARRAY[0..2] OF HCRMovePara_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"41" #3"25" *)
+	JogSpeedFact : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"42" #3"14" *)
+	oldAmplit : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"32" #3"47" *)
+	KK_SteerSpeed : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"47" #3"14" *)
+	amplit : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"32" #3"29" *)
+	l_NodeVector : ARRAY[0..2,0..6] OF HCRNode_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"30" #3"20" *)
+	KK_JogSpeed : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"47" #3"39" *)
+	KK_Excur : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"46" #3"33" *)
+	JogStepFact2 : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"42" #3"61" *)
+	JogStepFact : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"42" #3"38" *)
+	_StartPos : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"49" #3"14" *)
+	KK_Ampl : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"46" #3"14" *)
+	orgStarPos : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"43" #3"36" *)
+	Pos : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"38" #3"30" *)
+	time : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"32" #3"14" *)
+	Ramp : ARRAY[0..2] OF LCRRamp;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"25" #3"20" *)
+	KK_StartPos : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"46" #3"98" *)
+	KK_DwellIn : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"46" #3"53" *)
+	VoltRampDown : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"45" #3"14" *)
+	Tmr : ARRAY[0..2] OF TON;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"26" #3"16" *)
+	StartPos : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"38" #3"45" *)
+	VirtCenter : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"43" #3"14" *)
+	Invert : ARRAY[0..2] OF BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"39" #3"13" *)
+	KK_margin : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"59" #3"14" *)
+	Dist : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"38" #3"14" *)
+	path : ARRAY[0..2] OF HCRSPF;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"40" #3"19" *)
+	DirectCntrlVolt : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"44" #3"14" *)
+	KK_Test : BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"58" #3"15" *)
+	KK_DwellOut : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"46" #3"75" *)
+	fub_LinSpline : ARRAY[0..2,0..2] OF HCRLinSpline;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/OSC_TMLprc/OSCprcTML.c" #2"31" #3"25" *)
+END_VAR

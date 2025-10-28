@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.29 SP11?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">1stReadme-UDP.txt</Object>
+    <Object Type="File" Description="Application specific UDP types">udpApp.typ</Object>
+    <Object Type="File" Description="Application specific UDP PVs">udpApp.var</Object>
+    <Object Type="Package" Description="A package of related programs and data objects.">cJSON</Object>
+    <Object Type="Package" Description="UDP Client and Server support.">paiUDPService</Object>
+    <Object Type="Program" Language="ANSIC" Description="Application specific UDP logic">udpApp</Object>
+    <Object Type="Program" Language="ANSIC" Description="A new program">udpsimonly</Object>
+    <Object Type="Package" Description="An empty package">sscanf2</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Time1">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[PLC_Unit]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="None"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="None"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en">
+      <Text ID="299669" Value=""/>
+      <Text ID="299670" Value=""/>
+      <Text ID="299671" Value=""/>
+      <Text ID="299672" Value="10ms"/>
+      <Text ID="299673" Value="x10ms"/>
+      <Text ID="299674" Value="ms"/>
+      <Text ID="299675" Value="ms"/>
+      <Text ID="299676" Value="100ms"/>
+      <Text ID="299677" Value="x100ms"/>
+      <Text ID="299678" Value="sec"/>
+      <Text ID="299679" Value="s"/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="299669" Value=""/>
+      <Text ID="299670" Value=""/>
+      <Text ID="299671" Value=""/>
+      <Text ID="299672" Value=""/>
+      <Text ID="299673" Value=""/>
+      <Text ID="299674" Value=""/>
+      <Text ID="299675" Value=""/>
+      <Text ID="299676" Value=""/>
+      <Text ID="299677" Value=""/>
+      <Text ID="299678" Value=""/>
+      <Text ID="299679" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="299669" Value=""/>
+      <Text ID="299670" Value=""/>
+      <Text ID="299671" Value=""/>
+      <Text ID="299672" Value=""/>
+      <Text ID="299673" Value=""/>
+      <Text ID="299674" Value=""/>
+      <Text ID="299675" Value=""/>
+      <Text ID="299676" Value=""/>
+      <Text ID="299677" Value=""/>
+      <Text ID="299678" Value=""/>
+      <Text ID="299679" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es">
+      <Text ID="299669" Value=""/>
+      <Text ID="299670" Value=""/>
+      <Text ID="299671" Value=""/>
+      <Text ID="299672" Value=""/>
+      <Text ID="299673" Value=""/>
+      <Text ID="299674" Value=""/>
+      <Text ID="299675" Value=""/>
+      <Text ID="299676" Value=""/>
+      <Text ID="299677" Value=""/>
+      <Text ID="299678" Value=""/>
+      <Text ID="299679" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr">
+      <Text ID="299669" Value=""/>
+      <Text ID="299670" Value=""/>
+      <Text ID="299671" Value=""/>
+      <Text ID="299672" Value=""/>
+      <Text ID="299673" Value=""/>
+      <Text ID="299674" Value=""/>
+      <Text ID="299675" Value=""/>
+      <Text ID="299676" Value=""/>
+      <Text ID="299677" Value=""/>
+      <Text ID="299678" Value=""/>
+      <Text ID="299679" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-BR">
+      <Text ID="299669" Value=""/>
+      <Text ID="299670" Value=""/>
+      <Text ID="299671" Value=""/>
+      <Text ID="299672" Value=""/>
+      <Text ID="299673" Value=""/>
+      <Text ID="299674" Value=""/>
+      <Text ID="299675" Value=""/>
+      <Text ID="299676" Value=""/>
+      <Text ID="299677" Value=""/>
+      <Text ID="299678" Value=""/>
+      <Text ID="299679" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt">
+      <Text ID="299669" Value=""/>
+      <Text ID="299670" Value=""/>
+      <Text ID="299671" Value=""/>
+      <Text ID="299672" Value=""/>
+      <Text ID="299673" Value=""/>
+      <Text ID="299674" Value=""/>
+      <Text ID="299675" Value=""/>
+      <Text ID="299676" Value=""/>
+      <Text ID="299677" Value=""/>
+      <Text ID="299678" Value=""/>
+      <Text ID="299679" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv">
+      <Text ID="299669" Value=""/>
+      <Text ID="299670" Value=""/>
+      <Text ID="299671" Value=""/>
+      <Text ID="299672" Value=""/>
+      <Text ID="299673" Value=""/>
+      <Text ID="299674" Value=""/>
+      <Text ID="299675" Value=""/>
+      <Text ID="299676" Value=""/>
+      <Text ID="299677" Value=""/>
+      <Text ID="299678" Value=""/>
+      <Text ID="299679" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="299669" Value="0"/>
+      <Index ID="299670" Value="1"/>
+      <Index ID="299671" Value="2"/>
+      <Index ID="299672" Value="3"/>
+      <Index ID="299673" Value="4"/>
+      <Index ID="299674" Value="5"/>
+      <Index ID="299675" Value="6"/>
+      <Index ID="299676" Value="7"/>
+      <Index ID="299677" Value="8"/>
+      <Index ID="299678" Value="9"/>
+      <Index ID="299679" Value="10"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="PLC_Unit">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="t10ms">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="2"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="100"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="ms">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="6"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="5"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1000"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="t100ms">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="3"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="8"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="7"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="10"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="sec">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="4"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="10"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="9"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+  </Units>
+  <Limits/>
+</UnitGroup>

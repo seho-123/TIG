@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">GlobDef.h</Object>
+    <Object Type="File">GlobDecl.h</Object>
+    <Object Type="File">HMI_Cntrl.c</Object>
+    <Object Type="File">Hardcoded.c</Object>
+    <Object Type="Program" Language="ANSIC" Description="Master program">Main2</Object>
+    <Object Type="Program" Language="ANSIC" Description="Permanent Memory Saving">PermSaving</Object>
+    <Object Type="Program" Language="ANSIC" Description="AVC synchro with OSC">AVC_SYNCH</Object>
+    <Object Type="File">HeadConfig.c</Object>
+    <Object Type="Program" Language="ANSIC">HMI_Report</Object>
+    <Object Type="Program" Language="ANSIC">HMI_M</Object>
+  </Objects>
+</Package>

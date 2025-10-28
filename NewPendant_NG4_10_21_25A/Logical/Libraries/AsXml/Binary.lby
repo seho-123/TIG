@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.31 SP13?>
+<Library Description="The AsXml library supports reading and writing of XML files." xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>AsXml.var</File>
+    <File>AsXml.typ</File>
+    <File>AsXml.fun</File>
+  </Files>
+</Library>

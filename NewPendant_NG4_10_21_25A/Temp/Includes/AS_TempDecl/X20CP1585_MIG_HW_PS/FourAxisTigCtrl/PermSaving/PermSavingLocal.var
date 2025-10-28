@@ -1,0 +1,15 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	KK_test : BOOL;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/FourAxisTigCtrl/PermSaving/PermSaving.c" #2"40" #3"15" *)
+	saveTmr : UINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/FourAxisTigCtrl/PermSaving/PermSaving.c" #2"38" #3"14" *)
+	curCfg : REFERENCE TO CurCfg_typ;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/FourAxisTigCtrl/PermSaving/PermSaving.c" #2"29" #3"20" *)
+	dwIdent : UDINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/FourAxisTigCtrl/PermSaving/PermSaving.c" #2"22" #3"33" *)
+	curCalib : REFERENCE TO CurCalib_typ;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/FourAxisTigCtrl/PermSaving/PermSaving.c" #2"30" #3"22" *)
+	StartPointer : UDINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/FourAxisTigCtrl/PermSaving/PermSaving.c" #2"37" #3"14" *)
+	DataLen : UDINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/FourAxisTigCtrl/PermSaving/PermSaving.c" #2"37" #3"29" *)
+	step : UINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/FourAxisTigCtrl/PermSaving/PermSaving.c" #2"35" #3"13" *)
+	PermName : STRING[31];	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/FourAxisTigCtrl/PermSaving/PermSaving.c" #2"36" #3"18" *)
+END_VAR

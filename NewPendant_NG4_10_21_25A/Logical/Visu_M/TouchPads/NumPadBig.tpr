@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<TouchPad xmlns="http://br-automation.co.at/AS/VC/Project" Name="NumPadBig">
+  <Property Name="BackColor" Value="8"/>
+  <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[CurtiusPads]"/>
+  <Property Name="BitmapIndex" Value="None"/>
+  <Property Name="BitmapOffset" Value="2"/>
+  <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="407"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="NumLevel" Value="1"/>
+  <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[CurtiusPads]"/>
+  <Property Name="PressedBitmapIndex" Value="None"/>
+  <Property Name="PressedBitmapOffset" Value="3"/>
+  <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="333"/>
+  <Controls>
+    <Control ClassId="0x00000500" Name="TouchPadGrid_1">
+      <Property Name="ColumnWidth" Value="82"/>
+      <Property Name="Columns" Value="4"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="402"/>
+      <Property Name="Left" Value="2"/>
+      <Property Name="RowHeight" Value="67"/>
+      <Property Name="Rows" Value="6"/>
+      <Property Name="Top" Value="2"/>
+      <Property Name="Width" Value="328"/>
+    </Control>
+    <Control ClassId="0x0000100E" Name="TouchPadEdit_1">
+      <Property Name="BackColor" Value="231"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_grey]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[A_18_B]"/>
+      <Property Name="ForeColor" Value="233"/>
+      <Property Name="Height" Value="40"/>
+      <Property Name="Left" Value="61"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="Top" Value="50"/>
+      <Property Name="Width" Value="210"/>
+    </Control>
+    <Control ClassId="0x00000501" Name="TouchPadMinMax_1">
+      <Property Name="AlignmentHorizontal" Value="Left"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[A_13]"/>
+      <Property Name="ForeColor" Value="0"/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="13"/>
+      <Property Name="Top" Value="109"/>
+      <Property Name="ValueType" Value="Minimum"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00000501" Name="TouchPadMinMax_2">
+      <Property Name="AlignmentHorizontal" Value="Right"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[A_13]"/>
+      <Property Name="ForeColor" Value="0"/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="201"/>
+      <Property Name="Top" Value="109"/>
+      <Property Name="ValueType" Value="Maximum"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+  </Controls>
+  <PanelItems>
+    <PanelItem Index="1">
+      <KeyLevels/>
+    </PanelItem>
+    <PanelItem Index="2">
+      <KeyLevels/>
+    </PanelItem>
+    <PanelItem Index="3">
+      <KeyLevels/>
+    </PanelItem>
+    <PanelItem Index="4">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_CANCEL"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="5">
+      <KeyLevels/>
+    </PanelItem>
+    <PanelItem Index="6">
+      <KeyLevels/>
+    </PanelItem>
+    <PanelItem Index="7">
+      <KeyLevels/>
+    </PanelItem>
+    <PanelItem Index="8">
+      <KeyLevels/>
+    </PanelItem>
+    <PanelItem Index="9">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ALPHA_7"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="10">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ALPHA_8"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="11">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ALPHA_9"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="12">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_BACKSPACE"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="13">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ALPHA_4"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="14">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ALPHA_5"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="15">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ALPHA_6"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="16">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_SIGN_CHANGE"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="17">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ALPHA_1"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="18">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ALPHA_2"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="19">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ALPHA_3"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="20">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ENTER"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="21">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ALPHA_0"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="22">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ALPHA_0"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="23">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ALPHA_DOT"/>
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="24">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="TP_ENTER"/>
+      </KeyLevels>
+    </PanelItem>
+  </PanelItems>
+</TouchPad>

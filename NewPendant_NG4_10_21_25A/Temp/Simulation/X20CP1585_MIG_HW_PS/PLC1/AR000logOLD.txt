@@ -1,0 +1,36 @@
+Fri Sep 19 08:57:24 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Fri Sep 19 08:57:24 2025
+No ARsim registration found!
+
+Fri Sep 19 08:57:24 2025
+InstanceName: 000000003a981173
+
+Fri Sep 19 08:57:24 2025
+WorkingDirectory: C:\projects\AZZ\TIG_NG4\UnivCntrl_NewPendant\Temp\Simulation\X20CP1585_MIG_HW_PS\PLC1\
+
+Fri Sep 19 08:57:24 2025
+COMMAND_COLDSTART
+
+Fri Sep 19 08:57:26 2025
+Version: J4.93
+
+Fri Sep 19 09:48:51 2025
+COMMAND_TERMINATE
+
+Fri Sep 19 09:48:51 2025
+COMMAND_COLDSTART
+
+Fri Sep 19 09:48:53 2025
+Version: J4.93
+
+Fri Sep 19 09:49:04 2025
+COMMAND_TERMINATE
+
+Fri Sep 19 09:49:04 2025
+COMMAND_COLDSTART
+
+Fri Sep 19 09:49:06 2025
+Version: J4.93
+

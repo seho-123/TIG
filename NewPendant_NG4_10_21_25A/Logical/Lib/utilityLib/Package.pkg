@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.7.54 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">bgdebug.h</Object>
+    <Object Type="File">bgringbuffer.c</Object>
+    <Object Type="File">bgringbuffer.h</Object>
+    <Object Type="File">bgsprintf.c</Object>
+    <Object Type="File">bgsprintf.h</Object>
+    <Object Type="File">bgstring.c</Object>
+    <Object Type="File">bgstring.h</Object>
+    <Object Type="File">libRingBuffer.c</Object>
+    <Object Type="File">libRingBuffer.h</Object>
+  </Objects>
+</Package>

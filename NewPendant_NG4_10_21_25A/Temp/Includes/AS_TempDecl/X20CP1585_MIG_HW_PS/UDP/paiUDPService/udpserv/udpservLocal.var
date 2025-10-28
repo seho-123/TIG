@@ -1,0 +1,7 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	log : ARRAY[0..19] OF STRING[31];	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/UDP/paiUDPService/udpserv/udpserv.c" #2"76" #3"15" *)
+END_VAR

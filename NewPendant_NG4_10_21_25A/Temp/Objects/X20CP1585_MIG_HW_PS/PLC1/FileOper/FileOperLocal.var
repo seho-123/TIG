@@ -1,0 +1,26 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	KK_test : BOOL;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"50" #3"15" *)
+	SetupLocation : UDINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"43" #3"14" *)
+	_fileName : STRING[63];	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"39" #3"18" *)
+	load_after_save : USINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"40" #3"14" *)
+	CalibrSize : UDINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"45" #3"31" *)
+	KK_OneShot : BOOL;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"55" #3"15" *)
+	CMD_from_Obed : STRING[127];	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"54" #3"18" *)
+	pos : UDINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"41" #3"14" *)
+	status_xml : DINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"35" #3"20" *)
+	WriteMode : UINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"37" #3"13" *)
+	topName : STRING[63];	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"34" #3"18" *)
+	CalibrLocation : UDINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"45" #3"14" *)
+	SetupSize : UDINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"43" #3"30" *)
+	pFileRW : REFERENCE TO FILE_RW_typ;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"30" #3"21" *)
+	KK_Chain : ARRAY[0..31] OF USINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"51" #3"14" *)
+	SetupFullSize : UDINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"44" #3"34" *)
+	SetupFullLocation : UDINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"44" #3"14" *)
+	ReadMode : UINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"36" #3"13" *)
+	KK_Chain_Indx : USINT;	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"51" #3"29" *)
+	byData : STRING[99];	(* #1"C:/projects/NG4_TIG/NewPendant_NG4_10_21_25A/Logical/Universal/FileOper/FileOper.c" #2"33" #3"18" *)
+END_VAR

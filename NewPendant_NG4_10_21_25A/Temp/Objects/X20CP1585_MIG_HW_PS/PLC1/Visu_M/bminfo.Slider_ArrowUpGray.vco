@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="Slider_ArrowUpGray" ClsId="0x306" Version="1" TargetIndex="453" Type="GFX" RefString="Source[local].Bitmap[Slider_ArrowUpGray]">
+        <UInt16 Name="Width">20</UInt16>
+        <UInt16 Name="Height">23</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANQSURBVEhLnZRrTxtHFIb9K/I//L9SaUKaNBQ1yOAb+LZeSEAWVT8hNaosPkRyLGzhrKgthBeBMdjGLKwN5k6CufMB8VbvQTYG0ib0SKMdzc48854z5xyH4ztmFkrqzw/xsQ9/xccKxYp6+P9JNmPOq1AkiufPf8KLFy/xfjSG+WLp/0Gnc7PK4xvAz69eY3R0BLFYDG/f9iKqv8OsWXgaNG3kVL/bK7Dx8XEUCgUsLS1hYmICrr5+hDUduRnzx6DJdEb19Xvw6vUviMfjKJVKKJfLWFtbQ31jA6lUCl6vFwyFMT3z71DLsp4lJ9Oq19WH7jfdSCQSWF1dhWVZWF5elvn+/r6MbDYLv9+PYCiMzHTuMZSwRHJS9fzWK3GamppCrVZDvV4XEIEEE3Z0dITDw0OY+TyCoSB8AwFkjJyyrJ1nbdjHRFK96emBx+NBNvs3tre3ZRBKIN1eX18X4JevX3F8fCxjYWEBuj4Ej8+PdGb6Fvr5c9bJmIVCIeTzeVHAQ1tbWwKkskql0gZSHfecn5/j8vJS1DMDQuEIsrMLTkcimVZ8Ocbl+voaZ2dnODg4EIV0uQ207XvAk5MTXF1d4ebmBqZpwu8fgJGbUQ5K1jRNDtC48b+BX9pAqqRxX1QfFvcF6Ha7xb0WkCqeBNzYQGBw8A5IuYwR7fT0VICPYtjhcvOoKfsuLi7kjF2rIRwO3wH5IDzY6XILyFd+CHyokGKi0ei3gUwHAhuNhkCqq1WUK+XvAnW9AxgMBKS0aM1mUw7eA5bLj9KGFzMjBGjb0LTIHZD+0zUaN+/u7mJzc1MgKysrkti8kOtUzzzlxYzjnUIdY7EYHBMfE4qPUiwW5Wfng7Ti1yq9nZ0d7O3ttVW2gNxDUemMoRxsCOwsyU+f2vF7CKRCArneqZJxpNuGYUhbY007crOmVApzMZ1KycFW/S4uLkq9zs3NSTWwJ9I9xoy5x7AQFolo0IdGYM4XlaNq287EZFq5PV50dXXB5XIhGAxgcHBAWpTP55OmwUv55RoHXWRf7O7+FRFtCOzwVbvhlI7DyWTaUO9Hboucbf52DN+bR7RhhCO6NFeuadEhjP3+B4xv9US7se+07E1VqliqWKr+0KhYtrLrW/dg/wDK7ud1WFEzGQAAAABJRU5ErkJggg==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

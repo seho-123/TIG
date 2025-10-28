@@ -1,0 +1,1080 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GlobalConfig>
+  <Screens>
+    <Screen Name="MainMenuScreen" Label="Main Menu" Type="Menu">
+      <Menu NumberOfColumns="3">
+        <SF>
+          <Action>WeldWizardMenuScreen</Action>
+          <Text>Weld Wizard</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Errors</Text>
+          <HeadID>P_ERRORS</HeadID>
+        </SF>
+        <SF>
+          <Action>LoginScreen</Action>
+          <Text>Login</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Logs</Text>
+          <HeadID>P_LOGS</HeadID>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Diagnostics</Text>
+          <HeadID>P_DIAGNOSTIC</HeadID>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Global Settings</Text>
+          <HeadID>P_PARAM_GLOBAL</HeadID>
+        </SF>
+        <SF>
+          <Action>CalibrationMenuScreen</Action>
+          <Text>Main Calibration</Text>
+          <MinUserLevel>1</MinUserLevel>
+        </SF>
+        <SF>
+          <Action>HelpScreen</Action>
+          <Text>Help</Text>
+        </SF>
+        <SF>
+          <Action>ExitToOS</Action>
+          <Text>Exit to OS</Text>
+          <MinUserLevel>11</MinUserLevel>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text></Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text></Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text></Text>
+        </SF>
+      </Menu>
+      <Buttons>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF1 Text</Text>
+        </SF>
+        <SF>
+          <Action>AlternateRunScreen</Action>
+          <Text>Run</Text>
+        </SF>
+        <SF>
+          <Action>RunScreen</Action>
+          <Text>Alternate Run</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF5</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF6</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF7</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF8</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="WeldWizardMenuScreen" Label="Weld Wizard" Type="Menu">
+      <Menu NumberOfColumns="2">
+        <SF>
+          <Action>FileManagementScreen</Action>
+          <Text>File Management</Text>
+        </SF>
+        <SF>
+          <Action>TimingModeConfigurationScreen</Action>
+          <Text>Start/Stop Overlap</Text>
+        </SF>
+        <SF>
+          <Action>ProgramLinkerScreen</Action>
+          <Text>Program Linker</Text>
+        </SF>
+        <SF>
+          <Action>SegmentEditorScreen</Action>
+          <Text>Segment Editor</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Applic. Data</Text>
+          <HeadID>P_PARAM_APPL</HeadID>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <HeadID>P_MODE_TRACK_CALIB_PAR</HeadID>
+          <Text>Track Mapping</Text>
+        </SF>
+        <SF>
+          <Action>FileExplorerScreen</Action>
+          <Text>File Explorer</Text>
+        </SF>
+        <SF>
+          <Action>HelpScreen</Action>
+          <Text>Help</Text>
+        </SF>
+      </Menu>
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>AlternateRunScreen</Action>
+          <Text>Run</Text>
+        </SF>
+        <SF>
+          <Action>RunScreen</Action>
+          <Text>Alternate Run</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF5 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF6 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF7 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF8 Text</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="DrillDownScreen" Label="Drill Down" Type="DrillDown">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>AlternateRunScreen</Action>
+          <Text>Run</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF4 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF5 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF6 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF7 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF8 Text</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="AlternateRunScreen" Label="Run" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Screen</Text>
+          <PLCEventCode>47</PLCEventCode>
+        </SF>
+        <SF>
+          <Action>SegmentEditorScreen</Action>
+          <Text>Segment Editor</Text>
+        </SF>
+        <SF>
+          <Action>RunScreen</Action>
+          <Text>Alternate Run</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>SendEvent</Action>
+          <Text>GAS ON/OFF</Text>
+          <PopUpTitle>cd</PopUpTitle>
+          <PLCEventCode>46</PLCEventCode>
+        </SF>
+        <SF>
+          <Action>SendEvent</Action>
+          <Text>OSC Test</Text>
+          <PLCEventCode>45</PLCEventCode>
+        </SF>
+        <SF>
+          <Action>SendEvent</Action>
+          <Text>Test ON/OFF</Text>
+          <PopUpType>0</PopUpType>
+          <PopUpTitle>cd</PopUpTitle>
+          <PLCEventCode>51</PLCEventCode>
+        </SF>
+        <SF showflyout="yes">
+          <Action>SendEvent</Action>
+          <MinUserLevel>0</MinUserLevel>
+          <Text>Kbd Func</Text>
+          <PopUpType>0</PopUpType>
+          <PopUpTitle>Save Current Program</PopUpTitle>
+          <PopUpText>Do You Want to Save to File ?</PopUpText>
+          <PLCEventCode>70</PLCEventCode>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="RunScreen" Label="Alternate Run" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Screen</Text>
+          <PLCEventCode>47</PLCEventCode>
+        </SF>
+        <SF>
+          <Action>SegmentEditorScreen</Action>
+          <Text>Segment Editor</Text>
+        </SF>
+        <SF>
+          <Action>AlternateRunScreen</Action>
+          <Text>Run</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>SendEvent</Action>
+          <Text>Set ZERO</Text>
+          <PopUpType>0</PopUpType>
+          <PopUpTitle>ZERO MACHINE</PopUpTitle>
+          <PopUpText>Do You Want to Set New Zero ?</PopUpText>
+          <PLCEventCode>44</PLCEventCode>
+        </SF>
+        <SF>
+          <Action>SendEvent</Action>
+          <Text>Step REV</Text>
+          <PLCEventCode>49</PLCEventCode>
+        </SF>
+        <SF>
+          <Action>SendEvent</Action>
+          <Text>Step FWD</Text>
+          <PopUpType>0</PopUpType>
+          <PLCEventCode>48</PLCEventCode>
+        </SF>
+        <SF>
+          <Action>SendEvent</Action>
+          <Text>Swap Head</Text>
+          <PopUpType>0</PopUpType>
+          <PLCEventCode>50</PLCEventCode>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="ParameterValueScreen" Label="Parameter Value" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>AlternateRunScreen</Action>
+          <Text>Run</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>DecreaseSegment</Action>
+          <Text>Segment  -</Text>
+        </SF>
+        <SF>
+          <Action>IncreaseSegment</Action>
+          <Text>Segment  +</Text>
+        </SF>
+        <SF>
+          <Action>DecreaseValue</Action>
+          <Text>Value       -</Text>
+        </SF>
+        <SF>
+          <Action>IncreaseValue</Action>
+          <Text>Value       +</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="CalibrationMenuScreen" Label="Calibration Menu" Type="Menu">
+      <Menu NumberOfColumns="3">
+        <SF>
+          <Action>CalibrationDrillDownScreen</Action>
+          <HeadID>P_MODE_TIG_PS_CALIB_PAR</HeadID>
+          <Text>TIG Power Supply Calibrate</Text>
+        </SF>
+        <SF>
+          <Action>CalibrationDrillDownScreen</Action>
+          <HeadID>P_MODE_HW_PS_CALIB_PAR</HeadID>
+          <Text>HW Power Supply Calibrate</Text>
+        </SF>
+        <SF>
+          <Action>CalibrationDrillDownScreen</Action>
+          <HeadID>P_MODE_TVL_CALIB_PAR</HeadID>
+          <Text>Travel Speed Calibrate</Text>
+        </SF>
+        <SF>
+          <Action>CalibrationDrillDownScreen</Action>
+          <HeadID>P_MODE_WF_CALIB_PAR</HeadID>
+          <Text>Wire Feed Calibrate</Text>
+        </SF>
+        <SF>
+          <Action>CalibrationDrillDownScreen</Action>
+          <HeadID>P_MODE_TIG_FBK_CALIB</HeadID>
+          <Text>Arc Volt Feedback</Text>
+        </SF>
+        <SF>
+          <Action>CalibrationDrillDownScreen</Action>
+          <HeadID>P_MODE_OSC_LIMIT_CALIB</HeadID>
+          <Text>OSC Limit Calibration</Text>
+        </SF>
+        <SF>
+          <Action>CalibrationDrillDownScreen</Action>
+          <HeadID>P_MODE_INDX_CALIB</HeadID>
+          <Text>INDEX Calibration</Text>
+        </SF>
+      </Menu>
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>AlternateRunScreen</Action>
+          <Text>Run</Text>
+        </SF>
+        <SF>
+          <Action>CalibrationMenuScreen</Action>
+          <Text>Main Calibration</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF5 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF6 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF7 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF8 Text</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="CalibrationDrillDownScreen" Label="Calibration Drill Down" Type="DrillDown">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>AlternateRunScreen</Action>
+          <Text>Run</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF5 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF6 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF7 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF8 Text</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="LoginScreen" Label="Login" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>AlternateRunScreen</Action>
+          <Text>Run</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF3 Text</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF5 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF6 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF7 Text</Text>
+        </SF>
+        <SF>
+          <Action>Logout</Action>
+          <Text>Log Out</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="RunModeConfigurationScreen" Label="Run Mode Config" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>AlternateRunScreen</Action>
+          <Text>Run</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF5 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF6 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF7 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF8 Text</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="HeadConfigurationScreen" Label="Head Config" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>AlternateRunScreen</Action>
+          <Text>Run</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF5 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF6 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF7 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF8 Text</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="TimingModeConfigurationScreen" Label="Timing Mode" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>None</Action>
+          <Text>Help</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF5 Text</Text>
+        </SF>
+        <SF>
+          <Action>TestAlert2</Action>
+          <Text>Apply Times</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF7 Text</Text>
+        </SF>
+        <SF>
+          <Action>SendEvent</Action>
+          <MinUserLevel>5</MinUserLevel>
+          <Text>SAVE</Text>
+          <PopUpType>2</PopUpType>
+          <PopUpTitle>Save Current Program</PopUpTitle>
+          <PopUpText>Do You Want to Save to File ?</PopUpText>
+          <PLCEventCode>47</PLCEventCode>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="HelpScreen" Label="Help" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF2 Text</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>Last</Action>
+          <Text>Last</Text>
+        </SF>
+        <SF>
+          <Action>Previous</Action>
+          <Text>Previous</Text>
+        </SF>
+        <SF>
+          <Action>Next</Action>
+          <Text>Next</Text>
+        </SF>
+        <SF>
+          <Action>First</Action>
+          <Text>First</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="FileManagementScreen" Label="File Management" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>AlternateFileManagementScreen</Action>
+          <Text>Alternate File Mgmt</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>Delete</Action>
+          <Text>Delete</Text>
+          <MinUserLevel>1</MinUserLevel>
+        </SF>
+        <SF>
+          <Action>Copy</Action>
+          <Text>Copy</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <MinUserLevel>5</MinUserLevel>
+          <Text>SAVE</Text>
+          <PopUpType>2</PopUpType>
+          <PopUpTitle>Save Current Program</PopUpTitle>
+          <PopUpText>Do You Want to Save to File ?</PopUpText>
+          <PLCEventCode>47</PLCEventCode>
+        </SF>
+        <SF>
+          <Action>Load</Action>
+          <Text>Load</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="AlternateFileManagementScreen" Label="Alternate File Management" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>FileManagementScreen</Action>
+          <Text>File Management</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>SendEvent</Action>
+          <MinUserLevel>5</MinUserLevel>
+          <Text>SAVE STATE AS</Text>
+          <PopUpType>2</PopUpType>
+          <PopUpTitle>Save As State</PopUpTitle>
+          <PopUpText>Do You Want to Save binary ?</PopUpText>
+          <PLCEventCode>57</PLCEventCode>
+        </SF>
+        <SF>
+          <Action>SendEvent</Action>
+          <MinUserLevel>5</MinUserLevel>
+          <Text>SAVE SETUP AS</Text>
+          <PopUpType>2</PopUpType>
+          <PopUpTitle>Save Current Program Setup</PopUpTitle>
+          <PopUpText>Do You Want to Save binary ?</PopUpText>
+          <PLCEventCode>56</PLCEventCode>
+        </SF>
+        <SF>
+          <Action>SaveAs</Action>
+          <Text>Save As</Text>
+        </SF>
+        <SF>
+          <Action>Rename</Action>
+          <Text>Rename</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="ProgramLinkerScreen" Label="Program Linker" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF2 Text</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF5 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF6 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF7 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF8 Text</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="FileSelectScreen" Label="File Select" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF1 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF2 Text</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF4 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF5 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF6 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF7 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF8 Text</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="FilenameScreen" Label="File Name" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF1 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF2 Text</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF4 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF5 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF6 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF7 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF8 Text</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <!--<Screen Name="SegmentEditorScreen" Label="Segment Editor" Type="Custom" DisplaySideButtons="False"> -->
+    <Screen Name="SegmentEditorScreen" Label="Segment Editor" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <MinUserLevel>0</MinUserLevel>
+          <Text>Main Screen</Text>
+        </SF>
+        <SF>
+          <Action>AlternateRunScreen</Action>
+          <Text>Run</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF5 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF6 Text</Text>
+        </SF>
+        <SF>
+          <Action>Hidden</Action>
+          <Text>SF7 Text</Text>
+        </SF>
+        <SF>
+          <Action>SendEvent</Action>
+          <MinUserLevel>5</MinUserLevel>
+          <Text>SAVE</Text>
+          <PopUpType>2</PopUpType>
+          <PopUpTitle>Save Current Program</PopUpTitle>
+          <PopUpText>Do You Want to Save to File ?</PopUpText>
+          <PLCEventCode>47</PLCEventCode>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="FileExplorerScreen" Label="File Explorer" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>FTPFileExplorerScreen</Action>
+          <Text>FTP PLC</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>F1</Action>
+          <Text>F1</Text>
+        </SF>
+        <SF>
+          <Action>F2</Action>
+          <Text>F2</Text>
+        </SF>
+        <SF>
+          <Action>F3</Action>
+          <Text>F3</Text>
+        </SF>
+        <SF>
+          <Action>F4</Action>
+          <Text>F4</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+    <Screen Name="FTPFileExplorerScreen" Label="FTP Explorer" Type="Custom">
+      <Buttons>
+        <SF>
+          <Action>MainMenuScreen</Action>
+          <Text>Main Menu</Text>
+        </SF>
+        <SF>
+          <Action>FileExplorerScreen</Action>
+          <Text>FTP LOCAL</Text>
+        </SF>
+        <SF>
+          <Action>Back</Action>
+          <Text>Back</Text>
+        </SF>
+        <SF>
+          <Action>DrillDownScreen</Action>
+          <Text>Drill-Down</Text>
+          <HeadID>P_MENU</HeadID>
+        </SF>
+        <SF>
+          <Action>F1</Action>
+          <Text>F1</Text>
+        </SF>
+        <SF>
+          <Action>F2</Action>
+          <Text>F2</Text>
+        </SF>
+        <SF>
+          <Action>F3</Action>
+          <Text>F3</Text>
+        </SF>
+        <SF>
+          <Action>F4</Action>
+          <Text>F4</Text>
+        </SF>
+      </Buttons>
+    </Screen>
+  </Screens>
+  <PVIAlternateRunScreen>
+    <PVI Name="varINT_curZone" LabelText="Cur SEGMENT"></PVI>
+    <PVI Name="varINT_CurTVLPos" LabelText="Torch Pos" />
+    <PVI Name="varSTRING_curProgramName" LabelText="Program" />
+    <PVI Name="varOSC_Amplit_Cmd" LabelText="OSC AMPL. CMD" />
+    <PVI Name="varTIG_Amp_Cmd" LabelText="ARC AMP CMD" />
+    <PVI Name="varOSC_Centr" LabelText="OSC CENTER"></PVI>
+    <PVI Name="varTVL_Vel_Cmd" LabelText="TVL SPEED CMD" />
+    <PVI Name="varOSC_ExcurTm_Cmd" LabelText="Excur. CMD" />
+    <PVI Name="varWF_Vel_Cmd" LabelText="WIRE SPEED CMD"></PVI>
+    <PVI Name="varOSC_Dwell_In_Cmd" LabelText="OSC Dwell In"></PVI>
+    <PVI Name="varArc_Volt_Cmd" LabelText="AVC VOLT CMD"></PVI>
+    <PVI Name="varOSC_Dwell_Out_Cmd" LabelText="OSC Dwell Out"></PVI>
+  </PVIAlternateRunScreen>
+  <PVIRunScreen>
+    <PVI Name="varCurTIG_Amp" LabelText="ARC AMP "></PVI>
+    <PVI Name="varSTRING_curProgramName" LabelText="Program" />
+    <PVI Name="varOSC_Centr" LabelText="OSC CENTER"></PVI>
+    <PVI Name="varSTRING_NextProgramName" LabelText="Next Program" />
+    <PVI Name="parTVL_RunDist" LabelText="TVL Dist."></PVI>
+    <PVI Name="varSTRING_HMI_0" LabelText="Load Next Prg." />
+    <PVI Name="parTVL_OverlapDist" LabelText="TVL Overlap Dist." />
+    <PVI Name="varINT_curZone" LabelText="Cur SEGMENT"></PVI>
+    <PVI Name="varINT_CurTVLPos" LabelText="Torch Pos" />
+    <PVI Name="varSTRING_HMI_1" LabelText="Swap Head" />
+    <PVI Name="varCurArc_Volt" LabelText="Cur. ARC Volt" />
+  </PVIRunScreen>
+  <RunModeConfiguration>
+    <PVI Name="parOSC_JogSpeed" LabelText="OSC Jog Speed" />
+    <PVI Name="parOSC_MaxTvlVel" LabelText="Max TVL Speed" />
+    <PVI Name="parAVC_TouchVolt" LabelText="AVC TOUCH VOLT" />
+    <PVI Name="parAVC_TouchTm" LabelText="AVC Touch Time" />
+    <PVI Name="parAVC_TRetractTm" LabelText="AVC Retract Tm" />
+    <PVI Name="parAVC_TouchRepeat" LabelText="AVC Retry Cnt" />
+  </RunModeConfiguration>
+  <HeadConfiguration>
+    <PVI Name="parOSC_StartDly" LabelText="OSC START DLY" />
+    <PVI Name="parOSC_RampUp" LabelText="OSC UPSLOPE TM" />
+    <PVI Name="parOSC_Amplit" LabelText="OSC WIDTH" />
+    <PVI Name="parOSC_FinalAmplit" LabelText="OSC FINAL WIDTH" />
+    <PVI Name="parOSC_InitAmplit" LabelText="OSC INITIAL WIDTH" />
+    <PVI Name="parOSC_StopDly" LabelText="OSC DOWNSLOPE DLY" />
+  </HeadConfiguration>
+  <TimingConfiguration>
+    <Modes>
+      <!-- -->
+      <TimingMode Mode="0" Name="Advanced Timing" ImageFileName="TimingModeStandard.png">
+        <!--
+		      <Variables>
+          			<TimingVariable Name="T0_TVL_StartDly" Value="3.0" Step="0.1" Min="1" Max="3" />
+           			<TimingVariable Name="T1_WF_StartDly" Value="5.0" Step="0.2" Min="2" Max="5" />
+           			<TimingVariable Name="T3_DS_StartDly" Value="7.1" Step="0.1" Min="3" Max="8" />
+           			<TimingVariable Name="T4_TVL_StoptDly" Value="9.8" Step="0.5" Min="4" Max="13" />
+           			<TimingVariable Name="GAS_PostPurgeTm" Value="5.0" Step="0.1" Min="5" Max="16" />
+           			<TimingVariable Name="UpSlope" Value="7.0" Step="1.0" Min="1" Max="50" />
+           			<TimingVariable Name="RampUp" Value="3.8" Step="1.0" Min="1" Max="50" />
+           			<TimingVariable Name="DownSlope" Value="2.4" Step="1.5" Min="1" Max="50" />
+           			<TimingVariable Name="RampDown" Value="1.5" Step="2.0" Min="1" Max="50" />    
+       			</Variables>
+       			
+       			-->
+        <Variables>
+          <TimingVariable Name="T0_TVL_StartDly (sec)" Value="3.0" Step="0.1" Min="1" Max="3" />
+          <TimingVariable Name="T1_WF_StartDly" Value="0.5" Step="0.1" Min="2" Max="5" />
+          <TimingVariable Name="UpSlope (sec)" Value="7.0" Step="0.1" Min="1" Max="50" />
+          <TimingVariable Name="T3_DS_StartDly (sec)" Value="0.1" Step="0.1" Min="3" Max="8" />
+          <TimingVariable Name="T4_TVL_StoptDly (sec)" Value="1.0" Step="0.1" Min="4" Max="13" />
+          <TimingVariable Name="DownSlope (sec)" Value="4.0" Step="0.1" Min="1" Max="50" />
+          <TimingVariable Name="GAS_PostPurgeTm (sec)" Value="5.0" Step="0.1" Min="5" Max="16" />
+        </Variables>
+      </TimingMode>
+      <TimingMode Mode="1" Name="Stationary Up-Slope and Down-Slope" ImageFileName="TimingModeStationaryUpDown.png">
+        <Variables>
+          <TimingVariable Name="UpSlope (sec)" Value="5.0" Step="0.1" Min="1" Max="50" />
+          <TimingVariable Name="Wire Ramp (sec)" Value="3.0" Step="0.1" Min="1" Max="50" />
+          <TimingVariable Name="DownSlope (sec)" Value="3.0" Step="0.1" Min="1" Max="50" />
+          <TimingVariable Name="GAS_PostPurgeTm (sec)" Value="9.0" Step="0.1" Min="5" Max="16" />
+        </Variables>
+      </TimingMode>
+      <TimingMode Mode="2" Name="Stationary Up-Slope and Tailing Down-Slope" ImageFileName="TimingModeStationaryUpTrailing.png">
+        <Variables>
+          <TimingVariable Name="UpSlope (sec)" Value="5" Step="0.1" Min="1" Max="50" />
+          <TimingVariable Name="Wire Ramp (sec)" Value="3" Step="0.1" Min="1" Max="50" />
+          <TimingVariable Name="DownSlope (sec)" Value="3" Step="0.1" Min="1" Max="50" />
+          <TimingVariable Name="GAS_PostPurgeTm (sec)" Value="9.0" Step="0.1" Min="5" Max="16" />
+        </Variables>
+      </TimingMode>
+      <TimingMode Mode="3" Name="High Deposition and Tailing Downslope" ImageFileName="TimingHighDeposition.png">
+        <Variables>
+          <TimingVariable Name="T0_TVL_StartDly (sec)" Value="2.0" Step="0.1" Min="1" Max="3" />
+          <TimingVariable Name="UpSlope (sec)" Value="6.0" Step="0.1" Min="1" Max="50" />
+          <TimingVariable Name="DownSlope (sec)" Value="7.0" Step="0.1" Min="1" Max="50" />
+          <TimingVariable Name="GAS_PostPurgeTm (sec)" Value="9.0" Step="0.1" Min="5" Max="16" />
+        </Variables>
+      </TimingMode>
+      <TimingMode Mode="4" Name="High Deposition with Moving WF Start" ImageFileName="TimingHighDepositionMoving.png">
+        <Variables>
+          <TimingVariable Name="T0_TVL_StartDly (sec)" Value="3.0" Step="0.1" Min="1" Max="3" />
+          <TimingVariable Name="T1_WF_StartDly (sec)" Value="2.0" Step="0.1" Min="2" Max="5" />
+          <TimingVariable Name="UpSlope (sec)" Value="9.8" Step="0.1" Min="1" Max="50" />
+          <TimingVariable Name="DownSlope (sec)" Value="9.8" Step="0.1" Min="1" Max="50" />
+          <TimingVariable Name="GAS_PostPurgeTm (sec)" Value="9.0" Step="0.1" Min="5" Max="16" />
+        </Variables>
+      </TimingMode>
+    </Modes>
+  </TimingConfiguration>
+  <HelpPages>
+    <Page ImageFileName="HelpPage1.png" />
+    <Page ImageFileName="HelpPage2.png" />
+    <Page ImageFileName="HelpPage3.png" />
+    <Page ImageFileName="HelpPage4.png" />
+  </HelpPages>
+  <PilotIcons>
+    <Icon BitPos="0" Enabled="true" Name="TestMode" ActiveFileName="blue_testmode.png" InactiveFileName="gray_testmode.png" Blink="false" />
+    <Icon BitPos="1" Enabled="true" Name="WireFeed" ActiveFileName="blue_wirefeed.png" InactiveFileName="gray_wirefeed.png" Blink="false" />
+    <Icon BitPos="2" Enabled="true" Name="AVC Lock" ActiveFileName="blue_avclockmode.png" InactiveFileName="gray_avclockmode.png" Blink="true" />
+    <Icon BitPos="3" Enabled="true" Name="G" ActiveFileName="blue_pilotIcon_bit3.png" InactiveFileName="gray_pilotIcon_bit3.png" Blink="false" />
+    <Icon BitPos="4" Enabled="true" Name="A" ActiveFileName="blue_pilotIcon_bit4.png" InactiveFileName="gray_pilotIcon_bit4.png" Blink="false" />
+    <Icon BitPos="5" Enabled="true" Name="B" ActiveFileName="blue_pilotIcon_bit5.png" InactiveFileName="gray_pilotIcon_bit5.png" Blink="false" />
+  </PilotIcons>
+  <!-- Navigation Mode for the Segment Editor 1 = Default Navigation, 2 = Cursor Navigation -->
+  <NavigationMode>2</NavigationMode>
+</GlobalConfig>

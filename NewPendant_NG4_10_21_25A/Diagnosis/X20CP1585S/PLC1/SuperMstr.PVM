@@ -1,0 +1,70 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=SuperMstr 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=287 Type=289 Scope=294 Force=165 Index=14 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                       NextProjectConfig                                     DINT    0 "                                                               3"    0    4    1   10    0    0 e,0,proj
+
+                           ProjectConfig                                     DINT    0 "                                                              14"    0    4    1   10    0    0 e,0,proj
+
+                                CurCalib                             CurCalib_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                GenSetup                              DINT[0..31]    0 "                                                               *"    1    4   32    0    0    1         
+                             GenSetup[0]                                     DINT    0 "                                                      1117782016"    2    4    1   10    0    0         
+                             GenSetup[1]                                     DINT    0 "                                                      1117782016"    2    4    1   10    0    0         
+                             GenSetup[2]                                     DINT    0 "                                                               0"    2    4    1   10    0    0         
+                             GenSetup[3]                                     DINT    0 "                                                              15"    2    4    1   10    0    0         
+                             GenSetup[4]                                     DINT    0 "                                                               0"    2    4    1   10    0    0         
+                            GenSetup[11]                                     DINT    0 "                                                      1092616192"    2    4    1   10    0    0         
+                            GenSetup[12]                                     DINT    0 "                                                      1092616192"    2    4    1   10    0    0         
+                            GenSetup[27]                                     DINT    0 "                                                      1092616192"    2    4    1   10    0    0         
+                            GenDintValue                              DINT[0..31]    0 "                                                               *"    1    4   32    0    0    1         
+                        GenDintValue[12]                                     DINT    0 "                                                               0"    2    4    1   10    0    0         
+                      ProjectConfig_Hrdw                                     DINT    0 "                                                               3"    0    4    1   10    0    0 e,0,proj
+
+                ProjectConfig_Hrdw_ERROR                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                       SparePermObjSpace                            USINT[0..155]    0 "                                                               *"    0    5  156    0    0    1         
+                    SparePermObjSpace[0]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                           LCD_Init_Step                                     UINT    0 "                                                              10"    0    6    1   10    1    0         
+                            ColdBootDone                                     UINT    0 "                                                               1"    0    6    1   10    1    0         
+                          LCD_RS232_Main                         SerialPortDriver    0 "                                                               *"    0   24    1    0    1    0         
+                               txRequest                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               txDataLen                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                                  txData                              STRING[255]    0 "                                                               *"    1    9  256    1    0    0         
+                       projectSwitchStep                                     UINT    0 "                                                           65535"    0    6    1   10    1    0         
+                                  Master                         MASTER_typ[0..1]    0 "                                                               *"    0   24    2    0    0    0         
+                               Master[0]                               MASTER_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                   ESTOP                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              pESTOP_Inp                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  motors                            MTR_obj[0..3]    0 "                                                               *"    0   24    4    0    0    0         
+                               motors[0]                                  MTR_obj    0 "                                                               *"    1   24    1    0    0    0         
+                                Hardware                         MTR_HARDWARE_obj    0 "                                                               *"    2   24    1    0    0    0         
+                       PeriodDurationPWM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                           PulseWidthPWM                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                                 Counter                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                      CurrentMeasurement                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                               motors[1]                                  MTR_obj    0 "                                                               *"    1   24    1    0    0    0         
+                                Hardware                         MTR_HARDWARE_obj    0 "                                                               *"    2   24    1    0    0    0         
+                       PeriodDurationPWM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                           PulseWidthPWM                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                                 Counter                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                               motors[2]                                  MTR_obj    0 "                                                               *"    1   24    1    0    0    0         
+                                Hardware                         MTR_HARDWARE_obj    0 "                                                               *"    2   24    1    0    0    0         
+                       PeriodDurationPWM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                           PulseWidthPWM                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                                 Counter                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                               motors[3]                                  MTR_obj    0 "                                                               *"    1   24    1    0    0    0         
+                                Hardware                         MTR_HARDWARE_obj    0 "                                                               *"    2   24    1    0    0    0         
+                       PeriodDurationPWM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                           PulseWidthPWM                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                                 Counter                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                                hardware                             HARDWARE_obj    0 "                                                               *"    0   24    1    0    0    1         
+                                  Inputs                              BOOL[0..31]    0 "                                                               *"    1    1   32    0    0    0         
+                               Inputs[5]                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                 Outputs                              BOOL[0..11]    0 "                                                               *"    1    1   12    0    0    1         
+                              Outputs[0]                                     BOOL    3 "                                                           FALSE"    2    1    1    2    0    0         
+                              Outputs[1]                                     BOOL    3 "                                                           FALSE"    2    1    1    2    0    0         
+                              Outputs[2]                                     BOOL    3 "                                                           FALSE"    2    1    1    2    0    0         
+                              Outputs[7]                                     BOOL    3 "                                                           FALSE"    2    1    1    2    0    0         
+                           AnalogOutputs                                INT[0..3]    0 "                                                               *"    1    3    4    0    0    1         
+                        AnalogOutputs[0]                                      INT    3 "                                                               0"    2    3    1   10    0    0         
+                        AnalogOutputs[1]                                      INT    3 "                                                               0"    2    3    1   10    0    0         
+                        AnalogOutputs[2]                                      INT    3 "                                                           32767"    2    3    1   10    0    0         
+                        AnalogOutputs[3]                                      INT    3 "                                                               0"    2    3    1   10    0    0         

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<ColorMap xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mach_Status_Color">
+  <Property Name="Description" Value="" />
+  <ColorMapItem>
+    <Property Name="BackColor" Value="2" />
+    <Property Name="Description" Value="" />
+    <Property Name="ForeColor" Value="16" />
+    <Property Name="Index" Value="0" />
+  </ColorMapItem>
+  <ColorMapItem>
+    <Property Name="BackColor" Value="40" />
+    <Property Name="Description" Value="" />
+    <Property Name="ForeColor" Value="0" />
+    <Property Name="Index" Value="1" />
+  </ColorMapItem>
+  <ColorMapItem>
+    <Property Name="BackColor" Value="201" />
+    <Property Name="Description" Value="" />
+    <Property Name="ForeColor" Value="16" />
+    <Property Name="Index" Value="2" />
+  </ColorMapItem>
+  <ColorMapItem>
+    <Property Name="BackColor" Value="43" />
+    <Property Name="Description" Value="" />
+    <Property Name="ForeColor" Value="16" />
+    <Property Name="Index" Value="3" />
+  </ColorMapItem>
+  <ColorMapItem>
+    <Property Name="BackColor" Value="87" />
+    <Property Name="Description" Value="" />
+    <Property Name="ForeColor" Value="0" />
+    <Property Name="Index" Value="4" />
+  </ColorMapItem>
+</ColorMap>

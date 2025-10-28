@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/UDP/paiUDPService/paiUDPService.typ
+$(AS_PROJECT_PATH)/Logical/UDP/udpApp.typ
+$(AS_PROJECT_PATH)/Logical/FourAxisTigCtrl/Main2/../../Universal/SuperDeclaration.h
+$(AS_PROJECT_PATH)/Logical/Universal/LincolnPS/../../Lib/WSI_types.h

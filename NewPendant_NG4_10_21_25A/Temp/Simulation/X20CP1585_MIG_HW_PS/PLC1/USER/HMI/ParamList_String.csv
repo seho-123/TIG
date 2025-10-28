@@ -1,0 +1,30 @@
+ValueUL,SetupUL,ChangeUL,Index,EnumText,Name,ShortName,LongName
+0,15,15,0,parSTRING_FreeTXT, FreeText ,,Display variable to displau line of text for messaging on pendant(dynamic)
+0,15,15,2,varSTRING_NextProgramName, Next Program Name ,,Next weld program to be loaded
+0,15,15,3,varSTRING_WelProgramName, Weld Program Name ,,"Current loaded weld program name, used to save variable name on NIDOL"
+0,15,15,4,varSTRING_curProgramName, Current Program Name ,,Current weld program loaded
+0,15,15,5,varSTRING_Password, Password  ,,Current user password
+15,15,15,6,varSTRING_HMI_0, HMI String Line_0 ,  Please  add ShortName , Please  add LongName  
+15,15,15,7,varSTRING_HMI_1, HMI String Line_1 ,  Please  add ShortName , Please  add LongName  
+15,15,15,8,varSTRING_HMI_2, HMI String Line_2 ,  Please  add ShortName , Please  add LongName  
+15,15,15,9,varSTRING_HMI_3, HMI String Line_3 ,  Please  add ShortName , Please  add LongName  
+15,15,15,10,varSTRING_HMI_4, HMI String Line_4 ,  Please  add ShortName , Please  add LongName  
+15,15,15,11,varSTRING_HMI_5, HMI String Line_5 ,  Please  add ShortName , Please  add LongName  
+15,15,15,12,varSTRING_HMI_6, HMI String Line_6 ,  Please  add ShortName , Please  add LongName  
+15,15,15,13,varSTRING_HMI_7, HMI String Line_7 ,  Please  add ShortName , Please  add LongName  
+15,15,15,14,varSTRING_HMI_8, HMI String Line_8 ,  Please  add ShortName , Please  add LongName  
+15,15,15,15,varSTRING_HMI_9, HMI String Line_9 ,  Please  add ShortName , Please  add LongName  
+15,15,15,16,varSTRING_HMI_10, HMI String Line_10 ,  Please  add ShortName , Please  add LongName  
+15,15,15,17,varSTRING_HMI_11, HMI String Line_11 ,  Please  add ShortName , Please  add LongName  
+15,15,15,18,varSTRING_HMI_12, HMI String Line_12 ,  Please  add ShortName , Please  add LongName  
+15,15,15,19,varSTRING_HMI_13, HMI String Line_13 ,  Please  add ShortName , Please  add LongName  
+15,15,15,20,varSTRING_HMI_14, HMI String Line_14 ,  Please  add ShortName , Please  add LongName  
+15,15,15,21,varSTRING_HMI_15, HMI String Line_15 ,  Please  add ShortName , Please  add LongName  
+15,15,15,22,varSTRING_HMI_16, HMI String Line_16 ,  Please  add ShortName , Please  add LongName  
+15,15,15,23,varSTRING_HMI_17, HMI String Line_17 ,  Please  add ShortName , Please  add LongName  
+15,15,15,24,varSTRING_HMI_18, HMI String Line_18 ,  Please  add ShortName , Please  add LongName  
+15,15,15,25,varSTRING_HMI_19, HMI String Line_19 ,  Please  add ShortName , Please  add LongName  
+0,15,15,26,varSTRING_UserName, User Name ,,Current user name
+15,15,15,27,PLC Program Version,  ,  Please  add ShortName , Please  add LongName  
+0,15,15,28,varSTRING_FileName, File Name ,,Current file name
+0,15,15,29,varSTRING_MasteStepTXT, Master State Machine Step ,,"Master state machine, displayed in diagnostic screen"

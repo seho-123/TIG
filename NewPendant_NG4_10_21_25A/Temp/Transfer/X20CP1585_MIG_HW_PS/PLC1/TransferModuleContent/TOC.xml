@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toc Version="2" MinorVersion="0">
+	<Application>
+		<Class Name="Os">
+			<Folder Name="Brm" ProjectDependent="1" IgnoreDifference="0">
+				<File Name="@cfX20CP1585.br" Size="5176" HashValue="22F8A06D2F20498BCC3074ECA3F60AC7" ProjectDependent="1" IgnoreDifference="0" />
+				<File Name="@sbX20CP1585.br" Size="2448" HashValue="F77755FDDAF969293144C15C0AFAF661" ProjectDependent="1" IgnoreDifference="0" />
+			</Folder>
+			<Folder Name="System" ProjectDependent="1" IgnoreDifference="0">
+				<Folder Name="BASE" ProjectDependent="1" IgnoreDifference="0">
+					<Folder Name="COMPONENTS" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="ArLcTextP.br" Size="298204" HashValue="AD2AFA5B8B366E1CD2CF614FBB0E94A0" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="ArUnitSys.br" Size="480512" HashValue="DB2816C69BEF768490166E69FBB2D728" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+					<Folder Name="FW" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="0030#0.bl.gz" Size="34359" HashValue="4E89C62BBDA9586923F8E899686E821A" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+					<Folder Name="HWD" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="AsHwdhw_upl.xml.gz" Size="16565" HashValue="08E771AEF52A7D9A71ED14A5F349867A" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="AsHwdx20cpx58x.xml.gz" Size="17339" HashValue="A9B492B64BD920E07C971EC2B0B833C3" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+				</Folder>
+				<Folder Name="DKM" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="dkm_gdbserver_brelf.out" Size="209224" HashValue="B0837339CE6657CE3B07C3461CE75F5D" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="dkm_gdbserver_ipa.out" Size="30642" HashValue="4E27756735457CE6072ED38D4D8450C1" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="dkm_opcua.out.gz" Size="977391" HashValue="8F0496D3678FDF5B26EC4ACE3F621FDB" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="dkm_rbac.out" Size="27349" HashValue="8DBF960669D152A0F242175FAF88BFE3" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="dkm_scm.out" Size="115866" HashValue="D98801551EF3D7F254249089114406D2" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="dkms.xml" Size="656" HashValue="8317A83A43FD7B4F870F953AE642D75D" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+				<Folder Name="SDM" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="arsdm.tar.gz" Size="506700" HashValue="33B09A5243697DFB88FE4861F4635C93" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+				<Folder Name="TOC" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="ftoc.xml" Size="185" HashValue="5236588FC50BAFD15276E800159B75C0" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+				<Folder Name="WEBSERV" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="ArWebServ.br" Size="108756" HashValue="FDCC8A530C56975B67A6E2B43864AF46" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+			</Folder>
+		</Class>
+		<Class Name="User">
+			<File Name="#2721_BPV2_OSC nowy.sw" Size="3539" HashValue="7D9EEBD20C1D9DA652CA9379356725B9" ProjectDependent="0" IgnoreDifference="0" />
+			<Folder Name="CFG" ProjectDependent="0" IgnoreDifference="0">
+				<File Name="Cfg.txt" Size="493" HashValue="830FE0952AF4CAEDEFAB4EC8C1063435" ProjectDependent="0" IgnoreDifference="0" />
+			</Folder>
+			<Folder Name="Data" ProjectDependent="0" IgnoreDifference="0">
+				<File Name="0021_TVL_U_BEND_ENC.sw" Size="3563" HashValue="5D846AED943B6746A2A11F52E7A506AA" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0022_OSC_U_BEND_ENC.sw" Size="4259" HashValue="49F4026A6C3210FB75E7B3522312B99D" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0023_AVC_U_BEND_ENC.sw" Size="3779" HashValue="290183292A6923AC9CCFD23BEB1BA043" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0222_OSC_FH_ENC.sw" Size="4261" HashValue="FB4AD37E32C4AEC6886D6CC4736BCF16" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0223_AVC_FH_ENC.sw" Size="3758" HashValue="9809D7986EDB2C6F44EEFEA958B86537" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0231_TVL_FH_ENC.sw" Size="3565" HashValue="2B0BA56B038EEE53D55EFE53F008D277" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0322_BPV_OSC.sw" Size="3530" HashValue="B9C94485F1809346086BCBE850942378" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0323_BPV_AVC.sw" Size="6777" HashValue="8C433CBDE5F72EE9E4E100EC02FCD01E" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0325_BPV_WF.sw" Size="5752" HashValue="AA2D2B7E0315B4805F18174CAD171AC7" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0326_BPV_WP.sw" Size="5698" HashValue="F77F20FF8733DAF4B2498A14D19417AB" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0331_BPV_TVL.sw" Size="6163" HashValue="AAA35CE2F41CDF7FA48933F9A1D7FFA0" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0334_BPV_WRST.sw" Size="3531" HashValue="A09AB169237B90AA10BEB2CFB9048C24" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0344_BPV_WRST_OSC.sw" Size="3530" HashValue="AB9857E7266FB98807C2E4CD52D87790" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0354_BPV_WRST_OSC_POT.sw" Size="4461" HashValue="537DF9A234C68F3D1A9AA3AC04757BBA" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0411_TVL_FH_MINI_ENC.sw" Size="3563" HashValue="DB1C306FCA3BB72A285C1A20E70ECF0F" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0412_OSC_FH_MINI_ENC.sw" Size="4253" HashValue="D6A64350BE435AFF74F2D84B1390693E" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="0423_AVC_FH_MINI_ENC.sw" Size="3779" HashValue="2B2518089271C7EAF35ADA51B1F33584" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1021_TVL_U_BEND_ENC_US.sw" Size="5835" HashValue="102609F5D4663D17EAA1ECD79CDCE63D" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1022_OSC_U_BEND_ENC_US.sw" Size="6534" HashValue="B5484DD898F06464930A4FC8392DE2BD" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1023_AVC_U_BEND_ENC_US.sw" Size="6051" HashValue="947B25917E50FD85349DC74C13426F47" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1121_TVL_U_BEND_ENC_US_BEMF.sw" Size="5679" HashValue="31DBE60E9D621ADDF28E2F00F489FF2E" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1122_OSC_U_BEND_ENC_US_BEMF.sw" Size="6393" HashValue="40C5055002641945B9B3A6054364A17A" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1123_AVC_U_BEND_ENC_US_BEMF.sw" Size="6069" HashValue="9C1BBFC7372CC9937284B18722106B9B" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1222_OSC_FH_ENC_US.sw" Size="6535" HashValue="E492768807930FFC8266D764EEBD1FB6" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1223_AVC_FH_ENC_US.sw" Size="6051" HashValue="FA25AAD97B172DA8D619E323612363C9" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1231_TVL_FH_ENC_US.sw" Size="5839" HashValue="AF135821D07C04434C33B769BD3D2C7D" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1322_OSC_FH_ENC_US_BEMF.sw" Size="6438" HashValue="C84DA3F4E9903644FB6E2863328999B0" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1323_AVC_FH_ENC_US_BEMF.sw" Size="6123" HashValue="2133AE869F9A484EB7DFE072E73B8C52" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1331_TVL_FH_ENC_US_BEMF.sw" Size="5712" HashValue="0D2436B7A93F6C7446810ED72980F029" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1354_BPV_WRST_OSC_SPEC.sw" Size="5667" HashValue="1AA20DD1297677A752626AA380B7D9AF" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1411_TVL_FH_MINI_ENC_US.sw" Size="5834" HashValue="EFC75838478930F6D07D76F4CB9B1424" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1412_OSC_FH_MINI_ENC_US.sw" Size="6535" HashValue="A26BB3DD01CEB2EB435F864AC26BBABC" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1423_AVC_FH_MINI_ENC_US.sw" Size="6051" HashValue="1A679750872B35B6B4863F71644A7499" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1521_SMH_OSC.sw" Size="3591" HashValue="C0A4E311142C30E2190614F38F3A6F08" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1522_SMH_WF.sw" Size="3481" HashValue="0610B73F7D1AD36BCDFC00E2377F102A" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1523_SMH_WRST.sw" Size="3599" HashValue="9B8842DEC1E45307747BE81DBBB4304E" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1524_SMH_WP.sw" Size="3481" HashValue="6A26034E687DDF6E2BD78C886E9E8F51" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1525_SMH_TVL.sw" Size="5851" HashValue="81D7DCD922E32A70C8F6A75EF1728E3B" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1526_SMH_AVC.sw" Size="6972" HashValue="CB9EDD660AF5695825FE5DADE9B96088" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1621_BPV2_OSC.sw" Size="3588" HashValue="925C35A5A65E99AFED17781F76B295B8" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1622_BPV2_INDX.sw" Size="3251" HashValue="FE178790497B8765C91B1D7DF1945BE7" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1623_SMH_WRST.sw" Size="3549" HashValue="F6B542EA19D5E1413654FB2D30E532EE" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1625_BPV2_TVL.sw" Size="6286" HashValue="72F294A70E9947D0EBFD804F8DA4EC12" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1721_BPV2_OSC.sw" Size="3590" HashValue="D8055D8FE4BD01427BFD27104AC20B2B" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1723_SMH_WRST.sw" Size="3549" HashValue="CE7F2904B89696AB7793FE0487F5AD10" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1725_BPV2_TVL.sw" Size="6286" HashValue="22087E0C24FA9B12DE35E6999B5C08D4" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1725_BPV2_TVL_G.sw" Size="6287" HashValue="9848C7EEEB4F34C3CC7B313645C7A59C" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1823_SMH_OSC_WRST.sw" Size="3548" HashValue="AF08DA266C9521D88AF0C9EBA0DB7DE1" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1825_BPV2_TVL_G.sw" Size="6286" HashValue="27943ABD72D15C1F724C7B6EF20F0967" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="1925_BPV2_TVL_G.sw" Size="6286" HashValue="64D4A76E53EE9830DE6D19779CF38528" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2023_BPV2_OSC_WRST.sw" Size="4468" HashValue="C73E698C334C5A38D376192BD08A1867" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2101_TVL_RUBIX.sw" Size="5948" HashValue="4A4DA5B9EF63CC640FEC72CC60A0AEAE" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2102_OSC_RUBIX.sw" Size="6594" HashValue="2F1758D0CA93E5610841BB84910C8352" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2103_AVC_RUBIX.sw" Size="6051" HashValue="A3FD93E5A831291D0EE53336EDBE63D6" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2104_WF_RUBIX.sw" Size="5878" HashValue="F0A27F65B73B039274C63990E8D50E60" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2411_TVL_FH_MINI_OMEGA_US.sw" Size="5843" HashValue="04875F74951F88339863C0D0E4261BD2" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2412_OSC_FH_MINI_ENC_US.sw" Size="6594" HashValue="6BB7B61A0FDE349DEE421A0FAC50C371" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2511_TVL_D_HEAD_US.sw" Size="5846" HashValue="8B484832AE561115623DD29FC71D74BC" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2512_OSC_D_HEAD_US.sw" Size="6640" HashValue="C8BA20F98C15BC2D0593214442EE229F" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2522_SMH_WF.sw" Size="3475" HashValue="61DB93BA2503DA51ECE2EC28F17BD109" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2625_BPV2_TVL.sw" Size="6352" HashValue="F6293F0AA1C3C2F2280275050F9FC1D9" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2721_BPV2_OSC.sw" Size="3530" HashValue="50391E879048BED60BF9AA0B225B4621" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2725_BPV2_TVL.sw" Size="6352" HashValue="28BEF2CA08F1D0A76FEF7A8B7518CB21" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="2925_BPV2_TVL_G.sw" Size="6351" HashValue="CDA8D1E21907758582370B0DBCB69DBD" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="3301_CLMSH_TVL.sw" Size="5822" HashValue="BD79BED1B94A000904C875C591F704B5" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="3302_CLMSH_OSC.sw" Size="5861" HashValue="1BFB06D7B2FEA71A59CFE3E75227B710" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="3303_CLMSH_AVC.sw" Size="6822" HashValue="426D2C64BF4576BC7ECF49B9ED9836B8" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="3305_CLMSH_WF.sw" Size="5792" HashValue="E3E87132B1C2877A114D8E94DFACE6C1" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="3306_CLMSH_WP.sw" Size="5739" HashValue="6F346CD8CB3DF64C9A60BFD775E75AC0" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="3307_CLMSH_WRST.sw" Size="5897" HashValue="7A4FD3B601F9C2D152CA38D7A87DFF56" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="3721_BPV2_OSC.sw" Size="3545" HashValue="5EDC57053E514BEFE235C48F0756AB5D" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="3925_BPV2_TVL_G.sw" Size="6415" HashValue="A010C240C995EE445AD6D90443CF894C" ProjectDependent="0" IgnoreDifference="0" />
+			</Folder>
+			<Folder Name="HMI" ProjectDependent="0" IgnoreDifference="0">
+				<File Name="ParamList_Enumer.csv" Size="2222" HashValue="A3E59CFC6A7D2E0ECBB301FF8AA76D95" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="ParamList_Float.csv" Size="3506684" HashValue="ACCB1743909BE810B63567B069BAF909" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="ParamList_Float_OLD.csv" Size="26638" HashValue="866B099635EF5403F1D57EF51580E186" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="ParamList_Integer.csv" Size="748" HashValue="C89692813824E7A43C484322A26B1B0E" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="ParamList_String.csv" Size="2826" HashValue="2A2797189FB322C4DC683F9D545A8C1C" ProjectDependent="0" IgnoreDifference="0" />
+			</Folder>
+			<Folder Name="WeldPrograms" ProjectDependent="0" IgnoreDifference="0">
+				<File Name="7573.prg" Size="4772" HashValue="4E853B9C46AB92C6E11612803256BED2" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="7573_calib" Size="2364" HashValue="21806C497D9386ACD59439E80577A3E7" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="7573_setup" Size="44536" HashValue="8B7ADE2AE2D8459915A99744BFB36D13" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="7573_state" Size="48000" HashValue="895124083999CDEEA15C94BB45BD5BBD" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="BPRUBIX.prg" Size="4779" HashValue="33E84572CAC14BF73FB7C8FD418A31CD" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="BPRUBIX_calib" Size="2364" HashValue="A9D009480D95EFE9D126EDCEBB5045C4" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="BPRUBIX_setup" Size="44536" HashValue="4A8E3A5E546187443ECC19F9E3F6D4B7" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="BPV2TT_state" Size="48000" HashValue="9F6AB72F375D02824A509ED761068CF9" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="CK00.prg" Size="4774" HashValue="8AD9AB6DEAA05A4D8862A30A650BB78D" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="CK00_calib" Size="2364" HashValue="3B2853735E4160E1198585ED4B68D421" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="CK00_setup" Size="44536" HashValue="2584DBB3B34EDD9381EBFB8BDA952EDE" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="CK00_state" Size="48000" HashValue="FC52B2572A7724505F9850B1907E0AF3" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="CKH_23.prg" Size="4773" HashValue="1A54308E36C15C27E52ABFC4B02DDEA0" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="CKH_23_calib" Size="2364" HashValue="35C0F18EC032A61F0A2913C4F7C6B815" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="CKH_23_setup" Size="44536" HashValue="C6B2893160B6FBC50180FE68EC07D047" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="CKH_23_state" Size="48000" HashValue="AF25A6B244FE3883954239878A60F771" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="CK_V23.prg" Size="4779" HashValue="E384E9094A5817E1C2A9C607488FE26D" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="CK_V23_calib" Size="2364" HashValue="463A410EF5233CA5811D290ED22E3A55" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="CK_V23_setup" Size="44536" HashValue="E7A88609D13AC76F7E360023F8BC381B" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="CK_V23_state" Size="48000" HashValue="ADDABC65116CD89768393FA09622E5A2" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="KK.prg" Size="4779" HashValue="C140E39BDDA8F3F7117EFFA8ABEB702F" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="KK_calib" Size="2364" HashValue="18045CA447B7AAEE1104987286183A1C" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="KK_setup" Size="44536" HashValue="E35C42AD15B919D397426F0A2374DDEA" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="KK_state" Size="48000" HashValue="AFDC3124C60600645D80B9C6FFAB3EC2" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="MT7830_21.prg" Size="4781" HashValue="1F23AAC4711C00DCCD7B5AB42B6A7541" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="MT7_calib" Size="2364" HashValue="D2A4CFDE120E9E2FD3AD0A99140A477D" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="MT7_setup" Size="44536" HashValue="55EA2DF3D57B119F21BECCAD5CEF7A72" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="MT7_state" Size="48000" HashValue="C90212768D18FBD03781F5531C51533B" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="POLE1.prg" Size="4773" HashValue="473B3514CA418B0E4D4D2BBC5823D7B1" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="POLE1_calib" Size="2364" HashValue="075217E2063BCED000C72C4EBDE3B7AB" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="POLE1_setup" Size="44536" HashValue="A1B11A5AD2A48C4B2B24316CA1DF33B2" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="POLE1_state" Size="48000" HashValue="4BA8CA55730963CFFE229D08724C36E5" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="default.prg" Size="4788" HashValue="4360D84036B918F3A79FCBA3AF9809E7" ProjectDependent="0" IgnoreDifference="0" />
+				<File Name="default_state" Size="48000" HashValue="40D2935FBA01FAC2FE1B0AF97730FA69" ProjectDependent="0" IgnoreDifference="0" />
+			</Folder>
+			<File Name="functions.xml" Size="2804" HashValue="D5A40918CA7404866F34529A8919318D" ProjectDependent="0" IgnoreDifference="0" />
+			<File Name="setup new with save state.xml" Size="34251" HashValue="6D65F4CE131EEBA2CBDE09DEA2CA4179" ProjectDependent="0" IgnoreDifference="0" />
+			<File Name="setup.xml" Size="34248" HashValue="092E7DC0D83924611D4B69B2AB58D29F" ProjectDependent="0" IgnoreDifference="0" />
+			<File Name="setup_old no save state.xml" Size="34248" HashValue="D41802FDEC378E62A59148A21D2ADE16" ProjectDependent="0" IgnoreDifference="0" />
+			<File Name="setup_old.xml" Size="34251" HashValue="6D65F4CE131EEBA2CBDE09DEA2CA4179" ProjectDependent="0" IgnoreDifference="0" />
+			<Folder Name="Reports" ProjectDependent="0" />
+			<Folder Name="TEMP" ProjectDependent="0" />
+		</Class>
+		<Memory Name="SYSROM">
+			<Module Name="::$$sysconf" Type="129" Size="70412" Modified="2025-09-04 16:59:22" Version="4.93" ProjectDependent="1" Reboot="1" />
+			<Module Name="::TCData" Type="209" Size="5583536" Modified="2025-10-22 16:14:25" Version="1.00" ProjectDependent="1" />
+			<Module Name="::arconfig" Type="132" Size="8004" Modified="2025-09-04 16:59:21" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::asfw" Type="67" Size="3635180" Modified="2025-09-04 16:59:23" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::ashwd" Type="67" Size="23512" Modified="2025-09-04 16:59:24" Version="1.00" ProjectDependent="1" Reboot="1" />
+		</Memory>
+		<Memory Name="USERROM">
+			<Module Name="::AVC_SYNCH" Type="17" Size="54776" Modified="2025-10-22 16:14:20" Version="1.00" ProjectDependent="1" />
+			<Module Name="::AVCprc" Type="17" Size="59588" Modified="2025-10-22 16:14:22" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Acp10map" Type="70" Size="228" Modified="2025-10-22 16:14:23" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::AsHW" Type="18" Size="10376" Modified="2024-04-11 15:45:02" Version="4.93" ProjectDependent="1" />
+			<Module Name="::AsIOTime" Type="18" Size="3908" Modified="2024-04-11 15:58:02" Version="4.93" ProjectDependent="1" />
+			<Module Name="::AsTCP" Type="18" Size="19244" Modified="2024-04-11 15:53:37" Version="4.93" ProjectDependent="1" />
+			<Module Name="::AsUDP" Type="18" Size="14656" Modified="2024-04-11 15:56:24" Version="4.93" ProjectDependent="1" />
+			<Module Name="::AsXml" Type="18" Size="28752" Modified="2024-04-11 16:01:00" Version="4.93" ProjectDependent="1" />
+			<Module Name="::BR_DC" Type="17" Size="39852" Modified="2025-10-22 16:14:21" Version="1.00" ProjectDependent="1" />
+			<Module Name="::DC2DirMtr" Type="17" Size="32716" Modified="2025-10-22 16:14:24" Version="1.00" ProjectDependent="1" />
+			<Module Name="::DataObj" Type="18" Size="13788" Modified="2024-04-11 16:07:06" Version="4.93" ProjectDependent="1" />
+			<Module Name="::FileIO" Type="18" Size="39196" Modified="2024-04-11 16:16:54" Version="4.93" ProjectDependent="1" />
+			<Module Name="::FileOper" Type="17" Size="50624" Modified="2025-10-22 16:14:25" Version="1.00" ProjectDependent="1" />
+			<Module Name="::GasCoolPrc" Type="17" Size="45020" Modified="2025-10-22 16:14:22" Version="1.00" ProjectDependent="1" />
+			<Module Name="::HMI_M" Type="17" Size="191960" Modified="2025-10-22 16:14:23" Version="1.00" ProjectDependent="1" />
+			<Module Name="::HMI_Report" Type="17" Size="171884" Modified="2025-10-22 16:14:25" Version="1.00" ProjectDependent="1" />
+			<Module Name="::HW_PSprc" Type="17" Size="39348" Modified="2025-10-22 16:14:22" Version="1.00" ProjectDependent="1" />
+			<Module Name="::IndexPrc" Type="17" Size="46132" Modified="2025-10-22 16:14:23" Version="1.00" ProjectDependent="1" />
+			<Module Name="::LincolnPS" Type="17" Size="50260" Modified="2025-10-22 16:14:19" Version="1.00" ProjectDependent="1" />
+			<Module Name="::LogBook1" Type="65" Size="274324" Modified="2020-01-07 15:34:23" Version="0.00" ProjectDependent="0" />
+			<Module Name="::MV" Type="17" Size="36812" Modified="2025-10-22 16:14:23" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Main2" Type="17" Size="220800" Modified="2025-10-22 16:14:24" Version="1.00" ProjectDependent="1" />
+			<Module Name="::MiscOper" Type="17" Size="47680" Modified="2025-10-22 16:14:23" Version="1.00" ProjectDependent="1" />
+			<Module Name="::OSC_TMLprc" Type="17" Size="66888" Modified="2025-10-22 16:14:22" Version="1.00" ProjectDependent="1" />
+			<Module Name="::PermObj_15" Type="65" Size="48560" Modified="2008-12-09 01:21:00" Version="0.00" ProjectDependent="0" />
+			<Module Name="::PermObj_16" Type="65" Size="48560" Modified="2019-11-14 09:43:52" Version="0.00" ProjectDependent="0" />
+			<Module Name="::PermObj_3" Type="65" Size="48408" Modified="2008-06-24 00:56:41" Version="0.00" ProjectDependent="0" />
+			<Module Name="::PermObj_7" Type="65" Size="48560" Modified="2008-11-28 02:58:02" Version="0.00" ProjectDependent="0" />
+			<Module Name="::PermSaving" Type="17" Size="32788" Modified="2025-10-22 16:14:24" Version="1.00" ProjectDependent="1" />
+			<Module Name="::SuperMstr" Type="17" Size="50756" Modified="2025-10-22 16:14:25" Version="1.00" ProjectDependent="1" />
+			<Module Name="::TIG_PSprc" Type="17" Size="50388" Modified="2025-10-22 16:14:20" Version="1.00" ProjectDependent="1" />
+			<Module Name="::TML_RLY" Type="17" Size="35256" Modified="2025-10-22 16:14:24" Version="1.00" ProjectDependent="1" />
+			<Module Name="::TML_srv" Type="17" Size="60812" Modified="2025-10-22 16:14:20" Version="1.00" ProjectDependent="1" />
+			<Module Name="::TvlRotPrc" Type="17" Size="55492" Modified="2025-10-22 16:14:23" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visu2" Type="18" Size="2004" Modified="2025-10-22 16:14:46" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visu201" Type="18" Size="42804" Modified="2025-10-22 16:14:44" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visu202" Type="18" Size="4088" Modified="2025-10-22 16:14:44" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visu203" Type="18" Size="2278612" Modified="2025-10-22 16:14:44" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visu_M" Type="18" Size="2164" Modified="2025-10-22 16:14:56" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visu_M01" Type="18" Size="167028" Modified="2025-10-22 16:14:56" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visu_M02" Type="18" Size="10052" Modified="2025-10-22 16:14:56" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visu_M03" Type="18" Size="947728" Modified="2025-10-22 16:14:56" Version="1.00" ProjectDependent="1" />
+			<Module Name="::WIREprc" Type="17" Size="51552" Modified="2025-10-22 16:14:22" Version="1.00" ProjectDependent="1" />
+			<Module Name="::WRST" Type="17" Size="56844" Modified="2025-10-22 16:14:21" Version="1.00" ProjectDependent="1" />
+			<Module Name="::WireBlkPrc" Type="17" Size="39488" Modified="2025-10-22 16:14:23" Version="1.00" ProjectDependent="1" />
+			<Module Name="::XMLHelper" Type="17" Size="55160" Modified="2025-10-22 16:14:21" Version="1.00" ProjectDependent="1" />
+			<Module Name="::acp10cfg" Type="70" Size="160" Modified="2025-09-04 16:59:21" Version="3.182" ProjectDependent="1" Reboot="1" />
+			<Module Name="::acp10man" Type="18" Size="555624" Modified="2017-07-31 13:19:11" Version="3.182" ProjectDependent="1" Reboot="1" />
+			<Module Name="::acp10par" Type="18" Size="384" Modified="2017-07-31 13:20:22" Version="3.182" ProjectDependent="1" />
+			<Module Name="::acp10sys" Type="65" Size="8187272" Modified="2017-07-31 12:56:59" Version="3.182" ProjectDependent="1" Reboot="1" />
+			<Module Name="::arial" Type="18" Size="1056144" Modified="2025-09-04 16:59:51" Version="1.00" ProjectDependent="1" />
+			<Module Name="::arialbd" Type="18" Size="1000076" Modified="2025-09-04 16:59:51" Version="1.00" ProjectDependent="1" />
+			<Module Name="::arialbi" Type="18" Size="738424" Modified="2025-09-08 16:06:51" Version="1.00" ProjectDependent="1" />
+			<Module Name="::ashwac" Type="136" Size="212" Modified="2025-09-04 16:59:37" Version="1.00" ProjectDependent="1" />
+			<Module Name="::asstring" Type="18" Size="8648" Modified="2024-04-11 15:52:42" Version="4.93" ProjectDependent="1" />
+			<Module Name="::astime" Type="18" Size="24304" Modified="2024-04-11 15:54:34" Version="4.93" ProjectDependent="1" />
+			<Module Name="::bglibas" Type="18" Size="3016" Modified="2025-10-22 16:14:20" Version="1.00" ProjectDependent="1" />
+			<Module Name="::brsystem" Type="18" Size="24060" Modified="2024-04-11 16:03:05" Version="4.93" ProjectDependent="1" />
+			<Module Name="::dvframe" Type="18" Size="25384" Modified="2024-04-11 16:13:03" Version="4.93" ProjectDependent="1" />
+			<Module Name="::iomap" Type="50" Size="32164" Modified="2025-09-16 14:48:02" Version="1.00" ProjectDependent="1" />
+			<Module Name="::ncglobal" Type="18" Size="13452" Modified="2017-07-31 13:17:20" Version="3.182" ProjectDependent="1" Reboot="1" />
+			<Module Name="::powerlnk" Type="18" Size="44192" Modified="2024-04-11 16:20:48" Version="4.93" ProjectDependent="1" />
+			<Module Name="::runtime" Type="18" Size="29340" Modified="2024-04-11 16:21:44" Version="4.93" ProjectDependent="1" />
+			<Module Name="::standard" Type="18" Size="11576" Modified="2024-04-11 16:23:30" Version="4.93" ProjectDependent="1" />
+			<Module Name="::sys_lib" Type="18" Size="20472" Modified="2024-04-11 16:24:29" Version="4.93" ProjectDependent="1" />
+			<Module Name="::udbdef" Type="210" Size="70264" Modified="2014-04-10 10:00:00" Version="0.01" ProjectDependent="1" />
+			<Module Name="::udpApp" Type="17" Size="26580" Modified="2025-10-22 16:14:26" Version="1.00" ProjectDependent="1" />
+			<Module Name="::udpclient" Type="17" Size="28176" Modified="2025-10-22 16:14:26" Version="1.00" ProjectDependent="1" />
+			<Module Name="::udpserv" Type="17" Size="27328" Modified="2025-10-22 16:14:25" Version="1.00" ProjectDependent="1" />
+			<Module Name="::udpsimonly" Type="17" Size="21816" Modified="2025-10-22 16:14:26" Version="1.00" ProjectDependent="1" />
+			<Module Name="::vcalarm" Type="18" Size="94312" Modified="2024-04-18 08:26:44" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcbclass" Type="18" Size="181448" Modified="2024-04-18 08:30:23" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vccbmp" Type="18" Size="6764" Modified="2024-04-18 08:28:05" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vccbtn" Type="18" Size="17024" Modified="2024-04-18 08:27:46" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vccddbox" Type="18" Size="34400" Modified="2024-04-18 08:28:33" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcchspot" Type="18" Size="6144" Modified="2024-04-18 08:27:43" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcclbox" Type="18" Size="30772" Modified="2024-04-18 08:27:40" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vccline" Type="18" Size="4432" Modified="2024-04-18 08:27:48" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vccnum" Type="18" Size="33016" Modified="2024-04-18 08:28:03" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vccovl" Type="18" Size="1896" Modified="2024-04-18 08:28:26" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vccpopup" Type="18" Size="3008" Modified="2024-04-18 08:28:35" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vccshape" Type="18" Size="4996" Modified="2024-04-18 08:28:09" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vccstr" Type="18" Size="24896" Modified="2024-04-18 08:27:59" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcctext" Type="18" Size="7524" Modified="2024-04-18 08:28:07" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcdsint" Type="18" Size="7272" Modified="2024-04-18 08:27:27" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcdsloc" Type="18" Size="37820" Modified="2024-04-18 08:27:34" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcfile" Type="18" Size="6552" Modified="2024-04-18 08:25:16" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcfntttf" Type="18" Size="276176" Modified="2024-04-18 08:31:46" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcgclass" Type="18" Size="244292" Modified="2024-04-18 08:31:17" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcmgr" Type="18" Size="41936" Modified="2024-04-18 08:31:24" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcnet" Type="18" Size="12228" Modified="2024-04-18 08:25:13" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcpdsw" Type="18" Size="2632" Modified="2024-04-18 08:26:06" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcpdvnc" Type="18" Size="77272" Modified="2024-04-18 08:25:59" Version="4.732" ProjectDependent="1" Reboot="1" />
+			<Module Name="::vcpfar00" Type="18" Size="3144" Modified="2023-10-23 14:49:35" Version="4.731" ProjectDependent="1" />
+			<Module Name="::vcpfx20" Type="18" Size="3268" Modified="2024-04-18 08:32:48" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcpkat" Type="18" Size="3952" Modified="2024-04-18 08:27:01" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcresman" Type="18" Size="1567056" Modified="2024-04-18 08:25:09" Version="4.732" ProjectDependent="1" Reboot="1" />
+			<Module Name="::vcrt" Type="18" Size="75552" Modified="2024-04-18 08:30:46" Version="4.732" ProjectDependent="1" />
+			<Module Name="::vcshared" Type="18" Size="131952" Modified="2025-10-22 16:14:44" Version="1.00" ProjectDependent="1" />
+			<Module Name="::vctcal" Type="18" Size="5396" Modified="2024-04-18 08:28:13" Version="4.732" ProjectDependent="1" />
+			<Module Name="::visapi" Type="18" Size="27904" Modified="2024-04-18 08:25:27" Version="4.732" ProjectDependent="1" />
+			<Module Name="::visvc" Type="18" Size="56064" Modified="2024-04-18 08:25:36" Version="4.732" ProjectDependent="1" />
+		</Memory>
+	</Application>
+</Toc>

@@ -1,0 +1,68 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=TML_srv 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=244 Type=311 Scope=277 Force=224 Index=37 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                      KK_STOP_TML_Server                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                          KK_TML_PowerON                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                            TML_MTR_INST                           TML_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                         TML_MTR_INST[0]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                              ''"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               8"    2    4    1   10    0    0 e,-4,TML
+
+                         TML_MTR_INST[1]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'OSC'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              14"    2    4    1   10    0    0 e,-4,TML
+
+                                    _cfg                                     _cfg    0 "                                                               *"    2   24    1    0    0    1         
+                             programName                               STRING[31]    0 "                                         '2023_BPV2_OSC_WRST.sw'"    3    9   32    1    0    0         
+                         TML_MTR_INST[2]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'AVC'"    2    9   16    1    0    0         
+                                  PosFBK                                     REAL    0 "                                                  -0.00122070313"    2    8    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               8"    2    4    1   10    0    0 e,-4,TML
+
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                    _cfg                                     _cfg    0 "                                                               *"    2   24    1    0    0    1         
+                             programName                               STRING[31]    0 "                                               '1526_SMH_AVC.sw'"    3    9   32    1    0    0         
+                         TML_MTR_INST[3]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                       'Spare 3'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                         TML_MTR_INST[4]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                            'WF'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               1"    2    4    1   10    0    0 e,-4,TML
+
+                         TML_MTR_INST[6]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                          'WF_1'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              -2"    2    4    1   10    0    0 e,-4,TML
+
+                        TML_MTR_INST[12]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                          'WRST'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              14"    2    4    1   10    0    0 e,-4,TML
+
+                                 Disable                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                          ProgramVersion                                    UDINT    0 "                                                       825700913"    2    7    1   10    0    0         
+                         FirmwareVersion                                    UDINT    0 "                                                       909587523"    2    7    1   10    0    0         
+                                  PosFBK                                     REAL    0 "                                                    0.0002467664"    2    8    1   10    0    0         
+                                    _cfg                                     _cfg    0 "                                                               *"    2   24    1    0    0    1         
+                             programName                               STRING[31]    0 "                                              '1721_BPV2_OSC.sw'"    3    9   32    1    0    0         
+                        TML_MTR_INST[13]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                      'Spare 13'"    2    9   16    1    0    0         
+                                  AxisCh                      TML_Axis_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                               AxisCh[0]                             TML_Axis_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                  AxisID                                     UINT    0 "                                                              25"    2    6    1   10    0    0         
+                                    Flag                                    USINT    0 "                                                               1"    2    5    1   10    0    0         
+                                  curPos                                     DINT    0 "                                                               0"    2    4    1   10    0    0         
+                               HeartBeat                                      TON    0 "                                                               *"    2   24    1    0    0    1         
+                                      IN                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                                      PT                                     TIME    0 "                                                         T#500ms"    3   12    1    1    0    0         
+                                       Q                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                                      ET                                     TIME    0 "                                                         T#010ms"    3   12    1    1    0    0         
+                               StartTime                                     TIME    0 "                                             T#01h_09m_45s_740ms"    3   12    1    1    0    0         
+                                       M                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                                 Restart                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         
+                              AxisCh[12]                             TML_Axis_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                  AxisID                                     UINT    0 "                                                              21"    2    6    1   10    0    0         
+                               AxisState                                    USINT    0 "                                                               0"    2    5    1   10    0    0         

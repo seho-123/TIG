@@ -1,0 +1,11 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	TML_Data_Chan : ARRAY[0..1] OF RS_Channel_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/UDP_Client/UDP_Client.c" #2"22" #3"42" *)
+	TML_Msg_Chan : ARRAY[0..1] OF RS_Channel_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/UDP_Client/UDP_Client.c" #2"22" #3"24" *)
+	gRingBuffer : bgRingBuffer_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/UDP_Client/..\..\Lib\utilityLib\bgdebug.h" #2"54" #3"26" *)
+	Kick_TML_Cmd : USINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/UDP_Client/UDP_Client.c" #2"23" #3"15" *)
+	UDP_Connect_Send : ARRAY[0..1] OF RS_Channel_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/UDP_Client/UDP_Client.c" #2"22" #3"61" *)
+END_VAR

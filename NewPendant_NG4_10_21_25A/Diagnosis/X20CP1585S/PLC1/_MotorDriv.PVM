@@ -1,0 +1,23 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=_MotorDriv 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=18 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                  motors                            MTR_obj[0..3]    0 "                                                               *"    0   24    4    0    0    1         
+                               motors[0]                                  MTR_obj    0 "                                                               *"    1   24    1    0    0    1         
+                                Hardware                         MTR_HARDWARE_obj    0 "                                                               *"    2   24    1    0    0    1         
+                           PulseWidthPWM                                      INT    3 "                                                               0"    3    3    1   10    0    0         
+                                 Counter                                      INT    1 "                                                               0"    3    3    1   10    0    0         
+                          HardwareConfig                  MTR_HARDWARE_CONFIG_obj    0 "                                                               *"    2   24    1    0    0    1         
+                                  MtrDir                                      INT    0 "                                                               1"    3    3    1   10    0    0         
+                                  EncDir                                      INT    0 "                                                              -1"    3    3    1   10    0    0         
+                                    Misc                             MTR_MISC_obj    0 "                                                               *"    2   24    1    0    0    1         
+                                     PID                               LCRSlimPID    0 "                                                               *"    3   24    1    0    0    1         
+                                       W                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         
+                                       X                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         
+                                       e                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         
+                                       Y                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         
+                                  status                                     UINT    0 "                                                           65534"    4    6    1   10    0    0         
+                         CurrentVelocity                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                         CommandVelocity                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                               motors[2]                                  MTR_obj    0 "                                                               *"    1   24    1    0    0    1         
+                          HardwareConfig                  MTR_HARDWARE_CONFIG_obj    0 "                                                               *"    2   24    1    0    0    1         
+                                  MtrDir                                      INT    0 "                                                              -1"    3    3    1   10    0    0         

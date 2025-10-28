@@ -1,0 +1,9 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=MV 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=2 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                      MV                             MV_typ[0..0]    0 "                                                               *"    0   24    1    0    0    1        a
+                                   MV[0]                                   MV_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    xCMD                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                  Client                         Client_typ[0..0]    0 "                                                               *"    0   24    1    0    1    1        a
+                               Client[0]                               Client_typ    0 "                                                               *"    1   24    1    0    1    1         
+                                   sStep                                     UINT    0 "                                                               1"    2    6    1   10    0    0         
