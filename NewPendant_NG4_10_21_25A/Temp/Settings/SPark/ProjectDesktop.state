@@ -1,3 +1,3 @@
 <?xml version="1.0"?>
 <?AutomationStudio FileVersion="4.9"?>
-<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="6151"/><Configuration Name="X20CP1585_MIG_HW_PS"/></Project>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="X20CP1585_MIG_HW_PS"/><ConfigurationFiles xmlns="" ConfigurationName="X20CP1585_MIG_HW_PS" ActiveConfigurationFile="\Logical\Visu_M\VCObject.vc"><ConfigurationFile Placement="\Logical\FourAxisTigCtrl\HeadConfig.c,FourAxisTigCtrl,2,44,0,1,-1,-1,-1,-1,2,30,1951,949"/><ConfigurationFile Placement="\Logical\Visu_M\VCObject.vc,,0,44,0,1,-1,-1,-1,-1,2,30,1951,949"/></ConfigurationFiles></Project>

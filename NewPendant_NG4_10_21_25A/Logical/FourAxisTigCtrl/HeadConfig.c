@@ -140,7 +140,7 @@ CurCalib_typ *curCalib , *defaultCalib;
 	if(!curCfg || !cfg || !curCalib  || !defaultCalib)
 		return;
 
-	///
+	//////
 	if(curCalib->GenSetup[SETUP_POLE_ELEMENTS] < 2)
 		curCalib->GenSetup[SETUP_POLE_ELEMENTS] = 2;
 
