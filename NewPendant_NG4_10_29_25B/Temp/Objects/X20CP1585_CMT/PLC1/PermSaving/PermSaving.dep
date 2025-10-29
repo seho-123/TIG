@@ -1,0 +1,9 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/DataObj/DataObj.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/UDP/paiUDPService/paiUDPService.typ
+$(AS_PROJECT_PATH)/Logical/UDP/udpApp.typ
+$(AS_PROJECT_PATH)/Logical/FourAxisTigCtrl/PermSaving/PermSaving.c
+$(AS_PROJECT_PATH)/Logical/Universal/LincolnPS/../../Lib/WSI_types.h
+C:/Users/ckaczkowski/Documents/Official Release/UnivCntrl-10-19-21F CMT version installed in Oct 2021/UniversalController_10-19-21F/Physical/X20CP1585_CMT/PLC1/Cpu.per
+$(AS_PROJECT_PATH)/Logical/Universal/MiscOper/../../Universal/SuperDeclaration.h
+$(AS_PROJECT_PATH)/Logical/Universal/LincolnPS/../../lib/Statelib.h

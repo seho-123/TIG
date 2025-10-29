@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<Project xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Property Name="EnableEvents" Value="False"/>
+  <Property Name="SharedTargetResourceRoot" Value=""/>
+  <Property Name="TextIDMax" Value="351289"/>
+  <SourceFiles>
+    <Source File="Languages.vcr"/>
+    <Source File="TextGroups\AlarmAcknowledgeState.txtgrp"/>
+    <Source File="TextGroups\AlarmBypassState.txtgrp"/>
+    <Source File="TextGroups\AlarmEvent.txtgrp"/>
+    <Source File="TextGroups\AlarmState.txtgrp"/>
+    <Source File="TextGroups\DateTimeFormats.txtgrp"/>
+    <Source File="TextGroups\httpURL_SDM.txtgrp"/>
+    <Source File="TextGroups\DWN_UP.txtgrp"/>
+    <Source File="TextGroups\IN_OUT_DWN_UP.txtgrp"/>
+    <Source File="TextGroups\Indx_Mode.txtgrp"/>
+    <Source File="TextGroups\Torch_Weld.txtgrp"/>
+    <Source File="UnitGroups\Length.vcug"/>
+    <Source File="UnitGroups\Mass.vcug"/>
+    <Source File="UnitGroups\Volume.vcug"/>
+    <Source File="UnitGroups\Power.vcug"/>
+    <Source File="UnitGroups\Memory.vcug"/>
+    <Source File="UnitGroups\Pressure.vcug"/>
+    <Source File="UnitGroups\Temperatures.vcug"/>
+    <Source File="UnitGroups\Angle.vcug"/>
+    <Source File="UnitGroups\LengthVar.vcug"/>
+    <Source File="UnitGroups\Accel.vcug"/>
+    <Source File="UnitGroups\Amps.vcug"/>
+    <Source File="UnitGroups\Frequency.vcug"/>
+    <Source File="UnitGroups\Length1.vcug"/>
+    <Source File="UnitGroups\Length2.vcug"/>
+    <Source File="UnitGroups\RotAcc.vcug"/>
+    <Source File="UnitGroups\Rotation.vcug"/>
+    <Source File="UnitGroups\Time1.vcug"/>
+    <Source File="UnitGroups\Time2.vcug"/>
+    <Source File="UnitGroups\Velocity.vcug"/>
+    <Source File="UnitGroups\Volts.vcug"/>
+    <Source File="AlarmGroups\AlarmSystem.alcfg"/>
+    <Source File="AlarmGroups\SystemAlarms.algrp"/>
+    <Source File="DataSources\Internal.dso"/>
+    <Source File="DataSources\DataSource.dso"/>
+    <Source File="ControlVersion.cvinfo"/>
+  </SourceFiles>
+</Project>

@@ -1,0 +1,7 @@
+$(AS_CPU_PATH)/bglibas/bgtimer1ms.c.o:
+$(AS_PROJECT_PATH)/logical/libraries/bglibas/bgtimer1ms.c
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/bur/plc.h
+$(AS_TEMP_PATH)/includes/bglibas.h
+$(AS_TEMP_PATH)/includes/standard.h
+$(AS_TEMP_PATH)/includes/standard.h

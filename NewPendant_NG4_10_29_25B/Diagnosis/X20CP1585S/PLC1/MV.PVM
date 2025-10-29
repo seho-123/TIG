@@ -1,0 +1,24 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=MV 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=5 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                      MV                             MV_typ[0..0]    0 "                                                               *"    0   24    1    0    0    1        a
+                                   MV[0]                                   MV_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    xCMD                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                  Client                         Client_typ[0..0]    0 "                                                               *"    0   24    1    0    1    1        a
+                               Client[0]                               Client_typ    0 "                                                               *"    1   24    1    0    1    1         
+                                   sStep                                     UINT    0 "                                                               3"    2    6    1   10    0    0         
+                               TcpOpen_0                                  TcpOpen    0 "                                                               *"    2   24    1    0    0    1         
+                                  enable                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                                 pIfAddr                                    UDINT    0 "                                                        79007779"    3    7    1   10    0    0         
+                                    port                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                                 options                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                                   ident                                    UDINT    0 "                                                               2"    3    7    1   10    0    0         
+                                 i_state                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                                i_result                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                                   i_tmp                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         
+                               TcpSend_0                                  TcpSend    0 "                                                               *"    2   24    1    0    0    1         
+                                   ident                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                                 sentlen                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         
+                                 datalen                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         

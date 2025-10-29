@@ -1,0 +1,25 @@
+(********************************************************************
+ * COPYRIGHT -- wsi
+ ********************************************************************
+ * File: Cpu.per
+ * Author: wsi
+ * Created: May 14, 2013
+ ********************************************************************
+ * Declaration of permanent variables
+ ********************************************************************)
+VAR_CONFIG
+	NextProjectConfig AT %M0; (* *)
+	NextHeadConfig_Indx AT %MD4; (* *)
+	LogID AT %MD8; (* *)
+	OLD_MTR_POS AT %MD12; (* *)
+	LastHeadDir AT %MB140; (* *)
+	SpareNonPermObjSpace AT %MB141; (* *)
+	StartOfPermMemObj AT %MB256; (* *)
+	curScaledUnitIndx AT %MW258; (* *)
+	CurCfg AT %M1028; (* *)
+	CurCalib AT %M45564; (* *)
+	userValues AT %M47928; (* *)
+	SparePermObjSpace AT %MB48100; (* *)
+	EndOfPermMemObj AT %MB48256; (* *)
+	Weld_Rep AT %M48260; (* *)
+END_VAR

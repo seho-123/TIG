@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="ColorMapTable">
+    <Folder Name="POBJ">
+      <Object Name="ColorAtr" ClsId="0x1805" Version="1" Type="CLM" RefString="Source[local].ColorMap[ColorAtr]">
+        <Int32 Name="Count">6</Int32>
+        <UInt16 Name="Index">0</UInt16>
+        <Byte Name="ForeColor">0</Byte>
+        <Byte Name="BackColor">16</Byte>
+        <UInt16 Name="Index">1</UInt16>
+        <Byte Name="ForeColor">0</Byte>
+        <Byte Name="BackColor">94</Byte>
+        <UInt16 Name="Index">2</UInt16>
+        <Byte Name="ForeColor">0</Byte>
+        <Byte Name="BackColor">22</Byte>
+        <UInt16 Name="Index">3</UInt16>
+        <Byte Name="ForeColor">0</Byte>
+        <Byte Name="BackColor">29</Byte>
+        <UInt16 Name="Index">4</UInt16>
+        <Byte Name="ForeColor">0</Byte>
+        <Byte Name="BackColor">252</Byte>
+        <UInt16 Name="Index">5</UInt16>
+        <Byte Name="ForeColor">51</Byte>
+        <Byte Name="BackColor">46</Byte>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

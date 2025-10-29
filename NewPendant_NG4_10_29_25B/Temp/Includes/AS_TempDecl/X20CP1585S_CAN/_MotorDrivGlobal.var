@@ -1,0 +1,15 @@
+VAR RETAIN
+	userValues : USERVALUES_obj;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/..\GlobDecl.h" #2"34" #3"24" *)
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	HotWireProjectCMD : USINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/..\GlobDecl.h" #2"36" #3"15" *)
+	hardware : HARDWARE_obj;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/..\GlobDecl.h" #2"26" #3"22" *)
+	gRingBuffer : bgRingBuffer_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/..\..\Lib\utilityLib\bgdebug.h" #2"54" #3"26" *)
+	powerSupplies : ARRAY[0..1] OF PS_obj;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/..\GlobDecl.h" #2"24" #3"16" *)
+	motors : ARRAY[0..3] OF MTR_obj;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/..\GlobDecl.h" #2"22" #3"17" *)
+	master_sm : SM_obj;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/..\GlobDecl.h" #2"32" #3"16" *)
+	menu : ARRAY[0..1] OF MENU_obj;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/..\GlobDecl.h" #2"28" #3"18" *)
+	machine : MACHINE_obj;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/..\GlobDecl.h" #2"30" #3"21" *)
+END_VAR

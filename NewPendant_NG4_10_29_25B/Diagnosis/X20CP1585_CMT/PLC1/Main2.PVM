@@ -1,0 +1,16 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Main2 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=339 Type=185 Scope=130 Force=166 Index=6 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                     NextHeadConfig_Indx                                     DINT    0 "                                                              27"    0    4    1   10    0    0         
+                                curCalib                             CurCalib_typ    0 "                                                               *"    0   24    1    0    2    1         
+                                  Points                    Calib_Param_typ[0..9]    0 "                                                               *"    1   24   10    0    0    1         
+                               Points[0]                          Calib_Param_typ    0 "                                                               *"    2   24    1    0    0    1         
+                                     val                               REAL[0..9]    0 "                                                               *"    3    8   10    0    0    1         
+                                  val[0]                                     REAL    0 "                                                         5.84375"    4    8    1   10    0    0         
+                                  val[1]                                     REAL    0 "                                                        67.63672"    4    8    1   10    0    0         
+                                  val[2]                                     REAL    0 "                                                         9.84375"    4    8    1   10    0    0         
+                                  val[3]                                     REAL    0 "                                                        67.63672"    4    8    1   10    0    0         
+                                  Master                         MASTER_typ[0..1]    0 "                                                               *"    0   24    2    0    0    1         
+                               Master[0]                               MASTER_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                 SeqStep                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                              SubSeqStep                                     UINT    0 "                                                               1"    2    6    1   10    0    0         

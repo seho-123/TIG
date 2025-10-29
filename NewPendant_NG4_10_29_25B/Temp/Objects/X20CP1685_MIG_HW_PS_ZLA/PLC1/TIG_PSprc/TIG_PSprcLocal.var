@@ -1,0 +1,19 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	AmpSP : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"34" #3"14" *)
+	arcPS : REFERENCE TO ARCLINK_PS_CNTRL_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"39" #3"29" *)
+	LimScal_AmpCMD : ARRAY[0..2] OF AzzLimScal;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"31" #3"25" *)
+	KK_Perc : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"41" #3"14" *)
+	AmpBoost2 : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"34" #3"34" *)
+	Ramp : ARRAY[0..2] OF AzzRamp;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"30" #3"20" *)
+	AmpBoost1 : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"34" #3"22" *)
+	Tmr : ARRAY[0..2] OF TON;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"28" #3"16" *)
+	robot : REFERENCE TO Robot_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"26" #3"18" *)
+	KK_RampUp : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"41" #3"36" *)
+	KK_Cont_Dwell : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"41" #3"58" *)
+	KK_RampDwn : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"41" #3"23" *)
+	KK_Amps : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"41" #3"48" *)
+END_VAR

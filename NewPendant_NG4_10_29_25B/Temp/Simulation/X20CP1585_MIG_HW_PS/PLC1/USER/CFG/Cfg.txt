@@ -1,0 +1,40 @@
+***  Example of Config File
+*
+*****
+SERIAL_NUMBER = 1957
+ARCLINK_IP=192.168.10.2
+*****
+**************************
+***Fakes - Stress Test
+
+NAME = hello
+
+BleBle
+
+*SERIAL_NUMBER =1957???
+
+*ARCLINK_IP=
+
+*ARCLINK_IP
+
+*TVL_JOG_MODE
+
+*INDEX = 5
+*TVL_JOG_MODE = 0
+*************************
+*****
+INDEX = 0
+TVL_DIRECTION = 1
+TVL_TICKS_PER_UNIT = 5085
+TVL_UNIT_DISTANCE = 0.79375
+TVL_Btn_JOG_GAIN = 24
+TVL_JOG_MODE = 0
+*****
+INDEX = 0
+TIG_MODE=1
+*****
+** END
+
+
+
+

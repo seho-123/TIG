@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Cpu xmlns="http://br-automation.co.at/AS/Cpu">
+  <Objects>
+    <Object Type="File" Description="Software configuration">Cpu.sw</Object>
+    <Object Type="File" Description="Declaration of permanent variables">Cpu.per</Object>
+    <Object Type="File" Description="IO mapping file">IoMap.iom</Object>
+    <Object Type="File" Description="PV mapping file">PvMap.vvm</Object>
+    <Object Type="Package">Motion</Object>
+    <Object Type="File">PermObj_16.br</Object>
+    <Object Type="File">PermObj_7.br</Object>
+    <Object Type="File">PermObj_15.br</Object>
+    <Object Type="File">PermObj_3.br</Object>
+    <Object Type="File">LogBook1.br</Object>
+    <Object Type="Package">VC</Object>
+    <Object Type="File">PermObj_29.br</Object>
+    <Object Type="File">PermObj_19.br</Object>
+    <Object Type="File">PermObj_33.br</Object>
+    <Object Type="File">PermObj_13.br</Object>
+    <Object Type="File">PermObj_0.br</Object>
+    <Object Type="File">PermObj_28.br</Object>
+    <Object Type="File">PermObj_18.br</Object>
+    <Object Type="File">PermObj_34.br</Object>
+    <Object Type="File">PermObj_24.br</Object>
+    <Object Type="File">PermObj_9.br</Object>
+    <Object Type="File">PermObj_2.br</Object>
+    <Object Type="File">PermObj_1.br</Object>
+    <Object Type="File">PermObj_25.br</Object>
+    <Object Type="File">PermObj_27.br</Object>
+    <Object Type="File">PermObj_8.br</Object>
+  </Objects>
+  <Configuration HasNcOperatingSystem="true" LocalVariablesMemory="MemoryPool">
+    <AutomationRuntime Version="E4.26" />
+    <Build GccVersion="4.1.2" GeneratePPCode="false" />
+    <DefaultTargetMemory DataObjects="UserROM" Libraries="UserROM" Tasks="UserROM" />
+    <Io ArConfigDataModule="false" ArConfigDataModulePath="$(AS_CPU_PATH)\AS\CfgData.br" DisabledHardware="false" IoMapDataModule="false" IoMapDataModulePath="$(AS_CPU_PATH)\AS\IomData.br" ManualIoOffsets="false" Supervision="true" />
+    <Opc EncryptOpcs="false" UseShortNames="false" WindowsServer="true" />
+    <Safety SafetyRelease="0.0" />
+    <Simulation StartAR000="true" TerminateAR000="true" />
+    <TaskClasses DefaultIoTaskClass="Automatic" DefaultTaskClass="Cyclic4" />
+    <Transfer AddToUserPart="true" AdditionalUserDir="C:\projects\UnivCntrl\User Partition" AllowWarmRestart="true" DownloadMode="Overload" ExecuteInitExitProgram="true" ForceInitialTransfer="false" GeneratePviTransferList="true" IgnoreBrDependencies="false" IgnoreTargetOnlyObjects="false" KeepNonVolatileMemory="false" PackedArConfig="false" PackedIoMap="false" PreserveVariableValues="true" ProjectConsistent="true" PromptBeforeProject="true" PromptBeforeTask="false" RebootDuringTransfer="false" SavedOfflineInstallationFolder="" SavedPipDestinationFolder="" SavedRuntimeUtilityCenterPackagePath="" TransferInServiceMode="false" TransferOnlyRelevantChanges="false" UserFilesIgnoreDifference="false" />
+    <Vc FirmwareVersion="V4.73.1" />
+    <OnlineConfiguration Name="NewTCPIPConnection" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=8" ConnectionParameters="/RT=1000 /AM=* /DAIP=192.168.10.123 /REPO=11159 /ANSL=1" Description="" />
+  </Configuration>
+</Cpu>

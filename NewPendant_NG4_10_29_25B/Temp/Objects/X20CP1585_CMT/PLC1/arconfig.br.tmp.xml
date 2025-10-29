@@ -1,0 +1,452 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 1.0?>
+<IOCFG xmlns="http://www.br-automation.com/AR/IO" Version="2.0">
+  <Module ID="$root" Hardware="X20CP1585">
+    <Parameter ID="HardwareModuleName" Value="PLC1" />
+    <Parameter ID="SimulationIPAddress" Value="127.0.0.1" />
+    <Parameter ID="SimulationInaPort" Value="11160" Type="UDINT" />
+    <Parameter ID="SimulationInaNodeNumber" Value="1" Type="UDINT" />
+    <Parameter ID="ActivateDtmServer" Value="0" Type="UDINT" />
+    <Parameter ID="TemperatureCPUType" Value="UINT" />
+    <Parameter ID="TemperatureENVType" Value="UINT" />
+  </Module>
+  <Module ID="$root.IO" Hardware="X20CP1585">
+    <Parameter ID="ActivateOpc" Value="0" />
+    <Parameter ID="OpcServerName" Value="BR.OPC.Server_AR" />
+  </Module>
+  <Module ID="IF2" Hardware="X20CP1585">
+    <Parameter ID="DeviceDescription" Value="gei" />
+    <Parameter ID="EthInterfaceRedundant" Value="0" />
+  </Module>
+  <Module ID="IF2.SITEMAN" Hardware="SITEMAN">
+    <Parameter ID="ActivateSiteMan" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF3" Hardware="X20CP1585">
+    <Parameter ID="Operation" Value="EPL-V2" />
+    <Parameter ID="MtuSize" Value="300" Type="UDINT" />
+  </Module>
+  <Module ID="IF3.PLK" Hardware="EPL-V2">
+    <Parameter ID="EplInterfaceRedundant" Value="0" />
+    <Parameter ID="CycleTime" Value="800" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="MuxPrescaler" Value="8" Type="UDINT" />
+    <Parameter ID="Mode" Value="MN" />
+    <Parameter ID="NodeID" Value="240" Type="DINT" />
+    <Parameter ID="AsyncTimeout" Value="25" Type="UDINT" />
+    <Parameter ID="TransferOnlyActive" Value="off" />
+    <Parameter ID="OutputJustInTime" Value="off" />
+    <Parameter ID="BasicEthernetInServiceMode" Value="off" />
+    <Parameter ID="EplNatSubnet" Value="192.168.102.0" />
+    <Parameter ID="EPL_LossFrameTolerance" Value="-1" Type="DINT" />
+    <Parameter ID="ApplSwDate" Value="0" Type="UDINT" />
+    <Parameter ID="ApplSwTime" Value="0" Type="UDINT" />
+    <Parameter ID="BusCycleTrigger" Value="auto" />
+    <Parameter ID="OutputCycleTrigger" Value="auto" />
+  </Module>
+  <Module ID="IF3.ST6" Hardware="X20BC0083">
+    <Parameter ID="HardwareModuleName" Value="X20BC0083a" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="LinkSelectorInfo" Value="off" />
+    <Parameter ID="IPGateway" Value="240" Type="DINT" />
+    <Parameter ID="Mode" Value="CN" />
+    <Parameter ID="ResponseTimeout" Value="25" Type="UDINT" />
+    <Parameter ID="CiR" Value="off" />
+    <Parameter ID="MuxNetworkSlot" Value="0" Type="UDINT" />
+    <Parameter ID="MinimalInputLatency" Value="off" />
+    <Parameter ID="EPL_Chained" Value="off" />
+    <Parameter ID="EPL_PReqDataInPResMN" Value="off" />
+    <Parameter ID="SyncMode" Value="SoC" />
+    <Parameter ID="EnableDNA" Value="off" />
+  </Module>
+  <Module ID="IF3.ST6.IF1" Hardware="IF1">
+    <Parameter ID="QLinkMinBitsize" Value="8" Type="UDINT" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.X2X" Hardware="X2X">
+    <Parameter ID="CycleTime" Value="800" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="BusLength" Value="1000" Type="UDINT" />
+    <Parameter ID="Stations" Value="64" Type="UDINT" />
+    <Parameter ID="AsyncPayload" Value="80" Type="UDINT" />
+    <Parameter ID="Asymmetric" Value="off" />
+    <Parameter ID="CyclicX2XNettime" Value="off" />
+    <Parameter ID="CiR" Value="off" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST1" Hardware="X20PS9400a">
+    <Parameter ID="HardwareModuleName" Value="X20PS9400a" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST1.IO" Hardware="X20PS9400a">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="PowerInfo" Value="off" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST2" Hardware="X20DI6373">
+    <Parameter ID="HardwareModuleName" Value="X20DI6373e" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST2.IO" Hardware="X20DI6373">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="DigitalInputsPacked" Value="off" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST3" Hardware="X20DI6373">
+    <Parameter ID="HardwareModuleName" Value="X20DI6373f" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST3.IO" Hardware="X20DI6373">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="DigitalInputsPacked" Value="off" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST4" Hardware="X20DO4529">
+    <Parameter ID="HardwareModuleName" Value="X20DO4529f" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST4.IO" Hardware="X20DO4529">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="DigitalOutputsPacked" Value="off" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST5" Hardware="X20DO4529">
+    <Parameter ID="HardwareModuleName" Value="X20DO4529g" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST5.IO" Hardware="X20DO4529">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="DigitalOutputsPacked" Value="off" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST6" Hardware="X20AO4622">
+    <Parameter ID="HardwareModuleName" Value="X20AO4622a" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST6.IO" Hardware="X20AO4622">
+    <Parameter ID="FunctionModel" Value="FunctionModel001" />
+    <Parameter ID="FunctionModelNumber" Value="1" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="ChannelType01" Value="-10V to +10V" />
+    <Parameter ID="ChannelType02" Value="-10V to +10V" />
+    <Parameter ID="ChannelType03" Value="-10V to +10V" />
+    <Parameter ID="ChannelType04" Value="-10V to +10V" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST7" Hardware="X20DC1976">
+    <Parameter ID="HardwareModuleName" Value="X20DC1976a" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST7.IO" Hardware="X20DC1976">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="SDCInfo" Value="off" />
+    <Parameter ID="CounterStd01" Value="16Bit" />
+    <Parameter ID="CounterTimeInfo" Value="off" />
+    <Parameter ID="LatchMode" Value="off" />
+    <Parameter ID="ABRInputs" Value="off" />
+    <Parameter ID="BrokenWireConfig" Value="off" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST8" Hardware="X20DC1196">
+    <Parameter ID="HardwareModuleName" Value="X20DC1196" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST8.IO" Hardware="X20DC1196">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="RefpulsEdge01" Value="RnegEdge" />
+    <Parameter ID="HomingInput01" Value="off" />
+    <Parameter ID="PresetABR01" Value="0" Type="INT" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST9" Hardware="X20DC1196">
+    <Parameter ID="HardwareModuleName" Value="X20DC1196a" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST9.IO" Hardware="X20DC1196">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="RefpulsEdge01" Value="RnegEdge" />
+    <Parameter ID="HomingInput01" Value="off" />
+    <Parameter ID="PresetABR01" Value="0" Type="INT" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST10" Hardware="X20DC1196">
+    <Parameter ID="HardwareModuleName" Value="X20DC1196b" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST10.IO" Hardware="X20DC1196">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="RefpulsEdge01" Value="RnegEdge" />
+    <Parameter ID="HomingInput01" Value="off" />
+    <Parameter ID="PresetABR01" Value="0" Type="INT" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST11" Hardware="X20DC1196">
+    <Parameter ID="HardwareModuleName" Value="X20DC1196c" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST11.IO" Hardware="X20DC1196">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="RefpulsEdge01" Value="RnegEdge" />
+    <Parameter ID="HomingInput01" Value="off" />
+    <Parameter ID="PresetABR01" Value="0" Type="INT" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST12" Hardware="X20CS1020">
+    <Parameter ID="HardwareModuleName" Value="X20CS1020a" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST12.CC" Hardware="Stream1xRS232" />
+  <Module ID="IF3.ST6.IF1.ST12.IF1" Hardware="X20CS1020">
+    <Parameter ID="ActivateDevice" Value="on" />
+    <Parameter ID="Baudrate" Value="57600" Type="UDINT" />
+    <Parameter ID="Parity" Value="E" />
+    <Parameter ID="DataBits" Value="8" Type="UDINT" />
+    <Parameter ID="StopBits" Value="1" Type="UDINT" />
+    <Parameter ID="DeviceType" Value="RS232" />
+    <Parameter ID="InversionRts" Value="off" />
+    <Parameter ID="InversionCts" Value="off" />
+    <Parameter ID="HwHandshakeRtsMode" Value="flowControl" />
+    <Parameter ID="HwHandshakeCtsMode" Value="disabled" />
+    <Parameter ID="SwHandshakeActivate" Value="off" />
+    <Parameter ID="LowerThreshold" Value="512" Type="UINT" />
+    <Parameter ID="UpperThreshold" Value="1024" Type="UINT" />
+    <Parameter ID="ReceiveIdleTime" Value="4" Type="UDINT" />
+    <Parameter ID="TransmitIdleTime" Value="5" Type="UINT" />
+    <Parameter ID="FrameLengthMax" Value="256" Type="UINT" />
+    <Parameter ID="FrameTerminationChar1" Value="-1" Type="INT" />
+    <Parameter ID="FrameTerminationChar2" Value="-1" Type="INT" />
+    <Parameter ID="FrameTerminationChar3" Value="-1" Type="INT" />
+    <Parameter ID="FrameTerminationChar4" Value="-1" Type="INT" />
+    <Parameter ID="ActivateModem" Value="0" />
+    <Parameter ID="ActivateIna" Value="0" Type="UDINT" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST12.IO" Hardware="X20CS1020">
+    <Parameter ID="MaxInSize" Value="31" Type="UDINT" />
+    <Parameter ID="MaxOutSize" Value="30" Type="UDINT" />
+    <Parameter ID="FunctionModel" Value="Stream1xRS232" />
+    <Parameter ID="FunctionModelNumber" Value="2" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="AsynSize" Value="24" Type="USINT" />
+    <Parameter ID="AsynForward" Value="6" Type="USINT" />
+    <Parameter ID="InhibitActive" Value="0" Type="USINT" />
+    <Parameter ID="InhibitPassive" Value="0" Type="USINT" />
+    <Parameter ID="ExtErrStatusInfo" Value="off" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST13" Hardware="X20MM4456">
+    <Parameter ID="HardwareModuleName" Value="X20MM4456" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST13.IO" Hardware="X20MM4456">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="CurrentShowConfig01" Value="Current01 on ABRlatch" />
+    <Parameter ID="DecayConfig01" Value="Slow Decay" />
+    <Parameter ID="PWMConfig01" Value="Output01 PWM control" />
+    <Parameter ID="SwitchConfig01" Value="Endswitch 01 disabled" />
+    <Parameter ID="TriggerInput01" Value="Trigger input 01 disabled" />
+    <Parameter ID="LatchConfig01" Value="unconditional" />
+    <Parameter ID="ReferenceEnable01" Value="No reference enable" />
+    <Parameter ID="CurrentShowConfig02" Value="Current02 on ABRlatch" />
+    <Parameter ID="DecayConfig02" Value="Slow Decay" />
+    <Parameter ID="PWMConfig02" Value="Output02 PWM control" />
+    <Parameter ID="SwitchConfig02" Value="Endswitch 02 disabled" />
+    <Parameter ID="TriggerInput02" Value="Trigger input 02 disabled" />
+    <Parameter ID="LatchConfig02" Value="unconditional" />
+    <Parameter ID="ReferenceEnable02" Value="No reference enable" />
+    <Parameter ID="CurrentShowConfig03" Value="Current03 on ABRlatch" />
+    <Parameter ID="DecayConfig03" Value="Slow Decay" />
+    <Parameter ID="PWMConfig03" Value="Output03 PWM control" />
+    <Parameter ID="SwitchConfig03" Value="Endswitch 03 disabled" />
+    <Parameter ID="TriggerInput03" Value="Trigger input 03 disabled" />
+    <Parameter ID="LatchConfig03" Value="unconditional" />
+    <Parameter ID="ReferenceEnable03" Value="No reference enable" />
+    <Parameter ID="CurrentShowConfig04" Value="Current04 on ABRlatch" />
+    <Parameter ID="DecayConfig04" Value="Slow Decay" />
+    <Parameter ID="PWMConfig04" Value="Output04 PWM control" />
+    <Parameter ID="SwitchConfig04" Value="Endswitch 04 disabled" />
+    <Parameter ID="TriggerInput04" Value="Trigger input 04 disabled" />
+    <Parameter ID="LatchConfig04" Value="unconditional" />
+    <Parameter ID="ReferenceEnable04" Value="No reference enable" />
+    <Parameter ID="DitherAmplitude" Value="0" Type="USINT" />
+    <Parameter ID="DitherFrequency" Value="0" Type="USINT" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST14" Hardware="X20BT9100">
+    <Parameter ID="HardwareModuleName" Value="X20BT9100" />
+  </Module>
+  <Module ID="IF3.ST6.IF1.ST14.IO" Hardware="X20BT9100">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="PowerInfo" Value="off" />
+  </Module>
+  <Module ID="IF6.X2X" Hardware="X2X">
+    <Parameter ID="CycleTime" Value="800" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="BusLength" Value="1000" Type="UDINT" />
+    <Parameter ID="Stations" Value="64" Type="UDINT" />
+    <Parameter ID="AsyncPayload" Value="80" Type="UDINT" />
+    <Parameter ID="Asymmetric" Value="off" />
+    <Parameter ID="OutputJustInTime" Value="on" />
+    <Parameter ID="BusCycleTrigger" Value="auto" />
+    <Parameter ID="OutputCycleTrigger" Value="auto" />
+  </Module>
+  <Module ID="IF6.ST1" Hardware="X20CS1020">
+    <Parameter ID="HardwareModuleName" Value="X20CS1020" />
+  </Module>
+  <Module ID="IF6.ST1.CC" Hardware="Stream1xRS232" />
+  <Module ID="IF6.ST1.IF1" Hardware="X20CS1020">
+    <Parameter ID="ActivateDevice" Value="on" />
+    <Parameter ID="Baudrate" Value="57600" Type="UDINT" />
+    <Parameter ID="Parity" Value="E" />
+    <Parameter ID="DataBits" Value="8" Type="UDINT" />
+    <Parameter ID="StopBits" Value="1" Type="UDINT" />
+    <Parameter ID="DeviceType" Value="RS232" />
+    <Parameter ID="InversionRts" Value="off" />
+    <Parameter ID="InversionCts" Value="off" />
+    <Parameter ID="HwHandshakeRtsMode" Value="flowControl" />
+    <Parameter ID="HwHandshakeCtsMode" Value="disabled" />
+    <Parameter ID="SwHandshakeActivate" Value="off" />
+    <Parameter ID="LowerThreshold" Value="512" Type="UINT" />
+    <Parameter ID="UpperThreshold" Value="1024" Type="UINT" />
+    <Parameter ID="ReceiveIdleTime" Value="4" Type="UDINT" />
+    <Parameter ID="TransmitIdleTime" Value="5" Type="UINT" />
+    <Parameter ID="FrameLengthMax" Value="256" Type="UINT" />
+    <Parameter ID="FrameTerminationChar1" Value="-1" Type="INT" />
+    <Parameter ID="FrameTerminationChar2" Value="-1" Type="INT" />
+    <Parameter ID="FrameTerminationChar3" Value="-1" Type="INT" />
+    <Parameter ID="FrameTerminationChar4" Value="-1" Type="INT" />
+    <Parameter ID="ActivateModem" Value="0" />
+    <Parameter ID="ActivateIna" Value="1" Type="UDINT" />
+  </Module>
+  <Module ID="IF6.ST1.IO" Hardware="X20CS1020">
+    <Parameter ID="MaxInSize" Value="31" Type="UDINT" />
+    <Parameter ID="MaxOutSize" Value="30" Type="UDINT" />
+    <Parameter ID="FunctionModel" Value="Stream1xRS232" />
+    <Parameter ID="FunctionModelNumber" Value="2" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="AsynSize" Value="24" Type="USINT" />
+    <Parameter ID="AsynForward" Value="6" Type="USINT" />
+    <Parameter ID="InhibitActive" Value="0" Type="USINT" />
+    <Parameter ID="InhibitPassive" Value="0" Type="USINT" />
+    <Parameter ID="ExtErrStatusInfo" Value="off" />
+  </Module>
+  <Module ID="IF6.ST2" Hardware="X20CS2770">
+    <Parameter ID="HardwareModuleName" Value="X20CS2770" />
+  </Module>
+  <Module ID="IF6.ST2.IO" Hardware="X20CS2770">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="Baudrate01" Value="500000" />
+    <Parameter ID="SJWsetting01" Value="3" Type="USINT" />
+    <Parameter ID="SPOsetting01" Value="0" Type="USINT" />
+    <Parameter ID="TXobjects01" Value="1" Type="UINT" />
+    <Parameter ID="FIFOTXlimit01" Value="1" Type="USINT" />
+    <Parameter ID="TxFifoInfo01" Value="off" />
+    <Parameter ID="RxFifoInfo01" Value="off" />
+    <Parameter ID="CANdataFormat01" Value="UINT" />
+    <Parameter ID="RX_Fifo_01_enable" Value="off" />
+    <Parameter ID="IF1DefaultCANFilterMode" Value="accept" />
+    <Parameter ID="IF1EnableFilter01" Value="off" />
+    <Parameter ID="IF1EnableFilter02" Value="off" />
+    <Parameter ID="IF1EnableFilter03" Value="off" />
+    <Parameter ID="IF1EnableFilter04" Value="off" />
+    <Parameter ID="Baudrate02" Value="250000" />
+    <Parameter ID="SJWsetting02" Value="3" Type="USINT" />
+    <Parameter ID="SPOsetting02" Value="0" Type="USINT" />
+    <Parameter ID="TXobjects02" Value="1" Type="UINT" />
+    <Parameter ID="FIFOTXlimit02" Value="1" Type="USINT" />
+    <Parameter ID="TxFifoInfo02" Value="off" />
+    <Parameter ID="RxFifoInfo02" Value="off" />
+    <Parameter ID="CANdataFormat02" Value="UINT" />
+    <Parameter ID="RX_Fifo_02_enable" Value="off" />
+    <Parameter ID="IF2DefaultCANFilterMode" Value="accept" />
+    <Parameter ID="IF2EnableFilter01" Value="off" />
+    <Parameter ID="IF2EnableFilter02" Value="off" />
+    <Parameter ID="IF2EnableFilter03" Value="off" />
+    <Parameter ID="IF2EnableFilter04" Value="off" />
+  </Module>
+  <Module ID="IF6.ST3" Hardware="X20CS2770">
+    <Parameter ID="HardwareModuleName" Value="X20CS2770b" />
+  </Module>
+  <Module ID="IF6.ST3.IO" Hardware="X20CS2770">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="Baudrate01" Value="500000" />
+    <Parameter ID="SJWsetting01" Value="3" Type="USINT" />
+    <Parameter ID="SPOsetting01" Value="0" Type="USINT" />
+    <Parameter ID="TXobjects01" Value="1" Type="UINT" />
+    <Parameter ID="FIFOTXlimit01" Value="1" Type="USINT" />
+    <Parameter ID="TxFifoInfo01" Value="off" />
+    <Parameter ID="RxFifoInfo01" Value="off" />
+    <Parameter ID="CANdataFormat01" Value="USINT" />
+    <Parameter ID="RX_Fifo_01_enable" Value="off" />
+    <Parameter ID="IF1DefaultCANFilterMode" Value="accept" />
+    <Parameter ID="IF1EnableFilter01" Value="off" />
+    <Parameter ID="IF1EnableFilter02" Value="off" />
+    <Parameter ID="IF1EnableFilter03" Value="off" />
+    <Parameter ID="IF1EnableFilter04" Value="off" />
+    <Parameter ID="Baudrate02" Value="500000" />
+    <Parameter ID="SJWsetting02" Value="3" Type="USINT" />
+    <Parameter ID="SPOsetting02" Value="0" Type="USINT" />
+    <Parameter ID="TXobjects02" Value="1" Type="UINT" />
+    <Parameter ID="FIFOTXlimit02" Value="1" Type="USINT" />
+    <Parameter ID="TxFifoInfo02" Value="off" />
+    <Parameter ID="RxFifoInfo02" Value="off" />
+    <Parameter ID="CANdataFormat02" Value="USINT" />
+    <Parameter ID="RX_Fifo_02_enable" Value="off" />
+    <Parameter ID="IF2DefaultCANFilterMode" Value="accept" />
+    <Parameter ID="IF2EnableFilter01" Value="off" />
+    <Parameter ID="IF2EnableFilter02" Value="off" />
+    <Parameter ID="IF2EnableFilter03" Value="off" />
+    <Parameter ID="IF2EnableFilter04" Value="off" />
+  </Module>
+  <Module ID="IF6.ST4" Hardware="X20AO4622">
+    <Parameter ID="HardwareModuleName" Value="X20AO4622" />
+  </Module>
+  <Module ID="IF6.ST4.IO" Hardware="X20AO4622">
+    <Parameter ID="FunctionModel" Value="FunctionModel001" />
+    <Parameter ID="FunctionModelNumber" Value="1" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="ChannelType01" Value="-10V to +10V" />
+    <Parameter ID="ChannelType02" Value="-10V to +10V" />
+    <Parameter ID="ChannelType03" Value="-10V to +10V" />
+    <Parameter ID="ChannelType04" Value="-10V to +10V" />
+  </Module>
+  <Module ID="IF6.ST5" Hardware="X20DC1976">
+    <Parameter ID="HardwareModuleName" Value="X20DC1976b" />
+  </Module>
+  <Module ID="IF6.ST5.IO" Hardware="X20DC1976">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="SDCInfo" Value="off" />
+    <Parameter ID="CounterStd01" Value="16Bit" />
+    <Parameter ID="CounterTimeInfo" Value="off" />
+    <Parameter ID="LatchMode" Value="off" />
+    <Parameter ID="ABRInputs" Value="off" />
+    <Parameter ID="BrokenWireConfig" Value="on" />
+    <Parameter ID="BWConfigChannel01" Value="off" />
+    <Parameter ID="BWConfigChannel02" Value="off" />
+    <Parameter ID="BWConfigChannel03" Value="off" />
+    <Parameter ID="BWTimer0" Value="0" Type="UDINT" />
+  </Module>
+  <Module ID="IF6.ST6" Hardware="X20DO4529">
+    <Parameter ID="HardwareModuleName" Value="X20DO4529a" />
+  </Module>
+  <Module ID="IF6.ST6.IO" Hardware="X20DO4529">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="DigitalOutputsPacked" Value="off" />
+  </Module>
+  <Module ID="IF6.ST7" Hardware="X20DI6373">
+    <Parameter ID="HardwareModuleName" Value="X20DI6373a" />
+  </Module>
+  <Module ID="IF6.ST7.IO" Hardware="X20DI6373">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="DigitalInputsPacked" Value="off" />
+  </Module>
+</IOCFG>

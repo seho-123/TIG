@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="p3_LogBook">
+  <Property Name="Description" Value="Template alarm page - current alarms"/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Index" Value="3"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+  <Property Name="Width" Value="800"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[Background]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Background"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[globalArea]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="globalArea"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="1"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[DrillDown]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="DrillDown"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="2"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[DrillDown1]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="DrillDown1"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="3"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="4"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <TextLayer LanguageId="zh-CN"/>
+        <TextLayer LanguageId="es"/>
+        <TextLayer LanguageId="fr"/>
+        <TextLayer LanguageId="pt-BR"/>
+        <TextLayer LanguageId="pt"/>
+        <TextLayer LanguageId="sv"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls/>
+      <KeyMapping>
+        <VirtualKey Name="AlarmUp">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016E">
+              <Property Name="Control" Value="None"/>
+              <Property Name="Description" Value=""/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="AlarmPgUp">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016E">
+              <Property Name="Control" Value="None"/>
+              <Property Name="Description" Value=""/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="AlarmPgDown">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016E">
+              <Property Name="Control" Value="None"/>
+              <Property Name="Description" Value=""/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="AlarmDown">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016E">
+              <Property Name="Control" Value="None"/>
+              <Property Name="Description" Value=""/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="AlarmAcknowledge">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016E">
+              <Property Name="Control" Value="None"/>
+              <Property Name="Description" Value=""/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="pageAlarmHistory">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000160">
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Page" Value="Source[local].Page[p5_GLOBAL_Settings]"/>
+              <Property Name="Target" Value="Page"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[DrillDown2]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="DrillDown2"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="5"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[ClickLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ClickLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="6"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[Main_StartStop_Btns]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Main_StartStop_Btns"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="7"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[SingleEditor]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="SingleEditor"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="8"/>
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[local].Layer[SingleEditor].Control[Numeric_1]">
+      <Property Name="Down" Value="Source[local].Layer[SingleEditor].Control[Numeric_6]"/>
+      <Property Name="Left" Value="Source[local].Layer[SingleEditor].Control[Numeric_3]"/>
+      <Property Name="Right" Value="Source[local].Layer[SingleEditor].Control[Numeric_2]"/>
+      <Property Name="Up" Value="Source[local].Layer[SingleEditor].Control[Numeric_5]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[SingleEditor].Control[Numeric_2]">
+      <Property Name="Down" Value="Source[local].Layer[SingleEditor].Control[Numeric_5]"/>
+      <Property Name="Left" Value="Source[local].Layer[SingleEditor].Control[Numeric_5]"/>
+      <Property Name="Right" Value="Source[local].Layer[SingleEditor].Control[Numeric_3]"/>
+      <Property Name="Up" Value="Source[local].Layer[SingleEditor].Control[Numeric_6]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[SingleEditor].Control[Numeric_3]">
+      <Property Name="Down" Value="Source[local].Layer[SingleEditor].Control[Numeric_5]"/>
+      <Property Name="Left" Value="Source[local].Layer[SingleEditor].Control[Numeric_2]"/>
+      <Property Name="Right" Value="Source[local].Layer[SingleEditor].Control[Numeric_6]"/>
+      <Property Name="Up" Value="Source[local].Layer[SingleEditor].Control[Numeric_6]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[SingleEditor].Control[Numeric_5]">
+      <Property Name="Down" Value="Source[local].Layer[SingleEditor].Control[Numeric_1]"/>
+      <Property Name="Left" Value="Source[local].Layer[SingleEditor].Control[Numeric_3]"/>
+      <Property Name="Right" Value="Source[local].Layer[SingleEditor].Control[Numeric_2]"/>
+      <Property Name="Up" Value="Source[local].Layer[SingleEditor].Control[Numeric_6]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[SingleEditor].Control[Numeric_6]">
+      <Property Name="Down" Value="Source[local].Layer[SingleEditor].Control[Numeric_5]"/>
+      <Property Name="Left" Value="Source[local].Layer[SingleEditor].Control[Numeric_3]"/>
+      <Property Name="Right" Value="Source[local].Layer[SingleEditor].Control[Numeric_2]"/>
+      <Property Name="Up" Value="Source[local].Layer[SingleEditor].Control[Numeric_1]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[local].Layer[Main_StartStop_Btns].Control[Numeric_3]"/>
+    <TabSeqItem Index="1" Value="Source[local].Layer[SingleEditor].Control[Numeric_1]"/>
+    <TabSeqItem Index="2" Value="Source[local].Layer[SingleEditor].Control[Numeric_2]"/>
+    <TabSeqItem Index="3" Value="Source[local].Layer[SingleEditor].Control[Numeric_3]"/>
+    <TabSeqItem Index="4" Value="Source[local].Layer[SingleEditor].Control[Numeric_4]"/>
+    <TabSeqItem Index="5" Value="Source[local].Layer[SingleEditor].Control[Numeric_5]"/>
+    <TabSeqItem Index="6" Value="Source[local].Layer[SingleEditor].Control[Numeric_6]"/>
+    <TabSeqItem Index="7" Value="Source[local].Layer[Main_StartStop_Btns].Control[Numeric_4]"/>
+    <TabSeqItem Index="8" Value="Source[local].Layer[Main_StartStop_Btns].Control[Numeric_5]"/>
+    <TabSeqItem Index="9" Value="Source[local].Layer[Main_StartStop_Btns].Control[Numeric_12]"/>
+    <TabSeqItem Index="10" Value="Source[local].Layer[Main_StartStop_Btns].Control[Numeric_13]"/>
+    <TabSeqItem Index="11" Value="Source[local].Layer[Main_StartStop_Btns].Control[Numeric_14]"/>
+    <TabSeqItem Index="12" Value="Source[local].Layer[Main_StartStop_Btns].Control[Numeric_15]"/>
+  </TabSequence>
+</Page>

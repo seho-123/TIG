@@ -1,0 +1,18 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	receive_cntr : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/UDP_Client/UDP_Client.c" #2"61" #3"13" *)
+	SrvIP : STRING[19];	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/UDP_Client/UDP_Client.c" #2"57" #3"18" *)
+	status : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/UDP_Client/UDP_Client.c" #2"59" #3"13" *)
+	UDP_Msg : ARRAY[0..1] OF UDP2_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/UDP_Client/UDP_Client.c" #2"55" #3"17" *)
+	KK_String : STRING[127];	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/UDP_Client/UDP_Client.c" #2"70" #3"18" *)
+	KK_Odpowiadaj : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/UDP_Client/UDP_Client.c" #2"69" #3"13" *)
+	ReceivedCntr : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/UDP_Client/UDP_Client.c" #2"67" #3"13" *)
+	UDP_Config : ARRAY[0..1] OF UDP2_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/UDP_Client/UDP_Client.c" #2"54" #3"17" *)
+	TML_PLC_IP_Address : ARRAY[0..15] OF SINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/UDP_Client/UDP_Client.c" #2"27" #3"13" *)
+	sendNewMsg : BOOL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/UDP_Client/UDP_Client.c" #2"60" #3"15" *)
+	KK_Char : USINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/UDP_Client/UDP_Client.c" #2"71" #3"14" *)
+	push_Cntr : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/UDP_Client/UDP_Client.c" #2"62" #3"13" *)
+END_VAR

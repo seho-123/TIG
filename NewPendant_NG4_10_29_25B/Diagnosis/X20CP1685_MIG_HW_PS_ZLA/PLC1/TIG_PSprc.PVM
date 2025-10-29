@@ -1,0 +1,29 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=TIG_PSprc 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=22 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                            PS_Param_Set                       PS_Param_typ[0..2]    0 "                                                               *"    0   24    3    0    0    1         
+                         PS_Param_Set[0]                             PS_Param_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Mode                                    USINT    0 "                                                               1"    2    5    1   10    0    0         
+                           pArcLinkRobot                                    UDINT    0 "                                                       135868492"    2    7    1   10    0    0         
+                                 Process                    GenProcess_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                              Process[5]                           GenProcess_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                        'TIG PS'"    2    9   16    1    0    0         
+                             ConfigReady                                      INT    0 "                                                               1"    2    3    1   10    0    0         
+                                 Disable                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              15"    2    4    1   10    0    0 e,10,prc
+
+                                   _step                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                 ArcLink                             Arc_Link_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                BckAmpSP                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                               PulseFreq                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                              PulseWidth                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                    Trim                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                UltimArc                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                     WFS                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                   Volts                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                   Pinch                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                             Development                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                               SendParam                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                     Fbk                       ARCLINK_PS_FBK_typ    0 "                                                               *"    1   24    1    0    0    1         
+                              curArcVolt                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                               curArcAmp                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         

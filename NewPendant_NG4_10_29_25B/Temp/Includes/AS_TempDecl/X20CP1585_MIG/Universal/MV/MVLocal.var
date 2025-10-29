@@ -1,0 +1,8 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	CMD_Buffer : ARRAY[0..0] OF STRING[50];	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/MV/MV.c" #2"51" #3"18" *)
+	Client : ARRAY[0..0] OF Client_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/MV/MV.c" #2"50" #3"26" *)
+END_VAR

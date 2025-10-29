@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="DrillDown">
+  <Property Name="BackColor" Value="9"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="800"/>
+  <TextGroup>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="de"/>
+    <TextLayer LanguageId="zh-CN"/>
+    <TextLayer LanguageId="es"/>
+    <TextLayer LanguageId="fr"/>
+    <TextLayer LanguageId="pt-BR"/>
+    <TextLayer LanguageId="pt"/>
+    <TextLayer LanguageId="sv"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001004" Name="Text_19">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[0]]"/>
+      <Property Name="ColorMap" Value="Source[local].ColorMap[ColorAtr]"/>
+      <Property Name="ColorMapIndexOffset" Value="0"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial16]"/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="HighlightingBackColor" Value="14"/>
+      <Property Name="HighlightingBorder" Value="Source[local].Border[Button_pressed]"/>
+      <Property Name="HighlightingDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[0]]"/>
+      <Property Name="Left" Value="76"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="Line 0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[0]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[0]]"/>
+      <Property Name="TextSource" Value="SingleString"/>
+      <Property Name="Top" Value="123"/>
+      <Property Name="Width" Value="580"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_22">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[1]]"/>
+      <Property Name="ColorMap" Value="Source[local].ColorMap[ColorAtr]"/>
+      <Property Name="ColorMapIndexOffset" Value="0"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial16]"/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="HighlightingBackColor" Value="14"/>
+      <Property Name="HighlightingBorder" Value="Source[local].Border[Button_pressed]"/>
+      <Property Name="HighlightingDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[1]]"/>
+      <Property Name="Left" Value="76"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="Line 1"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[1]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[1]]"/>
+      <Property Name="TextSource" Value="SingleString"/>
+      <Property Name="Top" Value="164"/>
+      <Property Name="Width" Value="580"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_25">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[2]]"/>
+      <Property Name="ColorMap" Value="Source[local].ColorMap[ColorAtr]"/>
+      <Property Name="ColorMapIndexOffset" Value="0"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial16]"/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="HighlightingBackColor" Value="14"/>
+      <Property Name="HighlightingBorder" Value="Source[local].Border[Button_pressed]"/>
+      <Property Name="HighlightingDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[2]]"/>
+      <Property Name="Left" Value="76"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="Line 2"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[2]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[2]]"/>
+      <Property Name="TextSource" Value="SingleString"/>
+      <Property Name="Top" Value="205"/>
+      <Property Name="Width" Value="580"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_28">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[3]]"/>
+      <Property Name="ColorMap" Value="Source[local].ColorMap[ColorAtr]"/>
+      <Property Name="ColorMapIndexOffset" Value="0"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial16]"/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="HighlightingBackColor" Value="14"/>
+      <Property Name="HighlightingBorder" Value="Source[local].Border[Button_pressed]"/>
+      <Property Name="HighlightingDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[3]]"/>
+      <Property Name="Left" Value="76"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="Line 3"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[3]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[3]]"/>
+      <Property Name="TextSource" Value="SingleString"/>
+      <Property Name="Top" Value="246"/>
+      <Property Name="Width" Value="580"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_31">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[4]]"/>
+      <Property Name="ColorMap" Value="Source[local].ColorMap[ColorAtr]"/>
+      <Property Name="ColorMapIndexOffset" Value="0"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial16]"/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="HighlightingBackColor" Value="14"/>
+      <Property Name="HighlightingBorder" Value="Source[local].Border[Button_pressed]"/>
+      <Property Name="HighlightingDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[4]]"/>
+      <Property Name="Left" Value="76"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="Line 4"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[4]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[4]]"/>
+      <Property Name="TextSource" Value="SingleString"/>
+      <Property Name="Top" Value="287"/>
+      <Property Name="Width" Value="580"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_34">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[5]]"/>
+      <Property Name="ColorMap" Value="Source[local].ColorMap[ColorAtr]"/>
+      <Property Name="ColorMapIndexOffset" Value="0"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial16]"/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="HighlightingBackColor" Value="14"/>
+      <Property Name="HighlightingBorder" Value="Source[local].Border[Button_pressed]"/>
+      <Property Name="HighlightingDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[5]]"/>
+      <Property Name="Left" Value="76"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="Line 5"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[5]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[5]]"/>
+      <Property Name="TextSource" Value="SingleString"/>
+      <Property Name="Top" Value="328"/>
+      <Property Name="Width" Value="580"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Line_Atr]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="36"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[0]]"/>
+      <Property Name="Left" Value="37"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[0]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="122"/>
+      <Property Name="Width" Value="36"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_2">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Line_Atr]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="36"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[1]]"/>
+      <Property Name="Left" Value="37"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[1]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="163"/>
+      <Property Name="Width" Value="36"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_3">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Line_Atr]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="36"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[2]]"/>
+      <Property Name="Left" Value="37"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[2]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="204"/>
+      <Property Name="Width" Value="36"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_4">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Line_Atr]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="36"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[3]]"/>
+      <Property Name="Left" Value="37"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[3]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="245"/>
+      <Property Name="Width" Value="36"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_5">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Line_Atr]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="36"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[4]]"/>
+      <Property Name="Left" Value="37"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[4]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="286"/>
+      <Property Name="Width" Value="36"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_6">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Line_Atr]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="36"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[5]]"/>
+      <Property Name="Left" Value="37"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[5]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="327"/>
+      <Property Name="Width" Value="36"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_35">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[6]]"/>
+      <Property Name="ColorMap" Value="Source[local].ColorMap[ColorAtr]"/>
+      <Property Name="ColorMapIndexOffset" Value="0"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial16]"/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="HighlightingBackColor" Value="14"/>
+      <Property Name="HighlightingBorder" Value="Source[local].Border[Button_pressed]"/>
+      <Property Name="HighlightingDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[6]]"/>
+      <Property Name="Left" Value="77"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="Line 6"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[6]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[6]]"/>
+      <Property Name="TextSource" Value="SingleString"/>
+      <Property Name="Top" Value="369"/>
+      <Property Name="Width" Value="580"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_7">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Line_Atr]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="36"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[6]]"/>
+      <Property Name="Left" Value="38"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[6]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="368"/>
+      <Property Name="Width" Value="36"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial24Bold]"/>
+      <Property Name="GroupID" Value="2"/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="Left" Value="154"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="&lt;&lt;&lt;  fff &gt;&gt;"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextDatapoint" Value="Source[global].Variable[DataSource.Master[1].Hmi[0].ActiveBanner]"/>
+      <Property Name="TextSource" Value="SingleString"/>
+      <Property Name="Top" Value="87"/>
+      <Property Name="Width" Value="469"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="TouchCalibration">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000164">
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="BrightnessPlus">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000162">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="MaxValue" Value="100"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="Repeat" Value="True"/>
+          <Property Name="StepValue" Value="5"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Internal.Display.Brightness]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="LanguageUp">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016C">
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Mode" Value="Previous"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="LanguageDown">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016C">
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Mode" Value="Next"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="BrightnessMinus">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000162">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="MaxValue" Value="100"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="Repeat" Value="True"/>
+          <Property Name="StepValue" Value="-5"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Internal.Display.Brightness]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="ContrastPlus">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000162">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="MaxValue" Value="100"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="Repeat" Value="True"/>
+          <Property Name="StepValue" Value="5"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Internal.Display.Contrast]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="ContrastMinus">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000162">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="MaxValue" Value="100"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="Repeat" Value="True"/>
+          <Property Name="StepValue" Value="-5"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Internal.Display.Contrast]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

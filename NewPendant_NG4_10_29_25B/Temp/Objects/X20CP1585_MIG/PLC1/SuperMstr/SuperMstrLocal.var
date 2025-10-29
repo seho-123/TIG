@@ -1,0 +1,8 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	NODES : ARRAY[0..1023] OF LCD_NODE_obj;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/SuperMstr/SuperMaster.c" #2"26" #3"21" *)
+	Units : ARRAY[0..10] OF Units_obj;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/SuperMstr/SuperMaster.c" #2"27" #3"18" *)
+END_VAR

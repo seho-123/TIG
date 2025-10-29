@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Layers">
+    <Folder Name="p4_APPLIC_SettingsDefault" TargetIndex="Source[local].Page[p4_APPLIC_Settings].Layer[Default]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ" />
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="AlarmUp" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[AlarmUp]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">366</UInt32>
+              <UInt32 Name="ActionDataSize">8</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <UInt32 Name="Control">4294967295</UInt32>
+              <UInt16 Name="Action">0</UInt16>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="AlarmPgUp" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[AlarmPgUp]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">366</UInt32>
+              <UInt32 Name="ActionDataSize">8</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <UInt32 Name="Control">4294967295</UInt32>
+              <UInt16 Name="Action">0</UInt16>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="AlarmPgDown" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[AlarmPgDown]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">366</UInt32>
+              <UInt32 Name="ActionDataSize">8</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <UInt32 Name="Control">4294967295</UInt32>
+              <UInt16 Name="Action">0</UInt16>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="AlarmDown" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[AlarmDown]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">366</UInt32>
+              <UInt32 Name="ActionDataSize">8</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <UInt32 Name="Control">4294967295</UInt32>
+              <UInt16 Name="Action">0</UInt16>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="Default" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[p4_APPLIC_Settings].Layer[Default]">
+          <Reference Name="StatusDP" Type="DP">None</Reference>
+          <UInt32 Name="CtrlCount">0</UInt32>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Forms">
+    <Folder Name="POBJ">
+      <Object Name="p4_APPLIC_Settings" ClsId="0x400" Version="1" TargetIndex="4" Type="PAGE" RefString="Source[local].Page[p4_APPLIC_Settings]">
+        <UInt32 Name="FormLanguage">0</UInt32>
+        <Reference Name="StartControl" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_1]</Reference>
+        <UInt32 Name="LayerCount">11</UInt32>
+        <UInt32 Name="MoveFocus">1</UInt32>
+        <Group Name="Styleable Properties">
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00000400].StyleClass[Default]</Reference>
+          <UInt16 Name="StyleTableSize">4</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Group>
+        <Reference Name="FormLayer0" Type="LAY">Source[local].Layer[Background]</Reference>
+        <Reference Name="FormLayer1" Type="LAY">Source[local].Layer[globalArea]</Reference>
+        <Reference Name="FormLayer2" Type="LAY">Source[local].Page[p4_APPLIC_Settings].Layer[Default]</Reference>
+        <Reference Name="FormLayer3" Type="LAY">Source[local].Layer[DrillDown]</Reference>
+        <Reference Name="FormLayer4" Type="LAY">Source[local].Layer[DrillDown1]</Reference>
+        <Reference Name="FormLayer5" Type="LAY">Source[local].Layer[DrillDown2]</Reference>
+        <Reference Name="FormLayer6" Type="LAY">Source[local].Layer[ClickLayer]</Reference>
+        <Reference Name="FormLayer7" Type="LAY">Source[local].Layer[Editor]</Reference>
+        <Reference Name="FormLayer8" Type="LAY">Source[local].Layer[Main_StartStop_Btns]</Reference>
+        <Reference Name="FormLayer9" Type="LAY">Source[local].Layer[SingleEditor]</Reference>
+        <Reference Name="FormLayer10" Type="LAY">Source[local].Layer[msgBox]</Reference>
+        <Group Name="MovementOrder">
+          <UInt32 Name="Count">10</UInt32>
+          <Group Name="Source[local].Layer[Editor].Control[Numeric_1]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_6]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_1]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[Editor].Control[Numeric_2]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_3]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_2]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[Editor].Control[Numeric_3]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_3]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_5]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_3]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_3]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_3]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_3]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[Editor].Control[Numeric_5]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_5]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_6]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_3]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_5]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_5]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_5]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_5]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[Editor].Control[Numeric_6]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_6]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_5]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_6]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_6]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_6]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_6]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[SingleEditor].Control[Numeric_1]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_6]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_3]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_5]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_6]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[SingleEditor].Control[Numeric_2]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_3]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_5]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_3]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_6]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_5]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[SingleEditor].Control[Numeric_3]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_3]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_5]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_6]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_6]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_5]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[SingleEditor].Control[Numeric_5]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_5]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_6]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_3]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_3]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_6]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_1]</Reference>
+          </Group>
+          <Group Name="Source[local].Layer[SingleEditor].Control[Numeric_6]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_6]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[SingleEditor].Control[Numeric_5]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_3]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_2]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[Editor].Control[Numeric_5]</Reference>
+          </Group>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

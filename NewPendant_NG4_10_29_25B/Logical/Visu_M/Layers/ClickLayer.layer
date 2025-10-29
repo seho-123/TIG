@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="ClickLayer">
+  <Property Name="BackColor" Value="9"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="800"/>
+  <TextGroup>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="de"/>
+    <TextLayer LanguageId="zh-CN"/>
+    <TextLayer LanguageId="es"/>
+    <TextLayer LanguageId="fr"/>
+    <TextLayer LanguageId="pt-BR"/>
+    <TextLayer LanguageId="pt"/>
+    <TextLayer LanguageId="sv"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001003" Name="HotSpot_6">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_28]"/>
+      <Property Name="GroupID" Value="3"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="17"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="328"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_28]"/>
+      <Property Name="Width" Value="650"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_5">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_29]"/>
+      <Property Name="GroupID" Value="3"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="17"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="287"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_29]"/>
+      <Property Name="Width" Value="650"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_4">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_30]"/>
+      <Property Name="GroupID" Value="3"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="17"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="246"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_30]"/>
+      <Property Name="Width" Value="650"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_3">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_31]"/>
+      <Property Name="GroupID" Value="3"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="17"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="205"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_31]"/>
+      <Property Name="Width" Value="650"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_2">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_32]"/>
+      <Property Name="GroupID" Value="3"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="17"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="164"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_32]"/>
+      <Property Name="Width" Value="650"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_33]"/>
+      <Property Name="GroupID" Value="3"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="17"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="123"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_33]"/>
+      <Property Name="Width" Value="650"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_1">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[button_scroll_up]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_34]"/>
+      <Property Name="GroupID" Value="5"/>
+      <Property Name="Height" Value="50"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="684"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="58"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_34]"/>
+      <Property Name="Width" Value="100"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_2">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[button_scroll_down]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_35]"/>
+      <Property Name="GroupID" Value="5"/>
+      <Property Name="Height" Value="50"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="684"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="143"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_35]"/>
+      <Property Name="Width" Value="100"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_3">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[button_scroll_up_multi]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_36]"/>
+      <Property Name="Height" Value="50"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="16"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="58"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_36]"/>
+      <Property Name="Width" Value="100"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_4">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[button_scroll_up_multi]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_39]"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="704"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.Ticks_vis]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="254"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_39]"/>
+      <Property Name="Width" Value="60"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_5">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[button_scroll_down_multi_pressed]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_40]"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="704"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.Ticks_vis]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="337"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_40]"/>
+      <Property Name="Width" Value="60"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_7">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_41]"/>
+      <Property Name="GroupID" Value="3"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="17"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="369"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_41]"/>
+      <Property Name="Width" Value="650"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="pageSDM">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000160">
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="Page" Value="None"/>
+          <Property Name="Target" Value="Page"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_28">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.RefreshPage]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineClick[5]]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_29">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.RefreshPage]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineClick[4]]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_30">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.RefreshPage]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineClick[3]]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_31">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.RefreshPage]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineClick[2]]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_32">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.RefreshPage]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineClick[1]]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_33">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.RefreshPage]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineClick[0]]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_34">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.RefreshPage]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.PrevClick]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_35">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.RefreshPage]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.NextClick]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_36">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.RefreshPage]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.PageHeadClick]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_39">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.RefreshPage]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TickPlus]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_40">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.RefreshPage]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.TickMinus]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_41">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.RefreshPage]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.DrillDwnHMI.LineClick[6]]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

@@ -4486,8 +4486,7 @@ LCD_NODE_obj *	curNode;
 
 			if (File_RW._int.PathDoneCnt > (UINT)curCfg->Param[parGEN_WeldProgramRepeat].val[0])
 			{
-				File_RW._int.PathDoneCnt = (UINT)
-				curCfg->Param[parGEN_WeldProgramRepeat].val[0];
+				File_RW._int.PathDoneCnt = (UINT)curCfg->Param[parGEN_WeldProgramRepeat].val[0];
 
 				AutoStartEnable 	= 0;
 			}

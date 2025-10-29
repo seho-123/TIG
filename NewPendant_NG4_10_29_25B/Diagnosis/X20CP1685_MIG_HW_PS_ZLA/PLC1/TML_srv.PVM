@@ -1,0 +1,173 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=TML_srv 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=37 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                          KK_TML_PowerON                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                      KK_STOP_TML_Server                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                KK_DoNotChangeTMLProgram                                     UINT    0 "                                                               1"    0    6    1   10    0    0         
+                      KK_BypassHeartBeat                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                       TML_MTR_CUT_POWER                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                         Max_TML_Process                                     UINT    0 "                                                               5"    0    6    1   10    1    0         
+                            Kick_TML_Cmd                                    USINT    0 "                                                               0"    0    5    1   10    0    0         
+                                 TML_mgr                        TML_MGR_typ[0..1]    0 "                                                               *"    0   24    2    0    0    1         
+                              TML_mgr[0]                              TML_MGR_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                    hrdw                  TML_CHAN_HRDW_typ[0..1]    0 "                                                               *"    2   24    2    0    0    0         
+                                 hrdw[1]                        TML_CHAN_HRDW_typ    0 "                                                               *"    3   24    1    0    0    0         
+                                 AxisNum                                    USINT    0 "                                                               *"    4    5    1   10    0    0         
+                         TXCountReadBack                                    USINT    0 "                                                               *"    4    5    1   10    0    0         
+                             RXDataSize0                                    USINT    0 "                                                               *"    4    5    1   10    0    0         
+                                 RXCount                                    USINT    0 "                                                               *"    4    5    1   10    0    0         
+                                    buff                              USINT[0..3]    0 "                                                               *"    4    5    4    0    0    0         
+                                 buff[0]                                    USINT    0 "                                                               *"    5    5    1   10    0    0         
+                                 buff[1]                                    USINT    0 "                                                               *"    5    5    1   10    0    0         
+                                 buff[2]                                    USINT    0 "                                                               *"    5    5    1   10    0    0         
+                                 buff[3]                                    USINT    0 "                                                               *"    5    5    1   10    0    0         
+                                RXIdent0                                    UDINT    0 "                                                               *"    4    7    1   10    0    0         
+                            RXData0Word0                               UINT[0..3]    0 "                                                               *"    4    6    4    0    0    0         
+                         RXData0Word0[0]                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                         RXData0Word0[1]                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                         RXData0Word0[2]                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                         RXData0Word0[3]                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                                 TXCount                                    USINT    0 "                                                               *"    4    5    1   10    0    0         
+                              TXDataSize                                    USINT    0 "                                                               *"    4    5    1   10    0    0         
+                                 TXIdent                                    UDINT    0 "                                                               *"    4    7    1   10    0    0         
+                             TXDataWord0                               UINT[0..3]    0 "                                                               *"    4    6    4    0    0    0         
+                          TXDataWord0[0]                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                          TXDataWord0[1]                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                          TXDataWord0[2]                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                          TXDataWord0[3]                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                             _oldRxCount                                    USINT    0 "                                                               *"    4    5    1   10    0    0         
+                                   _indx                                    USINT    0 "                                                               *"    4    5    1   10    0    0         
+                            TML_MTR_INST                           TML_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                         TML_MTR_INST[0]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'TVL'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               8"    2    4    1   10    0    0 e,-4,TML
+
+                                 Disable                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                         TML_MTR_INST[1]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'OSC'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              14"    2    4    1   10    0    0 e,-4,TML
+
+                                 Disable                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                    _cfg                                     _cfg    0 "                                                               *"    2   24    1    0    0    1         
+                               HeartBeat                                     REAL    0 "                                                             0.4"    3    8    1   10    0    0         
+                                    _int                                     _int    0 "                                                               *"    2   24    1    0    0    1         
+                              restartCnt                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                                ErrorReg                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                         TML_MTR_INST[2]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'AVC'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               8"    2    4    1   10    0    0 e,-4,TML
+
+                                 Disable                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                    _cfg                                     _cfg    0 "                                                               *"    2   24    1    0    0    1         
+                               HeartBeat                                     REAL    0 "                                                             0.3"    3    8    1   10    0    0         
+                               StatusReg                                    UDINT    0 "                       2#0000_0000_0010_0001_1000_0000_0000_0000"    2    7    1    2    0    0         
+                                ErrorReg                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                  MCRReg                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                   Error                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                ErrorReg                                     UINT    0 "                                                         16#0000"    2    6    1   16    0    0         
+                               StatusReg                                    UDINT    0 "                       2#0000_0000_0011_1111_1000_0000_0000_0000"    2    7    1    2    0    0         
+                                ErrorReg                                     UINT    0 "                                                         16#0000"    2    6    1   16    0    0         
+                                  MCRReg                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                         TML_MTR_INST[3]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                    Name                               STRING[15]    0 "                                                              ''"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               *"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,-4,TML
+
+                         TML_MTR_INST[4]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                    Name                               STRING[15]    0 "                                                              ''"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               *"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,-4,TML
+
+                         TML_MTR_INST[5]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                    Name                               STRING[15]    0 "                                                              ''"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               *"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,-4,TML
+
+                         TML_MTR_INST[6]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                    Name                               STRING[15]    0 "                                                              ''"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               *"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,-4,TML
+
+                         TML_MTR_INST[8]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                    Name                               STRING[15]    0 "                                                              ''"    2    9   16    1    0    0         
+                                 Disable                                    USINT    0 "                                                               *"    2    5    1   10    0    0         
+                                    xCMD                                    USINT    0 "                                                               *"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,-4,TML
+
+                         VectorStateMach              StateVectorProxy_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                      VectorStateMach[1]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'OSC'"    2    9   16    1    0    0         
+                                    xCMD                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                   InVal                                     REAL    0 "                                                       -69.06741"    2    8    1   10    0    0         
+                                    Mode                                      INT    0 "                                                               8"    2    3    1   10    0    0         
+                   KK_Ind_StatusReg_Cntr                              UINT[0..63]    0 "                                                               *"    0    6   64    0    1    1 a,0,1;a,
+               KK_Ind_StatusReg_Cntr[32]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+               KK_Ind_StatusReg_Cntr[33]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+               KK_Ind_StatusReg_Cntr[34]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               KK_Max_ET                             UDINT[0..31]    0 "                                                               *"    0    7   32    0    1    1 a,0,1;a,
+                           KK_Max_ET[16]                                    UDINT    0 "                                                               *"    1    7    1   10    1    0         
+                           KK_Max_ET[17]                                    UDINT    0 "                                                               *"    1    7    1   10    1    0         
+                           KK_Max_ET[18]                                    UDINT    0 "                                                               *"    1    7    1   10    1    0         
+                                  AxisCh                      TML_Axis_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                               AxisCh[0]                             TML_Axis_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                  AxisID                                     UINT    0 "                                                              25"    2    6    1   10    0    0         
+                               HeartBeat                                      TON    0 "                                                               *"    2   24    1    0    0    1         
+                                      IN                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                                      PT                                     TIME    0 "                                                           T#01s"    3   12    1    1    0    0         
+                                       Q                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                                      ET                                     TIME    0 "                                                         T#170ms"    3   12    1    1    0    0         
+                               StartTime                                     TIME    0 "                                             T#02h_21m_09s_660ms"    3   12    1    1    0    0         
+                                       M                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                                 Restart                                    UDINT    0 "                                                              48"    3    7    1   10    0    0         
+                               AxisCh[1]                             TML_Axis_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                  AxisID                                     UINT    0 "                                                              21"    2    6    1   10    0    0         
+                               AxisState                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  curPos                                     DINT    0 "                                                        -3077062"    2    4    1   10    0    0         
+                               HeartBeat                                      TON    0 "                                                               *"    2   24    1    0    0    1         
+                                      IN                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                                      PT                                     TIME    0 "                                                           T#01s"    3   12    1    1    0    0         
+                                       Q                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                                      ET                                     TIME    0 "                                                         T#100ms"    3   12    1    1    0    0         
+                               StartTime                                     TIME    0 "                                             T#02h_21m_10s_170ms"    3   12    1    1    0    0         
+                                       M                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                                 Restart                                    UDINT    0 "                                                              48"    3    7    1   10    0    0         
+                                 InitTmr                                      TON    0 "                                                               *"    2   24    1    0    0    0         
+                                      IN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                      PT                                     TIME    0 "                                                               *"    3   12    1    1    0    0         
+                                       Q                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                      ET                                     TIME    0 "                                                               *"    3   12    1    1    0    0         
+                               StartTime                                     TIME    0 "                                                               *"    3   12    1    1    0    0         
+                                       M                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 Restart                                    UDINT    0 "                                                               *"    3    7    1   10    0    0         
+                               AxisCh[2]                             TML_Axis_typ    0 "                                                               *"    1   24    1    0    0    1         
+                               HeartBeat                                      TON    0 "                                                               *"    2   24    1    0    0    1         
+                                      IN                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                                      PT                                     TIME    0 "                                                         T#750ms"    3   12    1    1    0    0         
+                                       Q                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                                      ET                                     TIME    0 "                                                         T#090ms"    3   12    1    1    0    0         
+                               StartTime                                     TIME    0 "                                             T#02h_31m_46s_350ms"    3   12    1    1    0    0         
+                                       M                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                                 Restart                                    UDINT    0 "                                                              48"    3    7    1   10    0    0         
+                                  AxisID                                     UINT    0 "                                                              22"    2    6    1   10    0    0         
+                                 Version                                    UDINT    0 "                                                          131073"    2    7    1   10    0    0         
+                               AxisState                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                      DriveErrorRegister                                     UINT    0 "                                                           24576"    2    6    1   10    0    0         
+                                  curPos                                     DINT    0 "                                                           29707"    2    4    1   10    0    0         
+                                 InitTmr                                      TON    0 "                                                               *"    2   24    1    0    0    0         
+                                      IN                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                      PT                                     TIME    0 "                                                               *"    3   12    1    1    0    0         
+                                       Q                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                      ET                                     TIME    0 "                                                               *"    3   12    1    1    0    0         
+                               StartTime                                     TIME    0 "                                                               *"    3   12    1    1    0    0         
+                                       M                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                 Restart                                    UDINT    0 "                                                               *"    3    7    1   10    0    0         
+                               AxisCh[4]                             TML_Axis_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                  AxisID                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                 DataLow                                     UINT    0 "                                                               *"    2    6    1    2    0    0         
+                                DataHigh                                     UINT    0 "                                                               *"    2    6    1    2    0    0         
+                               AxisCh[8]                             TML_Axis_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                  AxisID                                     UINT    0 "                                                              23"    2    6    1   10    0    0         
+                                  curPos                                     DINT    0 "                                                            -498"    2    4    1   10    0    0         

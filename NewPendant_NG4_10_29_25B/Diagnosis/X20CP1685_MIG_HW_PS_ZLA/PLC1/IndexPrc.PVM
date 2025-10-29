@@ -1,0 +1,37 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=IndexPrc 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=20 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                 Process                    GenProcess_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                              Process[9]                           GenProcess_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                          'INDX'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              15"    2    4    1   10    0    0 e,10,prc
+
+                                   _step                                    USINT    0 "                                                               3"    2    5    1   10    0    0         
+                         INDEX_Param_Set                    INDEX_Param_typ[0..2]    0 "                                                               *"    0   24    3    0    0    1         
+                      INDEX_Param_Set[0]                          INDEX_Param_typ    0 "                                                               *"    1   24    1    0    0    1         
+                            VectStateNum                                     UINT    0 "                                                               1"    2    6    1   10    0    0         
+                                    Mode                                    USINT    0 "                                                               3"    2    5    1   10    0    0         
+                                MaxSpeed                                     REAL    0 "                                                             1.0"    2    8    1   10    0    0         
+                         VectorStateMach              StateVectorProxy_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                      VectorStateMach[8]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                        'INDX A'"    2    9   16    1    0    0         
+                                testMode                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                   InVal                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                    Mode                                      INT    0 "                                                               5"    2    3    1   10    0    0         
+                                   simul                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                  Status                                      INT    0 "                                                               0"    2    3    1   10    0    0         
+                               VirStatus                                    UDINT    0 "                                                          131073"    2    7    1   10    0    0         
+                            TML_MTR_INST                           TML_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                         TML_MTR_INST[8]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                          'INDX'"    2    9   16    1    0    0         
+                                 Disable                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               8"    2    4    1   10    0    0 e,-4,TML
+
+                                  PosFBK                                     REAL    0 "                                                   -7.721591E-06"    2    8    1   10    0    0         
+                         TML_MTR_INST[9]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                        'INDX_1'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              -2"    2    4    1   10    0    0 e,-4,TML
+

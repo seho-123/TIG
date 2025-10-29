@@ -1,0 +1,13 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	AmpSP : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"31" #3"14" *)
+	arcPS : REFERENCE TO ARCLINK_PS_CNTRL_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"36" #3"29" *)
+	LimScal_AmpCMD : ARRAY[0..2] OF LCRLimScal;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"28" #3"25" *)
+	Ramp : ARRAY[0..2] OF LCRRamp;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"27" #3"20" *)
+	Tmr : ARRAY[0..2] OF TON;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"25" #3"16" *)
+	robot : REFERENCE TO Robot_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"23" #3"18" *)
+	KK_float : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TIG_PSprc/TIG_PS.c" #2"35" #3"14" *)
+END_VAR

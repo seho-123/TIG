@@ -1,0 +1,43 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Physical/X20CP1685_MIG_HW_PS/PLC1/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="LincolnPS" Source="Universal.LincolnPS.prg" />
+      <Task Name="Telnet" Source="Universal.Telnet.prg" />
+      <Task Name="UDP_Client" Source="Universal.UDP_Client.prg" />
+      <Task Name="TML_srv" Source="Universal.TML_srv.prg" />
+      <Task Name="AVC_SYNCH" Source="FourAxisTigCtrl.AVC_SYNCH.prg" />
+      <Task Name="TIG_PSprc" Source="Universal.TIG_PSprc.prg" />
+      <Task Name="WRST" Source="Universal.WRST.prg" />
+      <Task Name="XMLHelper" Source="Universal.XMLHelper.prg" />
+      <Task Name="BR_DC" Source="Universal.BR_DC.prg" />
+      <Task Name="AVCprc" Source="Universal.AVCprc.prg" />
+      <Task Name="OSC_TMLprc" Source="Universal.OSC_TMLprc.prg" />
+      <Task Name="WIREprc" Source="Universal.WIREprc.prg" />
+      <Task Name="HW_PSprc" Source="Universal.HW_PSprc.prg" />
+      <Task Name="GasCoolPrc" Source="Universal.GasCoolPrc.prg" />
+      <Task Name="WireBlkPrc" Source="Universal.WireBlkPrc.prg" />
+      <Task Name="IndexPrc" Source="Universal.IndexPrc.prg" />
+      <Task Name="_MotorDriv" Source="HotWire._MotorDriver.prg" />
+      <Task Name="TvlRotPrc" Source="Universal.TvlRotPrc.prg" />
+      <Task Name="MV" Source="Universal.MV.prg" />
+      <Task Name="MiscOper" Source="Universal.MiscOper.prg" />
+      <Task Name="PermSaving" Source="FourAxisTigCtrl.PermSaving.prg" />
+      <Task Name="Main2" Source="FourAxisTigCtrl.Main2.prg" />
+      <Task Name="DC2DirMtr" Source="Universal.DC2DirMtr.prg" />
+      <Task Name="_PowerSupp" Source="HotWire._PowerSupplyDriver.prg" />
+      <Task Name="TML_RLY" Source="Universal.TML_RLY.prg" />
+      <Task Name="_Master" Source="HotWire._Master.prg" />
+      <Task Name="_Menu" Source="HotWire._Menu.prg" />
+      <Task Name="HMI_Report" Source="FourAxisTigCtrl.HMI_Report.prg" />
+      <Task Name="SuperMstr" Source="Universal.SuperMstr.prg" />
+      <Task Name="FileOper" Source="Universal.FileOper.prg" />
+      <Task Name="cJSONTest" Source="UDP.cJSON.cJSONTest.prg" />
+      <Task Name="udpserv" Source="UDP.paiUDPService.udpserv.prg" />
+      <Task Name="udpApp" Source="UDP.udpApp.prg" />
+      <Task Name="udpclient" Source="UDP.paiUDPService.udpclient.prg" />
+      <Task Name="udpsimonly" Source="UDP.udpsimonly.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

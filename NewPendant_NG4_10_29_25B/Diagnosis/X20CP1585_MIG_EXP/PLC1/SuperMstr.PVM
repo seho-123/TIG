@@ -1,0 +1,15 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=SuperMstr 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=300 Type=333 Scope=305 Force=373 Index=7 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                           ProjectConfig                                     DINT    0 "                                                               2"    0    4    1   10    0    0 e,0,proj
+
+                                CurCalib                             CurCalib_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                GenSetup                              DINT[0..31]    0 "                                                               *"    1    4   32    0    0    1         
+                             GenSetup[0]                                     DINT    0 "                                                               1"    2    4    1   10    0    0         
+                      ProjectConfig_Hrdw                                     DINT    0 "                                                               2"    0    4    1   10    0    0 e,0,proj
+
+                                  Master                         MASTER_typ[0..1]    0 "                                                               *"    0   24    2    0    0    1         
+                               Master[0]                               MASTER_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                   ESTOP                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                              pESTOP_Inp                                    UDINT    0 "                                                        72685129"    2    7    1   10    0    0         
+                              pESTOP_Out                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         

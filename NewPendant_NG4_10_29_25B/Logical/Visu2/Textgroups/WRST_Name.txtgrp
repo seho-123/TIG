@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="WRST_Name">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="1"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="342345" Value="Lead/Lag"/>
+    <Text ID="342346" Value="Work Angle"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="342345" Value=""/>
+    <Text ID="342346" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="342345" Value=""/>
+    <Text ID="342346" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="342345" Value=""/>
+    <Text ID="342346" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="342345" Value=""/>
+    <Text ID="342346" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-BR">
+    <Text ID="342345" Value=""/>
+    <Text ID="342346" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="342345" Value=""/>
+    <Text ID="342346" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sv">
+    <Text ID="342345" Value=""/>
+    <Text ID="342346" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="342345" Value="9"/>
+    <Index ID="342346" Value="10"/>
+  </IndexMap>
+</TextGroup>

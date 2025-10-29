@@ -1,0 +1,10 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=TvlRotPrc 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=6 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                       TVL_ROT_Param_Set                   TVLROT_Param_typ[0..5]    0 "                                                               *"    0   24    6    0    0    1         
+                    TVL_ROT_Param_Set[0]                         TVLROT_Param_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Mode                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                 Process                    GenProcess_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                              Process[0]                           GenProcess_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                     Fbk                               REAL[0..9]    0 "                                                               *"    2    8   10    0    0    1         
+                                  Fbk[0]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         

@@ -1,0 +1,21 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=HW_PSprc 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=15 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                         HW_PS_Param_Set                    HW_PS_Param_typ[0..2]    0 "                                                               *"    0   24    3    0    0    1         
+                      HW_PS_Param_Set[0]                          HW_PS_Param_typ    0 "                                                               *"    1   24    1    0    0    1         
+                               rawCmdMax                                     REAL    0 "                                                         16383.0"    2    8    1   10    0    0         
+                              AmpCMD_Max                                     REAL    0 "                                                           160.0"    2    8    1   10    0    0         
+                                 Process                    GenProcess_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                              Process[6]                           GenProcess_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                         'HW PS'"    2    9   16    1    0    0         
+                                 Disable                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                   _step                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              15"    2    4    1   10    0    0 e,10,prc
+
+                                Hardware                       HARDWARE_typ[0..2]    0 "                                                               *"    0   24    3    0    0    1         
+                             Hardware[1]                             HARDWARE_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Outp                              BOOL[0..23]    0 "                                                               *"    2    1   24    0    0    1         
+                                 Outp[2]                                     BOOL    3 "                                                           FALSE"    3    1    1    2    0    0         
+                               Anal_Outp                                INT[0..7]    0 "                                                               *"    2    3    8    0    0    1         
+                            Anal_Outp[0]                                      INT    3 "                                                               0"    3    3    1   10    0    0         

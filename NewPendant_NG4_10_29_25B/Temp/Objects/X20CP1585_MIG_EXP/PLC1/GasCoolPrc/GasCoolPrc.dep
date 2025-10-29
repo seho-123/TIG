@@ -1,0 +1,14 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIOTime/AsIOTime.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/sys_lib/sys_lib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsTime/astime.fun
+$(AS_PROJECT_PATH)/Logical/UDP/paiUDPService/paiUDPService.typ
+$(AS_PROJECT_PATH)/Logical/UDP/udpApp.typ
+$(AS_PROJECT_PATH)/Logical/Universal/GasCoolPrc/GasCool.c
+$(AS_PROJECT_PATH)/Logical/FourAxisTigCtrl/Main2/../../Universal/SuperDeclaration.h
+$(AS_PROJECT_PATH)/Logical/Universal/WIREprc/../../Lib/WSI_types.h
+$(AS_PROJECT_PATH)/Logical/Universal/WIREprc/../../Lib/arclink/arclink.h
+$(AS_PROJECT_PATH)/Logical/Universal/WIREprc/../../Lib/arclink/NetworkAttribute.h
+$(AS_PROJECT_PATH)/Logical/Universal/WIREprc/../../Lib/arclink/ArcLinkObject.h
+$(AS_PROJECT_PATH)/Logical/Universal/WIREprc/../../Lib/arclink/Robot.h

@@ -1,0 +1,31 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	KK_CalculatedDist : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"53" #3"14" *)
+	KK_CatchTrig : BOOL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"65" #3"15" *)
+	vect : REFERENCE TO StateVectorProxy_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"49" #3"28" *)
+	_FinalVal : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"74" #3"14" *)
+	StepVel : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"75" #3"40" *)
+	KK_PrimeryVel : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"63" #3"14" *)
+	actDistInTicks_Catch : ARRAY[0..5] OF DINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"52" #3"61" *)
+	targetDistInTicks : ARRAY[0..5] OF DINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"51" #3"48" *)
+	actDistInTicks : ARRAY[0..5] OF DINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"51" #3"13" *)
+	Ramp : ARRAY[0..5] OF AzzRamp;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"48" #3"20" *)
+	VoltRampDown : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"75" #3"25" *)
+	_PrimVel : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"74" #3"44" *)
+	calibPoint : ARRAY[0..5] OF UDINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"72" #3"14" *)
+	actDistInTicks_Catch_0 : ARRAY[0..5] OF DINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"52" #3"17" *)
+	Tmr : ARRAY[0..5] OF TON;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"46" #3"16" *)
+	StepVolt : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"75" #3"14" *)
+	KK_CatchActTicks2 : DINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"66" #3"32" *)
+	KK_CatchActTicks : DINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"66" #3"13" *)
+	KK_Float : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"78" #3"14" *)
+	LCRScal_0 : ARRAY[0..5] OF AzzScal;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"54" #3"22" *)
+	prc : REFERENCE TO GenProcess_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"47" #3"22" *)
+	VelBoost1 : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"76" #3"24" *)
+	KK_CalculatedDist_0 : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"53" #3"52" *)
+	PrimVel : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"76" #3"14" *)
+	VelBoost2 : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"76" #3"36" *)
+END_VAR

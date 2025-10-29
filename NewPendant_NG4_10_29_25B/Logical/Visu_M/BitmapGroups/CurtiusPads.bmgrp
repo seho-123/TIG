@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="CurtiusPads">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="11"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="3203" Value="Source[local].Bitmap[Curtius_Key_Numpad]"/>
+    <BitmapRef ID="3204" Value="Source[local].Bitmap[Curtius_Key_Numpad_pressed]"/>
+    <BitmapRef ID="3250" Value="Source[local].Bitmap[Curtius_Key_Numpad_Big]"/>
+    <BitmapRef ID="3251" Value="Source[local].Bitmap[Curtius_Key_Numpad_Big_Pressed]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="3203" Value="0"/>
+    <Index ID="3204" Value="1"/>
+    <Index ID="3250" Value="2"/>
+    <Index ID="3251" Value="3"/>
+  </IndexMap>
+</BitmapGroup>

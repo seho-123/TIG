@@ -1,0 +1,22 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	KK_test : BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"87" #3"13" *)
+	LCD_cmd_indx : UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"83" #3"13" *)
+	blinkCounter : ARRAY[0..1] OF UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"75" #3"13" *)
+	Position : ARRAY[0..1] OF INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"67" #3"12" *)
+	varStingBlink : ARRAY[0..1] OF STRING[20];	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"48" #3"18" *)
+	TempCounter : INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"66" #3"12" *)
+	LCD_Init_Step : UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"85" #3"13" *)
+	varSting : ARRAY[0..1] OF STRING[20];	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"47" #3"18" *)
+	blinkThreshold : UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"74" #3"13" *)
+	ticks : INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"64" #3"12" *)
+	LCD_send_Cmd : BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"84" #3"13" *)
+	LCD_RS232 : ARRAY[0..1] OF SerialPortDriver;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"34" #3"29" *)
+	statusString : ARRAY[0..1] OF STRING[20];	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"50" #3"18" *)
+	LCD_cmd_param : SINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"82" #3"13" *)
+	debounceCount : ARRAY[0..1] OF UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"71" #3"13" *)
+	debounceThreshold : UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_Menu/MenuCyclic.c" #2"72" #3"13" *)
+END_VAR
