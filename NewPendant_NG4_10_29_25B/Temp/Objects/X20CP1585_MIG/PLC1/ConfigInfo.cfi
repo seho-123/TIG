@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version="4.12.2.93"?>
+<?AutomationStudio Version="4.12.7.113 SP"?>
 <ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
   <TaskClass
     Name="Cyclic#1">
@@ -9,7 +9,7 @@
       Source="Universal.LincolnPS"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\LincolnPS\LincolnPSLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\LincolnPS\LincolnPSLocal.var" />
     </Task>
     <Task
       Name="Telnet"
@@ -17,11 +17,11 @@
       Source="Universal.Telnet"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\Telnet\Types.typ" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Logical\Universal\Telnet\Types.typ" />
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\Telnet\Variables.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Logical\Universal\Telnet\Variables.var" />
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\Telnet\TelnetLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\Telnet\TelnetLocal.var" />
     </Task>
     <Task
       Name="TML_srv"
@@ -29,7 +29,7 @@
       Source="Universal.TML_srv"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\TML_srv\TML_srvLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\TML_srv\TML_srvLocal.var" />
     </Task>
     <Task
       Name="AVC_SYNCH"
@@ -37,7 +37,7 @@
       Source="FourAxisTigCtrl.AVC_SYNCH"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\AVC_SYNCH\AVC_SYNCHLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\AVC_SYNCH\AVC_SYNCHLocal.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -48,7 +48,7 @@
       Source="Universal.TIG_PSprc"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\TIG_PSprc\TIG_PSprcLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\TIG_PSprc\TIG_PSprcLocal.var" />
     </Task>
     <Task
       Name="WRST"
@@ -56,11 +56,11 @@
       Source="Universal.WRST"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\WRST\Types.typ" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Logical\Universal\WRST\Types.typ" />
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\WRST\Variables.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Logical\Universal\WRST\Variables.var" />
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\WRST\WRSTLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\WRST\WRSTLocal.var" />
     </Task>
     <Task
       Name="XMLHelper"
@@ -68,7 +68,7 @@
       Source="Universal.XMLHelper"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\XMLHelper\XMLHelperLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\XMLHelper\XMLHelperLocal.var" />
     </Task>
     <Task
       Name="BR_DC"
@@ -76,7 +76,7 @@
       Source="Universal.BR_DC"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\BR_DC\BR_DCLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\BR_DC\BR_DCLocal.var" />
     </Task>
     <Task
       Name="AVCprc"
@@ -84,7 +84,7 @@
       Source="Universal.AVCprc"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\AVCprc\AVCprcLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\AVCprc\AVCprcLocal.var" />
     </Task>
     <Task
       Name="OSC_TMLprc"
@@ -92,7 +92,7 @@
       Source="Universal.OSC_TMLprc"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\OSC_TMLprc\OSC_TMLprcLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\OSC_TMLprc\OSC_TMLprcLocal.var" />
     </Task>
     <Task
       Name="WIREprc"
@@ -100,7 +100,7 @@
       Source="Universal.WIREprc"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\WIREprc\WIREprcLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\WIREprc\WIREprcLocal.var" />
     </Task>
     <Task
       Name="HW_PSprc"
@@ -108,7 +108,7 @@
       Source="Universal.HW_PSprc"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\HW_PSprc\HW_PSprcLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\HW_PSprc\HW_PSprcLocal.var" />
     </Task>
     <Task
       Name="GasCoolPrc"
@@ -116,7 +116,7 @@
       Source="Universal.GasCoolPrc"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\GasCoolPrc\GasCoolPrcLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\GasCoolPrc\GasCoolPrcLocal.var" />
     </Task>
     <Task
       Name="WireBlkPrc"
@@ -124,7 +124,7 @@
       Source="Universal.WireBlkPrc"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\WireBlkPrc\WireBlkPrcLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\WireBlkPrc\WireBlkPrcLocal.var" />
     </Task>
     <Task
       Name="IndexPrc"
@@ -132,11 +132,11 @@
       Source="Universal.IndexPrc"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\IndexPrc\Types.typ" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Logical\Universal\IndexPrc\Types.typ" />
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\IndexPrc\Variables.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Logical\Universal\IndexPrc\Variables.var" />
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\IndexPrc\IndexPrcLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\IndexPrc\IndexPrcLocal.var" />
     </Task>
     <Task
       Name="_MotorDriv"
@@ -144,7 +144,7 @@
       Source="HotWire._MotorDriver"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\_MotorDriv\_MotorDrivLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\_MotorDriv\_MotorDrivLocal.var" />
     </Task>
     <Task
       Name="TvlRotPrc"
@@ -152,7 +152,7 @@
       Source="Universal.TvlRotPrc"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\TvlRotPrc\TvlRotPrcLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\TvlRotPrc\TvlRotPrcLocal.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -163,7 +163,7 @@
       Source="Universal.MV"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\MV\MVLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\MV\MVLocal.var" />
     </Task>
     <Task
       Name="MiscOper"
@@ -171,7 +171,7 @@
       Source="Universal.MiscOper"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\MiscOper\MiscOperLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\MiscOper\MiscOperLocal.var" />
     </Task>
     <Task
       Name="PermSaving"
@@ -179,7 +179,7 @@
       Source="FourAxisTigCtrl.PermSaving"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\PermSaving\PermSavingLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\PermSaving\PermSavingLocal.var" />
     </Task>
     <Task
       Name="Main2"
@@ -187,7 +187,7 @@
       Source="FourAxisTigCtrl.Main2"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\Main2\Main2Local.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\Main2\Main2Local.var" />
     </Task>
     <Task
       Name="DC2DirMtr"
@@ -195,11 +195,11 @@
       Source="Universal.DC2DirMtr"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\DC2DirMtr\Types.typ" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Logical\Universal\DC2DirMtr\Types.typ" />
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\DC2DirMtr\Variables.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Logical\Universal\DC2DirMtr\Variables.var" />
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\DC2DirMtr\DC2DirMtrLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\DC2DirMtr\DC2DirMtrLocal.var" />
     </Task>
     <Task
       Name="_PowerSupp"
@@ -207,7 +207,7 @@
       Source="HotWire._PowerSupplyDriver"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\_PowerSupp\_PowerSuppLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\_PowerSupp\_PowerSuppLocal.var" />
     </Task>
     <Task
       Name="TML_RLY"
@@ -215,11 +215,11 @@
       Source="Universal.TML_RLY"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\TML_RLY\Types.typ" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Logical\Universal\TML_RLY\Types.typ" />
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\TML_RLY\Variables.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Logical\Universal\TML_RLY\Variables.var" />
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\TML_RLY\TML_RLYLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\TML_RLY\TML_RLYLocal.var" />
     </Task>
     <Task
       Name="_Master"
@@ -227,7 +227,7 @@
       Source="HotWire._Master"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\_Master\_MasterLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\_Master\_MasterLocal.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -238,7 +238,7 @@
       Source="HotWire._Menu"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\_Menu\_MenuLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\_Menu\_MenuLocal.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -249,11 +249,11 @@
       Source="FourAxisTigCtrl.HMI_Report"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\FourAxisTigCtrl\HMI_Report\Types.typ" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Logical\FourAxisTigCtrl\HMI_Report\Types.typ" />
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\FourAxisTigCtrl\HMI_Report\Variables.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Logical\FourAxisTigCtrl\HMI_Report\Variables.var" />
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\HMI_Report\HMI_ReportLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\HMI_Report\HMI_ReportLocal.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -268,7 +268,7 @@
       Source="Universal.SuperMstr"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\SuperMstr\SuperMstrLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\SuperMstr\SuperMstrLocal.var" />
     </Task>
     <Task
       Name="FileOper"
@@ -276,7 +276,7 @@
       Source="Universal.FileOper"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\FileOper\FileOperLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\FileOper\FileOperLocal.var" />
     </Task>
     <Task
       Name="cJSONTest"
@@ -284,7 +284,7 @@
       Source="UDP.cJSON.cJSONTest"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\cJSONTest\cJSONTestLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\cJSONTest\cJSONTestLocal.var" />
     </Task>
     <Task
       Name="udpserv"
@@ -292,7 +292,7 @@
       Source="UDP.paiUDPService.udpserv"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\udpserv\udpservLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\udpserv\udpservLocal.var" />
     </Task>
     <Task
       Name="udpApp"
@@ -300,7 +300,7 @@
       Source="UDP.udpApp"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\udpApp\udpAppLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\udpApp\udpAppLocal.var" />
     </Task>
     <Task
       Name="udpclient"
@@ -308,7 +308,7 @@
       Source="UDP.paiUDPService.udpclient"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\udpclient\udpclientLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\udpclient\udpclientLocal.var" />
     </Task>
     <Task
       Name="udpsimonly"
@@ -316,7 +316,7 @@
       Source="UDP.udpsimonly"
       Language="ANSIC">
       <File
-        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585_MIG\PLC1\udpsimonly\udpsimonlyLocal.var" />
+        Path="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\Objects\X20CP1585_MIG\PLC1\udpsimonly\udpsimonlyLocal.var" />
     </Task>
   </TaskClass>
 </ConfigInfo>

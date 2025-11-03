@@ -24,7 +24,7 @@
     <Simulation StartAR000="true" TerminateAR000="true" />
     <TaskClasses DefaultIoTaskClass="Automatic" DefaultTaskClass="Cyclic4" />
     <Transfer AddToUserPart="true" AdditionalUserDir="C:\projects\UnivCntrl\User Partition" AllowWarmRestart="true" DownloadMode="Overload" ExecuteInitExitProgram="true" ForceInitialTransfer="false" GeneratePviTransferList="true" IgnoreBrDependencies="false" IgnoreTargetOnlyObjects="false" KeepNonVolatileMemory="false" PackedArConfig="false" PackedIoMap="false" PreserveVariableValues="true" ProjectConsistent="true" PromptBeforeProject="true" PromptBeforeTask="false" RebootDuringTransfer="false" TransferInServiceMode="false" TransferOnlyRelevantChanges="false" UserFilesIgnoreDifference="false" />
-    <Vc FirmwareVersion="V4.73.1" />
+    <Vc FirmwareVersion="V4.73.2" />
     <OnlineConfiguration Name="NewTCPIPConnection" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=8" ConnectionParameters="/RT=1000 /AM=* /DAIP=192.168.10.123 /REPO=11159 /ANSL=1" Description="" />
   </Configuration>
 </Cpu>

@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1761744881_2_
-#define _BUR_1761744881_2_
+#ifndef _BUR_1761838625_2_
+#define _BUR_1761838625_2_
 
 #include <bur/plctypes.h>
 
@@ -36,5 +36,5 @@ __asm__(".ascii \"iecdep \\\"Logical/UDP/udpApp.typ\\\" scope \\\"global\\\"\\n\
 __asm__(".previous");
 
 
-#endif /* _BUR_1761744881_2_ */
+#endif /* _BUR_1761838625_2_ */
 

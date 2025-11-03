@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version="4.12.2.93"?>
+<?AutomationStudio Version="4.12.7.113 SP"?>
 <ProjectOptions
   IecNamingConventions="false"
   IecKeywordsAsStructureMembers="true"
   IecExtendedConstants="true"
-  LogicalDirectory="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\"
-  TempDirectory="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\"
-  AutomationStudioVersion="4.12.2.93"
+  LogicalDirectory="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Logical\"
+  TempDirectory="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_10_29_25B\Temp\"
+  AutomationStudioVersion="4.12.7.113 SP"
   AutomationStudioEdition="Standard"
   BuildCrossReference="false"
-  ActiveConfiguration="X20CP1685_MIG_HW_PS"
+  ActiveConfiguration="X20CP1585_MIG_HW_PS"
   CreateAnsiCDeclarations="true" />

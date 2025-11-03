@@ -1,0 +1,12 @@
+VAR RETAIN
+	actPos : DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/ProgrEMRG/ProgrEMRG.c" #2"17" #3"14" *)
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	hrd_LightOut : BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/ProgrEMRG/ProgrEMRG.c" #2"15" #3"17" *)
+	hrd_EncInp : INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/ProgrEMRG/ProgrEMRG.c" #2"12" #3"13" *)
+	hrd_ResetBtn : BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/ProgrEMRG/ProgrEMRG.c" #2"14" #3"17" *)
+	ratio : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/ProgrEMRG/ProgrEMRG.c" #2"16" #3"15" *)
+	hrd_AnalOut : INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/ProgrEMRG/ProgrEMRG.c" #2"13" #3"13" *)
+END_VAR

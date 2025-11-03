@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Indx_Mode">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="2"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="348651" Value="Not Installed"/>
+    <Text ID="348652" Value="Enabled"/>
+    <Text ID="348653" Value="Disabled"/>
+    <Text ID="348654" Value="On OSC"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="348651" Value=""/>
+    <Text ID="348652" Value=""/>
+    <Text ID="348653" Value=""/>
+    <Text ID="348654" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="348651" Value=""/>
+    <Text ID="348652" Value=""/>
+    <Text ID="348653" Value=""/>
+    <Text ID="348654" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="348651" Value=""/>
+    <Text ID="348652" Value=""/>
+    <Text ID="348653" Value=""/>
+    <Text ID="348654" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="348651" Value=""/>
+    <Text ID="348652" Value=""/>
+    <Text ID="348653" Value=""/>
+    <Text ID="348654" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-BR">
+    <Text ID="348651" Value=""/>
+    <Text ID="348652" Value=""/>
+    <Text ID="348653" Value=""/>
+    <Text ID="348654" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="348651" Value=""/>
+    <Text ID="348652" Value=""/>
+    <Text ID="348653" Value=""/>
+    <Text ID="348654" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sv">
+    <Text ID="348651" Value=""/>
+    <Text ID="348652" Value=""/>
+    <Text ID="348653" Value=""/>
+    <Text ID="348654" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="348651" Value="0"/>
+    <Index ID="348652" Value="1"/>
+    <Index ID="348653" Value="2"/>
+    <Index ID="348654" Value="3"/>
+  </IndexMap>
+</TextGroup>

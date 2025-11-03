@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1761744881_8_
-#define _BUR_1761744881_8_
+#ifndef _BUR_1761838625_8_
+#define _BUR_1761838625_8_
 
 #include <bur/plctypes.h>
 
@@ -19,5 +19,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Universal/IndexPrc/Variables.var\\\" scope
 __asm__(".previous");
 
 
-#endif /* _BUR_1761744881_8_ */
+#endif /* _BUR_1761838625_8_ */
 

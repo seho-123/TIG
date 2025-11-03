@@ -24,7 +24,7 @@
     <Simulation StartAR000="true" TerminateAR000="true" />
     <TaskClasses DefaultIoTaskClass="Automatic" DefaultTaskClass="Cyclic4" />
     <Transfer AddToUserPart="True" AdditionalUserDir="C:\projects\UnivCntrl\User Partition" AllowDowngrade="False" AllowInitialTransfer="False" AllowPartitioning="False" AllowWarmRestart="true" DownloadMode="Overload" ExecuteInitExitProgram="True" ForceInitialTransfer="False" GeneratePviTransferList="true" IdentificationTypeValue="" IgnoreBrDependencies="false" IgnoreTargetOnlyObjects="false" IgnoreVersion="True" KeepNonVolatileMemory="False" PackedArConfig="false" PackedIoMap="false" PreserveVariableValues="True" ProjectConsistent="True" PromptBeforeProject="true" PromptBeforeTask="false" RebootDuringTransfer="False" SavedOfflineInstallationFolder="" SavedPipDestinationFolder="" SavedRuntimeUtilityCenterPackagePath="" TargetIdentificationType="Always" TransferInServiceMode="false" TransferOnlyRelevantChanges="false" TryToBootInRunMode="False" UserFilesIgnoreDifference="False" />
-    <Vc FirmwareVersion="V4.73.1" />
+    <Vc FirmwareVersion="V4.73.2" />
     <TechnologyPackages>
       <SafetyRelease Version="1.10.0" />
     </TechnologyPackages>

@@ -1,0 +1,18 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	SpeedBoost1 : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/WIREprc/Wire.c" #2"49" #3"24" *)
+	fGlobPosLatch : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/WIREprc/Wire.c" #2"43" #3"57" *)
+	fPosLatch : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/WIREprc/Wire.c" #2"43" #3"14" *)
+	SpeedSp : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/WIREprc/Wire.c" #2"49" #3"14" *)
+	fDif : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/WIREprc/Wire.c" #2"47" #3"53" *)
+	Ramp : ARRAY[0..5] OF AzzRamp;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/WIREprc/Wire.c" #2"37" #3"20" *)
+	VoltRampDown : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/WIREprc/Wire.c" #2"48" #3"14" *)
+	Tmr : ARRAY[0..5] OF TON;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/WIREprc/Wire.c" #2"32" #3"16" *)
+	KK_Retract_Catch : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/WIREprc/Wire.c" #2"57" #3"14" *)
+	_AuxMtrMode : DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/WIREprc/Wire.c" #2"59" #3"13" *)
+	fDest : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/WIREprc/Wire.c" #2"47" #3"14" *)
+	SpeedBoost2 : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/WIREprc/Wire.c" #2"49" #3"38" *)
+END_VAR

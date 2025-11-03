@@ -1,0 +1,10 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	Q2 : ARRAY[0..1] OF BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/DC2DirMtr/DC2DirMtr.c" #2"24" #3"34" *)
+	Q3 : ARRAY[0..1] OF BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/DC2DirMtr/DC2DirMtr.c" #2"24" #3"53" *)
+	Q1 : ARRAY[0..1] OF BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/DC2DirMtr/DC2DirMtr.c" #2"24" #3"15" *)
+	Q4 : ARRAY[0..1] OF BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/DC2DirMtr/DC2DirMtr.c" #2"24" #3"72" *)
+END_VAR

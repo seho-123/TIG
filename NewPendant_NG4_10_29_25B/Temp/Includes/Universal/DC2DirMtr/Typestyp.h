@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1761744881_9_
-#define _BUR_1761744881_9_
+#ifndef _BUR_1761838625_9_
+#define _BUR_1761838625_9_
 
 #include <bur/plctypes.h>
 
@@ -19,5 +19,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Universal/DC2DirMtr/Types.typ\\\" scope \\
 __asm__(".previous");
 
 
-#endif /* _BUR_1761744881_9_ */
+#endif /* _BUR_1761838625_9_ */
 

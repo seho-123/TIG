@@ -1,0 +1,9 @@
+Binaries/
+Temp/
+*.isopen
+SI/
+Diagnosis/
+*.set
+*.br
+*.prg
+LastUser.set

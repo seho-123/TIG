@@ -1,0 +1,9 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	LimScal_AmpCMD : ARRAY[0..2] OF AzzLimScal;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/HW_PSprc/HW_PS.c" #2"26" #3"25" *)
+	Ramp : ARRAY[0..2] OF AzzRamp;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/HW_PSprc/HW_PS.c" #2"25" #3"20" *)
+	Tmr : ARRAY[0..2] OF TON;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/HW_PSprc/HW_PS.c" #2"23" #3"16" *)
+END_VAR

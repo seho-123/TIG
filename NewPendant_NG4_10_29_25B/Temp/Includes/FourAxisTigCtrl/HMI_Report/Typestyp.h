@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1761744881_15_
-#define _BUR_1761744881_15_
+#ifndef _BUR_1761838625_15_
+#define _BUR_1761838625_15_
 
 #include <bur/plctypes.h>
 
@@ -19,5 +19,5 @@ __asm__(".ascii \"iecfile \\\"Logical/FourAxisTigCtrl/HMI_Report/Types.typ\\\" s
 __asm__(".previous");
 
 
-#endif /* _BUR_1761744881_15_ */
+#endif /* _BUR_1761838625_15_ */
 

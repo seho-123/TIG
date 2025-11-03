@@ -1,0 +1,25 @@
+{
+  global:
+    bgSSMInit;
+    bgSSMCyclic;
+    bgSSMStateNextTimeDelay;
+    bgSSMStateNextCycleDelay;
+    bgSSMStateNext;
+    bgSSMIsStateInit;
+    bgSSMGetState;
+    bgSSMGetStateText;
+    bgFIFOInit;
+    bgFIFOPush;
+    bgFIFOPull;
+    bgFIFOGetCount;
+    bgFIFOIsFull;
+    bgTimerCyclic;
+    bgTimerStart;
+    bgTimerStop;
+    bgTimerIsEnabled;
+    bgTimerIsTimeOut;
+    bgTimerTimeElapsed;
+    bgTimerTimeRemaining;
+  local:
+    *;
+ };

@@ -1,0 +1,15 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=PermSaving 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=8 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                    step                                     UINT    0 "                                                             100"    0    6    1   10    1    0         
+                                 saveTmr                                     UINT    0 "                                                              64"    0    6    1   10    1    0         
+                                 KK_test                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                       ReadPermMemory_HS                                   HS_obj    0 "                                                               *"    0   24    1    0    0    1         
+                                      Go                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                   Ready                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                    Data                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                                   Error                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                     NextHeadConfig_Indx                                     DINT    0 "                                                              16"    0    4    1   10    0    0         
+                       SparePermObjSpace                            USINT[0..151]    0 "                                                               *"    0    5  152    0    0    1         
+                    SparePermObjSpace[0]                                    USINT    0 "                                                              16"    1    5    1   10    0    0         
+                         STOP_SavingData                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         

@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Layers">
+    <Folder Name="DrillDown" TargetIndex="Source[local].Layer[DrillDown]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="Text_19" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Text_19]">
+            <UInt32 Name="Left">76</UInt32>
+            <UInt32 Name="Top">123</UInt32>
+            <UInt32 Name="Right">655</UInt32>
+            <UInt32 Name="Bottom">157</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">112</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Flat_black]</Reference>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[0]]</Reference>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">8</UInt32>
+            </Group>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[0]]</Reference>
+            </Group>
+            <Group Name="FillStyle">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial16]</Reference>
+            </Group>
+            <Group Name="HighlightingBorder">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Button_pressed]</Reference>
+            </Group>
+            <Group Name="HighlightingBackColor">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">14</UInt32>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="TextDatapoint">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[0]]</Reference>
+            </Group>
+            <Group Name="HighlightingDatapoint">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[0]]</Reference>
+            </Group>
+            <Group Name="ColorMap">
+              <UInt16 Name="Offset">64</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[ColorAtr]</Reference>
+            </Group>
+            <Group Name="ColorMapIndexOffset">
+              <UInt16 Name="Offset">68</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_22" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Text_22]">
+            <UInt32 Name="Left">76</UInt32>
+            <UInt32 Name="Top">164</UInt32>
+            <UInt32 Name="Right">655</UInt32>
+            <UInt32 Name="Bottom">198</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">112</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Flat_black]</Reference>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[1]]</Reference>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">8</UInt32>
+            </Group>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[1]]</Reference>
+            </Group>
+            <Group Name="FillStyle">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial16]</Reference>
+            </Group>
+            <Group Name="HighlightingBorder">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Button_pressed]</Reference>
+            </Group>
+            <Group Name="HighlightingBackColor">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">14</UInt32>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="TextDatapoint">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[1]]</Reference>
+            </Group>
+            <Group Name="HighlightingDatapoint">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[1]]</Reference>
+            </Group>
+            <Group Name="ColorMap">
+              <UInt16 Name="Offset">64</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[ColorAtr]</Reference>
+            </Group>
+            <Group Name="ColorMapIndexOffset">
+              <UInt16 Name="Offset">68</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_25" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Text_25]">
+            <UInt32 Name="Left">76</UInt32>
+            <UInt32 Name="Top">205</UInt32>
+            <UInt32 Name="Right">655</UInt32>
+            <UInt32 Name="Bottom">239</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">112</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Flat_black]</Reference>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[2]]</Reference>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">8</UInt32>
+            </Group>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[2]]</Reference>
+            </Group>
+            <Group Name="FillStyle">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial16]</Reference>
+            </Group>
+            <Group Name="HighlightingBorder">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Button_pressed]</Reference>
+            </Group>
+            <Group Name="HighlightingBackColor">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">14</UInt32>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="TextDatapoint">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[2]]</Reference>
+            </Group>
+            <Group Name="HighlightingDatapoint">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[2]]</Reference>
+            </Group>
+            <Group Name="ColorMap">
+              <UInt16 Name="Offset">64</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[ColorAtr]</Reference>
+            </Group>
+            <Group Name="ColorMapIndexOffset">
+              <UInt16 Name="Offset">68</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_28" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Text_28]">
+            <UInt32 Name="Left">76</UInt32>
+            <UInt32 Name="Top">246</UInt32>
+            <UInt32 Name="Right">655</UInt32>
+            <UInt32 Name="Bottom">280</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">112</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Flat_black]</Reference>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[3]]</Reference>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">8</UInt32>
+            </Group>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[3]]</Reference>
+            </Group>
+            <Group Name="FillStyle">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial16]</Reference>
+            </Group>
+            <Group Name="HighlightingBorder">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Button_pressed]</Reference>
+            </Group>
+            <Group Name="HighlightingBackColor">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">14</UInt32>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="TextDatapoint">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[3]]</Reference>
+            </Group>
+            <Group Name="HighlightingDatapoint">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[3]]</Reference>
+            </Group>
+            <Group Name="ColorMap">
+              <UInt16 Name="Offset">64</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[ColorAtr]</Reference>
+            </Group>
+            <Group Name="ColorMapIndexOffset">
+              <UInt16 Name="Offset">68</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_31" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Text_31]">
+            <UInt32 Name="Left">76</UInt32>
+            <UInt32 Name="Top">287</UInt32>
+            <UInt32 Name="Right">655</UInt32>
+            <UInt32 Name="Bottom">321</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">112</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Flat_black]</Reference>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[4]]</Reference>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">8</UInt32>
+            </Group>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[4]]</Reference>
+            </Group>
+            <Group Name="FillStyle">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial16]</Reference>
+            </Group>
+            <Group Name="HighlightingBorder">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Button_pressed]</Reference>
+            </Group>
+            <Group Name="HighlightingBackColor">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">14</UInt32>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="TextDatapoint">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[4]]</Reference>
+            </Group>
+            <Group Name="HighlightingDatapoint">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[4]]</Reference>
+            </Group>
+            <Group Name="ColorMap">
+              <UInt16 Name="Offset">64</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[ColorAtr]</Reference>
+            </Group>
+            <Group Name="ColorMapIndexOffset">
+              <UInt16 Name="Offset">68</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_34" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Text_34]">
+            <UInt32 Name="Left">76</UInt32>
+            <UInt32 Name="Top">328</UInt32>
+            <UInt32 Name="Right">655</UInt32>
+            <UInt32 Name="Bottom">362</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">112</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Flat_black]</Reference>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[5]]</Reference>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">8</UInt32>
+            </Group>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[5]]</Reference>
+            </Group>
+            <Group Name="FillStyle">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial16]</Reference>
+            </Group>
+            <Group Name="HighlightingBorder">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Button_pressed]</Reference>
+            </Group>
+            <Group Name="HighlightingBackColor">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">14</UInt32>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="TextDatapoint">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[5]]</Reference>
+            </Group>
+            <Group Name="HighlightingDatapoint">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[5]]</Reference>
+            </Group>
+            <Group Name="ColorMap">
+              <UInt16 Name="Offset">64</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[ColorAtr]</Reference>
+            </Group>
+            <Group Name="ColorMapIndexOffset">
+              <UInt16 Name="Offset">68</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_1" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Bitmap_1]">
+            <UInt32 Name="Left">37</UInt32>
+            <UInt32 Name="Top">122</UInt32>
+            <UInt32 Name="Right">72</UInt32>
+            <UInt32 Name="Bottom">157</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[0]]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">5</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">6</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[0]]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Line_Atr]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_2" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Bitmap_2]">
+            <UInt32 Name="Left">37</UInt32>
+            <UInt32 Name="Top">163</UInt32>
+            <UInt32 Name="Right">72</UInt32>
+            <UInt32 Name="Bottom">198</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[1]]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">5</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">6</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[1]]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Line_Atr]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_3" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Bitmap_3]">
+            <UInt32 Name="Left">37</UInt32>
+            <UInt32 Name="Top">204</UInt32>
+            <UInt32 Name="Right">72</UInt32>
+            <UInt32 Name="Bottom">239</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[2]]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">5</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">6</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[2]]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Line_Atr]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_4" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Bitmap_4]">
+            <UInt32 Name="Left">37</UInt32>
+            <UInt32 Name="Top">245</UInt32>
+            <UInt32 Name="Right">72</UInt32>
+            <UInt32 Name="Bottom">280</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[3]]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">5</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">6</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[3]]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Line_Atr]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_5" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Bitmap_5]">
+            <UInt32 Name="Left">37</UInt32>
+            <UInt32 Name="Top">286</UInt32>
+            <UInt32 Name="Right">72</UInt32>
+            <UInt32 Name="Bottom">321</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[4]]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">5</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">6</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[4]]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Line_Atr]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_6" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Bitmap_6]">
+            <UInt32 Name="Left">37</UInt32>
+            <UInt32 Name="Top">327</UInt32>
+            <UInt32 Name="Right">72</UInt32>
+            <UInt32 Name="Bottom">362</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[5]]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">5</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">6</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[5]]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Line_Atr]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_35" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Text_35]">
+            <UInt32 Name="Left">77</UInt32>
+            <UInt32 Name="Top">369</UInt32>
+            <UInt32 Name="Right">656</UInt32>
+            <UInt32 Name="Bottom">403</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">112</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Flat_black]</Reference>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LongTxtLines_vis[6]]</Reference>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">8</UInt32>
+            </Group>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[6]]</Reference>
+            </Group>
+            <Group Name="FillStyle">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial16]</Reference>
+            </Group>
+            <Group Name="HighlightingBorder">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Button_pressed]</Reference>
+            </Group>
+            <Group Name="HighlightingBackColor">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">14</UInt32>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="TextDatapoint">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLines[6]]</Reference>
+            </Group>
+            <Group Name="HighlightingDatapoint">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.TxtLineHighLight[6]]</Reference>
+            </Group>
+            <Group Name="ColorMap">
+              <UInt16 Name="Offset">64</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[ColorAtr]</Reference>
+            </Group>
+            <Group Name="ColorMapIndexOffset">
+              <UInt16 Name="Offset">68</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_7" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Bitmap_7]">
+            <UInt32 Name="Left">38</UInt32>
+            <UInt32 Name="Top">368</UInt32>
+            <UInt32 Name="Right">73</UInt32>
+            <UInt32 Name="Bottom">403</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr[6]]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">43</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">5</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">6</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.DrillDwnHMI.LineAtr_vis[6]]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Line_Atr]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_1" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Layer[DrillDown].Control[Text_1]">
+            <UInt32 Name="Left">154</UInt32>
+            <UInt32 Name="Top">87</UInt32>
+            <UInt32 Name="Right">622</UInt32>
+            <UInt32 Name="Bottom">116</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">35</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial24Bold]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="TextDatapoint">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.Master[1].Hmi[0].ActiveBanner]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="TouchCalibration" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TouchCalibration]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">356</UInt32>
+              <UInt32 Name="ActionDataSize">0</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+            </Group>
+          </Object>
+          <Object Name="BrightnessPlus" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[BrightnessPlus]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">354</UInt32>
+              <UInt32 Name="ActionDataSize">44</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="StepValue">5</Double>
+              <Double Name="MinValue">0</Double>
+              <Double Name="MaxValue">100</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.Display.Brightness]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Repeat">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="LanguageUp" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[LanguageUp]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">364</UInt32>
+              <UInt32 Name="ActionDataSize">8</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Byte Name="Mode">9</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <Reference Name="Language" Type="LOC" />
+            </Group>
+          </Object>
+          <Object Name="LanguageDown" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[LanguageDown]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">364</UInt32>
+              <UInt32 Name="ActionDataSize">8</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Byte Name="Mode">8</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <Reference Name="Language" Type="LOC" />
+            </Group>
+          </Object>
+          <Object Name="BrightnessMinus" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[BrightnessMinus]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">354</UInt32>
+              <UInt32 Name="ActionDataSize">44</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="StepValue">-5</Double>
+              <Double Name="MinValue">0</Double>
+              <Double Name="MaxValue">100</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.Display.Brightness]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Repeat">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="ContrastPlus" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[ContrastPlus]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">354</UInt32>
+              <UInt32 Name="ActionDataSize">44</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="StepValue">5</Double>
+              <Double Name="MinValue">0</Double>
+              <Double Name="MaxValue">100</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.Display.Contrast]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Repeat">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="ContrastMinus" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[ContrastMinus]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">354</UInt32>
+              <UInt32 Name="ActionDataSize">44</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="StepValue">-5</Double>
+              <Double Name="MinValue">0</Double>
+              <Double Name="MaxValue">100</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.Display.Contrast]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Repeat">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="DrillDown" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Layer[DrillDown]">
+          <Reference Name="StatusDP" Type="DP">None</Reference>
+          <UInt32 Name="CtrlCount">15</UInt32>
+          <Reference Name="Text_19" Type="CTRL">Source[local].Layer[DrillDown].Control[Text_19]</Reference>
+          <Reference Name="Text_22" Type="CTRL">Source[local].Layer[DrillDown].Control[Text_22]</Reference>
+          <Reference Name="Text_25" Type="CTRL">Source[local].Layer[DrillDown].Control[Text_25]</Reference>
+          <Reference Name="Text_28" Type="CTRL">Source[local].Layer[DrillDown].Control[Text_28]</Reference>
+          <Reference Name="Text_31" Type="CTRL">Source[local].Layer[DrillDown].Control[Text_31]</Reference>
+          <Reference Name="Text_34" Type="CTRL">Source[local].Layer[DrillDown].Control[Text_34]</Reference>
+          <Reference Name="Bitmap_1" Type="CTRL">Source[local].Layer[DrillDown].Control[Bitmap_1]</Reference>
+          <Reference Name="Bitmap_2" Type="CTRL">Source[local].Layer[DrillDown].Control[Bitmap_2]</Reference>
+          <Reference Name="Bitmap_3" Type="CTRL">Source[local].Layer[DrillDown].Control[Bitmap_3]</Reference>
+          <Reference Name="Bitmap_4" Type="CTRL">Source[local].Layer[DrillDown].Control[Bitmap_4]</Reference>
+          <Reference Name="Bitmap_5" Type="CTRL">Source[local].Layer[DrillDown].Control[Bitmap_5]</Reference>
+          <Reference Name="Bitmap_6" Type="CTRL">Source[local].Layer[DrillDown].Control[Bitmap_6]</Reference>
+          <Reference Name="Text_35" Type="CTRL">Source[local].Layer[DrillDown].Control[Text_35]</Reference>
+          <Reference Name="Bitmap_7" Type="CTRL">Source[local].Layer[DrillDown].Control[Bitmap_7]</Reference>
+          <Reference Name="Text_1" Type="CTRL">Source[local].Layer[DrillDown].Control[Text_1]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

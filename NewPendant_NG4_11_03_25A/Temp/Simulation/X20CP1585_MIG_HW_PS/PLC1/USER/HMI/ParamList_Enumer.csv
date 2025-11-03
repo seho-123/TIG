@@ -1,0 +1,16 @@
+ValueUL,SetupUL,ChangeUL,Index,EnumText,Name,ShortName,LongName,NumberofEnumer,EnumTxt#1,EnumTxt#2,EnumTxt#3,EnumTxt#4,EnumTxt#5
+0,15,15,0,parENUM_OSC_CAM, OSC Cam Type  , OSC Cam Type  ,"Current OSC CAM profile selected; Aggressive(AGRES), Harmonic(HARMON), Trapezoidal (TRAPEZ)",3,AGRES, HARMON, TRAPEZ ,,
+0,15,15,1,parENUM_WeldProgramLinkMode, Load Next Program, Load Next Program,"Defines Weld program link mode to automatically link next program after defined repeated programs, (YES/NO option)",2,NO,YES,,,
+0,15,15,2,parENUM_PathMode, Change Head at the end, Change Head at the end,"Defines whether to swap head or not after program complete, (YES/NO option)",2,YES,NO,,,
+15,15,15,3,parENUM_ARCLINK_MODE,ArcLink Connection,ArcLink Connection,ArcLink Connection,2,NO,YES,,,
+0,15,15,4,parENUM_AVC_Mode, AVC Type  , AVC Type  ,"Current ARC mode; Continuos(Cont), Background Lock (Bck Lock), Foreground Lock(Frg Lock), Locked(Lock)",4,Cont.,Bck Lock,Frg Lock,Lock,
+0,15,15,5,parENUM_TIG_Mode,TIG Mode,TIG Mode,TIG Mode,4,Straight,Pulse Arc,Sync Pulse,Sync In/Out,
+0,15,15,6,parENUM_WF_WP_Relation, Relation between WF and WP, Relation between WF and WP,"Defines mode to ratio wire pulse speed to wire feed speed, (YES/NO option),",2,OFF,ON,,,
+15,15,15,7,parENUM_TVL_MODE, TVL Enc Mode ,Please  Add ShortName, Please  Add Long Name,3,Relative,Overlap On A,Overlap On B ,,
+15,15,15,8,parENUM_TVL_SYN_MODE,TVL Synch Option,TVL Synch Option,TVL Synch Option,3,Straight,Sync Pulse,Sync In/Out,,
+0,15,15,9,parENUM_WF_SYN_MODE,WF Synch Option,WF Synch Option,WF Synch Option,3,Straight,Sync Pulse,Sync In/Out,,
+0,15,15,10,parENUM_WP_SYN_MODE,WP Synch Option,WP Synch Option,WP Synch Option,3,Straight,Sync Pulse,Sync In/Out,,
+0,15,15,11,parENUM_TIG_Cal_Mode,TVL Calib. Mode,TVL Calib. Mode,TVL Calib. Mode : wit Arc Start or Load Bank,2,Arc Start,Load Bank,,,
+0,15,15,12,parENUM_OSC_Mode,OSC INDEX MODE,OSC INDEX MODE,OSC INDEX MODE,3,CONTIN.,STEPOVER,SPIRAL,,
+0,15,15,13,parENUM_OSC_Synch,OSC INDEX SYNC MODE,OSC INDEX SYNC MODE,OSC INDEX SYNC MODE,5,CONTIN.,Dwell in,Dwell Out,Dweel In Or Out,Excursion
+0,15,15,14,parENUM_WF_AUX,WF AUX MOTOR  ,WF AUX MOTOR  ,WF AUX MOTOR  ,2,NOT INSTALLED,AUX  OFF,AUX  ON,,

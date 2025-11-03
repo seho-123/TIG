@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="button_global_area_pressed" ClsId="0x306" Version="1" TargetIndex="425" Type="GFX" RefString="Source[local].Bitmap[button_global_area_pressed]">
+        <UInt16 Name="Width">136</UInt16>
+        <UInt16 Name="Height">64</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAIgAAABACAYAAADBAT+LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANCSURBVHhe7dTLS5RRHMbxg7PQlYYGLgxHm2REU0wYQWZRZghi1qBdDCnLIkHItDKDcijKgXBoRKEboRQuiogiiopuEJVQgRBRUpBgKXnNSxRK9Kvn1XmxxZx/4Dw/+Gwe3t358iq1cKFQyNfe3t7b0dEhZC40gBbCXVjX2traFQwGJay77QAZaHEDaMKKo6WlxRcIBATut22SL+fdMnwhlQyEt0cD4R7Qhmpubu71+/1yJ+izPpp5cULmBnvIQHh7NIAW0ATaUE1NTQID59wy9Xi//JmdIYOhAbQQ7kI1NDRI6Oh2q5zplyfl98wgGQwNoAU0gTZUbW2tnG7cOh/Is2MyN/aBDIYG0AKaQBuqurpaTtWXWePU00aZHXpFBkMDaAFNoA1VWVkp/tr11jj5qE5+9T8kg6EBtIAm0IYqLy+XI3uKrPH7gxr52XeDDIYG0AKaQBuqpKREDlYVWOPE3Z3y420nGQwNoAU0gTZUYWGh7NvmnQ/kdoVMvw6RwdAAWkATaEN5vV6pKfdY4/hNn0w9P04GQwNoAU2gDZWXlye7N66yxrHrxTL5pJ4MhgbQAppAG/8HcrVAJu7tIoOhgYiBjHbny/gtHxkMDUQMZORyjoxdW0MGQwORA+lMl9ErOWQwNBAxkOGLy2Xk0goyGBqIHAjRAgZCWgyEtBgIaTEQ0mIgpMVASIuBkBYDIS0GQloMhLQYCGkxENJiIKTFQEiLgZAWAyEtBkJaDIS0GAhpMRDSYiCkxUBIi4GQFgMhLQZCWgyEtBgIaTEQ0mIgpMVASIuBkJYdiMfjkerSHPl2NpXIhibQhsrNzZWq4iwZOuMksqEJtKGys7Olcl2GfA04iWxoAm2ozMxMqVidLgN+J5ENTaAN5Xa7ZbM3TfoPpxDZ0ATaUC6XS8ryXPK5LpXIhibQhnI6nbJhVYp82usisqEJtKGSkpKkZGWyfNyRRmRDE2hDJSYmCrwpc0vflnQiq4VwFyo+Pr43ISFBDuUky/vSDCKrBTSBNlRcXJwvNjZWoD5jmfSszZR3RVlkILw9Ggj3gDYULiYmpis6OlrC8pcuIQMtbgBNWHGEz+Fw+KKionodDoeQuRYamP9z/Lu/yNhselt/XqcAAAAASUVORK5CYII=</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

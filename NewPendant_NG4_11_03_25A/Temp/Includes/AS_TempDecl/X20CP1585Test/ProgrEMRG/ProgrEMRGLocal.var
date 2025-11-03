@@ -1,0 +1,8 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	LimScal_AO : LCRLimScal;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/ProgrEMRG/ProgrEMRG.c" #2"10" #3"25" *)
+	debounce : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/ProgrEMRG/ProgrEMRG.c" #2"19" #3"14" *)
+END_VAR

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.7.54 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Attribute Definitions">NetworkAttribute.h</Object>
+    <Object Type="File" Description="Attribute Definitions">WeldController.h</Object>
+    <Object Type="File" Description="Attribute Definitions">NetworkBlocks.h</Object>
+    <Object Type="File" Description="Attribute Definitions">Handler.h</Object>
+    <Object Type="File" Description="Arc Link Mapping ">ArcLinkObject.h</Object>
+    <Object Type="File" Description="Arc Link Mapping ">ArcLinkMap.h</Object>
+    <Object Type="File" Description="Attribute Definitions">Attribute.h</Object>
+    <Object Type="File">ArcLink.h</Object>
+    <Object Type="File" Description="Arc Link Mapping ">MessageBuilder.c</Object>
+    <Object Type="File" Description="Arc Link Mapping ">ArcLinkMap.c</Object>
+    <Object Type="File" Description="Arc Link Cyclic">ArcLink.c</Object>
+    <Object Type="File" Description="Arc Link Cyclic">Handler.c</Object>
+    <Object Type="File" Description="Arc Link Cyclic">IncomingHandler.c</Object>
+    <Object Type="File" Description="Attribute Definitions">NetworkActions.h</Object>
+    <Object Type="File">WeldController.c</Object>
+    <Object Type="File">ArcLinkUtility.c</Object>
+    <Object Type="File" Description="Attribute Definitions">Robot.h</Object>
+    <Object Type="File">Robot.c</Object>
+  </Objects>
+</Package>

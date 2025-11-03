@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?AutomationStudio Version = "3.0"?>
 <VCFirmware>
-  <File Name="AsHW.br" />
   <File Name="vcresman.br" />
   <File Name="vcctext.br" />
   <File Name="vccnum.br" />
@@ -24,7 +23,6 @@
   <File Name="vcpkat.br" />
   <File Name="vcrt.br" />
   <File Name="vcpdvnc.br" />
-  <File Name="vcpfx20.br" />
   <File Name="vcpfgen.br" />
   <File Name="vcalarm.br" />
   <File Name="vcdsint.br" />

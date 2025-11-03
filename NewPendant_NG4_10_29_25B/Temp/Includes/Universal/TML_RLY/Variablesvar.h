@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1761744881_14_
-#define _BUR_1761744881_14_
+#ifndef _BUR_1761838625_14_
+#define _BUR_1761838625_14_
 
 #include <bur/plctypes.h>
 
@@ -19,5 +19,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Universal/TML_RLY/Variables.var\\\" scope 
 __asm__(".previous");
 
 
-#endif /* _BUR_1761744881_14_ */
+#endif /* _BUR_1761838625_14_ */
 

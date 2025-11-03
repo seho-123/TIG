@@ -1,0 +1,20 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	hSet : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"47" #3"14" *)
+	lSet : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"48" #3"14" *)
+	difTick : INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"53" #3"23" *)
+	Mtr_Absolute_Max_Vel : ARRAY[0..3] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"33" #3"14" *)
+	speedError : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"50" #3"14" *)
+	taskClock : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"56" #3"14" *)
+	loopsToDisableThreshold : DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"44" #3"12" *)
+	myNUM_MOTORS : UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"57" #3"13" *)
+	limitWindow : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"49" #3"14" *)
+	_intTick : UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"54" #3"23" *)
+	_intTime : UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"52" #3"23" *)
+	difTime : INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"53" #3"13" *)
+	intTick : UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"54" #3"13" *)
+	intTime : UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/HotWire/_MotorDriver/MotorDriverCyclic.c" #2"52" #3"13" *)
+END_VAR

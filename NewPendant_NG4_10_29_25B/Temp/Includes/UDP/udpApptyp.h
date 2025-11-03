@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1761744881_1_
-#define _BUR_1761744881_1_
+#ifndef _BUR_1761838625_1_
+#define _BUR_1761838625_1_
 
 #include <bur/plctypes.h>
 
@@ -105,5 +105,5 @@ __asm__(".ascii \"iecdep \\\"Logical/UDP/paiUDPService/paiUDPService.typ\\\" sco
 __asm__(".previous");
 
 
-#endif /* _BUR_1761744881_1_ */
+#endif /* _BUR_1761838625_1_ */
 

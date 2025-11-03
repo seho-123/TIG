@@ -1,0 +1,21 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	MoveParam : ARRAY[0..2] OF HCRMoveParamAzz_type;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"26" #3"29" *)
+	SPF : ARRAY[0..2] OF HCRSPFazz_type;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"27" #3"23" *)
+	vect : REFERENCE TO StateVectorProxy_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"13" #3"30" *)
+	KK_UpdateParam : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"21" #3"13" *)
+	slaveVect : REFERENCE TO StateVectorProxy_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"14" #3"30" *)
+	TMR1 : ARRAY[0..5] OF TON;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"19" #3"16" *)
+	targetDistInTicks : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"15" #3"42" *)
+	actDistInTicks : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"15" #3"14" *)
+	Vel : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"20" #3"26" *)
+	Dec : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"20" #3"20" *)
+	Acc : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"20" #3"14" *)
+	StepDistance : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"16" #3"82" *)
+	prc : REFERENCE TO GenProcess_typ;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"12" #3"22" *)
+	targetDistInTicks_slv : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"16" #3"46" *)
+	actDistInTicks_slv : ARRAY[0..2] OF REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/IndexPrc/Index.c" #2"16" #3"14" *)
+END_VAR

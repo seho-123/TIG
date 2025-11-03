@@ -1,0 +1,7 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	tasklog : ARRAY[0..39] OF STRING[255];	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/UDP/cJSON/cJSONTest/cJSONTest.c" #2"95" #3"15" *)
+END_VAR

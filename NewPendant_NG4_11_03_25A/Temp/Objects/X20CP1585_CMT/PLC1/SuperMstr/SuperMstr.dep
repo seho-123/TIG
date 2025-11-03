@@ -1,0 +1,20 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIOTime/AsIOTime.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/dvframe/dvframe.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/sys_lib/sys_lib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsTime/astime.fun
+$(AS_PROJECT_PATH)/Logical/UDP/paiUDPService/paiUDPService.typ
+$(AS_PROJECT_PATH)/Logical/UDP/udpApp.typ
+$(AS_PROJECT_PATH)/Logical/Universal/SuperMstr/SuperMaster.c
+$(AS_PROJECT_PATH)/Logical/FourAxisTigCtrl/HMI_Report/../../Universal/SuperDeclaration.h
+$(AS_PROJECT_PATH)/Logical/HotWire/_Master/../GlobDecl.h
+$(AS_PROJECT_PATH)/Logical/HotWire/_MotorDriver/../GlobDef.h
+$(AS_PROJECT_PATH)/Logical/Universal/LincolnPS/../../lib/Statelib.h
+$(AS_PROJECT_PATH)/Logical/Universal/LincolnPS/../../Lib/WSI_types.h
+C:/Users/ckaczkowski/Documents/Official Release/UnivCntrl-10-19-21F CMT version installed in Oct 2021/UniversalController_10-19-21F/Physical/X20CP1585_CMT/PLC1/Cpu.per
+$(AS_PROJECT_PATH)/Logical/Universal/LincolnPS/../../Universal/SuperDeclaration.h
+$(AS_PROJECT_PATH)/Logical/Universal/SuperMstr/../../Lib/WSI_types.h
+$(AS_PROJECT_PATH)/Logical/Universal/SuperMstr/../../Universal/SuperDeclaration.h
+$(AS_PROJECT_PATH)/Logical/Libraries/dvframe/dvframe.typ
+$(AS_PROJECT_PATH)/Logical/FourAxisTigCtrl/Main2/../../Lib/WSI_types.h
