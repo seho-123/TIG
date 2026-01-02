@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="button_increase" ClsId="0x306" Version="1" TargetIndex="414" Type="GFX" RefString="Source[local].Bitmap[button_increase]">
+        <UInt16 Name="Width">32</UInt16>
+        <UInt16 Name="Height">32</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGHSURBVFhH7dc9awIxGMDx+3RaqJsdRD18vRNFTxEkp3awk5cLHexitdhFutjBfgBph8MOLv0AOnZ0dH9KMoQzsXj2JSL4wA+iD1z+azSMux1CCLgYg+N0lSKEfGjX7Ta0Wy0W8DAcKkHvato22AhNtWrVYj/W6zVsNhtl6J2UZhoGOyyXS6V4gJ5MssNisVCKB1xFo+zwOpspxQMikUt2eJlOleIBF+EwOzyNx0pJAff9vlJSwC0hB3ufzzlxt48UcNPpHMw/4m4fKaDZPJx/xN1eUsAPbAXs2AdxGgGPoxGsViuJf8Qd5Xme9C1RoIDnyWTrsqBDI8RviU4jADsODAcDiX/EHXXX60nfEgUK+I5/xF1Q54BzwK8C/sI54PgB4VBI+lMl/jA5Fv40O5I3/jjdsfxXNkKAMf7UXNf1YrEYxONxSCQSoOs6k0qlmHQ6DZlMBrLZLORyOcjn82AYBmOaJhQKBa5YLEKpVIJyuQyVSgUsy4JarcbU63Wm0WgwCCH6PJ98AXEYvSwL5TMmAAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

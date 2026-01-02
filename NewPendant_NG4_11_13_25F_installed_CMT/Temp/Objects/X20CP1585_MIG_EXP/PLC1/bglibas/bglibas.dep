@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/bglibas/bglibas.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/bglibas/bglibas.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun

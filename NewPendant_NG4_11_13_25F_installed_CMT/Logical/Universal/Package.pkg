@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.10.53 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Supervisor Definition">SuperDefinition.h</Object>
+    <Object Type="File" Description="Supervisor Declaration (only Global Instances)">SuperDeclaration.h</Object>
+    <Object Type="Program" Language="ANSIC" Description="Super Master (manager of all projects)">SuperMstr</Object>
+    <Object Type="Program" Language="ANSIC" Description="BR DC motor with Fbk">BR_DC</Object>
+    <Object Type="Program" Language="ANSIC" Description="TML message receiver">TML_srv</Object>
+    <Object Type="Program" Language="ANSIC" Description="Files Operation">FileOper</Object>
+    <Object Type="Program" Language="ANSIC" Description="TIG Power Supply">TIG_PSprc</Object>
+    <Object Type="Program" Language="ANSIC" Description="AVC Process">AVCprc</Object>
+    <Object Type="Program" Language="ANSIC" Description="SingleProcess">OSC_TMLprc</Object>
+    <Object Type="Program" Language="ANSIC" Description="Gas and Coolant">GasCoolPrc</Object>
+    <Object Type="Program" Language="ANSIC" Description="HotWire Power Supply">HW_PSprc</Object>
+    <Object Type="Program" Language="ANSIC" Description="Wire Feed and Pulse">WIREprc</Object>
+    <Object Type="Program" Language="ANSIC" Description="Wire Block Process">WireBlkPrc</Object>
+    <Object Type="Program" Language="ANSIC" Description="Travel &amp; Rotation">TvlRotPrc</Object>
+    <Object Type="Program" Language="ANSIC">ModbusSlave</Object>
+    <Object Type="Program" Language="ANSIC" Description="Parameter manager">XMLHelper</Object>
+    <Object Type="Program" Language="ANSIC">Telnet</Object>
+    <Object Type="Program" Language="ANSIC">ProgrTest</Object>
+    <Object Type="Program" Language="ANSIC">LincolnPS</Object>
+    <Object Type="Program" Language="ANSIC">IndexPrc</Object>
+    <Object Type="Program" Language="ANSIC">MiscOper</Object>
+    <Object Type="Program" Language="ANSIC">DC2DirMtr</Object>
+    <Object Type="Program" Language="ANSIC">MV</Object>
+    <Object Type="Program" Language="ANSIC">WRST</Object>
+    <Object Type="Program" Language="ANSIC">TML_RLY</Object>
+    <Object Type="Program" Language="ANSIC">UDP_Client</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.29 SP11?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">cJSON.typ</Object>
+    <Object Type="File" Description="Global variables">cJSON.var</Object>
+    <Object Type="Program" Language="ANSIC" Description="A new program">cJSONTest</Object>
+  </Objects>
+</Package>

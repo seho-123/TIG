@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module xmlns="http://br-automation.co.at/AS/HardwareModule" 
+Version="2.5.3.0" Width="25" Height="99"
+Description-de="X20 Bus Controller POWERLINK"
+Description-en="X20 Bus Controller POWERLINK" >
+	<Aprol>
+	<Config ID="Supported" FromVersion="APROL R 3.3-70" Recommended="true" />
+	</Aprol>
+	<Channels Target="SG4">
+	<Channel ID="ModuleOk" FromVersion="C2.87" HwdResource="PLK" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)">
+		<Parameter ID="Ext" Value="/OK" Type="STRING" />
+		<Parameter ID="Address" Value="0" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="BOOL" Type="STRING" />
+		<Parameter ID="Sig_St_Bool" Value="1" Type="STRING" />
+	</Channel>
+	<Separator />
+	<Channel ID="SerialNumber" FromVersion="A2.94" ToVersion="Z3.07" HwdResource="PLK" Description-de="Seriennummer" Description-en="Serial number">
+		<Filter Value="ModuleInfo='on'" />
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="4" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="UDINT" Type="STRING" />
+		<Parameter ID="Sig_St_Udint" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="SerialNumber" FromVersion="A3.08" HwdResource="PLK" Description-de="Seriennummer" Description-en="Serial number">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="4" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="UDINT" Type="STRING" />
+		<Parameter ID="Sig_St_Udint" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="ModuleID" FromVersion="A2.94" ToVersion="Z3.07" HwdResource="PLK" Description-de="Modulkennung" Description-en="Module ID">
+		<Filter Value="ModuleInfo='on'" />
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="10" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="UINT" Type="STRING" />
+		<Parameter ID="Sig_St_Uint" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="ModuleID" FromVersion="A3.08" HwdResource="PLK" Description-en="Module ID">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="10" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="UINT" Type="STRING" />
+		<Parameter ID="Sig_St_Uint" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="HardwareVariant" FromVersion="A2.94" ToVersion="Z3.07" HwdResource="PLK" Description-de="Hardware Variante" Description-en="Hardware variant">
+		<Filter Value="ModuleInfo='on'" />
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="12" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="UINT" Type="STRING" />
+		<Parameter ID="Sig_St_Uint" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="HardwareVariant" FromVersion="A3.08" HwdResource="PLK" Description-de="Hardware Variante" Description-en="Hardware variant">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="12" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="UINT" Type="STRING" />
+		<Parameter ID="Sig_St_Uint" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="FirmwareVersion" FromVersion="A2.94" ToVersion="Z3.07" HwdResource="PLK" Description-de="Firmware Version" Description-en="Firmware version">
+		<Filter Value="ModuleInfo='on'" />
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="14" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="UINT" Type="STRING" />
+		<Parameter ID="Sig_St_Uint" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="FirmwareVersion" FromVersion="A3.08" HwdResource="PLK" Description-de="Firmware Version" Description-en="Firmware version">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="14" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="UINT" Type="STRING" />
+		<Parameter ID="Sig_St_Uint" Value="1" Type="STRING" />
+	</Channel>
+	<Separator />
+	<Channel ID="EthRxLost" FromVersion="C2.87" HwdResource="PLK" Description-de="Anzahl verlorener Rx-Frames" Description-en="Number of lost Rx-Frames">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="0x80000402" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="DINT" Type="STRING" />
+		<Parameter ID="Sig_St_Dint" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="EthRxOversize" FromVersion="C2.87" HwdResource="PLK" Description-de="Anzahl empfangener übergrosser Frames &gt; 1500 Bytes" Description-en="Number of received oversized frames &gt; 1500 Bytes">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="0x80000403" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="DINT" Type="STRING" />
+		<Parameter ID="Sig_St_Dint" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="EthRxCRCError" FromVersion="C2.87" HwdResource="PLK" Description-de="Anzahl von Rx-Frames mit falscher CRC" Description-en="Number of Rx-Frames with wrong CRC">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="0x80000404" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="DINT" Type="STRING" />
+		<Parameter ID="Sig_St_Dint" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="EthRxOverflow" FromVersion="C2.87" HwdResource="PLK" Description-de="Anzahl von verlorenen Rx-Frames wegen Performance-Engpass am BC" Description-en="Number of lost Rx-Frames due to performance shortage on BC">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="0x80000405" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="DINT" Type="STRING" />
+		<Parameter ID="Sig_St_Dint" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="EthTxCollision" FromVersion="C2.87" HwdResource="PLK" Description-de="Anzahl von Kollisionen am Ethernet während BC sendet" Description-en="Number of collisions on ethernet while BC sending">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="0x80000406" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="DINT" Type="STRING" />
+		<Parameter ID="Sig_St_Dint" Value="1" Type="STRING" />
+	</Channel>
+	<Separator />
+	<Channel ID="EthPhy1LinkOk" FromVersion="A2.94" HwdResource="PLK" Description-de="Link auf Schnittstelle 1 aktiv" Description-en="Link of interface 1 is active">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="0x80000417" Type="UDINT" />
+		<Parameter ID="BitOffset" Value="0" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="BOOL" Type="STRING" />
+		<Parameter ID="Sig_St_Bool" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="EthPhy1LinkLoss" FromVersion="C2.87" HwdResource="PLK" Description-de="Zählt um 1 hoch wenn Link der ersten Schnittstelle verloren geht" Description-en="Increments each time when link of physical interface 1 is lost">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="0x80000410" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="DINT" Type="STRING" />
+		<Parameter ID="Sig_Counter_Dint" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="EthPhy2LinkOk" FromVersion="A2.94" HwdResource="PLK" Description-de="Link auf Schnittstelle 2 aktiv" Description-en="Link of interface 2 is active">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="0x80000417" Type="UDINT" />
+		<Parameter ID="BitOffset" Value="1" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="BOOL" Type="STRING" />
+		<Parameter ID="Sig_St_Bool" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="EthPhy2LinkLoss" FromVersion="C2.87" HwdResource="PLK" Description-de="Zählt um 1 hoch wenn Link der zweiten Schnittstelle verloren geht" Description-en="Increments each time when link of physical interface 2 is lost">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="0x80000411" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="DINT" Type="STRING" />
+		<Parameter ID="Sig_Counter_Dint" Value="1" Type="STRING" />
+	</Channel>
+	<Separator />
+	<Channel ID="RedundancyFirstLinkState" FromVersion="I4.02" HwdResource="PLK" Description-de="Link-Status der ersten Uebertragungsstrecke TRUE=Fehler" Description-en="Link state of first redundant connection TRUE=Error">
+		<Filter Value="LinkSelectorInfo='on'" />
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="0x80000465" Type="UDINT" />
+		<Parameter ID="BitOffset" Value="7" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="BOOL" Type="STRING" />
+		<Parameter ID="Sig_St_Bool" Value="1" Type="STRING" />
+	</Channel>
+	<Channel ID="RedundancySecondLinkState" FromVersion="I4.02" HwdResource="PLK" Description-de="Link-Status der zweiten Uebertragungsstrecke TRUE=Fehler" Description-en="Link state of second redundant connection TRUE=Error">
+		<Filter Value="LinkSelectorInfo='on'" />
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="0x80000465" Type="UDINT" />
+		<Parameter ID="BitOffset" Value="6" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="BOOL" Type="STRING" />
+		<Parameter ID="Sig_St_Bool" Value="1" Type="STRING" />
+	</Channel>
+	<Separator />
+	<Channel ID="Nettime" FromVersion="I4.02" HwdResource="PLK" Description-de="Nettime des Zyklus beim Empfangen des Poll Response der Station" Description-en="Nettime of cycle receiving the Poll Response of the station">
+		<Parameter ID="Ext" Value="/INFO" Type="STRING" />
+		<Parameter ID="Address" Value="0x80000450" Type="UDINT" />
+		<Parameter ID="Direction" Value="IN" Type="STRING" />
+		<Parameter ID="Type" Value="DINT" Type="STRING" />
+		<Parameter ID="Sig_Counter_Dint" Value="1" Type="STRING" />
+	</Channel>
+	</Channels>
+	<Classification>
+	<HardwareModuleFamily Value="X20" />
+	<HardwareModuleType Value="BusController" />
+	<NetworkType Value="Powerlink" />
+	<NetworkType Value="X2X" />
+	</Classification>
+	<Connectors>
+		<Connector Name="PLK1" DaisyChain="true" Male="true" NodeSwitch="true" Type="Cable">
+			<Connections>
+			<Connection Name="Powerlink" />
+			<Restriction Condition="Operation='EPL-V1' OR Operation='EPL-V2'" ErrorNumber="4822" Message-de="Hardwaremodul X20BC0083 erfordert, dass die Ethernet oder POWERLINK Schnittstelle als 'POWERLINK V1' oder 'POWERLINK V2' konfiguriert ist." Message-en="Hardware module X20BC0083 requires that the Ethernet or POWERLINK interface is configured as 'POWERLINK V1' or 'POWERLINK V2'." />
+			</Connections>
+			<Layout PositionX="10" PositionY="71" />
+		</Connector>
+		<Connector Name="PLK2" Male="true" Type="Cable">
+			<Connections>
+			<Connection Name="Powerlink" />
+			<Restriction Condition="Operation='EPL-V1' OR Operation='EPL-V2'" ErrorNumber="4822" Message-de="Hardwaremodul X20BC0083 erfordert, dass die Ethernet oder POWERLINK Schnittstelle als 'POWERLINK V1' oder 'POWERLINK V2' konfiguriert ist." Message-en="Hardware module X20BC0083 requires that the Ethernet or POWERLINK interface is configured as 'POWERLINK V1' or 'POWERLINK V2'." />
+			</Connections>
+			<Layout PositionX="10" PositionY="86" />
+		</Connector>
+		<Connector Name="SL" AddressRule="AsContainer" Back="true" Male="true" Type="Plug">
+			<AutoConnect ModuleID="X20BB80" ConnectorName="SL1" />
+			<Connections>
+			<Connection Name="X20BusController" />
+			</Connections>
+			<Layout PositionX="0" PositionY="10" />
+		</Connector>
+	</Connectors>
+	<EcadData>
+		<ArticleData TypeNr="X20BC0083"
+			Height="99"
+			Width="25"
+			Depth="79"
+			Weight="90"
+			DepthSpacingRear="0"
+			DepthSpacingFront="20"
+			HeightSpacingAbove="35"
+			HeightSpacingBelow="35"
+			WidthSpacingLeft="0"
+			WidthSpacingRight="0"
+			SnapHeightMiddleOffset="-10"
+			PackagingQuantity="1"
+			ShortDescription-de="1x POWERLINK (V1/V2) Bus Controller POWERLINK"
+			ShortDescription-en="1x POWERLINK (V1/V2) Bus Controller POWERLINK"
+			ShortDescription-fr=""
+			Description-de="X20 Bus Controller, POWERLINK Schnittstelle, integrierter 2fach Hub, 2x RJ45 Anschluss"
+			Description-en="X20 Bus Controller, POWERLINK interface, integrated 2x Hub, 2x RJ45 Port"
+			Description-fr="" />
+		<PinSpecification>
+			<Pin Number="1" Name="PLK1" Terminal="X1" IoType="" />
+			<Pin Number="2" Name="PLK2" Terminal="X2" IoType="" />	
+		</PinSpecification>
+	</EcadData>
+	<Editors>
+	<Editor Name="IoMapping" Target="SG4" />
+	<Editor Name="Configuration" Target="SG4" />
+	</Editors>
+	<Firmware Folder="X20BC0083">
+	<Target FromVersion="A2.92" Name="SG4" SubFolder="1" />
+	</Firmware>
+	<HWD Target="SG4">
+	<Parameter ID="UseType" Value="6" Type="UDINT" />
+	<Parameter ID="NeededBus" Value="PL" />
+	<Parameter ID="RemoteUpdate" Value="1" Type="UDINT" />
+	<Parameter ID="IOSuffix" Value="PLK" FromVersion="C2.87" />
+	<Parameter ID="VendorId" Value="0x0100006C" Type="UDINT" />
+	<Parameter ID="IOConfigEntriesPerSlot" Value="154" Type="UDINT" />
+	<Parameter ID="IOConfigEntriesTotal" Value="2024" Type="UDINT" />
+	<Parameter ID="IOConfigArraySize21FF" Value="0" />
+	<Parameter ID="EPL_SDOWriteMultiple" Value="on" />
+	<Parameter ID="EPL_FwVersionInExt1" Value="1" Type="UDINT" />
+	<Parameter ID="EPL_ApplSwUpdate" Value="1" Type="UDINT" />
+	<Parameter ID="EPL_ApplSwVerify" Value="1" Type="UDINT" />
+	<Parameter ID="EPL_CfgVerify" Value="1" Type="UDINT" />
+	<Parameter ID="EPL_DeviceType" Value="00x000F0191" Type="UDINT" />
+	<Parameter ID="EPL_BootTimeNotActive" Value="15000000" Type="UDINT" />
+	<Resource ID="PLK">
+		<Parameter ID="Transparent" Value="1" Type="UDINT" />
+		<Parameter ID="InSize" Value="256" Type="UDINT" />
+		<Parameter ID="OutSize" Value="256" Type="UDINT" />
+		<Parameter ID="Classcode" Value="0x200000FF" Type="UDINT" />
+		<Parameter ID="DDriverName" Value="DdxxIoPLBC" />
+		<Resource ID="IF1">
+		<Parameter ID="Classcode" Value="0x200000FF" Type="UDINT" />
+		<Parameter ID="DDriverName" Value="DdxxIoBCXLIF" />
+		<Parameter ID="IOSuffix" Value="" />
+		<Parameter ID="FilterSuffix" Value="X2X" />
+		<Resource ID="X2X">
+			<Parameter ID="Transparent" Value="1" Type="UDINT" />
+			<Parameter ID="OfferedBus" Value="X2X" />
+			<Parameter ID="BusPrefix" Value="ST" />
+			<Parameter ID="BusMinSlot" Value="1" Type="UDINT" />
+			<Parameter ID="BusMaxSlot" Value="253" Type="UDINT" />
+			<Parameter ID="AutoPlug" Value="1" Type="UDINT" />
+			<Parameter ID="X2XStreamSupport" Value="1" Type="UDINT" />      
+			<Parameter ID="FWStreamOnEplV1" Value="1" Type="UDINT" />      
+		</Resource>
+		</Resource>
+	</Resource>
+	</HWD>
+	<Images>
+	<Image Type="FrontFoto" Name="X20BC0083.front.png" />
+	<Image Type="Icon" Name="hw_pl.ico" />
+	</Images>
+	<Properties Target="SG4">
+		<Group ID="IO" Name-en="I/O parameters" Name-de="I/O Parameter">
+			<Group ID="General" Name-en="General" Name-de="Allgemein" FromVersion="C2.87">
+			<Parameter ID="Supervision" Name-en="Module supervised" Name-de="Modulüberwachung" Value="on" Description-en="Service mode if there is no hardware module" Description-de="Service Mode auslösen, wenn Modul nicht vorhanden ist" Type="STRING">
+				<ComboBox>
+				<Item ID="off" Name-en="off" Name-de="Aus" />
+				<Item ID="on" Name-en="on" Name-de="Ein" />
+				</ComboBox>
+			</Parameter>
+			<Parameter ID="ModuleInfo" Name-en="Module information" Name-de="Modulinformation" Value="off" Description-en="Additional module information" Description-de="Zusätzliche Modulinformation" FromVersion="A2.94" ToVersion="Z3.07" Type="STRING">
+				<ComboBox>
+				<Item ID="off" Name-en="off" Name-de="Aus" Name-fr="Inactif" />
+				<Item ID="on" Name-en="on" Name-de="Ein" Name-fr="Actif" />
+				</ComboBox>
+			</Parameter>
+			<Parameter ID="LinkSelectorInfo" Name-en="Link Selector" Name-de="Link Selector" Value="off" Description-en="Provide datapoints of redundancy link selector state" Description-de="Info Datenpunkte für Link-Selektor-Status" FromVersion="I4.02" Type="STRING">
+				<ComboBox>
+				<Item ID="off" Name-en="off" Name-de="Aus" Name-fr="Inactif" />
+				<Item ID="on" Name-en="on" Name-de="Ein" Name-fr="Actif" />
+				</ComboBox>
+			</Parameter>
+			<Parameter ID="IPGateway" Name-en="Node used as IP gateway" Name-de="Station die als IP Gateway verwendet wird" Type="DINT" Value="240" Range="-1-254" FromVersion="H4.25"/>
+			</Group>
+			<Group ID="IOImage" Name-en="I/O Image" Name-de="I/O Bereich" FromVersion="A8.00" Filter="%CpuRuntimeVersion%GT='A4.00' AND CPU::$IOOffsetAssignment$='on'">
+			<Parameter ID="InOffset" Name-en="Offset for inputs" Name-de="Offset für Eingänge" Value="0" Description-en="Offset is relative to base address of master interface" Description-de="Offset ist relativ zur Basisadresse der Masterschnittstelle" Type="UDINT" />
+			<Parameter ID="OutOffset" Name-en="Offset for outputs" Name-de="Offset für Ausgänge" Value="0" Description-en="Offset is relative to base address of master interface" Description-de="Offset ist relativ zur Basisadresse der Masterschnittstelle" Type="UDINT" />
+			</Group>
+		</Group>
+		<Group ID="PLK" Name-en="POWERLINK parameters" Name-de="POWERLINK Parameter">
+			<Selector ID="Mode" Name-en="Mode" Name-de="Modus" Value="CN" Validated="true">
+			<Selection ID="CN" Name-en="controlled node" Name-de="Controlled Node">
+				<Parameter ID="ResponseTimeout" Name-en="Response timeout [µs]" Name-de="Antwort Timeout [µs]" Value="25" Type="UDINT" Range="1-30000" />
+			</Selection>
+			</Selector>
+			<Selector ID="CiR" Name-en="CiR" Name-de="CiR" Value="off" FromVersion="C4.25"  >
+			<Selection ID="off" Name-en="off" Name-de="Aus">
+			</Selection>
+			<Selection ID="on" Name-en="on" Name-de="Ein">
+			</Selection>
+			</Selector>
+			<Selector ID="Multiplexed" Name-en="Multiplexed station" Name-de="Multiplexed Station" Value="0" ArConfigSkip="true">
+			<Selection ID="0" Name-en="off" Name-de="Aus">
+				<Parameter ID="MuxNetworkSlot" Value="0" Type="UDINT" Visible="false" Validated="true" ArConfigSkip="false" />
+				<Group ID="Advanced" Name-en="Advanced Optimization" Name-de="Erweiterte Optimierungen">
+				<Parameter ID="MinimalInputLatency" Name-en="Optimization" Name-de="Optimierung der Eingänge" Value="off" FromVersion="A3.00" Type="STRING" Validated="true" ArConfigSkip="false">
+					<ComboBox>
+					<Item ID="off" Name-en="data throughput" Name-de="Datendurchsatz" />
+					<Item ID="on" Name-en="minimal latency" Name-de="Reaktionsschnell" />
+					</ComboBox>
+				</Parameter>
+				<Parameter ID="SyncMode" Name-en="Synchronization mode" Name-de="Synchronisierungsmodus" Value="SoC" ToVersion="V2.99" Type="STRING" ArConfigSkip="false">
+					<ComboBox>
+					<Item ID="SoC" Name-en="Start of POWERLINK-Cycle as sync" Name-de="Start des POWERLINK-Zyklus als Trigger" />
+					<Item ID="PReq" Name-en="Poll-Request as sync" Name-de="Poll-Request als Trigger" />
+					<Item ID="async" Name-en="no synchronization" Name-de="keine Synchronisierung" />
+					</ComboBox>
+				</Parameter>
+				<Selector ID="EPL_Chained" Name-en="Chained station" Name-de="Verkettete Station" Value="off" FromVersion="A3.00" Validated="true" ArConfigSkip="false">
+					<Selection ID="off" Name-en="off" Name-de="Aus">
+					<Parameter ID="EPL_PReqDataInPResMN" Name-en="Output in PResMN" Name-de="Ausgangsdaten im PResMN" Value="off" Description-en="Send output data at the beginning of the cycle in PRes frame from managing node" Description-de="Output Daten am Anfang des Zyklus im PRes-Frame des Managing-Node versenden" Type="STRING" Template="OnOffText" />
+					<Parameter ID="SyncMode" Name-en="Synchronization mode" Name-de="Synchronisierungsmodus" Value="SoC" Type="STRING" ArConfigSkip="false">
+						<ComboBox>
+						<Item ID="SoC" Name-en="Start of POWERLINK-Cycle as sync" Name-de="Start des POWERLINK-Zyklus als Trigger" />
+						<Item ID="PReq" Name-en="Poll-Request as sync" Name-de="Poll-Request als Trigger" />
+						<Item ID="async" Name-en="no synchronization" Name-de="keine Synchronisierung" />
+						</ComboBox>
+					</Parameter>
+					</Selection>
+					<Selection ID="on" Name-en="on" Name-de="Ein">
+					<Parameter ID="EPL_PReqDataInPResMN" Name-en="Output in PResMN" Name-de="Ausgangsdaten im PResMN" Value="on" Description-en="Send output data at the beginning of the cycle in PRes frame from managing node" Description-de="Output Daten am Anfang des Zyklus im PRes-Frame des Managing-Node versenden" Type="STRING" CanEdit="false" Template="OnOffText" />
+					<Parameter ID="SyncMode" Name-en="Synchronization mode" Name-de="Synchronisierungsmodus" Value="SoC" Type="STRING" ArConfigSkip="false">
+						<ComboBox>
+						<Item ID="SoC" Name-en="Start of POWERLINK-Cycle as sync" Name-de="Start des POWERLINK-Zyklus als Trigger" />
+						<Item ID="PReq" Name-en="Poll-Response MN as sync" Name-de="Poll-Response MN als Trigger" />
+						<Item ID="async" Name-en="no synchronization" Name-de="keine Synchronisierung" />
+						</ComboBox>
+					</Parameter>
+					</Selection>
+				</Selector>
+				</Group>
+			</Selection>
+			<Selection ID="1" Name-en="on" Name-de="Ein">
+				<Group ID="Advanced" Name-en="Advanced multiplexing" Name-de="Erweiterte Multiplexing Einstellungen">
+				<Selector ID="ForceCycle" Name-en="Force multiplexed station network cycle" Name-de="Netzwerkzyklus der multiplexed Station erzwingen" Value="0" ArConfigSkip="true">
+					<Selection ID="0" Name-en="off" Name-de="Aus">
+					<Parameter ID="MuxNetworkSlot" Name-en="Handled in cycle" Name-de="Behandeln im Zyklus" Value="0" Type="UDINT" CanEdit="false" Validated="true" Calculated="true" ArConfigSkip="false" />
+					</Selection>
+					<Selection ID="1" Name-en="on" Name-de="Ein">
+					<Parameter ID="MuxNetworkSlot" Name-en="Handled in cycle" Name-de="Behandeln im Zyklus" Value="1" Type="UDINT" Range="1-253" Validated="true" ArConfigSkip="false" />
+					</Selection>
+				</Selector>
+				</Group>
+				<Group ID="AdvancedOpt" Name-en="Advanced Optimization" Name-de="Erweiterte Optimierungen">
+				<Parameter ID="SyncMode" Name-en="Synchronization mode" Name-de="Synchronisierungsmodus" Value="SoC" Type="STRING" ArConfigSkip="false">
+					<ComboBox>
+					<Item ID="SoC" Name-en="Start of POWERLINK-Cycle as sync" Name-de="Start des POWERLINK-Zyklus als Trigger" />
+					<Item ID="async" Name-en="no synchronization" Name-de="keine Synchronisierung" />
+					</ComboBox>
+				</Parameter>
+				</Group>
+			</Selection>
+			</Selector>
+		</Group>
+		<Group ID="DNA" Name-en="Dynamic Node Allocation" Name-de="Automatische Knotennummernvergabe" FromVersion="C3.08">
+			<Selector ID="EnableDNA" Name-en="DNA" Name-de="DNA" Value="off">
+			<Selection ID="off" Name-en="off" Name-de="Aus" />
+			<Selection ID="on" Name-en="on" Name-de="Ein">
+				<Parameter ID="EPL_DNA_Head" Name-en="Head of a line" Name-de="Kopfstation" Value="1" Description-en="yes = Station is an DNA Headstation, no = Nodenumber of the station is allocated dynamically" Description-de="ja = Station ist eine DNA Kopfstation, nein = Knotennummer der Station wird dynamisch zugewiesen" Type="UDINT">
+				<ComboBox>
+					<Item ID="1" Name-en="yes" Name-de="ja" />
+					<Item ID="0" Name-en="no" Name-de="nein" />
+				</ComboBox>
+				</Parameter>
+				<Parameter ID="EPL_DNA_Predecessor" Name-en="Predecessor node" Name-de="Vorgängerstation" Value="240" Description-en="MN = 240" Description-de="MN = 240" Type="UDINT" Range="1-240" />
+				<Parameter ID="EPL_DNA_HubPort" Name-en="Hub port on predecessor" Name-de="Hubport an der Vorgängerstation" Value="2" Type="UDINT">
+				<ComboBox>
+					<Item ID="0" Name-en="Hubport not switchable" Name-de="Hubport nicht schaltbar" />
+					<Item ID="1" Name-en="1" Name-de="1" />
+					<Item ID="2" Name-en="2" Name-de="2" />
+					<Item ID="3" Name-en="3" Name-de="3" />
+					<Item ID="4" Name-en="4" Name-de="4" />
+					<Item ID="5" Name-en="5" Name-de="5" />
+					<Item ID="6" Name-en="6" Name-de="6" />
+					<Item ID="7" Name-en="7" Name-de="7" />
+					<Item ID="8" Name-en="8" Name-de="8" />
+				</ComboBox>
+				</Parameter>
+				<Parameter ID="EPL_DNA_InPort" Value="1" Type="UDINT" CanEdit="false" Visible="false" />
+			</Selection>
+			</Selector>
+		</Group>
+		<Group ID="IO_QLink" ArConfigResource="IF1" ArConfigHardware="IF1" Visible="false">
+			<Parameter ID="QLinkMinBitsize" Type="UDINT" Value="8" Visible="false" />
+		</Group>
+	</Properties>
+	<Runtime Target="SG4" FromVersion="B2.85" RPDOs="3" AutomationRuntime="BC0083" />
+	<Upload ModuleNr="7966" />
+</Module>

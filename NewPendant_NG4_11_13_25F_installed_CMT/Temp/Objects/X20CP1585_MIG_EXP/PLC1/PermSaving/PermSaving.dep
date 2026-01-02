@@ -1,0 +1,9 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/DataObj/DataObj.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/UDP/paiUDPService/paiUDPService.typ
+$(AS_PROJECT_PATH)/Logical/UDP/udpApp.typ
+$(AS_PROJECT_PATH)/Logical/FourAxisTigCtrl/PermSaving/PermSaving.c
+$(AS_PROJECT_PATH)/Logical/Universal/WIREprc/../../Lib/WSI_types.h
+$(AS_PROJECT_PATH)/Physical/X20CP1585_MIG_EXP/PLC1/Cpu.per
+$(AS_PROJECT_PATH)/Logical/Universal/MiscOper/../../Universal/SuperDeclaration.h
+$(AS_PROJECT_PATH)/Logical/Universal/WIREprc/../../lib/Statelib.h

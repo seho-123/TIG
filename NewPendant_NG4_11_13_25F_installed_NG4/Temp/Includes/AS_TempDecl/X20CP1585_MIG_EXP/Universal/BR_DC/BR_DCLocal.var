@@ -1,0 +1,23 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	AZZ_Ramp : AzzRamp;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"39" #3"20" *)
+	KK_ENCD : ARRAY[0..5] OF INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"35" #3"12" *)
+	Azz_CalibrPoints : ARRAY[0..9] OF AzzNode_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"50" #3"20" *)
+	AZZ_Fun_test : BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"47" #3"15" *)
+	stamp1 : DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"29" #3"13" *)
+	KK_ENCD_delta : ARRAY[0..5] OF INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"35" #3"59" *)
+	duration : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"32" #3"14" *)
+	AZZ_MoveAvg : AzzMovAvgFlt;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"43" #3"25" *)
+	AZZ_Scal : AzzScal;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"41" #3"20" *)
+	_KK_ENCD : ARRAY[0..5] OF INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"35" #3"35" *)
+	AZZ_TON : AzzTON;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"42" #3"19" *)
+	Azz_LinSpline : AzzLinSpline;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"51" #3"25" *)
+	AZZ_PID : AzzSlimPID;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"38" #3"23" *)
+	AZZ_pid_Param : azzslimpid_par;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"45" #3"27" *)
+	AZZ_LimScal : AzzLimScal;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"40" #3"23" *)
+	stamp2 : DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"31" #3"13" *)
+	old_stamp1 : DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/BR_DC/BR_DC.c" #2"30" #3"13" *)
+END_VAR

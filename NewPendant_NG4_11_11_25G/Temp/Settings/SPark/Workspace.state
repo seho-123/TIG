@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
+  <TextEdit ID="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_11_11_25G\Logical\FourAxisTigCtrl\GlobDef.h" CaretLine="98" CaretColumn="23" FirstVisibleLine="78">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_11_11_25G\Logical\FourAxisTigCtrl\AVC_SYNCH\AVC_SYNCH.c" CaretLine="444" CaretColumn="45" FirstVisibleLine="422">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_11_11_25G\Logical\FourAxisTigCtrl\HeadConfig.c" CaretLine="3312" CaretColumn="45" FirstVisibleLine="3296">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_11_11_25G\Logical\Universal\TML_srv\TML_srv.c" CaretLine="3178" CaretColumn="10" FirstVisibleLine="3156">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Users\SPark\Documents\GitHub\TIG\NewPendant_NG4_11_11_25G\Logical\Universal\BR_DC\BR_DC.c" CaretLine="426" CaretColumn="42" FirstVisibleLine="403">
+    <Bookmarks />
+  </TextEdit>
+</State>

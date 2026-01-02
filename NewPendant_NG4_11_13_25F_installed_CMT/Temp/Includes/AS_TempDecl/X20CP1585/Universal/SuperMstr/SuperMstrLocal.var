@@ -1,0 +1,18 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	_Counter : INT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/SuperMstr/SuperMaster.c" #2"45" #3"12" *)
+	LCD_RS232_Main : SerialPortDriver;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/SuperMstr/SuperMaster.c" #2"44" #3"29" *)
+	curCfg : REFERENCE TO CurCfg_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/SuperMstr/SuperMaster.c" #2"38" #3"19" *)
+	_ProjectConfig : Project_Enum;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/SuperMstr/SuperMaster.c" #2"29" #3"21" *)
+	Tasks : ARRAY[0..30] OF Task_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/SuperMstr/SuperMaster.c" #2"31" #3"17" *)
+	LCD_Init_Step : UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/SuperMstr/SuperMaster.c" #2"43" #3"13" *)
+	projectSwitchStep : UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/SuperMstr/SuperMaster.c" #2"34" #3"13" *)
+	NODES : ARRAY[0..1023] OF LCD_NODE_obj;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/SuperMstr/SuperMaster.c" #2"36" #3"21" *)
+	Projects : ARRAY[0..2] OF Project_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/SuperMstr/SuperMaster.c" #2"32" #3"20" *)
+	MenuLevel : UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/SuperMstr/SuperMaster.c" #2"47" #3"13" *)
+	ColdBootDone : UINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/SuperMstr/SuperMaster.c" #2"28" #3"13" *)
+	Units : ARRAY[0..10] OF Units_obj;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/SuperMstr/SuperMaster.c" #2"40" #3"18" *)
+END_VAR

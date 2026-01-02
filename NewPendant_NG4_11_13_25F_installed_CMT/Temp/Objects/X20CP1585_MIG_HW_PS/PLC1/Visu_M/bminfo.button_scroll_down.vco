@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="button_scroll_down" ClsId="0x306" Version="1" TargetIndex="404" Type="GFX" RefString="Source[local].Bitmap[button_scroll_down]">
+        <UInt16 Name="Width">32</UInt16>
+        <UInt16 Name="Height">32</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGvSURBVFhH7de7agJBFAbgzUPkIfIEeQMNxM6AoC5ed0XxhiDrJUaDUfcSC9MYTCmpDZhyib1lwMo2WIlpBMsTzogLO+aybpKxceCDszOznL9YZhkOAI5UVX1VFQVkucVUo9E45i7LZSiXSoABHno9JrBXsVCAgiQNuEwmTR7m8zksl0tmatUq6cuJgkCK6XTK1F2nsw7A+/2kGI/HTLXbt+sAF243KV50nanNd8C5XOekeBoMmGo1m+sAZ04nKR77faZu6nVzgPtul6nrWs0coK1pTF1VKuYAmIglPPxMAYpFxrCnKYAFmHy1WsFXA9dwD/3ed3YKgJ6HQ7qvMXCN3v+TnQOg2WxG94bFYrG1zwpbAfCPRg+co/dZYSsAmkwmRnOs6XWrbAfAsxw/OrQ51+2wHQDpuk7Q87v4VYC/cAhwCHAIsP8ATodja5Il42KyL8bVbE9GxuX0k8X/NlIU5Y3TNO3U4/G8e71e8Pl8wPM8EQgEiGAwCKFQCMLhMEQiEYhGoyAIAiGKIsRiMUM8HodEIgHJZBJSqRSk02nIZrNELpcj8vk8IUkSyLJ88gGN7HsiyAxVmAAAAABJRU5ErkJggg==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

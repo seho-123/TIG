@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="left_active" ClsId="0x306" Version="1" TargetIndex="35" Type="GFX" RefString="Source[local].Bitmap[left_active]">
+        <UInt16 Name="Width">32</UInt16>
+        <UInt16 Name="Height">32</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">1</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">46</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">LmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmOy5m+Q8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PD/sHD2b8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Af1Zvz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8BwBm/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/PwHAGbp6enp6enp6enp6enp6enp6enp6enp6enp6enp6WYAZunp6enp6enp6enp6enp6enp6enp6enp6enp6enpZgBm6enp6enp6enp6enp6enp6enp6enp6enp6enp6elmAGbp6enp6enp6enp6enp6enp6ek7+unp6enp6enp6WYAZunp6enp6enp6enp6enp6enpB/c76enp6enp6enpZgBm6enp6enp6enp6enp6enp+wj29jvp6enp6enp6elmAGbp6enp6enp6enp6enp6TuR9vb2O+np6enp6enp6WYAZunp6enp6enp6enp6ekH9/b29vY76enp6enp6enpZgBm6enp6enp6enp6en7CPb29vb29jvp6enp6enp6elmAGbp6enp6enp6enpO5H29vb29vb2O+np6enp6enp6WYAZunp6enp6enp6Tv39vb29vb29vY76enp6enp6enpZgBm6enp6enp6enp6Qf39vb29vb29jvp6enp6enp6elmAGbp6enp6enp6enp6TuR9vb29vb2O+np6enp6enp6WYAZunp6enp6enp6enp6fsI9vb29vY76enp6enp6enpZgBm6enp6enp6enp6enp6ekH9/b29jvp6enp6enp6elmAGbp6enp6enp6enp6enp6ek7kfb2O+np6enp6enp6WYAZunp6enp6enp6enp6enp6en7ZvY76enp6enp6enpZgBm6enp6enp6enp6enp6enp6enpBzvp6enp6enp6elmAGbp6enp6enp6enp6enp6enp6enp6enp6enp6enp6WYAZunp6enp6enp6enp6enp6enp6enp6enp6enp6enpZgBm6enp6enp6enp6enp6enp6enp6enp6enp6enp6elmAAfp6enp6enp6enp6enp6enp6enp6enp6enp6enp6QcAB/n5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5BwAHOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsHAGYHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB5EA+maRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRAPYuLgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2Lg==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

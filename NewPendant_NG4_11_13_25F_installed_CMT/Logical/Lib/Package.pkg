@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">WSI_types.h</Object>
+    <Object Type="File">statelib.h</Object>
+    <Object Type="File">complex.c</Object>
+    <Object Type="File">complex.h</Object>
+    <Object Type="File">DataMgrLib.c</Object>
+    <Object Type="File">DataMgrLib.h</Object>
+    <Object Type="File">DrillMenuLib.c</Object>
+    <Object Type="File">fileuser.c</Object>
+    <Object Type="File">fileuser.h</Object>
+    <Object Type="File">LoggerLib.h</Object>
+    <Object Type="File">LoggerLib.c</Object>
+    <Object Type="File">Plot.h</Object>
+    <Object Type="File">Plot.c</Object>
+    <Object Type="File">matrixlib.c</Object>
+    <Object Type="File">matrixlib.h</Object>
+    <Object Type="File">statelib.c</Object>
+    <Object Type="File">xstring.c</Object>
+    <Object Type="File">xstring.h</Object>
+    <Object Type="File">kinematicLib.c</Object>
+    <Object Type="File">kinematicLib.h</Object>
+    <Object Type="File">LCDLib.c</Object>
+    <Object Type="File">WSI_lib.c</Object>
+    <Object Type="Package">utilityLib</Object>
+    <Object Type="Package">arclink</Object>
+    <Object Type="Package">libUDP</Object>
+    <Object Type="Package">libParser</Object>
+  </Objects>
+</Package>

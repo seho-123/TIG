@@ -1,0 +1,86 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=LincolnPS 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=316 Type=225 Scope=60 Force=60 Index=29 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                 ArcLink                             Arc_Link_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                   robot                                Robot_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                isMapped                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
+                               isMapping                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                      isMiscSetupOneShot                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
+                           ArcLinkActive                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                 isReady                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
+                               miscSetup                  Arc_Link_Misc_Setup_typ    0 "                                                               *"    2   24    1    0    0    1         
+                                 running                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                                   state                                    USINT    0 "                                                               8"    3    5    1   10    0    0         
+                                      er                 Event_Report_Request_typ    0 "                                                               *"    3   24    1    0    0    1         
+                       AttributeIDNumber                                     UINT    0 "                                                            3584"    4    6    1   10    0    0         
+                           SequenceState                                    USINT    0 "                                                               0"    4    5    1   10    0    0         
+                        PropertyIDNumber                                    USINT    0 "                                                               0"    4    5    1   10    0    0         
+                          TriggerOptions                                    USINT    0 "                                                             224"    4    5    1   10    0    0         
+                                Reserved                                    USINT    0 "                                                               0"    4    5    1   10    0    0         
+                                    Data                                    UDINT    0 "                                                               0"    4    7    1   10    0    0         
+                                   Intrf                          Robot_Intrf_typ    0 "                                                               *"    2   24    1    0    0    1         
+                                    xCMD                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                                      wc                                   WC_typ    0 "                                                               *"    2   24    1    0    0    1         
+                                   setup                             WC_Setup_typ    0 "                                                               *"    3   24    1    0    0    1         
+                               ctrlParam             SetControlsActionRequest_typ    0 "                                                               *"    4   24    1    0    0    1         
+                           ParameterMask                                    USINT    0 "                                                           16#23"    5    5    1   16    0    0         
+                                WeldMode                                     UINT    0 "                                                               3"    5    6    1   10    0    0         
+                               WorkPoint                                     UINT    0 "                                                               0"    5    6    1   10    0    0         
+                                    Trim                                     UINT    0 "                                                               0"    5    6    1   10    0    0         
+                            WaveControl1                                     UINT    0 "                                                               0"    5    6    1   10    0    0         
+                            WaveControl2                                     UINT    0 "                                                               0"    5    6    1   10    0    0         
+                            WaveControl3                                     UINT    0 "                                                               1"    5    6    1   10    0    0         
+                            WaveControl4                                     UINT    0 "                                                               0"    5    6    1   10    0    0         
+                         WC_Ready_Status                                     UINT    0 "                                           2#0000_0000_0111_1001"    3    6    1    2    0    0         
+                         WC_Fault_Status                                     UINT    0 "                                           2#0000_0000_0000_0000"    3    6    1    2    0    0         
+                                   Cntrl                     ARCLINK_PS_CNTRL_typ    0 "                                                               *"    2   24    1    0    0    1         
+                                     Cmd                       ARCLINK_PS_Cmd_typ    0 "                                                               *"    3   24    1    0    0    1         
+                                     RUN                                     UINT    0 "                                                               0"    4    6    1   10    0    0         
+                                     RST                                     UINT    0 "                                                               0"    4    6    1   10    0    0         
+                                    Mode                                     UINT    0 "                                                               3"    4    6    1   10    0    0         
+                                   AmpSP                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         
+                                BckAmpSP                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         
+                               PulseFreq                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         
+                              PulseWidth                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         
+                                     Fbk                       ARCLINK_PS_FBK_typ    0 "                                                               *"    3   24    1    0    0    1         
+                                   Error                                     UINT    0 "                                                               1"    4    6    1   10    0    0         
+                                  Status                                     UINT    0 "                                           2#0000_0000_1010_0010"    4    6    1    2    0    0         
+                              curArcVolt                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         
+                               curArcAmp                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         
+                                errorlog                                  Log_typ    0 "                                                               *"    2   24    1    0    0    1         
+                                     log                       STRING[254][0..29]    0 "                                                               *"    3    9  255    0    0    1         
+                                  log[0]                              STRING[254]    0 "                                   '19 Control PC Board Problem'"    4    9  255    1    0    0         
+                                  log[1]                              STRING[254]    0 "                                   '19 Control PC Board Problem'"    4    9  255    1    0    0         
+                                  log[2]                              STRING[254]    0 "                                                    '2 Reserved'"    4    9  255    1    0    0         
+                                  log[3]                              STRING[254]    0 "                                      '0 Secondary Over Current'"    4    9  255    1    0    0         
+                                 log[29]                              STRING[254]    0 "                                                              ''"    4    9  255    1    0    0         
+                                eventlog                                  Log_typ    0 "                                                               *"    2   24    1    0    0    0         
+                                     log                       STRING[254][0..29]    0 "                                                               *"    3    9  255    0    0    0         
+                                  log[0]                              STRING[254]    0 "                                                       'Arc Off'"    4    9  255    1    0    0         
+                                  log[1]                              STRING[254]    0 "                                            'Misc Setup Succeed'"    4    9  255    1    0    0         
+                                  log[2]                              STRING[254]    0 "                                               'Arc Link Mapped'"    4    9  255    1    0    0         
+                                  log[3]                              STRING[254]    0 "                                         'Received RESET signal'"    4    9  255    1    0    0         
+                                  log[4]                              STRING[254]    0 "                                                       'Arc Off'"    4    9  255    1    0    0         
+                                  log[5]                              STRING[254]    0 "                                            'Misc Setup Succeed'"    4    9  255    1    0    0         
+                                  log[6]                              STRING[254]    0 "                                               'Arc Link Mapped'"    4    9  255    1    0    0         
+                                  log[7]                              STRING[254]    0 "                                         'Received RESET signal'"    4    9  255    1    0    0         
+                                  log[8]                              STRING[254]    0 "                                                       'Arc Off'"    4    9  255    1    0    0         
+                                  log[9]                              STRING[254]    0 "                                            'Misc Setup Succeed'"    4    9  255    1    0    0         
+                                 log[10]                              STRING[254]    0 "                        'Received detailed fault status from PS'"    4    9  255    1    0    0         
+                                 log[11]                              STRING[254]    0 "                                               'Arc Link Mapped'"    4    9  255    1    0    0         
+                                 log[12]                              STRING[254]    0 "                                         'Received RESET signal'"    4    9  255    1    0    0         
+                                 log[13]                              STRING[254]    0 "                                                              ''"    4    9  255    1    0    0         
+                         PendingResponse                      PendingResponse_typ    0 "                                                               *"    1   24    1    0    0    1         
+                     WriteAttribute30770                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                     WriteAttribute30781                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                     WriteAttribute30758                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                        WriteAttribute30                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                       CreateReadyReport                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                       CreateFaultReport                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                              fsSequence                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+             WriteAttribute30770Sequence                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+             WriteAttribute30781Sequence                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+             WriteAttribute30758Sequence                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                WriteAttribute30Sequence                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+               CreateReadyReportSequence                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+               CreateFaultReportSequence                                     UINT    0 "                                                               0"    2    6    1   10    0    0         

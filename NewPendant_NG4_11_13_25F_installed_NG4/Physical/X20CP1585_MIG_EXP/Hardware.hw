@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.12.2.93 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="7XX408.50-1" Type="7XX408.50-1" Version="1.2.0.0" Disabled="true">
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="CounterMode" Value="AB counter" />
+  </Module>
+  <Module Name="PLC1" Type="X20CP1585" Version="1.10.0.0">
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="EthInterfaceRedundant" Value="0" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="192.168.10.123" Description="192.168.10.123  /  192.168.0.1" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+      <Group ID="Vnc1" />
+      <Parameter ID="VncVcObjectName1" Value="Visu1" />
+      <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard.dis" />
+      <Parameter ID="VncMaxConnections1" Value="3" />
+      <Parameter ID="VncRefreshRate1" Value="200" />
+      <Parameter ID="VncTitle1" Value="Reports" />
+    </Connector>
+    <Connector Name="IF3">
+      <Parameter ID="DNAConfiguration" Value="manual" />
+      <Parameter ID="CycleTime" Value="800" />
+      <Parameter ID="EplNatSubnet" Value="192.168.102.0" />
+      <Parameter ID="InaNodeNumber" Value="1" />
+    </Connector>
+    <Connector Name="IF6">
+      <Parameter ID="CycleTime" Value="800" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="UnivCntrl-01-10-19A" />
+    <Parameter ID="UserPartitionSize" Value="256" />
+    <Parameter ID="UserRamSize" Value="770048" />
+    <Parameter ID="PermanentPvSize" Value="96000" />
+    <Parameter ID="RemanentGlobalPvSize" Value="15000" />
+    <Parameter ID="VolatileGlobalPvSize" Value="3300000" />
+    <Parameter ID="TimerDeviceType" Value="EPLX2X" />
+    <Parameter ID="TimerDevice" Value="PLC1.IF3" />
+    <Parameter ID="TaskClassIdleTime" Value="1600" />
+    <Parameter ID="Cyclic1Duration" Value="800" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Parameter ID="Cyclic1Stack" Value="16000" />
+    <Parameter ID="Cyclic2Duration" Value="2400" />
+    <Parameter ID="Cyclic2Tolerance" Value="24000" />
+    <Parameter ID="Cyclic2Stack" Value="65536" />
+    <Parameter ID="Cyclic3Duration" Value="51200" />
+    <Parameter ID="Cyclic3Tolerance" Value="5120000" />
+    <Parameter ID="Cyclic4Duration" Value="102400" />
+    <Parameter ID="Cyclic4Tolerance" Value="102400" />
+    <Parameter ID="Cyclic5Duration" Value="204800" />
+    <Parameter ID="Cyclic5Tolerance" Value="204800" />
+    <Parameter ID="Cyclic6Duration" Value="409600" />
+    <Parameter ID="Cyclic6Tolerance" Value="409600" />
+    <Parameter ID="Cyclic7Duration" Value="20000000" />
+    <Parameter ID="Cyclic7Tolerance" Value="20000000" />
+    <Parameter ID="Cyclic8Duration" Value="8000" />
+    <Parameter ID="Cyclic8Tolerance" Value="40000000" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="Data" />
+    <Parameter ID="FileDevicePath1" Value="f:\Data" />
+    <Group ID="FileDevice2" />
+    <Parameter ID="FileDeviceName2" Value="WeldPrograms" />
+    <Parameter ID="FileDevicePath2" Value="f:\WeldPrograms" />
+    <Group ID="FileDevice3" />
+    <Parameter ID="FileDeviceName3" Value="HMI" />
+    <Parameter ID="FileDevicePath3" Value="f:\HMI" />
+    <Group ID="FileDevice4" />
+    <Parameter ID="FileDeviceName4" Value="CFG" />
+    <Parameter ID="FileDevicePath4" Value="f:\CFG" />
+    <Group ID="FileDevice5" />
+    <Parameter ID="FileDeviceName5" Value="TEMP" />
+    <Parameter ID="FileDevicePath5" Value="f:\TEMP" />
+    <Group ID="FileDevice6" />
+    <Parameter ID="FileDeviceName6" Value="REPORTS" />
+    <Parameter ID="FileDevicePath6" Value="f:\Reports" />
+    <Group ID="FtpUser1" />
+    <Parameter ID="FtpUsername1" Value="anonymous" />
+    <Parameter ID="FtpUserPassword1" Value="ilVrWe+rnGADVB+XCj+0qQ/lTsJeu4vW1xfWuH+9Xv8=" />
+    <Parameter ID="FtpUserSalt1" Value="NATz6vdL" />
+    <Parameter ID="FTPAccessRight1" Value="0" />
+  </Module>
+  <Module Name="X20AI4622" Type="X20AI4622" Version="1.2.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12c" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11c" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20AO4622" Type="X20AO4622" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12b" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11b" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20AO4622a" Type="X20AO4622" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12u" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11q" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20BB80" Type="X20BB80" Version="1.1.0.0" Disabled="true">
+    <Connector Name="IF1" Disabled="true">
+      <Parameter ID="CycleTime" Value="800" />
+    </Connector>
+  </Module>
+  <Module Name="X20BB80a" Type="X20BB80" Version="1.1.0.0" Disabled="true">
+    <Connector Name="IF1" Disabled="true">
+      <Parameter ID="CycleTime" Value="800" />
+      <Parameter ID="BusLength" Value="1" />
+      <Parameter ID="Stations" Value="4" />
+    </Connector>
+  </Module>
+  <Module Name="X20BB80b" Type="X20BB80" Version="1.1.0.0" Disabled="true">
+    <Connector Name="IF1" Disabled="true">
+      <Parameter ID="CycleTime" Value="800" />
+      <Parameter ID="AsyncPayload" Value="120" />
+    </Connector>
+  </Module>
+  <Module Name="X20BC0083" Type="X20BC0083" Version="2.16.0.0" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="X20IF1082" TargetConnector="IF1" NodeNumber="5">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="SL" TargetModule="X20BB80b" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20BC0083a" Type="X20BC0083" Version="2.16.0.0" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="PLC1" TargetConnector="IF3" NodeNumber="6">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="PLK2" TargetModule="X20BC0083b" TargetConnector="PLK1" NodeNumber="6">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="SL" TargetModule="X20BB80" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20BC0083b" Type="X20BC0083" Version="2.16.0.0" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="X20BC0083a" TargetConnector="PLK2" NodeNumber="7">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="SL" TargetModule="X20BB80a" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20BM11" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11e" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11a" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11d" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11ab" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11z" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11b" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11c" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11c" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11a" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11d" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11e" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="PLC1" TargetConnector="IF6" />
+  </Module>
+  <Module Name="X20BM11l" Type="X20BM11" Version="1.1.0.0" Disabled="true" />
+  <Module Name="X20BM11m" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BB80" TargetConnector="IF1" />
+  </Module>
+  <Module Name="X20BM11n" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11m" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11o" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11n" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11p" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11o" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11q" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11p" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11r" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11q" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11s" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11r" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11t" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11s" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11u" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11t" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11v" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11u" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11w" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11v" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11x" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20MM4456" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11y" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BB80b" TargetConnector="IF1" />
+  </Module>
+  <Module Name="X20BM11z" Type="X20BM11" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11y" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM31" Type="X20BM31" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BB80a" TargetConnector="IF1" />
+  </Module>
+  <Module Name="X20BT9100" Type="X20BT9100" Version="1.3.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12ab" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11x" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20CS1020a" Type="X20CS1020" Version="1.8.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12aa" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11w" TargetConnector="SL1" />
+    <Connector Name="IF1" Disabled="true">
+      <Parameter ID="ActivateIna" Value="0" />
+    </Connector>
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20CS2770" Type="X20CS2770" Version="1.9.1.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12n" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11l" TargetConnector="SL1" />
+    <Connector Name="IF1" Disabled="true" />
+    <Connector Name="IF2" Disabled="true" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="CANdataFormat01" Value="UINT" />
+    <Parameter ID="Baudrate02" Value="250000" />
+    <Parameter ID="CANdataFormat02" Value="UINT" />
+  </Module>
+  <Module Name="X20DC1196" Type="X20DC1196" Version="1.4.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12w" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11s" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DC1196a" Type="X20DC1196" Version="1.4.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12x" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11t" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DC1196b" Type="X20DC1196" Version="1.4.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12y" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11u" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DC1196c" Type="X20DC1196" Version="1.4.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12z" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11v" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DC1976" Type="X20DC1976" Version="1.3.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12af" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11ab" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="BrokenWireConfig" Value="off" />
+  </Module>
+  <Module Name="X20DC1976a" Type="X20DC1976" Version="1.3.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12v" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11r" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="BrokenWireConfig" Value="off" />
+  </Module>
+  <Module Name="X20DI6373" Type="X20DI6373" Version="1.0.1.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12ac" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11y" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DI6373a" Type="X20DI6373" Version="1.0.1.0">
+    <Connection Connector="SS1" TargetModule="X20TB12e" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11e" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DI6373b" Type="X20DI6373" Version="1.0.1.0">
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DI6373e" Type="X20DI6373" Version="1.0.1.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12q" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11m" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DI6373f" Type="X20DI6373" Version="1.0.1.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12r" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11n" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO4529" Type="X20DO4529" Version="1.2.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12ad" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11z" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO4529a" Type="X20DO4529" Version="1.2.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12d" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11d" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO4529b" Type="X20DO4529" Version="1.2.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11a" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO4529f" Type="X20DO4529" Version="1.2.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12s" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11o" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO4529g" Type="X20DO4529" Version="1.2.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12t" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11p" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20IF1082" Type="X20IF1082" Version="1.12.0.0" Disabled="true">
+    <Connection Connector="SS" TargetModule="PLC1" TargetConnector="SS1" />
+    <Connector Name="IF1" Disabled="true">
+      <Parameter ID="DNAConfiguration" Value="manual" />
+      <Parameter ID="CycleTime" Value="800" />
+      <Parameter ID="InaNodeNumber" Value="1" />
+    </Connector>
+  </Module>
+  <Module Name="X20MM2436" Type="X20MM2436" Version="1.6.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12o" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM31" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20MM4456" Type="X20MM4456" Version="1.5.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11w" TargetConnector="X2X2" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20PS9400" Type="X20PS9400" Version="1.8.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12ag" TargetConnector="SS" />
+    <Connection Connector="PS" TargetModule="X20BB80b" TargetConnector="PS1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="StatusInfo" Value="off" />
+  </Module>
+  <Module Name="X20PS9400a" Type="X20PS9400" Version="1.8.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12m" TargetConnector="SS" />
+    <Connection Connector="PS" TargetModule="X20BB80" TargetConnector="PS1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20PS9400b" Type="X20PS9400" Version="1.8.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12p" TargetConnector="SS" />
+    <Connection Connector="PS" TargetModule="X20BB80a" TargetConnector="PS1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12a" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12aa" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12ab" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12ac" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12ad" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12af" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12ag" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12b" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12c" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12d" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12e" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12m" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12n" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12o" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12p" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12q" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12r" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12s" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12t" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12u" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12v" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12w" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12x" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12y" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12z" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+</Hardware>

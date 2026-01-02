@@ -1,0 +1,33 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=WLD_ANGL 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=25 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                 Process                    GenProcess_typ[0..15]    0 "                                                               *"    0   24   16    0    0    0         
+                  WLD_ANGL_TML_Param_Set             WLD_ANGL_TML_Param_typ[0..2]    0 "                                                               *"    0   24    3    0    0    1         
+               WLD_ANGL_TML_Param_Set[0]                   WLD_ANGL_TML_Param_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                   pVect                                    UDINT    0 "                                                        71475896"    2    7    1   10    0    0         
+                            VectStateNum                                     UINT    0 "                                                               1"    2    6    1   10    0    0         
+                                    pPrc                                    UDINT    0 "                                                        71534908"    2    7    1   10    0    0         
+                                    pTML                                    UDINT    0 "                                                        71477976"    2    7    1   10    0    0         
+                                    Mode                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                 MaxAmpl                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                            GlbDirection                                     REAL    0 "                                                             1.0"    2    8    1   10    0    0         
+                       pJogSpeedDirCntrl                                    UDINT    0 "                                                        71224652"    2    7    1   10    0    0         
+                                     prc                           GenProcess_typ    0 "                                                               *"    0   24    1    0    2    1         
+                             ConfigReady                                      INT    0 "                                                               1"    1    3    1   10    0    0         
+                                    Name                               STRING[15]    0 "                                                     'WLD ANGLE'"    1    9   16    1    0    0         
+                                 Disable                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                                  fParam                               REAL[0..3]    0 "                                                               *"    1    8    4    0    0    1         
+                               fParam[0]                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              15"    1    4    1   10    0    0 e,10,prc
+
+                                   _step                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                                    vect                     StateVectorProxy_typ    0 "                                                               *"    0   24    1    0    2    1         
+                                    Name                               STRING[15]    0 "                                                     'WLD ANGLE'"    1    9   16    1    0    0         
+                                   simul                                     UINT    0 "                                                               0"    1    6    1   10    0    0         
+                                testMode                                     UINT    0 "                                                               0"    1    6    1   10    0    0         
+                                    xCMD                                     UINT    0 "                                                               0"    1    6    1   10    0    0         
+                                   InVal                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                                 FbkVect                         STATE_VECTOR_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                       x                                     REAL    0 "                                                    -0.120698236"    2    8    1   10    0    0         
+                                    Mode                                      INT    0 "                                                               7"    2    3    1   10    0    0         

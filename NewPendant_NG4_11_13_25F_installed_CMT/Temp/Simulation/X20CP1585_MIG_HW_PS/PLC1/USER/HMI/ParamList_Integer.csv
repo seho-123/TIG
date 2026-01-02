@@ -1,0 +1,9 @@
+ValueUL,SetupUL,ChangeUL,Index,EnumText,Name,ShortName,LongName
+0,15,15,0,parINT_NumZone, Segments per Travel ,,"User entered number of segments, must be evenly divided into PIN per ROT"
+0,15,15,2,varINT_PIN_PER_ROT, Pins per 360 degree ,,"Number of PINS(Legacy:1/16, BPV:1/32) per ROT"
+0,15,15,3,varINT_SEGM_NO, Segments Number ,,Parameter not used
+0,15,15,5,varINT_curSegm, Current Pin ,,Parameter not used
+0,15,15,6,varINT_curZone, Current Segment ,,Current segment being welded
+0,15,15,7,varINT_StartPos, Start Position ,,Position in ticks where current weld pass started
+0,15,15,8,varINT_FinalPos, Target Position ,,Start position plus weld distance
+0,15,15,9,varINT_CurTVLPos, Current TVL Position ,,Distance between start and final position

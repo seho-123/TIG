@@ -1,0 +1,4 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=SuperMstr 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=210 Type=136 Scope=104 Force=63 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                           LCD_Init_Step                                     UINT    0 "                                                              11"    0    6    1   10    1    0         

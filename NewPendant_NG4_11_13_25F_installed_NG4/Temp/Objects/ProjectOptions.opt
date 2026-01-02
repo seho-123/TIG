@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<ProjectOptions
+  IecNamingConventions="false"
+  IecKeywordsAsStructureMembers="true"
+  IecExtendedConstants="true"
+  LogicalDirectory="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\"
+  TempDirectory="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\"
+  AutomationStudioVersion="4.12.2.93"
+  AutomationStudioEdition="Standard"
+  BuildCrossReference="false"
+  ActiveConfiguration="X20CP1685_MIG_HW_PS"
+  CreateAnsiCDeclarations="true" />

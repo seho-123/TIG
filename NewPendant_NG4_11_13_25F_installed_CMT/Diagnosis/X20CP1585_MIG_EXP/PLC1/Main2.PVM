@@ -1,0 +1,15 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Main2 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=504 Type=493 Scope=174 Force=193 Index=1 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                        TML_Restart_Indx                                     UINT    0 "                                                              16"    0    6    1   10    1    0         
+                        TML_Restart_Step                                     UINT    0 "                                                               0"    0    6    1   10    1    0         
+                     NextHeadConfig_Indx                                     DINT    0 "                                                               8"    0    4    1   10    0    0         
+                                       m                               MASTER_typ    0 "                                                               *"    0   24    1    0    2    1         
+                                      sm                                   SM_obj    0 "                                                               *"    1   24    1    0    0    1         
+                                    Step                                    UDINT    0 "                                                              50"    2    7    1   10    0    0         
+                                    Text                               STRING[51]    0 "                                                '50:Normal Stop'"    2    9   52    1    0    0         
+                                   ESTOP                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                curCalib                             CurCalib_typ    0 "                                                               *"    0   24    1    0    2    0         
+                                GenSetup                              DINT[0..31]    0 "                                                               *"    1    4   32    0    0    0         
+                             GenSetup[0]                                     DINT    0 "                                                               *"    2    4    1   10    0    0         
+                          KK_TML_PowerON                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         

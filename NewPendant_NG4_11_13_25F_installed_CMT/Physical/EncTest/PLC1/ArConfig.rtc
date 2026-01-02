@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=?>
+<RuntimeConfiguration Version="2.33.1">
+  <Module ID="IF4" Hardware="X20CP0292 (X2x)" />
+  <Module ID="IF4.ST0" Hardware="X20PS9500">
+    <Selector ID="FunctionModel" Value="Standard">
+      <Group ID="General">
+        <Parameter ID="Supervision" Value="on" />
+        <Parameter ID="ModuleInfo" Value="off" />
+        <Parameter ID="StatusInfo" Value="on" />
+        <Parameter ID="PowerInfo" Value="off" />
+      </Group>
+    </Selector>
+  </Module>
+  <Module ID="IF4.ST1" Hardware="X20MM2436">
+    <Selector ID="FunctionModel" Value="Standard">
+      <Group ID="General">
+        <Parameter ID="Supervision" Value="off" />
+        <Parameter ID="ModuleInfo" Value="off" />
+      </Group>
+      <Group ID="ModuleConfig">
+        <Parameter ID="PWMConfig01" Value="Output01 PWM control" />
+        <Parameter ID="PWMConfig02" Value="Output02 PWM control" />
+        <Parameter ID="DecayConfig01" Value="Slow Decay" />
+        <Parameter ID="DecayConfig02" Value="Slow Decay" />
+      </Group>
+      <Group ID="DitherConfig">
+        <Parameter ID="DitherAmplitude" Value="0" />
+        <Parameter ID="DitherFrequency" Value="0" />
+      </Group>
+      <Group ID="FunctionModeCounter">
+        <Selector ID="FunctionCounter" Value="TwoCounters">
+          <Group ID="FunctionCounter01">
+            <Selector ID="CounterMode01" Value="default" />
+          </Group>
+          <Group ID="FunctionCounter02">
+            <Selector ID="CounterMode02" Value="default" />
+          </Group>
+        </Selector>
+      </Group>
+    </Selector>
+  </Module>
+</RuntimeConfiguration>

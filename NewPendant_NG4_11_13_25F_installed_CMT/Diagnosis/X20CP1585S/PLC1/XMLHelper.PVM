@@ -1,0 +1,20 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=XMLHelper 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=12 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                               XMLHelper                           XML_Helper_typ    0 "                                                               *"    0   24    1    0    0    1         
+                               para_read                           ReaderPara_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                   ident                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                                nodeName                               STRING[63]    0 "                                                   'WeldProgram'"    2    9   64    1    0    0         
+                               nodeValue                               STRING[63]    0 "                                                             '0'"    2    9   64    1    0    0         
+                                nodeType                                    UDINT    0 "                                                              15"    2    7    1   10    0    0         
+                               nodeDepth                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                                   empty                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                          attributeCount                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                          attributeIndex                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                           attributeName                               STRING[63]    0 "                                                         'Index'"    2    9   64    1    0    0         
+                          attributeValue                               STRING[63]    0 "                                                             '0'"    2    9   64    1    0    0         
+                            elementIndex                                    USINT    0 "                                                              62"    2    5    1   10    0    0         
+                                   state                                     UINT    0 "                                                               0"    1    6    1   10    0    0         
+                                runState                                     UINT    0 "                                                               0"    1    6    1   10    0    0         
+                              errorState                                     UINT    0 "                                                               0"    1    6    1   10    0    0         
+                          Master_numZone                                      INT    0 "                                                               1"    0    3    1   10    0    0         

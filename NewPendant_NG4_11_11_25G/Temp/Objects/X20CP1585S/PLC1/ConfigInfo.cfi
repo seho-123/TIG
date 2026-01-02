@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="LincolnPS"
+      Disable="false"
+      Source="Universal.LincolnPS"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\LincolnPS\LincolnPSLocal.var" />
+    </Task>
+    <Task
+      Name="Telnet"
+      Disable="true"
+      Source="Universal.Telnet"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\Telnet\Types.typ" />
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\Telnet\Variables.var" />
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\Telnet\TelnetLocal.var" />
+    </Task>
+    <Task
+      Name="TML_srv"
+      Disable="false"
+      Source="Universal.TML_srv"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\TML_srv\TML_srvLocal.var" />
+    </Task>
+    <Task
+      Name="AVC_SYNCH"
+      Disable="false"
+      Source="FourAxisTigCtrl.AVC_SYNCH"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\AVC_SYNCH\AVC_SYNCHLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="TIG_PSprc"
+      Disable="false"
+      Source="Universal.TIG_PSprc"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\TIG_PSprc\TIG_PSprcLocal.var" />
+    </Task>
+    <Task
+      Name="WRST"
+      Disable="false"
+      Source="Universal.WRST"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\WRST\Types.typ" />
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\WRST\Variables.var" />
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\WRST\WRSTLocal.var" />
+    </Task>
+    <Task
+      Name="XMLHelper"
+      Disable="false"
+      Source="Universal.XMLHelper"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\XMLHelper\XMLHelperLocal.var" />
+    </Task>
+    <Task
+      Name="BR_DC"
+      Disable="false"
+      Source="Universal.BR_DC"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\BR_DC\BR_DCLocal.var" />
+    </Task>
+    <Task
+      Name="AVCprc"
+      Disable="false"
+      Source="Universal.AVCprc"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\AVCprc\AVCprcLocal.var" />
+    </Task>
+    <Task
+      Name="OSC_TMLprc"
+      Disable="false"
+      Source="Universal.OSC_TMLprc"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\OSC_TMLprc\OSC_TMLprcLocal.var" />
+    </Task>
+    <Task
+      Name="WIREprc"
+      Disable="false"
+      Source="Universal.WIREprc"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\WIREprc\WIREprcLocal.var" />
+    </Task>
+    <Task
+      Name="HW_PSprc"
+      Disable="false"
+      Source="Universal.HW_PSprc"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\HW_PSprc\HW_PSprcLocal.var" />
+    </Task>
+    <Task
+      Name="GasCoolPrc"
+      Disable="false"
+      Source="Universal.GasCoolPrc"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\GasCoolPrc\GasCoolPrcLocal.var" />
+    </Task>
+    <Task
+      Name="WireBlkPrc"
+      Disable="false"
+      Source="Universal.WireBlkPrc"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\WireBlkPrc\WireBlkPrcLocal.var" />
+    </Task>
+    <Task
+      Name="IndexPrc"
+      Disable="false"
+      Source="Universal.IndexPrc"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\IndexPrc\Types.typ" />
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\IndexPrc\Variables.var" />
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\IndexPrc\IndexPrcLocal.var" />
+    </Task>
+    <Task
+      Name="_MotorDriv"
+      Disable="true"
+      Source="HotWire._MotorDriver"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\_MotorDriv\_MotorDrivLocal.var" />
+    </Task>
+    <Task
+      Name="TvlRotPrc"
+      Disable="false"
+      Source="Universal.TvlRotPrc"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\TvlRotPrc\TvlRotPrcLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3">
+    <Task
+      Name="MV"
+      Disable="false"
+      Source="Universal.MV"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\MV\MVLocal.var" />
+    </Task>
+    <Task
+      Name="MiscOper"
+      Disable="false"
+      Source="Universal.MiscOper"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\MiscOper\MiscOperLocal.var" />
+    </Task>
+    <Task
+      Name="PermSaving"
+      Disable="false"
+      Source="FourAxisTigCtrl.PermSaving"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\PermSaving\PermSavingLocal.var" />
+    </Task>
+    <Task
+      Name="Main2"
+      Disable="false"
+      Source="FourAxisTigCtrl.Main2"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\Main2\Main2Local.var" />
+    </Task>
+    <Task
+      Name="DC2DirMtr"
+      Disable="false"
+      Source="Universal.DC2DirMtr"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\DC2DirMtr\Types.typ" />
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\DC2DirMtr\Variables.var" />
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\DC2DirMtr\DC2DirMtrLocal.var" />
+    </Task>
+    <Task
+      Name="_PowerSupp"
+      Disable="true"
+      Source="HotWire._PowerSupplyDriver"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\_PowerSupp\_PowerSuppLocal.var" />
+    </Task>
+    <Task
+      Name="TML_RLY"
+      Disable="false"
+      Source="Universal.TML_RLY"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\TML_RLY\Types.typ" />
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\Universal\TML_RLY\Variables.var" />
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\TML_RLY\TML_RLYLocal.var" />
+    </Task>
+    <Task
+      Name="_Master"
+      Disable="true"
+      Source="HotWire._Master"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\_Master\_MasterLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="_Menu"
+      Disable="true"
+      Source="HotWire._Menu"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\_Menu\_MenuLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5">
+    <Task
+      Name="HMI_Report"
+      Disable="false"
+      Source="FourAxisTigCtrl.HMI_Report"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\FourAxisTigCtrl\HMI_Report\Types.typ" />
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Logical\FourAxisTigCtrl\HMI_Report\Variables.var" />
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\HMI_Report\HMI_ReportLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8">
+    <Task
+      Name="SuperMstr"
+      Disable="false"
+      Source="Universal.SuperMstr"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\SuperMstr\SuperMstrLocal.var" />
+    </Task>
+    <Task
+      Name="FileOper"
+      Disable="false"
+      Source="Universal.FileOper"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\FileOper\FileOperLocal.var" />
+    </Task>
+    <Task
+      Name="cJSONTest"
+      Disable="false"
+      Source="UDP.cJSON.cJSONTest"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\cJSONTest\cJSONTestLocal.var" />
+    </Task>
+    <Task
+      Name="udpserv"
+      Disable="false"
+      Source="UDP.paiUDPService.udpserv"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\udpserv\udpservLocal.var" />
+    </Task>
+    <Task
+      Name="udpApp"
+      Disable="false"
+      Source="UDP.udpApp"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\udpApp\udpAppLocal.var" />
+    </Task>
+    <Task
+      Name="udpclient"
+      Disable="false"
+      Source="UDP.paiUDPService.udpclient"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\udpclient\udpclientLocal.var" />
+    </Task>
+    <Task
+      Name="udpsimonly"
+      Disable="false"
+      Source="UDP.udpsimonly"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\UnivCntrl_NewPendant\UnivCntrl_NewPendant\Temp\Objects\X20CP1585S\PLC1\udpsimonly\udpsimonlyLocal.var" />
+    </Task>
+  </TaskClass>
+</ConfigInfo>

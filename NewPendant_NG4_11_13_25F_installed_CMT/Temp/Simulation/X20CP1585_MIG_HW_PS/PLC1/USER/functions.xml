@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<functions>
+  <function name="F1">
+    <fd rowName="ARC AMPS" isencoder="false">
+      <lb>DECR ARC AMPS</lb>
+      <rb>INCR ARC AMPS</rb>
+    </fd>
+    <fd rowName="TRAVEL SPEED" isencoder="false">
+      <lb>DECR TRAVEL SPEED</lb>
+      <rb>INCR TRAVEL SPEED</rb>
+    </fd>
+    <fd rowName="WIRE SPEED" isencoder="false">
+      <lb>DECR WIRE SPEED</lb>
+      <rb>INCR WIRE SPEED</rb>
+    </fd>
+    <fd rowName="ARC / VOLTS" isencoder="false">
+      <lb>DECR ARC VOLTS</lb>
+      <rb>INCR ARC VOLTS</rb>
+    </fd>
+    <fd rowName="OSC SPEED" isencoder="false">
+      <lb>DECR EXCUR TIME</lb>
+      <rb>INCR EXCUR TIME</rb>
+    </fd>
+    <fd rowName="OSC AMPL" isencoder="false">
+      <lb>DECR OSC AMPL</lb>
+      <rb>INCR OSC AMPL</rb>
+    </fd>
+    <fd rowName="OSC CENTER/PARAM ADJ" isencoder="true" cb="F1 OSC ADJ">
+      <lb>AVC LOCK</lb>
+      <rb>WIRE DISABLE</rb>
+    </fd>
+  </function>
+  <function name="F2">
+    <fd rowName="ARC AMPS" isencoder="false">
+      <lb>DECR ARC AMPS</lb>
+      <rb>INCR ARC AMPS</rb>
+    </fd>
+    <fd rowName="TRAVEL SPEED" isencoder="false">
+      <lb>DECR TRAVEL SPEED</lb>
+      <rb>INCR TRAVEL SPEED</rb>
+    </fd>
+    <fd rowName="WIRE SPEED" isencoder="false">
+      <lb>DECR WIRE SPEED</lb>
+      <rb>INCR WIRE SPEED</rb>
+    </fd>
+    <fd rowName="ARC / VOLTS" isencoder="false">
+      <lb>DECR ARC VOLTS</lb>
+      <rb>INCR ARC VOLTS</rb>
+    </fd>
+    <fd rowName="OSC SPEED" isencoder="false">
+      <lb>DECR DWELL IN TIME</lb>
+      <rb>INCR DWELL IN TIME</rb>
+    </fd>
+    <fd rowName="OSC AMPL" isencoder="false">
+      <lb>DECR OSC AMPL</lb>
+      <rb>INCR OSC AMPL</rb>
+    </fd>
+    <fd rowName="OSC CENTER/PARAM ADJ" isencoder="true" cb="F2 OSC ADJ">
+      <lb>AVC LOCK</lb>
+      <rb>WIRE DISABLE</rb>
+    </fd>
+  </function>
+  <function name="F3">
+    <fd rowName="ARC AMPS" isencoder="false">
+      <lb>JOG WB DWN</lb>
+      <rb>JOG WB UP</rb>
+    </fd>
+    <fd rowName="TRAVEL SPEED" isencoder="false">
+      <lb>JOG WB LFT</lb>
+      <rb>JOG WB RGT</rb>
+    </fd>
+    <fd rowName="WIRE SPEED" isencoder="false">
+      <lb>CAM LAMPS ON/OFF</lb>
+      <rb>CAMERA VIEW SELECT</rb>
+    </fd>
+    <fd rowName="ARC / VOLTS" isencoder="false">
+      <lb>WRIST JOG IN</lb>
+      <rb>WRIST JOG OUT</rb>
+    </fd>
+    <fd rowName="OSC SPEED" isencoder="false">
+      <lb>DECR DWELL OUT TIME</lb>
+      <rb>INCR DWELL OUT TIME</rb>
+    </fd>
+    <fd rowName="OSC AMPL" isencoder="false">
+      <lb>DECR OSC AMPL</lb>
+      <rb>INCR OSC AMPL</rb>
+    </fd>
+    <fd rowName="OSC CENTER/PARAM ADJ" isencoder="true" cb="F3 OSC ADJ">
+      <lb>AVC LOCK</lb>
+      <rb>WIRE DISABLE</rb>
+    </fd>
+  </function>
+</functions>

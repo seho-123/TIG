@@ -1,0 +1,16 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	Ret : DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TML_srv/TML_srv.c" #2"93" #3"13" *)
+	KK_Step : BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TML_srv/TML_srv.c" #2"99" #3"27" *)
+	KK_maxVel : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TML_srv/TML_srv.c" #2"97" #3"14" *)
+	OneDrivePerTime : SINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TML_srv/TML_srv.c" #2"95" #3"14" *)
+	Value : DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TML_srv/TML_srv.c" #2"92" #3"13" *)
+	memPointer : UDINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TML_srv/TML_srv.c" #2"94" #3"24" *)
+	KK_maxVelDINT : DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TML_srv/TML_srv.c" #2"98" #3"13" *)
+	KK_TuJest : BOOL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TML_srv/TML_srv.c" #2"99" #3"15" *)
+	SlipFactor : ARRAY[0..7] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TML_srv/TML_srv.c" #2"103" #3"14" *)
+	pointer : UDINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TML_srv/TML_srv.c" #2"94" #3"14" *)
+END_VAR

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="button_decrease" ClsId="0x306" Version="1" TargetIndex="416" Type="GFX" RefString="Source[local].Bitmap[button_decrease]">
+        <UInt16 Name="Width">32</UInt16>
+        <UInt16 Name="Height">32</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFdSURBVFhH7de/a8JAFMDx/HVaqJsdRA3+iIkoGkWQi9rBTuZydLCL1WIX6WIH+wdIO2TL0j9Ax46O2V/JG27IddCCT4QEPvCSwN13fRrnk7EQAjzOwXUnpIQQ39r9aASj4RADXhYLEtFdA8cBh7GN1unY+HI4HCAMQzLRnRHNMk0cdrsdKRmgF4s4BEFASgbcZbM4fG63pGRAJnOLw8dmQ0oG3KTTOLytVqSUgOfZjJQS8CgEKSXgYTwmpQQMBsSUgAu5joDX5RL2+/3JfN9Xzoo7KuB9vYb/PFFE/Ky46wjgrguL+fxkT9OpclbcUQHnlAQkAUlAEqClUynlIyW5mFyKXM0u5Esup3/8PCuHMeCc/2ie5/m5XA7y+TwUCgXQdR2VSiVULpehUqlAtVoFwzCgVquBaZrIsiyo1+tSo9GAZrMJrVYL2u022LYN3W4X9Xo91O/3EWMsWs/Xv9O5jAbCzulUAAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

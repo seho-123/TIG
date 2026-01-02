@@ -1,0 +1,24 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=WIREprc 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=299 Type=264 Scope=60 Force=60 Index=15 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                 Process                    GenProcess_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                              Process[3]                           GenProcess_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                        'WrFeed'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              15"    2    4    1   10    0    0 e,10,prc
+
+                                   _step                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                              Process[4]                           GenProcess_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                       'WrPulse'"    2    9   16    1    0    0         
+                         VectorStateMach              StateVectorProxy_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                      VectorStateMach[1]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'OSC'"    2    9   16    1    0    0         
+                      VectorStateMach[2]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'AVC'"    2    9   16    1    0    0         
+                      VectorStateMach[3]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                         'spare'"    2    9   16    1    0    0         
+                      VectorStateMach[4]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                      'WrFeed#1'"    2    9   16    1    0    0         
+                                    xCMD                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                   InVal                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                  Status                                      INT    0 "                                                               0"    2    3    1   10    0    0         

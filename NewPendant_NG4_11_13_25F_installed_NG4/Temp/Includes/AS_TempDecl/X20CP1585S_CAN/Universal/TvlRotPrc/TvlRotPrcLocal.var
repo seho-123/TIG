@@ -1,0 +1,29 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	KK_CalculatedDist : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"37" #3"14" *)
+	MovePara : ARRAY[0..5] OF HCRMovePara_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"34" #3"25" *)
+	_FinalVal : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"45" #3"14" *)
+	StepVel : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"46" #3"40" *)
+	KK_StopDly : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"40" #3"75" *)
+	actDistInTicks_Catch : ARRAY[0..5] OF DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"36" #3"61" *)
+	targetDistInTicks : ARRAY[0..5] OF DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"35" #3"48" *)
+	actDistInTicks : ARRAY[0..5] OF DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"35" #3"13" *)
+	Ramp : ARRAY[0..5] OF LCRRamp;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"32" #3"20" *)
+	VoltRampDown : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"46" #3"25" *)
+	calibPoint : ARRAY[0..5] OF UDINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"43" #3"14" *)
+	actDistInTicks_Catch_0 : ARRAY[0..5] OF DINT;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"36" #3"17" *)
+	Tmr : ARRAY[0..5] OF TON;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"30" #3"16" *)
+	StepVolt : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"46" #3"14" *)
+	KK_Float : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"49" #3"14" *)
+	KK_RampUp : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"40" #3"45" *)
+	LCRScal_0 : ARRAY[0..5] OF LCRScal;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"38" #3"22" *)
+	prc : REFERENCE TO GenProcess_typ;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"31" #3"22" *)
+	KK_CalculatedDist_0 : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"37" #3"52" *)
+	PrimVel : REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"47" #3"14" *)
+	KK_RampDwn : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"40" #3"105" *)
+	KK_PrimVel : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"50" #3"14" *)
+	KK_StartDly : ARRAY[0..5] OF REAL;	(* #1"C:/projects/UnivCntrl/UniversalController/Logical/Universal/TvlRotPrc/TvlRotPrc.c" #2"40" #3"14" *)
+END_VAR

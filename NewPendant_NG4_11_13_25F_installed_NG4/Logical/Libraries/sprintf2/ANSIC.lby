@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.6.110 SP?>
+<Library xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>cvtflasc.c</File>
+    <File>ofmt.c</File>
+    <File>sprintf.c</File>
+    <File>sprintf2.h</File>
+  </Files>
+</Library>

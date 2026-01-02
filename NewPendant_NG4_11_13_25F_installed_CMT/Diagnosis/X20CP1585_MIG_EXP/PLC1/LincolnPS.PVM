@@ -1,0 +1,15 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=LincolnPS 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=5 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                 ArcLink                             Arc_Link_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                   robot                                Robot_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                   Cntrl                     ARCLINK_PS_CNTRL_typ    0 "                                                               *"    2   24    1    0    0    1         
+                                     Cmd                       ARCLINK_PS_Cmd_typ    0 "                                                               *"    3   24    1    0    0    1         
+                                     RUN                                     UINT    0 "                                                               0"    4    6    1   10    0    0         
+                                  COOLER                                     BOOL    0 "                                                           FALSE"    4    1    1    2    0    0         
+                                     RST                                     UINT    0 "                                                               0"    4    6    1   10    0    0         
+                                    Mode                                     UINT    0 "                                                               3"    4    6    1   10    0    0         
+                                   AmpSP                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         
+                                BckAmpSP                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         
+                               PulseFreq                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         
+                              PulseWidth                                     REAL    0 "                                                             0.0"    4    8    1   10    0    0         

@@ -1,0 +1,23 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	KK_BypassHeartBeat : BOOL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"166" #3"15" *)
+	KK_Disable_All_TML : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"169" #3"13" *)
+	KK_Enable_All_TML : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"169" #3"35" *)
+	Ret : DINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"146" #3"13" *)
+	HeartBeatTrig_Level : REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"144" #3"14" *)
+	Kick_Repeats : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"153" #3"13" *)
+	MSG_Thread : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"162" #3"26" *)
+	KK_TML_Error_TimeStamp : TIME;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"164" #3"13" *)
+	Max_TML_Process : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"157" #3"13" *)
+	OneDrivePerTime : SINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"148" #3"14" *)
+	Value : DINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"145" #3"13" *)
+	KK_STOP_TML_Server : BOOL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"168" #3"15" *)
+	TML_Thread : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"162" #3"13" *)
+	memPointer : UDINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"147" #3"24" *)
+	KK_TestSend : UINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"186" #3"13" *)
+	SlipFactor : ARRAY[0..15] OF REAL;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"152" #3"14" *)
+	pointer : UDINT;	(* #1"C:/projects/UnivCntrl_NewPendant/UnivCntrl_NewPendant/Logical/Universal/TML_srv/TML_srv.c" #2"147" #3"14" *)
+END_VAR

@@ -1,0 +1,15 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Main2 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=430 Type=323 Scope=169 Force=225 Index=2 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                          KK_TML_PowerON                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                       TML_MTR_CUT_POWER                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                          TIG_MIG_Sw_Inp                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                     NextHeadConfig_Indx                                     DINT    0 "                                                               8"    0    4    1   10    0    0         
+                                Hardware                       HARDWARE_typ[0..2]    0 "                                                               *"    0   24    3    0    0    1         
+                             Hardware[1]                             HARDWARE_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Outp                              BOOL[0..23]    0 "                                                               *"    2    1   24    0    0    1         
+                                 Outp[7]                                     BOOL    3 "                                                            TRUE"    3    1    1    2    0    0         
+                                       m                               MASTER_typ    0 "                                                               *"    0   24    1    0    2    1         
+                                      sm                                   SM_obj    0 "                                                               *"    1   24    1    0    0    1         
+                                    Step                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                                    Text                               STRING[51]    0 "                                                       '0:Start'"    2    9   52    1    0    0         

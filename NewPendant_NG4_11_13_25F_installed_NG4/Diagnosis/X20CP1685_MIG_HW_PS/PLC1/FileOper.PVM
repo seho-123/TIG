@@ -1,0 +1,14 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=FileOper 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                          gFileList_Indx                                     UINT    0 "                                                              32"    0    6    1   10    1    0         
+                                 File_RW                              FILE_RW_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                     CMD                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                                    Done                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                fileName                               STRING[63]    0 "                                                       'default'"    1    9   64    1    0    0         
+                             fileNewName                               STRING[63]    0 "                                                              ''"    1    9   64    1    0    0         
+                              deviceName                               STRING[31]    0 "                                                  'WeldPrograms'"    1    9   32    1    0    0         
+                        targetDeviceName                               STRING[31]    0 "                                                              ''"    1    9   32    1    0    0         
+                                 MsgText                              STRING[127]    0 "                                           'F_READ_DIR_FILELIST'"    1    9  128    1    0    0         
+                                     Len                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                  Offset                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         

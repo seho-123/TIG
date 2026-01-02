@@ -1,0 +1,16 @@
+(********************************************************************
+ * COPYRIGHT -- HP
+ ********************************************************************
+ * Package: cJSON
+ * File: cJSON.var
+ * Author: goran
+ * Created: June 19, 2013
+ ********************************************************************
+ * Variables of package cJSON
+ ********************************************************************)
+VAR
+	gPaiPVILists : paiPVIListCollection_typ := (0);
+	gHashValuesArray : ARRAY[0..19] OF UDINT;
+	mHashCalcDone : UDINT;
+	mHashCalcDlyTmr : TON;
+END_VAR

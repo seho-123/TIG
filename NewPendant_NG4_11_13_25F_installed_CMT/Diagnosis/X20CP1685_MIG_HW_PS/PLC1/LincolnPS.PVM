@@ -1,0 +1,16 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=LincolnPS 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=293 Type=100 Scope=60 Force=60 Index=7 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                    ArcLinkPS_IP_Address                               STRING[15]    0 "                                                  '192.168.10.2'"    0    9   16    1    0    0         
+                            PS_Param_Set                       PS_Param_typ[0..2]    0 "                                                               *"    0   24    3    0    0    1         
+                         PS_Param_Set[0]                             PS_Param_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Mode                                    USINT    0 "                                                               1"    2    5    1   10    0    0         
+                           pArcLinkRobot                                    UDINT    0 "                                                        80302292"    2    7    1   10    0    0         
+                                   pMode                                    UDINT    0 "                                                        80016008"    2    7    1   10    0    0         
+                                 arcLink                             Arc_Link_typ    0 "                                                               *"    0   24    1    0    2    1         
+                                   robot                                Robot_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                isMapped                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
+                               isMapping                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                             ArcLink_UDP                                  UDP_typ    0 "                                                               *"    0   24    1    0    1    1         
+                                internal                         Udp_Internal_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    step                                    USINT    0 "                                                               5"    2    5    1   10    0    0         

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="button_radio" ClsId="0x306" Version="1" TargetIndex="422" Type="GFX" RefString="Source[local].Bitmap[button_radio]">
+        <UInt16 Name="Width">92</UInt16>
+        <UInt16 Name="Height">32</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAFwAAAAgCAYAAACfDx/iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHsSURBVGhD7ZghbxtBEIUXFloqKaoCC1PWgt6MkQsjuSBGjiyDY06MTrKsGWaYn9CywqCq0GWBhUGVYaGhUXXVnGalvdXJObchkd4nPVmazA54Wb/ddQgAAAAAAACAPhDRgIg40au8BzwBRVG8Z+bvzFx36J6ILvI14B8hoio3mJm3rkNS/0xEL/L14AQys2/zCDGDiejajB8Oh9Zzl/4dnMBoNPoQzc4i400IgUMI57FAROfMvPfe66QX9MWjo9nZXhqEEL6GEOpE9/4PMNMvvf93exJ4FIsON+9gNxMvW1ykZkc9hBCa7GbmB9/l9g0AfbEIccO3XnrXYXSqK2ti5o0bru2J4ChEVMabh5fKDpNTNQbHdUT0pT0RHCXJ43jr+NhhcqrK16mv27QngqMURfE2OwAto3cdRpsO8eCczWa/JpNJPR6Pb9oTwaMw8y67EtpBuO8wu8nv+Xz+SVXr9XpdT6fTeNCCvviDxnb5nojOvGwPH8vrqGZni8hAVX+a4cvl8lt7EuiFvSKT3092IvI67zFE5Cyaraq7qqpe5j2gJ3YHtwfQYrEwM01bEVERubBPVb3zemO2mZ/PACdieVyW5Y/VavUnMTfVQVVvLVbyteA/MONF5NJ39lZVNyJyBaMBAAAAAAB4PvwFiiUPGWM51BUAAAAASUVORK5CYII=</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.26 SP08?>
+<Library Description="The AsRfbExt library provides access to extended MP40/50 functions." xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>asrfbext.typ</File>
+    <File>asrfbext.fun</File>
+  </Files>
+</Library>

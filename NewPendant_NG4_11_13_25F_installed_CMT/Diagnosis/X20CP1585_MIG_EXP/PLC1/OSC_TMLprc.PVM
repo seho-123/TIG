@@ -1,0 +1,19 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=OSC_TMLprc 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=461 Type=620 Scope=60 Force=60 Index=9 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                       OSC_TML_Param_Set                  OSC_TML_Param_typ[0..2]    0 "                                                               *"    0   24    3    0    0    1         
+                    OSC_TML_Param_Set[0]                        OSC_TML_Param_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Mode                                    USINT    0 "                                                               1"    2    5    1   10    0    0         
+                         VectorStateMach              StateVectorProxy_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                      VectorStateMach[1]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'OSC'"    2    9   16    1    0    0         
+                                   InVal                                     REAL    0 "                                                     -1.43420625"    2    8    1   10    0    0         
+                                    Mode                                      INT    0 "                                                               1"    2    3    1   10    0    0         
+                                   simul                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                    xCMD                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                 Process                    GenProcess_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                              Process[1]                           GenProcess_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'OSC'"    2    9   16    1    0    0         
+                                   _step                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                ErrorMgr                            ERROR_Mgr_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                warnings                                     UINT    0 "                                                               0"    1    6    1   10    0    0         

@@ -1,0 +1,3 @@
+bglibas	"$(AS_CPU_PATH)/bglibas/bgssm.c.o" "$(AS_CPU_PATH)/bglibas/bgfifo.c.o" "$(AS_CPU_PATH)/bglibas/bgTimer1ms.c.o"  -o "$(AS_STATIC_ARCHIVES_PATH)/libbglibas_s.a"  -G V4.1.2  -T SG4  -M IA32 
+sprintf2	"$(AS_CPU_PATH)/sprintf2/cvtflasc.c.o" "$(AS_CPU_PATH)/sprintf2/ofmt.c.o" "$(AS_CPU_PATH)/sprintf2/sprintf.c.o"  -o "$(AS_STATIC_ARCHIVES_PATH)/libsprintf2_s.a"  -G V4.1.2  -T SG4  -M IA32 
+Library	 -o "$(AS_STATIC_ARCHIVES_PATH)/libLibrary_s.a"  -G V4.1.2  -T SG4  -M IA32 

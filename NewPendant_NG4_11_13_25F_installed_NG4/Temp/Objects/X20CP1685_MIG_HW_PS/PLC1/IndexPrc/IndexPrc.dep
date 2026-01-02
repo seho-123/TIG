@@ -1,0 +1,12 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIOTime/AsIOTime.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/sys_lib/sys_lib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsTime/astime.fun
+$(AS_PROJECT_PATH)/Logical/UDP/paiUDPService/paiUDPService.typ
+$(AS_PROJECT_PATH)/Logical/UDP/udpApp.typ
+$(AS_PROJECT_PATH)/Logical/Universal/IndexPrc/Index.c
+$(AS_PROJECT_PATH)/Logical/Universal/WireBlkPrc/../../Universal/SuperDeclaration.h
+$(AS_PROJECT_PATH)/Logical/Universal/LincolnPS/../../Lib/WSI_types.h
+$(AS_PROJECT_PATH)/Logical/Universal/OSC_TMLprc/../../Lib/WSI_types.h
+$(AS_PROJECT_PATH)/Physical/X20CP1685_MIG_HW_PS/PLC1/Cpu.per
