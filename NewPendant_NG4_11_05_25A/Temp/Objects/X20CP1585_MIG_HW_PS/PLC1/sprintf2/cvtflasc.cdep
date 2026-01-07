@@ -1,2 +1,0 @@
-$(AS_CPU_PATH)/sprintf2/cvtflasc.c.o:
-$(AS_PROJECT_PATH)/logical/libraries/sprintf2/cvtflasc.c
