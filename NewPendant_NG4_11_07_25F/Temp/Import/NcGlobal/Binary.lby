@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.0.0?>
-<Library Version="3.18.2" xmlns="http://br-automation.co.at/AS/Library" Description="Global NC functions">
-  <Files>
-    <File>NcGlobal.fun</File>
-    <File>NcGlobal.typ</File>
-    <File>NcGlobal.var</File>
-  </Files>
-</Library>

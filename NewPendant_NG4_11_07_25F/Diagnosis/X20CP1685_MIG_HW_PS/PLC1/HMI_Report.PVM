@@ -1,7 +1,0 @@
-WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=HMI_Report 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=3 ASCIIString=0
-                                    name                                     type force                                                            value level type len format place expand specs
-                             HMI_CurTemp                                     REAL    0 "                                                           108.0"    0    8    1   10    1    0         
-                           HMI_CurTemp_A                                     REAL    0 "                                                           108.0"    0    8    1   10    1    0         
-                           HMI_CurTemp_B                                     REAL    0 "                                                           116.0"    0    8    1   10    1    0         
-                      Weld_Report_Status                                     UINT    0 "                                                               1"    0    6    1   10    0    0         
